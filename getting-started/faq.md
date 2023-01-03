@@ -22,7 +22,7 @@ Being an open-source, non-custodial, and autonomous interest rate protocol, Exac
 
 ### Who developed Exactly Protocol?
 
-Exactly was started in July 2021 and launched on Ethereum Mainnet in November 2022 by a team of stakeholders with expertise in technology, economics, finance, and math. You can find more info about us on [Linkedin.](https://linkedin.com/company/exactly-protocol)
+Exactly was started in July 2021 and launched on Ethereum Mainnet in November 2022 by a team of stakeholders with expertise in technology, economics, finance, and math. You can find more info about us on [Linkedin](https://linkedin.com/company/exactly-protocol) and on [GitHub](https://github.com/orgs/exactly/people).
 
 ## How it works
 
