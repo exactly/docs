@@ -13,6 +13,7 @@
 * [Instagram](https://www.instagram.com/exact.ly/)
 * [Telegram](https://t.me/exactlyFinance)
 * [Medium](https://medium.com/@exactly\_protocol)
+* [Mirror](https://mirror.xyz/0xFa9561A3bd8c9EB865b13Ff4a54A88967CD0A803)
 * [YouTube](https://www.youtube.com/channel/UCA6rQtOZSvGFIB8ON5SDNNg)
 
 ## Code
