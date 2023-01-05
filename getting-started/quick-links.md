@@ -5,7 +5,7 @@
 * [Website](https://exact.ly/)
 * [Docs](https://docs.exact.ly/)
 * [DApp](https://app.exact.ly/)
-* [Testnet](https://app.gitbook.com/o/-MfgePDkGs5aC2nZmrrm/s/n6wwJ0pvrhjXGxxDpmNa/)
+* [Testnet](https://goerli.exact.ly)
 
 ## Social
 
