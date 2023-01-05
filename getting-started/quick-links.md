@@ -5,6 +5,7 @@
 * [Website](https://exact.ly/)
 * [Docs](https://docs.exact.ly/)
 * [DApp](https://app.exact.ly/)
+* [Testnet](https://app.gitbook.com/o/-MfgePDkGs5aC2nZmrrm/s/n6wwJ0pvrhjXGxxDpmNa/)
 
 ## Social
 
@@ -18,8 +19,9 @@
 
 ## Code
 
-* [GitHub](https://github.com/exactly-protocol)
+* [GitHub](https://github.com/exactly)
 * [Report A Bug](https://discordapp.com/channels/846682395553824808/985914797067472946)
+* [Bug Bounty Program](https://immunefi.com/bounty/exactly/)
 
 ## Security
 
