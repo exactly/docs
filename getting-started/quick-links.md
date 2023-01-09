@@ -30,5 +30,8 @@
 ## Data trackers
 
 * [DeFiLlama](https://defillama.com/protocol/exactly)
+* [Dune Analytics](https://dune.com/exactly/exactly)
 * [Messari](https://messari.io/protocol/exactly)
+
+
 
