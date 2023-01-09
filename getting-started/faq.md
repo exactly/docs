@@ -119,7 +119,7 @@ We use an aggregation of decentralized data feeds from [Chainlink](https://data.
 
 #### What does the "Deposit APR" or "Borrow APR" mean in the Variable Rate Pool board table?
 
-It means is the change in the value of the underlying share in the last hour, annualized.
+It means is the change in the value of the underlying share in the last hour for Borrows and in the last 15 minutes for the Deposits, both annualized.
 
 You can learn more about the incentives for depositors in [#which-are-the-incentives-for-providing-liquidity-to-the-variable-rate-pool](faq.md#which-are-the-incentives-for-providing-liquidity-to-the-variable-rate-pool "mention")
 
