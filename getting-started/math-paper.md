@@ -46,7 +46,7 @@ By design, the protocol sets aside a percentage of the Variable Rate Pool deposi
 
 Let $$TSS^t$$ be the total holdings in the Variable Rate Pool at any time $$t$$ and $$\eta$$ be the fraction of total holdings used as Liquidity Reserves or non-loanable holdings ($$RSS^t=\eta TSS^t$$). We define the loanable portion of the Variable Rate Pool ($$SS^t$$) as:
 
-<figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+![math formula (1 & 2)](../.gitbook/assets/image%20(23).png)
 
 ## 4. Fixed Rate Pool
 
@@ -66,21 +66,21 @@ Exactly protocol has a specific interest rate demand curve for each Fixed Rate P
 
 We model interest rates as a function of the utilization rate ($$U$$) of each Fixed Rate Pool for every transaction by using a single, continuous and differentiable rational function
 
-<figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+![math formula - (3)](../.gitbook/assets/image%20(25).png)
 
 This function diverges asymptotically when $$U \rightarrow U_{max}$$ and it acts as a natural barrier to the credit demand as the level of utilization depletes the protocol liquidity capabilities.
 
 The curve can be easily parametrized and adjusted to changing market conditions. In principle, there will be a demand function for each asset and each maturity. Curve parameters $$A$$, $$B$$, and $$U_{max}$$ are determined through calibration against relevant market data.
 
-<figure><img src="../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
+![math formula - (4 & 5)](../.gitbook/assets/image%20(36).png)
 
 where $$U_{b}$$ conceptually represents the utilization level at the boundary between a region of normal interest rates ($$U \leq U_b$$) and a region of leveraged interest rates ($$U > U_b$$).
 
-<figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+![math formula - ( 6 & 7)](../.gitbook/assets/image%20(22).png)
 
 The utilization rate in each Fixed Rate Pool at any time $$t$$ is defined as
 
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+![math formula - (8)](../.gitbook/assets/image%20(10).png)
 
 where $$TB_{FR,i}^t$$ is the total amount of outstanding borrows at time $$t$$ in the Fixed Rate Pool, $$TD_{FR,i}^t$$ is the total amount of deposits, $$⟨SS⟩^t$$ is a moving average of the total supply in the Variable Rate Pool for this asset (see 4.1.3), andFR is a configurable parameter that regulates the fraction of Variable Rate Pool total liquidity that is "naturally assigned" to each pool. In this way, and assuming no deposits are made to the Fixed Rate Pool, once all the "natural liquidity" is already borrowed ($$TB_{FR,i}^t=⟨SS⟩^t/\tau_{FR}$$) the utilization rate equals one ($$U_{FR,i}^t=1$$). For practical reasons, we will also choose $$U_b=1$$.
 
@@ -88,7 +88,7 @@ The utilization rate in any Fixed Rate Pool can be higher than unity, but intere
 
 In practice, we set
 
-<figure><img src="../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
+![math formula - (9)](../.gitbook/assets/image%20(33).png)
 
 This choice enables a more flexible calibration of the curve (the lowest the value of $$\Lambda$$, the steepest the interest rates in the leveraged region).
 
@@ -98,31 +98,31 @@ The function was thought in such a way that it naturally divides the utilization
 
 One of the differences between money market protocols and Exactly's approach to term borrowing/lending is that each user can receive/pay a fixed rate when they transact on our platform. Because of that, the choice of an appropriate utilization rate value becomes so crucial.
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+![Effective Interest Rate for a Particular Loan - figure 1](../.gitbook/assets/image%20(5).png)
 
 When at time $$t^{k+1}$$ there is a new request for a loan of size $$B_{FR,i}^{t_{k+1}}$$, if confirmed, the system would evolve from a utilization state $$U_{FR,i}^{t_{k}}$$ to a state $$U_{FR,i}^{t_{k+1}}$$ according to the following rule:
 
-<figure><img src="../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+![math formula - (10)](../.gitbook/assets/image%20(29).png)
 
 In variable rate frameworks, fixing the initial rate based on the state of utilization prior to the transaction is not a big issue because rates will rapidly accommodate the following transaction. Under a fixed rate environment, this approach might promote users to take advantage and capture all the liquidity available at current low rates. On the other hand, using an ex-post utilization to fix interest rates does not solve the problem either, as we would be overcharging costs to users. The appropriate approach to solve the problem is to make investors become indifferent to the decision of getting a loan for the total desired amount or splitting it into successive smaller loans.
 
 To achieve that, the protocol needs to calculate the effective interest rate (2) satisfying this condition, i.e.:
 
-<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+![math formula - (11 & 12)](../.gitbook/assets/image%20(17).png)
 
-<figure><img src="../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
+![Effective interest rate in a borrow transaction](../.gitbook/assets/image%20(32).png)
 
 #### 4.1.3 Time-Averaged Variable Rate Pool Supply
 
 The direct use of the Variable Rate Pool supply quantity ($$SS^{t}$$) in the definition of utilization rate could expose the protocol to a type of manipulation attack. In fact, attackers can deposit to a market's Variable Rate Pool to lower the pool utilization rate to decrease the interest rate and then borrow at a cheaper rate. After that, the attackers can immediately withdraw from the Variable Rate Pool if there are enough assets available there. Although this potential manipulation does not hurt the protocol's solvency, it constitutes an unfair practice affecting users. To discourage this misbehavior, we introduce an exponential weighted moving average (EMA) of the supply in the utilization rate formula.
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+![math formula - (13)](../.gitbook/assets/image%20(3).png)
 
 The idea underlying the choice of $$\alpha$$ is the following: We want the system to adapt slowly when there is an increase in the supply that carries its value above its moving average (lowering interest rates) but we want the system to adapt faster when there are withdrawals that take the supply below its average value (increasing interest rates). So we set $$\alpha$$ as:
 
-<figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
+![math formula - (14)](../.gitbook/assets/image%20(38).png)
 
-$$\beta _{slow}$$ and $$\beta _{fast}$$ can be easily calibrated to fit a desired time decay window for each case.
+$$\beta _{slow}$$ and $$\beta_{fast}$$ can be easily calibrated to fit a desired time decay window for each case.
 
 ### 4.2 Depositing Assets
 
@@ -138,19 +138,19 @@ When there is a new deposit ($$D_{FR,i}^{t_{k}}$$) to a Fixed Rate Pool, the sys
 
 Assuming that at time $$t_{k}$$ there is a set $$\{{BV_{FR,i}^{t_{n}},n=1,\ldots N,t_{n}<t_{k}}\}$$of borrows funded by the Variable Rate Pool ($$t_{n}$$ is the time when the loan $$n$$ started). The total pending accruing interest on such borrows ($$PIBVP_{FR,i}^{t_{k}}$$) is:
 
-<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+![math formula - (15)](../.gitbook/assets/image%20(16).png)
 
 Remember that $$T_{i}$$ denotes the maturity of the pool. The number of funds to be returned to the Variable Rate Pool will be
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+![math formula - (16)](../.gitbook/assets/image%20(8).png)
 
 and the total interest assigned to the new depositor will be
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+![math formula - (17)](../.gitbook/assets/image%20(4).png)
 
 Thus, the annualized fixed interest rate on the deposit ($$RD_{FR,i}^{k,t}$$) can be calculated as follows
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+![math formula - (18)](../.gitbook/assets/image%20(9).png)
 
 ### 4.3 Early Withdraw
 
@@ -166,15 +166,15 @@ Consider the time elapsed between any two operations in the protocol $$( t_{k},t
 
 The total interest amount accumulated by the mass of loans from all the Fixed Rate Pools between $$t_{k}$$ and $$t_{k+1}$$ is given by:
 
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+![math formula - (19)](../.gitbook/assets/image%20(11).png)
 
 The total amount of accrued interest earned by depositors is;
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+![math formula - (20)](../.gitbook/assets/image%20(6).png)
 
 and the total amount of accrued interest earned by the Variable Rate Pool;
 
-<figure><img src="../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+![math formula - (21)](../.gitbook/assets/image%20(26).png)
 
 ## 5. Borrowing Assets at Variable Rates
 
@@ -182,19 +182,19 @@ Users can also take loans at variable rates similar to what they are accustomed 
 
 In this case, to assure the proper behavior of the protocol, a new definition of utilization rate is needed. First, between any two transactions in the Variable Rate Pool, we define the current utilization rate as
 
-<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+![math formula - (22)](../.gitbook/assets/image%20(14).png)
 
-where $$TB_{VR}^{t}$$ is the total amount of variable rate borrows outstanding at time $$t$$, and $$\tau _{VR}$$ is a numerical parameter.
+where $$TB_{VR}^{t}$$ is the total amount of variable rate borrows outstanding at time $$t$$, and $$\tau_{VR}$$ is a numerical parameter.
 
 Second, each time there is a new transaction in the Variable Rate Pool, a new utilization rate is calculated according to the following rule:
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+![math formula - (23)](../.gitbook/assets/image.png)
 
 Here $$B_{VR}^{t+1}>0$$ means a new borrow is being made and $$B_{VR}^{t+1}<0$$ means a repay (partial or total) of an existing borrow is being made.
 
 Defining $$U_{0}=min(U_{VR}^{t} , U_{VR}^{t+1})$$ and $$U_{1}=max(U_{VR}^{t} , U_{VR}^{t+1})$$ we can update the prevailing variable interest rate at $$t+1$$ as:
 
-<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+![math formula - (24 & 25)](../.gitbook/assets/image%20(15).png)
 
 ### 5.1 Repayment of a variable rate loan
 
@@ -202,75 +202,75 @@ To keep track of the amount that each given single borrow must repay on exit, we
 
 Consider a new borrow $$B_{VR}^{k,t_{k}}$$ and the total amount of outstanding debt $$TB_{VR}^{t_{k}^{-}}$$. The amount of debt-shares associated to $$B_{VR}^{k,t_{k}}$$ is given by
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+![math formula - (26)](../.gitbook/assets/image%20(1).png)
 
 where $$ShTB_{VR}^{t_{k}^{-}}$$ is the number of debt-shares corresponding to $$TB_{VR}^{t_{k}^{-}}$$
 
 When the loan is canceled at a later time $$t_{k+n}$$, the amount to be repaid will be calculated as:
 
-<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+![math formula - (27)](../.gitbook/assets/image%20(18).png)
 
 ### 5.2 Calculating the total outstanding debt
 
 The growth of variable rate debt is updated by calculating the interests between two consecutive transactions in the Variable Rate Pool:
 
-<figure><img src="../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
+![math formula - (28)](../.gitbook/assets/image%20(30).png)
 
 So the updated debt is
 
-<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+![math formula - (29)](../.gitbook/assets/image%20(13).png)
 
 ### 5.3 Aggregate Equations for Interest Earned on Variable Rate Loans by the Variable Rate Pool
 
 The total accrued interest earned by the Variable Rate Pool between $$t_{k}$$ and $$t_{k+1}$$ due to variable rate loans is given by:
 
-<figure><img src="../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
+![math formula - (30)](../.gitbook/assets/image%20(34).png)
 
 ## 6. Liquidations
 
 In terms of liquidations, we adopted an approach similar to that of the Euler protocol. Consider a given user $$j$$. Let's call $$C^{j}$$ the total amount of collateral measured in USD they hold as a guarantee for their debts. Assume $$C^{j}$$ is composed of different assets.
 
-<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+![math formula - (31)](../.gitbook/assets/image%20(12).png)
 
 We associate a Risk-Adjust Factor $$\rho _{i}$$ to each asset in order to assess the lending power of each collateral asset. Thus the risk-adjusted collateral is given by
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+![math formula - (32)](../.gitbook/assets/image%20(2).png)
 
 So, given a user collateral portfolio, the average Risk-Adjust Factor can be defined as follows
 
-<figure><img src="../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
+![math formula - (33)](../.gitbook/assets/image%20(39).png)
 
 Similarly, the total amount of debt ($$D^{j}$$) and the risk-adjusted debt ($$\widetilde{D}^{j}$$) can be defined as follows
 
-<figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+![math formula - (34)](../.gitbook/assets/image%20(24).png)
 
 So, given asset $$k$$, the maximum amount user $$j$$ can borrow from the asset $$k$$ is:
 
-<figure><img src="../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
+![Max borrow](../.gitbook/assets/image%20(31).png)
 
 The solvency condition for any given user is that their risk-adjusted collateral be greater or equal to their risk-adjusted liabilities, i.e.:
 
-<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+![math formula - (35)](../.gitbook/assets/image%20(19).png)
 
 When an account becomes insolvent ($$\widetilde{C}^{j}/\widetilde{D}^{j}\leq 1$$) a liquidation process must be triggered.
 
-In order to return the account to solvency as fast as possible and involve the least liquidation possible, we define the close factor ($$\kappa _{F}^{j}$$) as the fraction of outstanding borrows that must be repaid to return the portfolio to solvency. By design, $$\kappa _{F}^{j}$$ will be dynamic (i.e. dependent on the degree of insolvency).
+In order to return the account to solvency as fast as possible and involve the least liquidation possible, we define the close factor ($$\kappa _{F}^{j}$$) as the fraction of outstanding borrows that must be repaid to return the portfolio to solvency. By design, $$\kappa_{F}^{j}$$ will be dynamic (i.e. dependent on the degree of insolvency).
 
 Be $$\Gamma >1$$ the safe collateralization ratio that must be applied in a liquidation.
 
 Before liquidation we have $$(\widetilde{C}^{j}/\widetilde{D}^{j} ) ^{before}\leq 1$$. Immediately after liquidation, the condition should be $$(\widetilde{C}^{j}/\widetilde{D}^{j} ) ^{after}=\Gamma$$.
 
-In order to achieve that, liquidators repay an amount $$\kappa _{F}^{j}D^{j}$$ of debt and also pay an extra amount equal to $$\kappa _{F}^{j}\nu _{BD}D^{j}$$ to the Variable Rate Pool in concept of bad debt compensation. At the same time, they take for themselves a fraction $$\kappa_{F}^{j}(1+\nu_{BD})(1+\nu_{liq})D^{j}$$ of the collateral. The reduction in debt and collateral after liquidation is as follows
+In order to achieve that, liquidators repay an amount $$\kappa _{F}^{j}D^{j}$$ of debt and also pay an extra amount equal to $$\kappa_{F}^{j}\nu _{BD}D^{j}$$ to the Variable Rate Pool in concept of bad debt compensation. At the same time, they take for themselves a fraction $$\kappa_{F}^{j}(1+\nu_{BD})(1+\nu_{liq})D^{j}$$ of the collateral. The reduction in debt and collateral after liquidation is as follows
 
-<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+![math formula - (36 & 37)](../.gitbook/assets/image%20(21).png)
 
-Where $$\nu _{liq}$$ is the liquidator commission and $$\nu _{BD}$$ accounts for the percentage of extra liquidation that is retained to the Variable Rate Pool as compensation for absorbing bad debt residuals after all the collateral is liquidated. Using the solvency condition
+Where $$\nu _{liq}$$ is the liquidator commission and $$\nu_{BD}$$ accounts for the percentage of extra liquidation that is retained to the Variable Rate Pool as compensation for absorbing bad debt residuals after all the collateral is liquidated. Using the solvency condition
 
-<figure><img src="../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
+![math formula - (38)](../.gitbook/assets/image%20(35).png)
 
 which provides the close factor as a function of the under collateralization ratio
 
-<figure><img src="../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
+![math formula - (39)](../.gitbook/assets/image%20(37).png)
 
 ## Acknowledgments
 

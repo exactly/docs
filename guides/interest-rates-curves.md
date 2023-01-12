@@ -4,62 +4,27 @@ The demand curve for interest rates is based on the Utilization Rate of each poo
 
 You can read more about our Interest Rate Model in our [White Paper](https://docs.exact.ly/getting-started/white-paper#3.-the-exactly-interest-rate-model) and also in our [Math Paper](https://docs.exact.ly/getting-started/math-paper#4.1.2-the-effective-interest-rate-for-a-particular-loan).
 
-### WETH
+## WETH
 
-<div>
+![WETH VRP interest rate curve](../.gitbook/assets/WETH%20VRP.png)
+![WETH FRP interest rate curve](../.gitbook/assets/WETH%20FRP.png)
 
-<figure><img src="../.gitbook/assets/WETH VRP.png" alt=""><figcaption></figcaption></figure>
+## DAI
 
- 
+![DAI VRP interest rate curve](../.gitbook/assets/DAI%20VRP%20(3).png)
+![DAI FRP interest rate curve](../.gitbook/assets/DAI%20FRP%20(1).png)
 
-<figure><img src="../.gitbook/assets/WETH FRP.png" alt=""><figcaption></figcaption></figure>
+## USDC
 
-</div>
+![USDC VRP interest rate curve](../.gitbook/assets/USDC%20VRP%20(2).png)
+![USDC FRP interest rate curve](../.gitbook/assets/USDC%20FRP%20(1).png)
 
-### DAI
+## WBTC
 
-<div>
+![WBTC VRP interest rate curve](../.gitbook/assets/WBTC%20VRP.png)
+![WBTC FRP interest rate curve](../.gitbook/assets/WBTC%20FRP.png)
 
-<figure><img src="../.gitbook/assets/DAI VRP (3).png" alt=""><figcaption></figcaption></figure>
+## wstETH
 
- 
-
-<figure><img src="../.gitbook/assets/DAI FRP (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-### USDC
-
-<div>
-
-<figure><img src="../.gitbook/assets/USDC VRP (2).png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/USDC FRP (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-### WBTC
-
-<div>
-
-<figure><img src="../.gitbook/assets/WBTC VRP.png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/WBTC FRP.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-### wstETH
-
-<div>
-
-<figure><img src="../.gitbook/assets/WstETH VRP.png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/WstETH FRP.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+![wstETH VRP interest rate curve](../.gitbook/assets/WstETH%20VRP.png)
+![wstETH FRP interest rate curve](../.gitbook/assets/WstETH%20FRP.png)

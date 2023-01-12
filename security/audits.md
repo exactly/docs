@@ -40,4 +40,3 @@ Simulation made by Cryptecon
 {% endembed %}
 
 You can also [make a copy](https://docs.google.com/spreadsheets/d/1Wnwjml\_fRKzjWg87zOkqlrP4TeuLOkms/edit#gid=1988410186) from the original Google Sheet document and change its values.
-

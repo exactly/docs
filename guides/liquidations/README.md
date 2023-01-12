@@ -61,7 +61,4 @@ function liquidate(address borrower, uint256 maxAssets, contract Market seizeMar
 | ------------ | ------- | --------------------- |
 | repaidAssets | uint256 | actual amount repaid. |
 
-
-
 It's important to highlight that `maxAssets` should also include an [extra bonus](../parameters.md#h.-liquidation-bonuses) that the variable pool of the Market will keep that the debt is being repaid.
-

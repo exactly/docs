@@ -41,6 +41,3 @@ If this is the case, the following fixed borrower that borrows from the fixed po
 The earnings accumulator will be used to spread the losses caused by any [bad debt clearing](automatic-bad-debt-clearing.md).
 
 To counter these losses, a percentage of the seized collateral is added to the accumulator in **every** liquidation.
-
-
-

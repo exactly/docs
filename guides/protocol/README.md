@@ -1,6 +1,6 @@
 # ⚙ Protocol
 
-<figure><img src="../../.gitbook/assets/image (27).png" alt=""><figcaption><p>Smart Contract Architecture</p></figcaption></figure>
+![Smart Contract Architecture](../../.gitbook/assets/image%20(27).png)*Smart Contract Architecture*
 
 Github: [https://github.com/exactly/protocol](https://github.com/exactly/protocol)
 

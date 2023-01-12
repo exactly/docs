@@ -68,4 +68,3 @@ $$\nu_{bad-debt}=0.25\%$$
 $$2.00\%$$
 
 Daily penalty rate charged to late fixed repayments.
-

@@ -178,18 +178,14 @@ Participants are encouraged to provide input on each of the steps. If a particip
    * [Brainstorming](https://en.wikipedia.org/wiki/Brainstorming) session with participants
    * [5 Whys Technique](https://en.wikipedia.org/wiki/Five\_whys)
 5. Once Root Causes have been identified, action items can be written and assigned to willing participants that can own the tasks. It is recommended that an estimated time for completion is given. A later process can track the completion of given assignments. **Note: The action items need to be clear, actionable, and measurable for completion**
-6.  The Facilitator tracks the completion of action items. The end result of the process should be an actionable improvement in process. Some possible improvements:
+6. The Facilitator tracks the completion of action items. The end result of the process should be an actionable improvement in process. Some possible improvements:
 
     * Changes in the process and documentation
     * Changes in code and tests to validate
     * Changes in tools implemented and incorporated into the process
 
-
-
 ## Acknowledgments
 
 Thanks to [Yearn Protocol](https://yearn.finance/) for providing [the base for this document](https://github.com/yieldprotocol/docs-v2/blob/main/operations/emergency\_procedure.md#emergency-checklist).
-
-
 
 [Edit this page](https://github.com/yieldprotocol/docs-v2/edit/main/operations/emergency\_procedure.md)
