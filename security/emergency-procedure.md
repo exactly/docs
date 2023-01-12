@@ -137,7 +137,7 @@ List of tools and alternatives in case primary tools are not available during an
 
 | Description         | Primary                                        |                                Secondary                               |
 | ------------------- | ---------------------------------------------- | :--------------------------------------------------------------------: |
-| Code Sharing        | [Github](https://github.com/exactly-protocol/) | [HackMd](https://hackmd.io/), [CodeShare](https://codeshare.io/5Og7mj) |
+| Code Sharing        | [Github](https://github.com/exactly/) | [HackMd](https://hackmd.io/), [CodeShare](https://codeshare.io/5Og7mj) |
 | Communications\*    | [Telegram](https://t.me/exactlyFinance)        |            [Discord](https://discord.com/invite/eNTyPvgA4P)            |
 | Transaction Details | [Etherscan](https://etherscan.io/)             |                    [EthTxInfo](https://ethtx.info/)                    |
 | Debugging           | [Tenderly](https://tenderly.co/)               |                                                                        |
