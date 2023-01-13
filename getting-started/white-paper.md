@@ -26,7 +26,7 @@ Some protocols approach this problem using a peer-to-peer (P2P) strategy, where 
 
 Alternatively, a series of fixed-rate protocols were launched in the year 2021. Some of them, like Yield and Notional, use a token to create a component resembling a "Zero Coupon Bond", while others like Element and Pendle use two tokens to distinguish the principal and the interest rate, much like a "Coupon Stripping" approach, to try to discover the fixed interest rate based on the price of one or more assets with a certain expiration date represented by one or more ERC-20 tokens. These types of protocols have not managed to capture enough liquidity yet, probably due to their complexity when it comes to implementing them in the Ethereum blockchain.
 
-Furthermore, when there is a slippage in the price of these types of tokens, the interest rate to be discovered is indirectly affected, resulting in the protocols requiring their own Automated Market Makers (AMMs) implementation. This poses additional challenges since these special tokens can’t be traded on AMMs such as Uniswap. The constant product invariant formula $$x*y=k$$ is not ideal for yield tokens, where time is an additional factor.
+Furthermore, when there is a slippage in the price of these types of tokens, the interest rate to be discovered is indirectly affected, resulting in the protocols requiring their own Automated Market Makers (AMMs) implementation. This poses additional challenges since these special tokens can’t be traded on AMMs such as Uniswap. The constant product invariant formula $x*y=k$ is not ideal for yield tokens, where time is an additional factor.
 
 Liquidity is like water coming down a hill, and our goal is to remove the obstacles to make it flow fast and easily through the river. Our approach is based on finding a solution to the problem of discovering fixed interest rates, considering all the challenges that appear when bringing traditional finance to blockchain technologies while offering variable interest rate alternatives as well, thus covering the entire DeFi credit market. That is why Exactly protocol discovers the fixed interest rate directly from the supply and demand of credit that exists in each of our Fixed Rate Pools for each asset, for each maturity term.
 
@@ -90,9 +90,9 @@ $$
 \end{align*}
 $$
 
-Where $$U$$ is the Utilization Rate and $$A$$, $$B$$ and $$U_{max}$$ are parameters whose values are obtained either from calibration against relevant market data or defined by the Risk Management Committee multisig (see section 4, "Governance").
+Where $U$ is the Utilization Rate and $A$, $B$ and $U_{max}$ are parameters whose values are obtained either from calibration against relevant market data or defined by the Risk Management Committee multisig (see section 4, "Governance").
 
-The Utilization Rate in each of the Fixed Rate Pools at any time $$t$$ is defined as:
+The Utilization Rate in each of the Fixed Rate Pools at any time $t$ is defined as:
 
 $$
 \begin{align*}
@@ -100,7 +100,7 @@ $$
 \end{align*}
 $$
 
-Where $$TB_{FR,i}^{t}$$ is the total amount of outstanding borrows at time $$t$$ in the Fixed Rate Pool, $$TD_{FR,i}^{t}$$ is the total outstanding deposits, $$⟨SS^t⟩$$ is a moving average of the total supply in the Variable Rate Pool for this particular asset and $$\tau_{FR}$$ is a customizable parameter that regulates the fraction of liquidity from the Variable Rate Pool that is a priori assigned to each Fixed Rate Pool.
+Where $TB_{FR,i}^t$ is the total amount of outstanding borrows at time $t$ in the Fixed Rate Pool, $TD_{FR,i}^t$ is the total outstanding deposits, $⟨SS^t⟩$ is a moving average of the total supply in the Variable Rate Pool for this particular asset and $\tau_{FR}$ is a customizable parameter that regulates the fraction of liquidity from the Variable Rate Pool that is a priori assigned to each Fixed Rate Pool.
 
 One of the main differences between present money market protocols and Exactly’s approach to fixed interest rates is that each user receives or pays a fixed rate on maturity when they transact on our platform. Therefore, the choice of the appropriate Utilization Rate becomes so important.
 
@@ -126,7 +126,7 @@ $$
 \end{align*}
 $$
 
-Where $$TB_{VR}^t$$ is the total amount of variable rate borrowed outstanding at time $$t$$, and $$\tau_{VR}$$ is a customizable parameter that regulates the fraction of liquidity from the Variable Rate Pool that is assigned to variable rate loans.
+Where $TB_{VR}^t$ is the total amount of variable rate borrowed outstanding at time $t$, and $\tau_{VR}$ is a customizable parameter that regulates the fraction of liquidity from the Variable Rate Pool that is assigned to variable rate loans.
 
 ### 3.3 Supply Interest Rate in a Fixed Rate Pool
 
@@ -136,16 +136,16 @@ To accomplish the market clearing condition, supply interest rates are determine
 
 #### Example
 
-Assume a Fixed Rate Pool with maturity at $$t=1$$. At $$t=0$$ there is a 10M lending request at a 10% interest rate (Request A). Because there is no external supply in this Fixed Rate Pool, the operation is funded by the Variable Rate Pool. At $$t=0.4$$ there is a 10M deposit made by a user in this Fixed Rate Pool.
+Assume a Fixed Rate Pool with maturity at $t=1$. At $t=0$ there is a 10M lending request at a 10% interest rate (Request A). Because there is no external supply in this Fixed Rate Pool, the operation is funded by the Variable Rate Pool. At $t=0.4$ there is a 10M deposit made by a user in this Fixed Rate Pool.
 
-The Variable Rate Pool will leave the Fixed Rate Pool recovering its original deposit and having earned 400k of accrued interest plus 10% of the pending interests as earnings for providing liquidity in the first place. Thus, the net interest rate to be paid to the user’s deposit in the Fixed Rate Pool at maturity is effectively 9%. At $$t=0.5$$ a new loan request of 3M (Request B) is backed again by the Variable Rate Pool at a 6% interest rate.
+The Variable Rate Pool will leave the Fixed Rate Pool recovering its original deposit and having earned 400k of accrued interest plus 10% of the pending interests as earnings for providing liquidity in the first place. Thus, the net interest rate to be paid to the user’s deposit in the Fixed Rate Pool at maturity is effectively 9%. At $t=0.5$ a new loan request of 3M (Request B) is backed again by the Variable Rate Pool at a 6% interest rate.
 
-After that, there is a new deposit at $$t=0.7$$ that replaces the Variable Rate Pool like in the previous case, for a remaining net interest rate of 5.4% (that’s the original 6% minus 0.6% retained by the Variable Rate Pool). Finally, at $$t=0.8$$ there is a last lending request for 5M (Request C) satisfied by the Variable Rate Pool at a rate of 8%.
+After that, there is a new deposit at $t=0.7$ that replaces the Variable Rate Pool like in the previous case, for a remaining net interest rate of 5.4% (that’s the original 6% minus 0.6% retained by the Variable Rate Pool). Finally, at $t=0.8$ there is a last lending request for 5M (Request C) satisfied by the Variable Rate Pool at a rate of 8%.
 
-At $$t=1$$ all lending requests are repaid as follows:
+At $t=1$ all lending requests are repaid as follows:
 
 1. 10M + 10% = 11M.Variable Rate Pool earnings: 460K, Depositor earnings: 540k
-2. 3M + 6%/2 = 3.09M. Variable Rate Pool earnings: 41.4K, Depositor earnings: 48.6k&#x20;
+2. 3M + 6%/2 = 3.09M. Variable Rate Pool earnings: 41.4K, Depositor earnings: 48.6k
 3. 5M + 8%/5 = 5.080M. Variable Rate Pool earnings: 80.0K
 
 ![](https://lh6.googleusercontent.com/7gAv-LxzScdXFHImxtg8ce5CakXNWJ9871vFOqo7tYL6ToM0B3GjyuCXVMYbiF9t211jWJTyr103-YcEr1L3Q39uj74i\_r34WnEL6pJYPsTVIqNRACpNPDbktUkeqYkMe3ay6L6AaBE-AMyKepPBIA)

@@ -1,6 +1,6 @@
 # ♻ Liquidations
 
-The health of Exactly's Protocol depends on the 'health' of the loans within the system, also known as the 'health factor'. When the [health factor](../price-feeds.md#health-factor) of an account's total loans is below `1`, anyone can make a `liquidate()` call to the [Market](../protocol/market/) contract, paying back part of the debt owed, and receiving discounted collateral in return (also known as the liquidation bonus as [previously seen here](../parameters.md#h.-liquidation-bonuses)).&#x20;
+The health of Exactly's Protocol depends on the 'health' of the loans within the system, also known as the 'health factor'. When the [health factor](../price-feeds.md#health-factor) of an account's total loans is below `1`, anyone can make a `liquidate()` call to the [Market](../protocol/market/) contract, paying back part of the debt owed, and receiving discounted collateral in return (also known as the liquidation bonus as [previously seen here](../parameters.md#h.-liquidation-bonuses)).
 
 This incentivizes third parties to participate in the solvency of the overall protocol by acting in their interest (to receive the discounted collateral) and, as a result, ensure loans are sufficiently collateralized.
 
