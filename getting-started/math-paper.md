@@ -4,7 +4,7 @@
 
 Authors: [Francisco Lepone](https://github.com/FranciscoLepone) and [Gabriel Gruber](https://github.com/GabrielGruber)
 
-****[math@exact.ly](mailto:math@exact.ly)
+[math@exact.ly](mailto:math@exact.ly)
 
 July 2022
 
