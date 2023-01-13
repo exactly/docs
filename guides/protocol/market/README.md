@@ -340,9 +340,9 @@ Simulates the effects of a borrow at the current time, given current contract co
 
 **Returns**
 
-| Type    | Description                                                            |
-| ------- | ---------------------------------------------------------------------- |
-| uint256 | amount of shares that will be asigned to the account after the borrow. |
+| Type    | Description                                                             |
+| ------- | ----------------------------------------------------------------------- |
+| uint256 | amount of shares that will be assigned to the account after the borrow. |
 
 #### previewDebt
 
@@ -424,7 +424,7 @@ Allows users to simulate the effects of their mint at the current block.
 function previewRedeem(uint256 shares) external view returns (uint256)
 ```
 
-Allows users to simulate the effects of their redeemption at the current block.
+Allows users to simulate the effects of their redemption at the current block.
 
 **Parameters**
 
