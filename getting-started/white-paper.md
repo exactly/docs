@@ -78,7 +78,7 @@ Exactly adopts for lending rates a continuous and differentiable function of the
 
 Conceptually, the function was designed in such a way that it naturally divides the utilization domain into three well-differentiated regions. The first region (I) of normal rates is called the "normal regime" where the utilization levels are well below the available liquidity; a second region (II) is called the "leveraged regime" where interest rates increase as utilization levels start to exhaust the available resources; and a third region (III) called "unreachable-regime" where rate levels are even higher, eventually diverging, and where it is not possible to take credits.
 
-![](https://lh6.googleusercontent.com/EFCQHnok7Cv0hc3GwCV5GHEUDlBu\_fehGEKDJpchqxCqAZWomWOwLfHc1uPcjiZ6jdrYyjoh4RSaeNQkLM1YUNp1CmIruAFwHjxYiX2Pcfen8Fd-v7znIL9iZu\_unTC8ifllr2Dilk5NMbtc8ZaJBkg)
+![Interest rate function curve](https://lh6.googleusercontent.com/EFCQHnok7Cv0hc3GwCV5GHEUDlBu\_fehGEKDJpchqxCqAZWomWOwLfHc1uPcjiZ6jdrYyjoh4RSaeNQkLM1YUNp1CmIruAFwHjxYiX2Pcfen8Fd-v7znIL9iZu\_unTC8ifllr2Dilk5NMbtc8ZaJBkg)
 
 ### 3.1 Borrow Interest Rate in Fixed Rate Pools
 
@@ -112,7 +112,7 @@ $$
 \end{align*}
 $$
 
-![](https://lh6.googleusercontent.com/M8KyNtB5\_2A7U8selT0CM2JWi5wnIiaXfaPlqN0NS6VgqFh471LrD2useUVhgPNzkP1efjwV8L7Zvbwb4SsIAGnqlrrldBPac0S-y-CZ4vjd1ksOxmHC-aMVH7Ms7JVt76RlXWoLtfFP4gRdjfIYG4k)
+![Effective interest borrow rate](https://lh6.googleusercontent.com/M8KyNtB5\_2A7U8selT0CM2JWi5wnIiaXfaPlqN0NS6VgqFh471LrD2useUVhgPNzkP1efjwV8L7Zvbwb4SsIAGnqlrrldBPac0S-y-CZ4vjd1ksOxmHC-aMVH7Ms7JVt76RlXWoLtfFP4gRdjfIYG4k)
 
 ### 3.2 Borrow Interest Rate in the Variable Rate Pool
 
@@ -148,7 +148,7 @@ At $t=1$ all lending requests are repaid as follows:
 2. 3M + 6%/2 = 3.09M. Variable Rate Pool earnings: 41.4K, Depositor earnings: 48.6k
 3. 5M + 8%/5 = 5.080M. Variable Rate Pool earnings: 80.0K
 
-![](https://lh6.googleusercontent.com/7gAv-LxzScdXFHImxtg8ce5CakXNWJ9871vFOqo7tYL6ToM0B3GjyuCXVMYbiF9t211jWJTyr103-YcEr1L3Q39uj74i\_r34WnEL6pJYPsTVIqNRACpNPDbktUkeqYkMe3ay6L6AaBE-AMyKepPBIA)
+![Interest payments distribution until maturity in a Fixed Rate Pool](https://lh6.googleusercontent.com/7gAv-LxzScdXFHImxtg8ce5CakXNWJ9871vFOqo7tYL6ToM0B3GjyuCXVMYbiF9t211jWJTyr103-YcEr1L3Q39uj74i\_r34WnEL6pJYPsTVIqNRACpNPDbktUkeqYkMe3ay6L6AaBE-AMyKepPBIA)
 
 ## 4. Governance
 

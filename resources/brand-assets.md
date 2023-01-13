@@ -2,26 +2,26 @@
 
 ## Wordmarks
 
-![](<../.gitbook/assets/Wordmark - SVG White.svg>)
+![Wordmark white](<../.gitbook/assets/Wordmark - SVG White.svg>)
 
-![](<../.gitbook/assets/Wordmark - SVG Black.svg>)
+![Wordmark black](<../.gitbook/assets/Wordmark - SVG Black.svg>)
 
 ## Isologos
 
-![](<../.gitbook/assets/Isologo - White.svg>)
+![Isologo white](<../.gitbook/assets/Isologo - White.svg>)
 
-![](<../.gitbook/assets/Isologo - Black.svg>)
+![Isologo black](<../.gitbook/assets/Isologo - Black.svg>)
 
 ## Social
 
-![](<../.gitbook/assets/Twitter Logo.png>)
+![Twitter logo](<../.gitbook/assets/Twitter Logo.png>)
 
-![](<../.gitbook/assets/Twitter Logo - Blue.png>)
+![Twitter logo blue](<../.gitbook/assets/Twitter Logo - Blue.png>)
 
-![](<../.gitbook/assets/Twitter Logo - Green.png>)
+![Twitter logo green](<../.gitbook/assets/Twitter Logo - Green.png>)
 
-![](<../.gitbook/assets/Twitter Logo - White.png>)
+![Twitter logo white](<../.gitbook/assets/Twitter Logo - White.png>)
 
-![](<../.gitbook/assets/Twitter Logo - Blue and White.png>)
+![Twitter logo blue and white](<../.gitbook/assets/Twitter Logo - Blue and White.png>)
 
-![](<../.gitbook/assets/Twitter Logo - Green and White.png>)
+![Twitter logo green and white](<../.gitbook/assets/Twitter Logo - Green and White.png>)
