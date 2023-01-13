@@ -17,7 +17,7 @@ Exactly Protocol was audited by the following companies:
 
 ## Other
 
-* [Code Coverage on CodeCov](https://app.codecov.io/gh/exactly-protocol/protocol)
+* [Code Coverage on Codecov](https://app.codecov.io/gh/exactly/protocol)
 * [Audit Coverage on Zellic](https://app.zellic.io/coverage/exactly-protocol)
 * [Skynet Trust Score on Certik](https://www.certik.com/projects/exactly)
 

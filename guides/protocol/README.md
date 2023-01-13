@@ -4,4 +4,4 @@
 
 Github: [https://github.com/exactly/protocol](https://github.com/exactly/protocol)
 
-Coverage: [https://app.codecov.io/gh/exactly-protocol/protocol](https://app.codecov.io/gh/exactly-protocol/protocol)
+Coverage: [https://app.codecov.io/gh/exactly/protocol](https://app.codecov.io/gh/exactly/protocol)
