@@ -31,7 +31,7 @@ On September 8th, 2022 the [Center for Cryptoeconomics](https://cryptecon.org/ho
 * From the audit of the technical paper, we find that the mathematical specification of the model correctly reflects the conceptual idea of Exactly's decentralized credit market protocol.
 * Numerical calculations revealed that results from the model presented in the technical paper are plausible. Based on an initial calibration we find that the protocol is in principle able to produce competitive interest rates and spreads.
 
-You can read the complete report [here](https://github.com/exactly/audits/blob/main/Cryptecon\_Economics\_of\_the\_Exactly\_Protocol\(Sep-22\).pdf).&#x20;
+You can read the complete report [here](https://github.com/exactly/audits/blob/main/Cryptecon\_Economics\_of\_the\_Exactly\_Protocol\(Sep-22\).pdf).
 
 ### Simulation
 

@@ -145,7 +145,7 @@ After that, there is a new deposit at $$t=0.7$$ that replaces the Variable Rate 
 At $$t=1$$ all lending requests are repaid as follows:
 
 1. 10M + 10% = 11M.Variable Rate Pool earnings: 460K, Depositor earnings: 540k
-2. 3M + 6%/2 = 3.09M. Variable Rate Pool earnings: 41.4K, Depositor earnings: 48.6k&#x20;
+2. 3M + 6%/2 = 3.09M. Variable Rate Pool earnings: 41.4K, Depositor earnings: 48.6k
 3. 5M + 8%/5 = 5.080M. Variable Rate Pool earnings: 80.0K
 
 ![](https://lh6.googleusercontent.com/7gAv-LxzScdXFHImxtg8ce5CakXNWJ9871vFOqo7tYL6ToM0B3GjyuCXVMYbiF9t211jWJTyr103-YcEr1L3Q39uj74i\_r34WnEL6pJYPsTVIqNRACpNPDbktUkeqYkMe3ay6L6AaBE-AMyKepPBIA)
