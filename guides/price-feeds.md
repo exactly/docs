@@ -4,7 +4,7 @@ Exactly Protocol uses [Chainlink's data feeds](https://docs.chain.link/docs/usin
 
 Chainlink is the most used data provider in the industry. It provides secure pricing feeds and it is the DeFi standard oracle network with [over six trillion in transaction value enabled](https://chain.link/).
 
-### Uniswap TWAPs
+## Uniswap TWAPs
 
 Other sources, such as [Uniswap's TWAPs](https://docs.uniswap.org/protocol/concepts/V3-overview/oracle), have also been considered but finally discarded.
 
@@ -14,7 +14,7 @@ Block proposers are alerted ahead of time when they are selected to propose a bl
 
 It is hard to estimate how many block proposers will view oracle manipulation attacks as a legitimate way to increase their income. It seems likely many will not take the risk of carrying out these kinds of attacks. However, as long as the number is non-zero, it is clear there is some reduced cost for carrying out these possible attacks.
 
-### Health Factor
+## Health Factor
 
 The health factor is calculated from the user's collateral balance (in `ETH`) multiplied by each asset's adjust factor divided by the user's debt which is also divided by this adjust factor.
 

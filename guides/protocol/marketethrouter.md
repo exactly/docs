@@ -4,23 +4,23 @@ To be used by Exactly’s web-app, so accounts can operate with `ETH` on **Marke
 
 Wraps `ETH` or unwraps `WETH` before and after interacting with **MarketWETH**. It saves one step for the user.
 
-### Public State Variables
+## Public State Variables
 
-#### market
+### market
 
 ```solidity
 function market() external view returns (contract Market)
 ```
 
-#### weth
+### weth
 
 ```solidity
 function weth() external view returns (contract WETH
 ```
 
-### Write Methods
+## Write Methods
 
-#### borrow
+### borrow
 
 ```solidity
 function borrow(uint256 assets) external nonpayable returns (uint256 borrowShares)
@@ -40,7 +40,7 @@ Unwraps WETH from the floating pool and borrows to caller.
 | ------------ | ------- | -------------------------- |
 | borrowShares | uint256 | number of borrowed shares. |
 
-#### borrowAtMaturity
+### borrowAtMaturity
 
 ```solidity
 function borrowAtMaturity(uint256 maturity, uint256 assets, uint256 maxAssetsAllowed) external nonpayable returns (uint256 assetsOwed)
@@ -62,7 +62,7 @@ Unwraps WETH from a maturity and borrows to caller.
 | ---------- | ------- | ------------------------------------------------------------------ |
 | assetsOwed | uint256 | total amount of assets (principal + fee) to be repaid at maturity. |
 
-#### deposit
+### deposit
 
 ```solidity
 function deposit() external payable returns (uint256 shares)
@@ -76,7 +76,7 @@ Wraps ETH and deposits WETH into the floating pool's market.
 | ------ | ------- | ------------------------ |
 | shares | uint256 | number of minted shares. |
 
-#### depositAtMaturity
+### depositAtMaturity
 
 ```solidity
 function depositAtMaturity(uint256 maturity, uint256 minAssetsRequired) external payable returns (uint256 maturityAssets)
@@ -97,7 +97,7 @@ Wraps ETH and deposits to a maturity.
 | -------------- | ------- | --------------------------------------------------------------------- |
 | maturityAssets | uint256 | total amount of assets (principal + fee) to be withdrawn at maturity. |
 
-#### redeem
+### redeem
 
 ```solidity
 function redeem(uint256 shares) external nonpayable returns (uint256 assets)
@@ -117,7 +117,7 @@ Unwraps WETH from the floating pool and withdraws to caller.
 | ------ | ------- | --------------------------- |
 | assets | uint256 | amount of assets withdrawn. |
 
-#### refund
+### refund
 
 ```solidity
 function refund(uint256 borrowShares) external payable returns (uint256 repaidAssets, uint256 actualShares)
@@ -138,7 +138,7 @@ Wraps ETH and repays to the floating pool.
 | repaidAssets | uint256 | number of repaid assets.                                                               |
 | actualShares | uint256 | number of borrowed shares subtracted from the debt (can be lower than `borrowShares`). |
 
-#### repay
+### repay
 
 ```solidity
 function repay(uint256 assets) external payable returns (uint256 repaidAssets, uint256 borrowShares)
@@ -159,7 +159,7 @@ Wraps ETH and repays to the floating pool.
 | repaidAssets | uint256 | number of repaid assets (can be lower than `assets`). |
 | borrowShares | uint256 | number of borrowed shares subtracted from the debt.   |
 
-#### repayAtMaturity
+### repayAtMaturity
 
 ```solidity
 function repayAtMaturity(uint256 maturity, uint256 assets) external payable returns (uint256 repaidAssets)
@@ -180,7 +180,7 @@ Wraps ETH and repays to a maturity.
 | ------------ | ------- | ------------------------------------------------------- |
 | repaidAssets | uint256 | the actual amount that was transferred into the Market. |
 
-#### withdraw
+### withdraw
 
 ```solidity
 function withdraw(uint256 assets) external nonpayable returns (uint256 shares)
@@ -200,7 +200,7 @@ Unwraps WETH from the floating pool and withdraws to caller.
 | ------ | ------- | ------------------------ |
 | shares | uint256 | number of burned shares. |
 
-#### withdrawAtMaturity
+### withdrawAtMaturity
 
 ```solidity
 function withdrawAtMaturity(uint256 maturity, uint256 assets, uint256 minAssetsRequired) external nonpayable returns (uint256 actualAssets)

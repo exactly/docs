@@ -6,7 +6,7 @@ The interest rate to be applied to each loan is determined by an interest rate d
 
 Each fixed borrow is composed of two different amounts, **principal** and **fees**. The principal is the initial amount borrowed, whereas the fee is the interest that the borrower will need to repay on top of the borrowed amount when repaying at maturity time.
 
-### Early Repayments
+## Early Repayments
 
 Borrowers are allowed to repay at any time, even before the maturity date. The advantage of repaying early is that they can get a discount considering the utilization of the pool at the current time since repaying early is equivalent to making a fixed deposit.
 
@@ -18,7 +18,7 @@ _Finally, 105 assets will already cover his borrowing of 110._
 
 In this way, if the utilization of a pool is high, then borrowers are also encouraged and incentivized to bring back liquidity soon.
 
-### Late Repayments
+## Late Repayments
 
 Borrowers can also repay after the maturity date, but in this case, a penalty is charged for every delayed second that went by since the maturity date.
 

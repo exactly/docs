@@ -1,10 +1,10 @@
 # Automatic Bad Debt Clearing
 
-#### What is bad debt?
+## What is bad debt?
 
 Traditional lending protocols are vulnerable to accumulating **bad debt** due to the way that liquidation mechanisms are structured. On Aave and similar platforms, a certain Loan-to-Value (**LTV**) threshold needs to be upheld, which is a ratio between the collateral a user puts up and the amount borrowed. Usually, when an account breaches a certain LTV ratio, they are liquidated by a third party (e.g., a bot) for an incentive, and the debt is made whole again so that the protocol and LPs do not bear the losses. However, situations arise when a position is not liquidated on time (due to sharp fall in prices, absence of DEX liquidity, blockchain congestion/downtime, etc.) — if this occurs and the liquidated collateral is ultimately not able to cover a position's debt, the protocol is left with **bad debt** (users' loans that are assumed that won't be repaid).
 
-#### Exactly's Solution
+## Exactly's Solution
 
 We implemented an improved liquidate function. This function first checks with the Auditor contract how many assets the liquidator can repay, considering the borrower's collateral and the dynamic close factor calculation. The close factor is calculated considering the shortfall of the borrower and the positive target health that the position should move to after it's liquidated to avoid cascade liquidations and not to harsh the borrower that much.
 

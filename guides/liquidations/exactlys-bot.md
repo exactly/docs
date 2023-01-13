@@ -4,7 +4,7 @@ At Exactly, we developed our own open-source team-driven liquidation bot. You ca
 
 We strongly advise and invite anyone interested in participating in Exactly's liquidations to fork from it and build on top.
 
-### How does it work?
+## How does it work?
 
 The liquidation bot analyzes the users' positions using the events emitted by the protocol with the minimum number of calls to the contracts, thus making the bot more efficient in recreating such states.
 
@@ -22,7 +22,7 @@ After this call, the bot liquidates the user's debt seizing the collateral with 
 
 After the liquidations, the bot waits for more events and recreates the user's positions.
 
-#### Flash loan contract
+### Flash loan contract
 
 The flash loan contract calls the liquidation function in the [protocol](../protocol/).
 
@@ -35,7 +35,7 @@ It checks its amount on the specific debt asset available on the contract's bala
 5. Swaps it to the same as the user's debt
 6. Repays Uniswap V3
 
-### Structure
+## Structure
 
 The project is structured as follows:
 

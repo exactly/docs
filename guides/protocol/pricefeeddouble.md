@@ -4,9 +4,9 @@ Returns the price of an asset considering two different [Chainlink](https://docs
 
 Written as a generic implementation it can be used, for example, to retrieve the price of `WBTC`. Queries `BTC/ ETH` feed and multiplies it by the exchange rate between `WBTC / BTC` before returning the price that it’s then used by the [Auditor](auditor.md).
 
-### Public State Variables
+## Public State Variables
 
-#### baseUnit
+### baseUnit
 
 ```solidity
 function baseUnit() external view returns (uint256)
@@ -14,7 +14,7 @@ function baseUnit() external view returns (uint256)
 
 The base units are used to normalize the answer when multiplied by the second price feed rate.
 
-#### decimals
+### decimals
 
 ```solidity
 function decimals() external view returns (uint8)
@@ -22,7 +22,7 @@ function decimals() external view returns (uint8)
 
 Number of decimals that the answer of this price feed has.
 
-#### priceFeedOne
+### priceFeedOne
 
 ```solidity
 function priceFeedOne() external view returns (contract IPriceFeed)
@@ -30,7 +30,7 @@ function priceFeedOne() external view returns (contract IPriceFeed)
 
 Main price feed where the price is fetched from.
 
-#### priceFeedTwo
+### priceFeedTwo
 
 ```solidity
 function priceFeedTwo() external view returns (contract IPriceFeed)
@@ -38,9 +38,9 @@ function priceFeedTwo() external view returns (contract IPriceFeed)
 
 Second price feed where the asset's rate is fetched from.
 
-### View Methods
+## View Methods
 
-#### latestAnswer
+### latestAnswer
 
 ```solidity
 function latestAnswer() external view returns (int256)
