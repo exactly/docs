@@ -4,9 +4,9 @@ Returns the price of an asset that doesn’t have a direct feed from [Chainlink]
 
 Written as a generic implementation it can be used, for example, to retrieve the price of `wstETH`. Queries `stETH / ETH` feed and multiplies it by the exchange rate between `stETH / wstETH` before returning the price that it’s then used by the [Auditor](auditor.md).
 
-### Public State Variables
+## Public State Variables
 
-#### baseUnit
+### baseUnit
 
 ```solidity
 function baseUnit() external view returns (uint256)
@@ -14,7 +14,7 @@ function baseUnit() external view returns (uint256)
 
 Base units that are sent to the conversion function to get the asset rate.
 
-#### conversionSelector
+### conversionSelector
 
 ```solidity
 function conversionSelector() external view returns (bytes4)
@@ -22,7 +22,7 @@ function conversionSelector() external view returns (bytes4)
 
 Function selector of the wrapper contract where the asset rate is fetched from.
 
-#### decimals
+### decimals
 
 ```solidity
 function decimals() external view returns (uint8)
@@ -30,7 +30,7 @@ function decimals() external view returns (uint8)
 
 Number of decimals that the answer of this price feed has.
 
-#### mainPriceFeed
+### mainPriceFeed
 
 ```solidity
 function mainPriceFeed() external view returns (contract IPriceFeed)
@@ -38,7 +38,7 @@ function mainPriceFeed() external view returns (contract IPriceFeed)
 
 Main price feed where the price is fetched from.
 
-#### wrapper
+### wrapper
 
 ```solidity
 function wrapper() external view returns (address)
@@ -46,9 +46,9 @@ function wrapper() external view returns (address)
 
 Address of the wrapper contract where the asset rate is fetched from.
 
-### View Methods
+## View Methods
 
-#### latestAnswer
+### latestAnswer
 
 ```solidity
 function latestAnswer() external view returns (int256)

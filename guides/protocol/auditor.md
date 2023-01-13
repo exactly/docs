@@ -2,9 +2,9 @@
 
 The **Auditor** is the risk management layer of the protocol; it determines how much collateral a user is required to maintain, and whether (and by how much) a user can be liquidated. Each time a user borrows from a [Market](market/), the **Auditor** validates his account’s liquidity to determine his health factor.
 
-### Public State Variables
+## Public State Variables
 
-#### ASSETS\_THRESHOLD
+### ASSETS\_THRESHOLD
 
 ```solidity
 function ASSETS_THRESHOLD() external view returns (uint256)
@@ -12,7 +12,7 @@ function ASSETS_THRESHOLD() external view returns (uint256)
 
 Maximum value the liquidator can send and still have granular control of max assets. Above this threshold, they should send `type(uint256).max`.
 
-#### BASE\_FEED
+### BASE\_FEED
 
 ```solidity
 function BASE_FEED() external view returns (address)
@@ -20,7 +20,7 @@ function BASE_FEED() external view returns (address)
 
 Address that a market should have as price feed to consider as base price and avoid external price call.
 
-#### TARGET\_HEALTH
+### TARGET\_HEALTH
 
 ```solidity
 function TARGET_HEALTH() external view returns (uint256)
@@ -28,7 +28,7 @@ function TARGET_HEALTH() external view returns (uint256)
 
 Target health factor that the account should have after it's liquidated to prevent cascade liquidations.
 
-#### accountMarkets
+### accountMarkets
 
 ```solidity
 function accountMarkets(address) external view returns (uint256)
@@ -36,7 +36,7 @@ function accountMarkets(address) external view returns (uint256)
 
 Tracks the markets' indexes that an account has entered as collateral.
 
-#### liquidationIncentive
+### liquidationIncentive
 
 ```solidity
 function liquidationIncentive() external view returns (uint128 liquidator, uint128 lenders)
@@ -44,7 +44,7 @@ function liquidationIncentive() external view returns (uint128 liquidator, uint1
 
 Liquidation incentive factors for the liquidator and the lenders of the market where the debt is repaid.
 
-#### marketList
+### marketList
 
 ```solidity
 function marketList(uint256) external view returns (contract Market)
@@ -52,7 +52,7 @@ function marketList(uint256) external view returns (contract Market)
 
 Array of all enabled markets.
 
-#### markets
+### markets
 
 ```solidity
 function markets(contract Market) external view returns (uint128 adjustFactor, uint8 decimals, uint8 index, bool isListed, contract IPriceFeed priceFeed)
@@ -60,7 +60,7 @@ function markets(contract Market) external view returns (uint128 adjustFactor, u
 
 Stores market parameters per each enabled market.
 
-#### priceDecimals
+### priceDecimals
 
 ```solidity
 function priceDecimals() external view returns (uint256)
@@ -68,9 +68,9 @@ function priceDecimals() external view returns (uint256)
 
 Decimals that the answer of all price feeds should have.
 
-### View Methods
+## View Methods
 
-#### accountLiquidity
+### accountLiquidity
 
 ```solidity
 function accountLiquidity(address account, contract Market marketToSimulate, uint256 withdrawAmount) external view returns (uint256 sumCollateral, uint256 sumDebtPlusEffects)
@@ -93,7 +93,7 @@ Returns account's liquidity calculation.
 | sumCollateral      | uint256 | sum of all collateral, already multiplied by each adjust factor (denominated in base). |
 | sumDebtPlusEffects | uint256 | sum of all debt divided by adjust factor considering withdrawal (denominated in base). |
 
-#### allMarkets
+### allMarkets
 
 ```solidity
 function allMarkets() external view returns (contract Market[])
@@ -107,7 +107,7 @@ Retrieves all markets.
 | ------------------ | ------------------------ |
 | contract Market\[] | List of enabled markets. |
 
-#### assetPrice
+### assetPrice
 
 ```solidity
 function assetPrice(contract IPriceFeed priceFeed) external view returns (uint256)
@@ -129,7 +129,7 @@ _If Chainlink's asset price is <= 0 the call is reverted._
 | ------- | --------------------------------------------------- |
 | uint256 | The price of the asset scaled to 18-digit decimals. |
 
-#### calculateSeize
+### calculateSeize
 
 ```solidity
 function calculateSeize(contract Market repayMarket, contract Market seizeMarket, address borrower, uint256 actualRepayAssets) external view returns (uint256 lendersAssets, uint256 seizeAssets)
@@ -153,7 +153,7 @@ Calculates the amount of collateral to be seized when a position is undercollate
 | lendersAssets | uint256 | amount to be added for other lenders as a compensation of bad debt clearing. |
 | seizeAssets   | uint256 | amount that can be seized by the liquidator.                                 |
 
-#### checkLiquidation
+### checkLiquidation
 
 ```solidity
 function checkLiquidation(contract Market repayMarket, contract Market seizeMarket, address borrower, uint256 maxLiquidatorAssets) external view returns (uint256 maxRepayAssets)
@@ -178,7 +178,7 @@ _This function can be called externally, but only will have effect when called f
 | -------------- | ------- | --------------------------------------------------------- |
 | maxRepayAssets | uint256 | capped amount of debt the liquidator is allowed to repay. |
 
-#### checkSeize
+### checkSeize
 
 ```solidity
 function checkSeize(contract Market repayMarket, contract Market seizeMarket) external view
@@ -195,7 +195,7 @@ _This function can be called externally, but only will have effect when called f
 | repayMarket | contract Market | market from where the debt will be repaid. |
 | seizeMarket | contract Market | market where the assets will be seized.    |
 
-#### checkShortfall
+### checkShortfall
 
 ```solidity
 function checkShortfall(contract Market market, address account, uint256 amount) external view
@@ -211,9 +211,9 @@ Checks if the account has liquidity shortfall.
 | account | address         | address of the account to check for possible shortfall. |
 | amount  | uint256         | amount that the account wants to withdraw or transfer.  |
 
-### Write Methods
+## Write Methods
 
-#### checkBorrow
+### checkBorrow
 
 ```solidity
 function checkBorrow(contract Market market, address borrower) external nonpayable
@@ -230,7 +230,7 @@ _To be called after adding the borrowed debt to the account position._
 | market   | contract Market | address of the market where the borrow is made.  |
 | borrower | address         | address of the account that will repay the debt. |
 
-#### enableMarket
+### enableMarket
 
 ```solidity
 function enableMarket(contract Market market, contract IPriceFeed priceFeed, uint128 adjustFactor, uint8 decimals) external nonpayable
@@ -249,7 +249,7 @@ _Enabling more than 256 markets will cause an overflow when casting market index
 | adjustFactor | uint128             | market's adjust factor for the underlying asset.                                    |
 | decimals     | uint8               | decimals of the market's underlying asset.                                          |
 
-#### enterMarket
+### enterMarket
 
 ```solidity
 function enterMarket(contract Market market) external nonpayable
@@ -263,7 +263,7 @@ Allows assets of a certain market to be used as collateral for borrowing other a
 | ------ | --------------- | -------------------------------- |
 | market | contract Market | market to enabled as collateral. |
 
-#### exitMarket
+### exitMarket
 
 ```solidity
 function exitMarket(contract Market market) external nonpayable
@@ -279,7 +279,7 @@ _Sender must not have an outstanding borrow balance in the asset, or be providin
 | ------ | --------------- | ------------------------------------ |
 | market | contract Market | market to be disabled as collateral. |
 
-#### handleBadDebt
+### handleBadDebt
 
 ```solidity
 function handleBadDebt(address account) external nonpayable

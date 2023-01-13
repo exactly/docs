@@ -4,13 +4,13 @@ The health of Exactly's Protocol depends on the 'health' of the loans within the
 
 This incentivizes third parties to participate in the solvency of the overall protocol by acting in their interest (to receive the discounted collateral) and, as a result, ensure loans are sufficiently collateralized.
 
-### Instructions
+## Instructions
 
 In order to know whether an account can be liquidated or not, the `accountLiquidity` function in the [Auditor](../protocol/auditor.md) contract can be called.
 
 As for the `marketToSimulate` parameter, the [address zero](https://etherscan.io/address/0x0000000000000000000000000000000000000000) should be passed, and zero (`0`) should also be sent as `withdrawAmount`.
 
-#### accountLiquidity
+### accountLiquidity
 
 ```solidity
 function accountLiquidity(address account, contract Market marketToSimulate, uint256 withdrawAmount) external view returns (uint256 sumCollateral, uint256 sumDebtPlusEffects)
@@ -41,7 +41,7 @@ Once there's an account opened to be liquidated, the `liquidate` function can be
 
 The function expects and returns the following arguments:
 
-#### liquidate
+### liquidate
 
 ```solidity
 function liquidate(address borrower, uint256 maxAssets, contract Market seizeMarket) external nonpayable returns (uint256 repaidAssets)

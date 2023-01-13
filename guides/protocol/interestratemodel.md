@@ -3,9 +3,9 @@
 Given supply and demand values, the **InterestRateModel** is queried to calculate and return both fixed and variable rates. Contains parameters as state variables that are used to get the different points in the utilization curve for an asset.\
 There's one **InterestRateModel** contract per enabled asset.
 
-### Public State Variables
+## Public State Variables
 
-#### fixedCurveA
+### fixedCurveA
 
 ```solidity
 function fixedCurveA() external view returns (uint256)
@@ -13,7 +13,7 @@ function fixedCurveA() external view returns (uint256)
 
 Scale factor of the fixed curve.
 
-#### fixedCurveB
+### fixedCurveB
 
 ```solidity
 function fixedCurveB() external view returns (int256)
@@ -21,7 +21,7 @@ function fixedCurveB() external view returns (int256)
 
 Origin intercept of the fixed curve.
 
-#### fixedMaxUtilization
+### fixedMaxUtilization
 
 ```solidity
 function fixedMaxUtilization() external view returns (uint256)
@@ -29,7 +29,7 @@ function fixedMaxUtilization() external view returns (uint256)
 
 Asymptote of the fixed curve.
 
-#### floatingCurveA
+### floatingCurveA
 
 ```solidity
 function floatingCurveA() external view returns (uint256)
@@ -37,7 +37,7 @@ function floatingCurveA() external view returns (uint256)
 
 Scale factor of the floating curve.
 
-#### floatingCurveB
+### floatingCurveB
 
 ```solidity
 function floatingCurveB() external view returns (int256)
@@ -45,7 +45,7 @@ function floatingCurveB() external view returns (int256)
 
 Origin intercept of the floating curve.
 
-#### floatingMaxUtilization
+### floatingMaxUtilization
 
 ```solidity
 function floatingMaxUtilization() external view returns (uint256)
@@ -53,9 +53,9 @@ function floatingMaxUtilization() external view returns (uint256)
 
 Asymptote of the floating curve.
 
-### View Methods
+## View Methods
 
-#### fixedBorrowRate
+### fixedBorrowRate
 
 ```solidity
 function fixedBorrowRate(uint256 maturity, uint256 amount, uint256 borrowed, uint256 supplied, uint256 backupAssets) external view returns (uint256)
@@ -79,7 +79,7 @@ Gets the rate to borrow a certain amount at a certain maturity with supply/deman
 | ------- | ---------------------------------------------------------------------------------- |
 | uint256 | rate of the fee that the borrower will have to pay (represented with 18 decimals). |
 
-#### floatingBorrowRate
+### floatingBorrowRate
 
 ```solidity
 function floatingBorrowRate(uint256 utilizationBefore, uint256 utilizationAfter) external view returns (uint256)

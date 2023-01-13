@@ -3,9 +3,9 @@
 The **Market** is the main contract of the protocol. It exposes all user-oriented actions for fixed and variable borrows, deposits, repayments, and withdrawals.\
 The contract is also an [ERC20](https://eips.ethereum.org/EIPS/eip-20) token itself. Following the [ERC4626](erc-4626.md) standard, `exaTokens` are minted to the user once he deposits underlying assets into the variable pool. These tokens are then burned once the underlying assets are withdrawn. If transferred, the variable deposit position is also transferred.
 
-### Public State Variables
+## Public State Variables
 
-#### accounts
+### accounts
 
 ```solidity
 function accounts(address) external view returns (uint256 fixedDeposits, uint256 fixedBorrows, uint256 floatingBorrowShares)
@@ -13,7 +13,7 @@ function accounts(address) external view returns (uint256 fixedDeposits, uint256
 
 Tracks fixed deposit and borrow map and floating borrow shares of an account.
 
-#### asset
+### asset
 
 ```solidity
 function asset() external view returns (contract ERC20)
@@ -21,7 +21,7 @@ function asset() external view returns (contract ERC20)
 
 Address of underlying ERC20 asset.
 
-#### auditor
+### auditor
 
 ```solidity
 function auditor() external view returns (contract Auditor)
@@ -29,7 +29,7 @@ function auditor() external view returns (contract Auditor)
 
 Auditor contract that validates health factor of accounts that operate with this Market.
 
-#### backupFeeRate
+### backupFeeRate
 
 ```solidity
 function backupFeeRate() external view returns (uint256)
@@ -37,7 +37,7 @@ function backupFeeRate() external view returns (uint256)
 
 Rate charged to the fixed pool to be retained by the floating pool for initially providing liquidity.
 
-#### dampSpeedDown
+### dampSpeedDown
 
 ```solidity
 function dampSpeedDown() external view returns (uint256)
@@ -45,7 +45,7 @@ function dampSpeedDown() external view returns (uint256)
 
 Damp speed factor to update `floatingAssetsAverage` when `floatingAssets` is lower.
 
-#### dampSpeedUp
+### dampSpeedUp
 
 ```solidity
 function dampSpeedUp() external view returns (uint256)
@@ -53,7 +53,7 @@ function dampSpeedUp() external view returns (uint256)
 
 Damp speed factor to update `floatingAssetsAverage` when `floatingAssets` is higher.
 
-#### earningsAccumulator
+### earningsAccumulator
 
 ```solidity
 function earningsAccumulator() external view returns (uint256)
@@ -61,7 +61,7 @@ function earningsAccumulator() external view returns (uint256)
 
 Accumulated earnings from extraordinary sources to be gradually distributed.
 
-#### earningsAccumulatorSmoothFactor
+### earningsAccumulatorSmoothFactor
 
 ```solidity
 function earningsAccumulatorSmoothFactor() external view returns (uint128)
@@ -69,7 +69,7 @@ function earningsAccumulatorSmoothFactor() external view returns (uint128)
 
 Factor used for gradual accrual of earnings to the floating pool.
 
-#### fixedBorrowPositions
+### fixedBorrowPositions
 
 ```solidity
 function fixedBorrowPositions(uint256, address) external view returns (uint256 principal, uint256 fee)
@@ -77,7 +77,7 @@ function fixedBorrowPositions(uint256, address) external view returns (uint256 p
 
 Tracks account's fixed borrow positions by maturity, account and position.
 
-#### fixedDepositPositions
+### fixedDepositPositions
 
 ```solidity
 function fixedDepositPositions(uint256, address) external view returns (uint256 principal, uint256 fee)
@@ -85,7 +85,7 @@ function fixedDepositPositions(uint256, address) external view returns (uint256 
 
 Tracks account's fixed deposit positions by maturity, account and position.
 
-#### fixedPools
+### fixedPools
 
 ```solidity
 function fixedPools(uint256) external view returns (uint256 borrowed, uint256 supplied, uint256 unassignedEarnings, uint256 lastAccrual)
@@ -93,7 +93,7 @@ function fixedPools(uint256) external view returns (uint256 borrowed, uint256 su
 
 Tracks fixed pools state by maturity.
 
-#### floatingAssets
+### floatingAssets
 
 ```solidity
 function floatingAssets() external view returns (uint256)
@@ -101,7 +101,7 @@ function floatingAssets() external view returns (uint256)
 
 Amount of floating assets deposited to the pool.
 
-#### floatingAssetsAverage
+### floatingAssetsAverage
 
 ```solidity
 function floatingAssetsAverage() external view returns (uint256)
@@ -109,7 +109,7 @@ function floatingAssetsAverage() external view returns (uint256)
 
 Average of the floating assets to get fixed borrow rates and prevent rate manipulation.
 
-#### floatingBackupBorrowed
+### floatingBackupBorrowed
 
 ```solidity
 function floatingBackupBorrowed() external view returns (uint256)
@@ -117,7 +117,7 @@ function floatingBackupBorrowed() external view returns (uint256)
 
 Amount of assets lent by the floating pool to the fixed pools.
 
-#### floatingDebt
+### floatingDebt
 
 ```solidity
 function floatingDebt() external view returns (uint256)
@@ -125,7 +125,7 @@ function floatingDebt() external view returns (uint256)
 
 Amount of assets lent by the floating pool to accounts.
 
-#### floatingUtilization
+### floatingUtilization
 
 ```solidity
 function floatingUtilization() external view returns (uint256)
@@ -133,7 +133,7 @@ function floatingUtilization() external view returns (uint256)
 
 Current floating utilization used to get the new floating borrow rate.
 
-#### interestRateModel
+### interestRateModel
 
 ```solidity
 function interestRateModel() external view returns (contract InterestRateModel)
@@ -141,7 +141,7 @@ function interestRateModel() external view returns (contract InterestRateModel)
 
 Interest rate model contract used to get the borrow rates.
 
-#### lastAccumulatorAccrual
+### lastAccumulatorAccrual
 
 ```solidity
 function lastAccumulatorAccrual() external view returns (uint32)
@@ -149,7 +149,7 @@ function lastAccumulatorAccrual() external view returns (uint32)
 
 Last time the accumulator distributed earnings.
 
-#### lastAverageUpdate
+### lastAverageUpdate
 
 ```solidity
 function lastAverageUpdate() external view returns (uint32)
@@ -157,7 +157,7 @@ function lastAverageUpdate() external view returns (uint32)
 
 Last time the floating assets average was updated.
 
-#### lastFloatingDebtUpdate
+### lastFloatingDebtUpdate
 
 ```solidity
 function lastFloatingDebtUpdate() external view returns (uint32)
@@ -165,7 +165,7 @@ function lastFloatingDebtUpdate() external view returns (uint32)
 
 Last time the floating debt was updated.
 
-#### maxFuturePools
+### maxFuturePools
 
 ```solidity
 function maxFuturePools() external view returns (uint8)
@@ -173,7 +173,7 @@ function maxFuturePools() external view returns (uint8)
 
 Number of fixed pools to be active at the same time.
 
-#### penaltyRate
+### penaltyRate
 
 ```solidity
 function penaltyRate() external view returns (uint256)
@@ -181,7 +181,7 @@ function penaltyRate() external view returns (uint256)
 
 Rate per second to be charged to delayed fixed pools borrowers after maturity.
 
-#### reserveFactor
+### reserveFactor
 
 ```solidity
 function reserveFactor() external view returns (uint128)
@@ -189,7 +189,7 @@ function reserveFactor() external view returns (uint128)
 
 Percentage factor that represents the liquidity reserves that can't be borrowed.
 
-#### treasury
+### treasury
 
 ```solidity
 function treasury() external view returns (address)
@@ -197,7 +197,7 @@ function treasury() external view returns (address)
 
 Address of the treasury that will receive the allocated earnings.
 
-#### treasuryFeeRate
+### treasuryFeeRate
 
 ```solidity
 function treasuryFeeRate() external view returns (uint256)
@@ -205,7 +205,7 @@ function treasuryFeeRate() external view returns (uint256)
 
 Rate to be charged by the treasury to floating and fixed borrows.
 
-#### treasury
+### treasury
 
 ```solidity
 function treasury() external view returns (address)
@@ -213,7 +213,7 @@ function treasury() external view returns (address)
 
 Address of the treasury that will receive the allocated earnings.
 
-#### treasuryFeeRate
+### treasuryFeeRate
 
 ```solidity
 function treasuryFeeRate() external view returns (uint256)
@@ -221,9 +221,9 @@ function treasuryFeeRate() external view returns (uint256)
 
 Rate to be charged by the treasury to floating and fixed borrows.
 
-### View Methods
+## View Methods
 
-#### accountSnapshot
+### accountSnapshot
 
 ```solidity
 function accountSnapshot(address account) external view returns (uint256, uint256)
@@ -244,7 +244,7 @@ Gets current snapshot for an account across all maturities.
 | uint256 | The amount of assets the account deposited to the floating pool     |
 | uint256 | The amount of debt the account owes from fixed and floating borrows |
 
-#### convertToAssets
+### convertToAssets
 
 ```solidity
 function convertToAssets(uint256 shares) external view returns (uint256)
@@ -264,7 +264,7 @@ Returns the amount of assets that would be exchanged by the pool for the amount 
 | ------- | --------------------------- |
 | uint256 | amount of exchanged assets. |
 
-#### convertToShares
+### convertToShares
 
 ```solidity
 function convertToShares(uint256 assets) external view returns (uint256)
@@ -284,7 +284,7 @@ Returns the amount of shares that would be exchanged by the vault for the amount
 | ------- | --------------------------- |
 | uint256 | amount of exchanged shares. |
 
-#### maxRedeem
+### maxRedeem
 
 ```solidity
 function maxRedeem(address owner) external view returns (uint256)
@@ -304,7 +304,7 @@ Returns the maximum amount of shares that can be redeem from the owner balance t
 | ------- | -------------------------------- |
 | uint256 | max amount of redeemable shares. |
 
-#### maxWithdraw
+### maxWithdraw
 
 ```solidity
 function maxWithdraw(address owner) external view returns (uint256)
@@ -324,7 +324,7 @@ Returns the maximum amount of underlying assets that can be withdrawn from the o
 | ------- | ---------------------------------- |
 | uint256 | max amount of withdrawable assets. |
 
-#### previewBorrow
+### previewBorrow
 
 ```solidity
 function previewBorrow(uint256 assets) external view returns (uint256)
@@ -344,7 +344,7 @@ Simulates the effects of a borrow at the current time, given current contract co
 | ------- | ----------------------------------------------------------------------- |
 | uint256 | amount of shares that will be assigned to the account after the borrow. |
 
-#### previewDebt
+### previewDebt
 
 ```solidity
 function previewDebt(address borrower) external view returns (uint256 debt)
@@ -364,7 +364,7 @@ Gets all borrows and penalties for an account.
 | ---- | ------- | ------------------------------------------------ |
 | debt | uint256 | the total debt, denominated in number of assets. |
 
-#### previewDeposit
+### previewDeposit
 
 ```solidity
 function previewDeposit(uint256 assets) external view returns (uint256)
@@ -384,7 +384,7 @@ Allows users to simulate the effects of their deposit at the current block.
 | ------- | -------------------------------------------------- |
 | uint256 | shares to receive in exchange of deposited assets. |
 
-#### previewFloatingAssetsAverage
+### previewFloatingAssetsAverage
 
 ```solidity
 function previewFloatingAssetsAverage() external view returns (uint256)
@@ -398,7 +398,7 @@ Gets the current `floatingAssetsAverage` without updating the storage variable.
 | ------- | ---------------------------------- |
 | uint256 | projected `floatingAssetsAverage`. |
 
-#### previewMint
+### previewMint
 
 ```solidity
 function previewMint(uint256 shares) external view returns (uint256)
@@ -418,7 +418,7 @@ Allows users to simulate the effects of their mint at the current block.
 | ------- | ----------------------------------------------- |
 | uint256 | assets to deposit in exchange of minted shares. |
 
-#### previewRedeem
+### previewRedeem
 
 ```solidity
 function previewRedeem(uint256 shares) external view returns (uint256)
@@ -438,7 +438,7 @@ Allows users to simulate the effects of their redemption at the current block.
 | ------- | ----------------------------------------------- |
 | uint256 | assets to receive in exchange of burned shares. |
 
-#### previewRefund
+### previewRefund
 
 ```solidity
 function previewRefund(uint256 shares) external view returns (uint256)
@@ -458,7 +458,7 @@ Simulates the effects of a refund at the current time, given current contract co
 | ------- | ------------------------------------- |
 | uint256 | amount of assets that will be repaid. |
 
-#### previewRepay
+### previewRepay
 
 ```solidity
 function previewRepay(uint256 assets) external view returns (uint256)
@@ -478,7 +478,7 @@ Simulates the effects of a repay at the current time, given current contract con
 | ------- | -------------------------------------------------------------------------- |
 | uint256 | amount of shares that will be subtracted from the account after the repay. |
 
-#### previewWithdraw
+### previewWithdraw
 
 ```solidity
 function previewWithdraw(uint256 assets) external view returns (uint256)
@@ -498,7 +498,7 @@ Allows users to simulate the effects of their withdrawal at the current block.
 | ------- | ---------------------------------------------- |
 | uint256 | burned shares in exchange of withdrawn assets. |
 
-#### totalAssets
+### totalAssets
 
 ```solidity
 function totalAssets() external view returns (uint256)
@@ -512,7 +512,7 @@ Calculates the floating pool balance plus earnings to be accrued at current time
 | ------- | ----------------------------------------------------------------------- |
 | uint256 | actual floatingAssets plus earnings to be accrued at current timestamp. |
 
-#### totalFloatingBorrowAssets
+### totalFloatingBorrowAssets
 
 ```solidity
 function totalFloatingBorrowAssets() external view returns (uint256)
@@ -526,7 +526,7 @@ Calculates the total floating debt, considering elapsed time since last update a
 | ------- | --------------------------------------------- |
 | uint256 | actual floating debt plus projected interest. |
 
-#### totalFloatingBorrowShares
+### totalFloatingBorrowShares
 
 ```solidity
 function totalFloatingBorrowShares() external view returns (uint256)
@@ -534,9 +534,9 @@ function totalFloatingBorrowShares() external view returns (uint256)
 
 Total amount of floating borrow shares assigned to floating borrow accounts.
 
-### Write Methods
+## Write Methods
 
-#### borrow
+### borrow
 
 ```solidity
 function borrow(uint256 assets, address receiver, address borrower) external nonpayable returns (uint256 borrowShares)
@@ -558,7 +558,7 @@ Borrows a certain amount from the floating pool.
 | ------------ | ------- | -------------------------------------------- |
 | borrowShares | uint256 | shares corresponding to the borrowed assets. |
 
-#### borrowAtMaturity
+### borrowAtMaturity
 
 ```solidity
 function borrowAtMaturity(uint256 maturity, uint256 assets, uint256 maxAssets, address receiver, address borrower) external nonpayable returns (uint256 assetsOwed)
@@ -582,7 +582,7 @@ Borrows a certain amount from a maturity.
 | ---------- | ------- | ------------------------------------------------------------------ |
 | assetsOwed | uint256 | total amount of assets (principal + fee) to be repaid at maturity. |
 
-#### clearBadDebt
+### clearBadDebt
 
 ```solidity
 function clearBadDebt(address borrower) external nonpayable
@@ -598,7 +598,7 @@ _Can only be called from the auditor._
 | -------- | ------- | ------------------------------------------------------------ |
 | borrower | address | account with insufficient collateral to be cleared the debt. |
 
-#### deposit
+### deposit
 
 ```solidity
 function deposit(uint256 assets, address receiver) external nonpayable returns (uint256 shares)
@@ -617,7 +617,7 @@ function deposit(uint256 assets, address receiver) external nonpayable returns (
 | ------ | ------- | ------------------------ |
 | shares | uint256 | amount of minted shares. |
 
-#### depositAtMaturity
+### depositAtMaturity
 
 ```solidity
 function depositAtMaturity(uint256 maturity, uint256 assets, uint256 minAssetsRequired, address receiver) external nonpayable returns (uint256 positionAssets)
@@ -640,7 +640,7 @@ Deposits a certain amount to a maturity.
 | -------------- | ------- | --------------------------------------------------------------------- |
 | positionAssets | uint256 | total amount of assets (principal + fee) to be withdrawn at maturity. |
 
-#### liquidate
+### liquidate
 
 ```solidity
 function liquidate(address borrower, uint256 maxAssets, contract Market seizeMarket) external nonpayable returns (uint256 repaidAssets)
@@ -664,7 +664,7 @@ _Msg.sender liquidates borrower's position(s) and repays a certain amount of deb
 | ------------ | ------- | --------------------- |
 | repaidAssets | uint256 | actual amount repaid. |
 
-#### mint
+### mint
 
 ```solidity
 function mint(uint256 shares, address receiver) external nonpayable returns (uint256 assets)
@@ -683,7 +683,7 @@ function mint(uint256 shares, address receiver) external nonpayable returns (uin
 | ------ | ------- | --------------------------- |
 | assets | uint256 | amount of deposited assets. |
 
-#### redeem
+### redeem
 
 ```solidity
 function redeem(uint256 shares, address receiver, address owner) external nonpayable returns (uint256 assets)
@@ -707,7 +707,7 @@ _Makes sure that the owner doesn't have shortfall after withdrawing._
 | ------ | ------- | ---------------------------------------------- |
 | assets | uint256 | amount of underlying asset that was withdrawn. |
 
-#### refund
+### refund
 
 ```solidity
 function refund(uint256 borrowShares, address borrower) external nonpayable returns (uint256 assets, uint256 actualShares)
@@ -729,7 +729,7 @@ Repays a certain amount of shares to the floating pool.
 | assets       | uint256 | subtracted assets from the borrower's accountability.        |
 | actualShares | uint256 | actual subtracted shares from the borrower's accountability. |
 
-#### repay
+### repay
 
 ```solidity
 function repay(uint256 assets, address borrower) external nonpayable returns (uint256 actualRepay, uint256 borrowShares)
@@ -751,7 +751,7 @@ Repays a certain amount of assets to the floating pool.
 | actualRepay  | uint256 | the actual amount that should be transferred into the protocol. |
 | borrowShares | uint256 | subtracted shares from the borrower's accountability.           |
 
-#### repayAtMaturity
+### repayAtMaturity
 
 ```solidity
 function repayAtMaturity(uint256 maturity, uint256 positionAssets, uint256 maxAssets, address borrower) external nonpayable returns (uint256 actualRepayAssets)
@@ -774,7 +774,7 @@ Repays a certain amount to a maturity.
 | ----------------- | ------- | --------------------------------------------------------- |
 | actualRepayAssets | uint256 | the actual amount that was transferred into the protocol. |
 
-#### seize
+### seize
 
 ```solidity
 function seize(address liquidator, address borrower, uint256 assets) external nonpayable
@@ -792,7 +792,7 @@ _Public function for liquidator to seize borrowers assets in the floating pool. 
 | borrower   | address | address from which the assets will be seized.    |
 | assets     | uint256 | amount to be removed from borrower's possession. |
 
-#### withdraw
+### withdraw
 
 ```solidity
 function withdraw(uint256 assets, address receiver, address owner) external nonpayable returns (uint256 shares)
@@ -816,7 +816,7 @@ _Makes sure that the owner doesn't have shortfall after withdrawing._
 | ------ | ------- | ----------------------------------------------- |
 | shares | uint256 | amount of shares redeemed for underlying asset. |
 
-#### withdrawAtMaturity
+### withdrawAtMaturity
 
 ```solidity
 function withdrawAtMaturity(uint256 maturity, uint256 positionAssets, uint256 minAssetsRequired, address receiver, address owner) external nonpayable returns (uint256 assetsDiscounted)

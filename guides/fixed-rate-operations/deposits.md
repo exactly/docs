@@ -8,7 +8,7 @@ Each fixed deposit is composed of two different amounts, **principal** and **ear
 
 It's important to highlight that fixed-rate deposits **can't** be used as collateral to borrow other assets.
 
-### Early Withdrawals
+## Early Withdrawals
 
 Depositors can withdraw anytime, even before maturity, provided enough liquidity is available in the protocol. However, early withdrawals will enquire in a penalty for the user who it's trying to withdraw because it's equivalent to asking for a borrow for the resulting amount.
 
@@ -20,7 +20,7 @@ _assets discounted = 110 / 1.05 \~= 104.76..._
 
 _Finally, Bob will receive 104.76 when trying to withdraw 110 early._
 
-### Late Withdrawals
+## Late Withdrawals
 
 Depositors can also withdraw once the maturity date is reached.
 
