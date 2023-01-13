@@ -84,13 +84,21 @@ Conceptually, the function was designed in such a way that it naturally divides 
 
 The borrow interest rate for each Fixed Rate Pool is a rational function that aims to incentivize liquidity on each of the Fixed Rate Pools but doesn’t guarantee it. The function takes the following form:
 
-$$R(U)=\frac{A}{(U_{max}-U)}+B$$
+$$
+\begin{align*}
+  R(U) = \frac{A}{(U_{max} - U)} + B
+\end{align*}
+$$
 
 Where $$U$$ is the Utilization Rate and $$A$$, $$B$$ and $$U_{max}$$ are parameters whose values are obtained either from calibration against relevant market data or defined by the Risk Management Committee multisig (see section 4, "Governance").
 
 The Utilization Rate in each of the Fixed Rate Pools at any time $$t$$ is defined as:
 
-$$U_{FR,i}^{t}=\frac{TB_{FR,i}^{t}}{TD_{FR,i}^{t}+\frac{⟨SS^{t}⟩}{\tau_{FR}}}$$​
+$$
+\begin{align*}
+  U_{FR,i}^{t} = \frac{TB_{FR,i}^t}{TD_{FR,i}^t + \frac{⟨SS^t⟩}{\tau_{FR}}}
+\end{align*}
+$$
 
 Where $$TB_{FR,i}^{t}$$ is the total amount of outstanding borrows at time $$t$$ in the Fixed Rate Pool, $$TD_{FR,i}^{t}$$ is the total outstanding deposits, $$⟨SS^t⟩$$ is a moving average of the total supply in the Variable Rate Pool for this particular asset and $$\tau_{FR}$$ is a customizable parameter that regulates the fraction of liquidity from the Variable Rate Pool that is a priori assigned to each Fixed Rate Pool.
 
@@ -98,7 +106,11 @@ One of the main differences between present money market protocols and Exactly�
 
 In existing variable rate frameworks, fixing the initial rate based on the state of liquidity before the transaction is made is not a concern because rates will be adjusted in the next transaction. Under a fixed rate environment, this approach might promote users to take advantage and capture all the liquidity available at a current low rate. Using an ex-post Utilization Rate to fix the interest rate does not solve the problem since we would be overcharging costs to users. The most appropriate approach to solve this problem is making investors indifferent to the decision of getting a loan for the total desired amount or splitting it into successive smaller loans. To do that, the protocol will need to determine the effective interest rate that satisfies the condition, i.e.:
 
-$$⟨R⟩_{FR,i}^{t_{k+1}}=\frac{\int_{U_{FR,i}^{t_{k}}}^{U_{FR,i}^{t_{k+1}}}R(u)du}{({U_{FR,i}^{t_{k+1}}}-{U_{FR,i}^{t_{k}}})}$$
+$$
+\begin{align*}
+  ⟨R⟩_{FR,i}^{t_{k+1}} = \frac{\int_{U_{FR,i}^{t_k}}^{U_{FR,i}^{t_{k+1}}} R(u) du}{({U_{FR,i}^{t_{k+1}}} - {U_{FR,i}^{t_k}})}
+\end{align*}
+$$
 
 ![](https://lh6.googleusercontent.com/M8KyNtB5\_2A7U8selT0CM2JWi5wnIiaXfaPlqN0NS6VgqFh471LrD2useUVhgPNzkP1efjwV8L7Zvbwb4SsIAGnqlrrldBPac0S-y-CZ4vjd1ksOxmHC-aMVH7Ms7JVt76RlXWoLtfFP4gRdjfIYG4k)
 
@@ -108,7 +120,11 @@ Users can also take loans at variable rates in a similar way to existing money m
 
 In order to assure the optimal behavior of the protocol, a different definition of Utilization Rate is needed in this case. Between any two operations in the Variable Rate Pool, we define the Utilization Rate as follows:
 
-$$U_{VR}^{t}=\frac{TB_{VR}^t}{(⟨SS^t⟩/\tau_{VR})}$$
+$$
+\begin{align*}
+  U_{VR}^{t} = \frac{TB_{VR}^t}{⟨SS^t⟩ / \tau_{VR}}
+\end{align*}
+$$
 
 Where $$TB_{VR}^t$$ is the total amount of variable rate borrowed outstanding at time $$t$$, and $$\tau_{VR}$$ is a customizable parameter that regulates the fraction of liquidity from the Variable Rate Pool that is assigned to variable rate loans.
 

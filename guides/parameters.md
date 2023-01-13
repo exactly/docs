@@ -4,13 +4,21 @@ There is an explanation of the following parameters in [Model Parameters](../get
 
 ## A. Reserve Factor
 
-$$\eta=10\%$$
+$$
+\begin{align*}
+  \eta = 10\%
+\end{align*}
+$$
 
 $$\eta$$ is the fraction of the total Variable Rate Pool supply selected as Liquidity Reserve.
 
 ## B. Treasury Fee
 
-$$\lambda_r=0\%$$
+$$
+\begin{align*}
+  \lambda_r = 0\%
+\end{align*}
+$$
 
 ## C. Interest Rate Curves
 
@@ -33,38 +41,65 @@ $$\lambda_r=0\%$$
 
 ## E. Variable Rate Pool Fee
 
-$$\delta=10\%$$
+$$
+\begin{align*}
+  \delta = 10\%
+\end{align*}
+$$
 
 $$\delta$$ is the fraction of term-loan interests retained by the Variable Rate Pool upon leaving the Fixed Rate Pool.
 
 ## F. Supply E.M.A. Parameters
 
-$$\beta_{slow}=0.0046$$
+$$
+\begin{align*}
+  \beta_{slow} = 0.0046
+\end{align*}
+$$
 
 Time decay parameter is used when the supply is above average.
 
-$$\beta_{fast}=0.4000$$
+$$
+\begin{align*}
+  \beta_{fast} = 0.4000
+\end{align*}
+$$
 
 Time decay parameter is used when the supply is below average.
 
 ## G. Target Solvency Ratio
 
-$$\Gamma=1.25$$
+$$
+\begin{align*}
+  \Gamma = 1.25
+\end{align*}
+$$
 
 Target solvency ratio after liquidation.
 
 ## H. Liquidation Bonuses
 
-$$\nu_{liquidator}=5.00\%$$
-
-$$\nu_{bad-debt}=0.25\%$$
+$$
+\begin{align*}
+  \nu_{liquidator} = 5.00\% \\
+  \nu_{bad-debt} = 0.25\%
+\end{align*}
+$$
 
 ## I. Extraordinary Earnings Distribution Factor
 
-&#x20;$$\xi_{extearn}=2.00$$
+$$
+\begin{align*}
+  \xi_{extearn} = 2.00
+\end{align*}
+$$
 
 ## J. Penalty Rate
 
-$$2.00\%$$
+$$
+\begin{align*}
+  2.00\%
+\end{align*}
+$$
 
 Daily penalty rate charged to late fixed repayments.
