@@ -46,7 +46,12 @@ By design, the protocol sets aside a percentage of the Variable Rate Pool deposi
 
 Let $TSS^t$ be the total holdings in the Variable Rate Pool at any time $t$ and $\eta$ be the fraction of total holdings used as Liquidity Reserves or non-loanable holdings ( $RSS^t = \eta TSS^t$ ). We define the loanable portion of the Variable Rate Pool ( $SS^t$ ) as:
 
-![math formula (1 & 2)](../.gitbook/assets/image%20(23).png)
+$$
+\begin{align}
+  SS^t &= (1 - \eta) TSS^t \\
+  TSS^t &= SS^t
+\end{align}
+$$
 
 ## 4. Fixed Rate Pool
 
@@ -66,21 +71,39 @@ Exactly protocol has a specific interest rate demand curve for each Fixed Rate P
 
 We model interest rates as a function of the utilization rate ( $U$ ) of each Fixed Rate Pool for every transaction by using a single, continuous and differentiable rational function
 
-![math formula - (3)](../.gitbook/assets/image%20(25).png)
+$$
+\begin{equation}
+  R(U) = \frac{A}{U_{max} - U} + B
+\end{equation}
+$$
 
 This function diverges asymptotically when $U \rightarrow U_{max}$ and it acts as a natural barrier to the credit demand as the level of utilization depletes the protocol liquidity capabilities.
 
 The curve can be easily parametrized and adjusted to changing market conditions. In principle, there will be a demand function for each asset and each maturity. Curve parameters $A$, $B$, and $U_{max}$ are determined through calibration against relevant market data.
 
-![math formula - (4 & 5)](../.gitbook/assets/image%20(36).png)
+$$
+\begin{align}
+  R(U = 0) = R_0 &= \frac{A}{U_{max}} + B \\
+  R(U_b) = R_b &= \frac{A}{U_{max} - U_b} + B
+\end{align}
+$$
 
 where $U_{b}$ conceptually represents the utilization level at the boundary between a region of normal interest rates ( $U \leq U_b$ ) and a region of leveraged interest rates ( $U > U_b$ ).
 
-![math formula - ( 6 & 7)](../.gitbook/assets/image%20(22).png)
+$$
+\begin{align}
+  A &= \frac{U_{max} (U_{max} - U_b)}{U_b} (R_b - R_0) \\
+  B &= \frac{U_{max}}{U_b} R_0 + \bigg(1 - \frac{U_{max}}{U_b}\bigg) R_b
+\end{align}
+$$
 
 The utilization rate in each Fixed Rate Pool at any time $t$ is defined as
 
-![math formula - (8)](../.gitbook/assets/image%20(10).png)
+$$
+\begin{equation}
+  U_{FR,i}^t = \frac{TB_{FR,i}^t}{TD_{FR,i}^t + \frac{⟨SS^t⟩}{\tau_{FR}}}
+\end{equation}
+$$
 
 where $TB_{FR,i}^t$ is the total amount of outstanding borrows at time $t$ in the Fixed Rate Pool, $TD_{FR,i}^t$ is the total amount of deposits, $⟨SS^t⟩$ is a moving average of the total supply in the Variable Rate Pool for this asset (see 4.1.3), and $FR$ is a configurable parameter that regulates the fraction of Variable Rate Pool total liquidity that is "naturally assigned" to each pool. In this way, and assuming no deposits are made to the Fixed Rate Pool, once all the "natural liquidity" is already borrowed ( $TB_{FR,i}^t = ⟨SS^t⟩/\tau_{FR}$ ) the utilization rate equals one ( $U_{FR,i}^t = 1$ ). For practical reasons, we will also choose $U_b=1$.
 
@@ -88,7 +111,11 @@ The utilization rate in any Fixed Rate Pool can be higher than unity, but intere
 
 In practice, we set
 
-![math formula - (9)](../.gitbook/assets/image%20(33).png)
+$$
+\begin{equation}
+  U_{max} = \Lambda U_{full}, \Lambda > 1
+\end{equation}
+$$
 
 This choice enables a more flexible calibration of the curve (the lowest the value of $\Lambda$, the steepest the interest rates in the leveraged region).
 
