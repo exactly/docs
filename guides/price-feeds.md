@@ -2,7 +2,13 @@
 
 Exactly Protocol uses [Chainlink's data feeds](https://docs.chain.link/docs/using-chainlink-reference-contracts/) to get reliable, up-to-date, and secure asset prices to calculate users' lending power and health factor.
 
+## Chainlink
+
 Chainlink is the most used data provider in the industry. It provides secure pricing feeds and it is the DeFi standard oracle network with [over six trillion in transaction value enabled](https://chain.link/).
+No liveness checks are performed while retrieving oracle data. We believe Chainlink offers
+robust and historically stable price feeds, even more on Mainnet for high liquid assets
+such as WBTC, ETH and DAI. Also, by avoiding this check, we can lower the gas consumption of the involved transactions.
+The following contracts depend directly on Chainlink's price feed: [Auditor](../guides/protocol/auditor.md), [Price Feed Wrapper](../guides/protocol/pricefeedwrapper.md) and [Price Feed Double](../guides/protocol/pricefeeddouble.md).
 
 ## Uniswap TWAPs
 
