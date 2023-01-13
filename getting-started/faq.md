@@ -64,7 +64,7 @@ During liquidation, a liquidator purchases a portion of a user's collateral at a
 
 The liquidator can purchase some part of the user's collateral depending on the Dynamic Close Factor, even if the user is only slightly undercollateralized.
 
-### What happens if the price of my collateral changes?
+### What is the Dynamic Close Factor?
 
 In order to return the borrower's account to solvency as fast as possible, and involving as few liquidations as possible, the protocol has a Dynamic Close Factor (based on the user’s degree of insolvency) that is the proportion of outstanding borrows that must be repaid in order to return a user to a solvency situation.
 

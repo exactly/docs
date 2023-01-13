@@ -205,22 +205,6 @@ function treasuryFeeRate() external view returns (uint256)
 
 Rate to be charged by the treasury to floating and fixed borrows.
 
-### treasury
-
-```solidity
-function treasury() external view returns (address)
-```
-
-Address of the treasury that will receive the allocated earnings.
-
-### treasuryFeeRate
-
-```solidity
-function treasuryFeeRate() external view returns (uint256)
-```
-
-Rate to be charged by the treasury to floating and fixed borrows.
-
 ## View Methods
 
 ### accountSnapshot
