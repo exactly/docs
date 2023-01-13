@@ -2,7 +2,7 @@
 
 ## Exactly Protocol
 
-**Decentralizing the time value of money**
+### Decentralizing the time value of money
 
 Authors: [Gabriel Gruber](https://github.com/GabrielGruber) and [Francisco Lepone](https://github.com/FranciscoLepone)
 
