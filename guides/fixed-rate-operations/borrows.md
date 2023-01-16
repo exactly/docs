@@ -31,3 +31,9 @@ _Now Bob has been delayed 2 days since the maturity date. If the daily penalty r
 _Finally, 114.4 (110 + 4.4) will cover his borrow of 110._
 
 It's worth highlighting that any penalties increase will also account as debt for the health factor calculation of the user's positions.
+
+## Preventing Manipulation
+
+The protocol takes several measures to prevent manipulation of the fixed borrow rate. One of these measures is the calculation of the utilization rate for fixed borrows by taking an average of the variable pool deposits, known as `floatingAssetsAverage`, and passing it to the [InterestRateModel](../protocol/interestratemodel.md). Without this method, a user could deposit a large sum into the variable pool, lower the utilization rate, and then request a low fixed borrow before withdrawing their initial deposit. This is a potential flash loan attack scenario, but the `floatingAssetsAverage` is updated with a damp speed algorithm to gradually adjust the value of the actual variable pool deposits (`floatingAssets`) over a short period of time. This ensures that even if a user deposits to the variable pool and requests a fixed borrow in the same transaction, the average will still account for the outdated value. More details about this can be found in the [Math Paper](../../getting-started/math-paper.md#4.1.3-time-averaged-variable-rate-pool-supply) section.
+
+Another way the protocol prevents manipulation is through the `maxSlippage` mechanism. This feature allows users to specify the maximum deviation in the rate they are willing to accept when requesting a fixed borrow, limiting the opportunity for malicious actors to front run a fixed borrow operation.
