@@ -4,7 +4,7 @@
 
 **Decentralizing the time value of money**
 
-Authors: [Gabriel Gruber](https://ar.linkedin.com/in/gabrielgruber) and [Francisco Lepone](https://ucema.edu.ar/personal/francisco-alejandro-lepone)
+Authors: [Gabriel Gruber](https://github.com/GabrielGruber) and [Francisco Lepone](https://github.com/FranciscoLepone)
 
 Version 1.1 (September 2022)
 

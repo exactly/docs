@@ -2,7 +2,7 @@
 
 ## Exactly Finance: A Model to Complete the Credit Market on the Ethereum Blockchain (Version 1.0)&#x20;
 
-Authors: [Francisco Lepone](https://ucema.edu.ar/personal/francisco-alejandro-lepone) and [Gabriel Gruber](https://ar.linkedin.com/in/gabrielgruber)
+Authors: [Francisco Lepone](https://github.com/FranciscoLepone) and [Gabriel Gruber](https://github.com/GabrielGruber)
 
 ****[math@exact.ly](mailto:math@exact.ly)
 
