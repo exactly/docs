@@ -10,6 +10,4 @@ Exactly was funded by long-term capital partners with a track record of alignmen
 
 The protocol was audited by Coinspect, Chainsafe, Certik, and ABDK. The economic model was audited by cryptecon. You can find all the reports [here](https://docs.exact.ly/security/audits).
 
-Do you want to join our team? We have the following [open job positions](https://github.com/exactly-protocol/about/tree/main/jobs) – full-time roles we're actively recruiting for.
-
 Follow us on [Discord](https://discord.gg/nFKzxNvz), [Telegram](https://t.me/exactlyFinance), and [Twitter](https://twitter.com/exactly\_finance)!
