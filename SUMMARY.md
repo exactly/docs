@@ -39,6 +39,7 @@
 ## Security
 
 * [🔎 Audits](security/audits.md)
+* [🔑 Access Control](security/access-control.md)
 * [🧯 Emergency Procedure](security/emergency-procedure.md)
 * [🐛 Bug Bounty Program](security/bug-bounty-program.md)
 
