@@ -26,6 +26,7 @@
 ## Security
 
 * [ChainPatrol Security Portal](https://app.chainpatrol.io/exactly)
+* [Defi Safety Report](https://www.defisafety.com/app/pqrs/531)
 
 ## Data trackers
 
