@@ -6,25 +6,30 @@ You can read more about our Interest Rate Model in our [White Paper](https://doc
 
 ## WETH
 
-![WETH VRP interest rate curve](../.gitbook/assets/WETH%20VRP.png)
-![WETH FRP interest rate curve](../.gitbook/assets/WETH%20FRP.png)
+<figure><img src="../.gitbook/assets/WETH VRP 2023-03-02.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/WETH FRP 2023-03-02.png" alt=""><figcaption></figcaption></figure>
 
 ## DAI
 
-![DAI VRP interest rate curve](../.gitbook/assets/DAI%20VRP%20(3).png)
-![DAI FRP interest rate curve](../.gitbook/assets/DAI%20FRP%20(1).png)
+<figure><img src="../.gitbook/assets/DAI VRP 2023-03-02.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/DAI FRP 2023-03-02.png" alt=""><figcaption></figcaption></figure>
 
 ## USDC
 
-![USDC VRP interest rate curve](../.gitbook/assets/USDC%20VRP%20(2).png)
-![USDC FRP interest rate curve](../.gitbook/assets/USDC%20FRP%20(1).png)
+<figure><img src="../.gitbook/assets/USDC VRP 2023-03-02.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/USDC FRP 2023-03-02.png" alt=""><figcaption></figcaption></figure>
 
 ## WBTC
 
-![WBTC VRP interest rate curve](../.gitbook/assets/WBTC%20VRP.png)
-![WBTC FRP interest rate curve](../.gitbook/assets/WBTC%20FRP.png)
+<figure><img src="../.gitbook/assets/WBTC VRP 2023-03-02.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/WBTC FRP 2023-03-02.png" alt=""><figcaption></figcaption></figure>
 
 ## wstETH
 
-![wstETH VRP interest rate curve](../.gitbook/assets/WstETH%20VRP.png)
-![wstETH FRP interest rate curve](../.gitbook/assets/WstETH%20FRP.png)
+<figure><img src="../.gitbook/assets/wstETH VRP 2023-03-02.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/wstETH FRP 2023-03-02.png" alt=""><figcaption></figcaption></figure>
