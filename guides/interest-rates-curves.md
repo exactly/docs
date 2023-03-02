@@ -30,6 +30,6 @@ You can read more about our Interest Rate Model in our [White Paper](https://doc
 
 ## wstETH
 
-<figure><img src="../.gitbook/assets/wstETH VRP 2023-03-02.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/wstETH VRP v2.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/wstETH FRP 2023-03-02.png" alt=""><figcaption></figcaption></figure>
