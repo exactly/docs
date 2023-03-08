@@ -43,3 +43,72 @@ The Exactly protocol is currently deployed in the following networks:
 | [PriceFeedWrapperWstETH](protocol/pricefeedwrapper.md)                            |                                               [PriceFeedWrapper.sol](https://github.com/exactly/protocol/blob/main/contracts/PriceFeedWrapper.sol)                                              |                                                         Doesn't apply.                                                         | [`0x24a48D2d213Fae48C13158247D418F3E5D715021`](https://goerli.etherscan.io/address/0x24a48D2d213Fae48C13158247D418F3E5D715021) |
 | [PriceFeedDouble](price-feeds.md)                                                 |                                                [PriceFeedDouble.sol](https://github.com/exactly/protocol/blob/main/contracts/PriceFeedDouble.sol)                                               |                                                         Doesn't apply.                                                         | [`0x8cc77B081DD126cECC3C60ba0FA697d456226855`](https://goerli.etherscan.io/address/0x8cc77B081DD126cECC3C60ba0FA697d456226855) |
 | [TimelockController](https://docs.openzeppelin.com/defender/guide-timelock-roles) | [TimelockController.sol](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/governance/TimelockController.sol) (from [OpenZeppelin](https://github.com/OpenZeppelin)) |                                                         Doesn't apply.                                                         | [`0xAefCdbd18eabe4d6BD769d6aD649A18A9b9Ec60e`](https://goerli.etherscan.io/address/0xAefCdbd18eabe4d6BD769d6aD649A18A9b9Ec60e) |
+
+## Optimism
+
+### Auditor
+
+#### Proxy
+
+https://optimistic.etherscan.io/address/0xaEb62e6F27BC103702E7BC879AE98bceA56f027E
+
+#### Implementation
+
+https://optimistic.etherscan.io/address/0x3f55a319d2fd003F87a96C1c3484121936243c46
+
+### MarketETHRouter
+
+#### Proxy
+
+https://optimistic.etherscan.io/address/0x29bAbFF3eBA7B517a75109EA8fd6D1eAb4A10258
+
+#### Implementation
+
+https://optimistic.etherscan.io/address/0x884988E0BFb0d6A18f664329aCD0402b2FB6056C
+
+### MarketWETH
+
+#### Proxy
+
+https://optimistic.etherscan.io/address/0xc4d4500326981eacD020e20A81b1c479c161c7EF
+
+#### Implementation
+
+https://optimistic.etherscan.io/address/0x136d84968d65FfDfEf32A4fE07660AdBf60cc9dA
+
+### MarketUSDCProxy
+
+#### Proxy
+
+https://optimistic.etherscan.io/address/0x81C9A7B55A4df39A9B7B5F781ec0e53539694873
+
+#### Implementation
+
+https://optimistic.etherscan.io/address/0x52eE5238e5676598551c8d2bBcCB62c72FC3A0c4
+
+### MarketOP
+
+#### Proxy
+
+https://optimistic.etherscan.io/address/0xa430A427bd00210506589906a71B54d6C256CEdb
+
+#### Implementation
+
+https://optimistic.etherscan.io/address/0xfeb73A16D452549c7849CF04F3F8e7f09AC59ff0
+
+### TimelockController
+
+https://optimistic.etherscan.io/address/0x92024C4bDa9DA602b711B9AbB610d072018eb58b
+
+### InterestRateModelOP
+
+https://optimistic.etherscan.io/address/0x6c51C1718dc482B8001FbEc5649174c9fB7d41bB
+
+### InterestRateModelUSDC
+
+https://optimistic.etherscan.io/address/0x03859FA7549449a7DDe7663e5C06A38C5b0d4489
+
+### InterestRateModelWETH
+
+https://optimistic.etherscan.io/address/0xD6Aa0254c488662427d508E8C2e43CA80A436201
+
