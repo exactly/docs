@@ -4,8 +4,8 @@
 
 Exactly Protocol was audited by the following companies:
 
-| Auditor   | Date          | Report                                                                                                                               |
-| --------- | ------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| Auditor   | Date          | Report                                                                                                                      |
+| --------- | ------------- | --------------------------------------------------------------------------------------------------------------------------- |
 | Coinspect | November 2021 | [Coinspect 1st Audit (November 2021)](https://github.com/exactly/audits/blob/main/Coinspect%201st%20audit%20\(Nov-21\).pdf) |
 | ChainSafe | May 2022      | [ChainSafe 1st Audit (May 2022)](https://github.com/exactly/audits/blob/main/Chainsafe%201st%20audit%20\(May-22\).pdf)      |
 | Coinspect | May 2022      | [Coinspect 2nd Audit (May 2022)](https://github.com/exactly/audits/blob/main/Coinspect%202nd%20audit%20\(May-22\).pdf)      |
@@ -20,6 +20,7 @@ Exactly Protocol was audited by the following companies:
 * [Code Coverage on Codecov](https://app.codecov.io/gh/exactly/protocol)
 * [Audit Coverage on Zellic](https://app.zellic.io/coverage/exactly-protocol)
 * [Skynet Trust Score on Certik](https://www.certik.com/projects/exactly)
+* [Defi Safety Process Quality Report (95%)](https://www.defisafety.com/app/pqrs/531)
 
 ## Mathematical Audit
 
