@@ -6,33 +6,33 @@ You can read more about our Interest Rate Model in our [White Paper](https://doc
 
 ## WETH
 
-<figure><img src="../.gitbook/assets/WETH VRP 2023-03-02.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/WETH VRP (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/WETH FRP 2023-03-02.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/WETH FRP.png" alt=""><figcaption></figcaption></figure>
 
 ## DAI
 
-<figure><img src="../.gitbook/assets/DAI VRP 2023-03-02.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/DAI VRP.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/DAI FRP 2023-03-02.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/DAI FRP.png" alt=""><figcaption></figcaption></figure>
 
 ## USDC
 
-<figure><img src="../.gitbook/assets/USDC VRP 2023-03-02.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/USDC VRP.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/USDC FRP 2023-03-02.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/USDC FRP (3).png" alt=""><figcaption></figcaption></figure>
 
 ## WBTC
 
-<figure><img src="../.gitbook/assets/WBTC VRP 2023-03-02.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/WBTC VRP.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/WBTC FRP 2023-03-02.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/WBTC FRP (1).png" alt=""><figcaption></figcaption></figure>
 
 ## wstETH
 
-<figure><img src="../.gitbook/assets/wstETH VRP v2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/WstETH VRP.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/wstETH FRP 2023-03-02.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/WstETH FRP (1).png" alt=""><figcaption></figcaption></figure>
 
 ## OP
 
