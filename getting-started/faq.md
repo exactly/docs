@@ -18,7 +18,7 @@ With an innovative approach, the protocol allows users to lend and borrow assets
 * **Frictionless**: Investors and DAOs can receive fixed and variable deposit rates. End-users can take fixed-interest rate loans for more extended time periods with certainty.
 * **Efficiency**: Fixed and variable interest rates live in the same protocol with a new approach towards multiple interest rate discovery through the Utilization Rate of each Fixed Rate Pool.
 
-Being an open-source, non-custodial, and autonomous interest rate protocol, Exactly came into existence to decentralize the time value of money and complete the DeFi credit market.
+Being an open-source, non-custodial, and autonomous interest rate protocol, Exactly came into existence to decentralize the credit market and complete the DeFi ecosystem.
 
 ### Who developed Exactly Protocol?
 

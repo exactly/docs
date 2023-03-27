@@ -1,6 +1,6 @@
 # 🔔 Welcome
 
-![Hero logo - decentralizing the time value of money](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MfgcQUkmO93P\_R-2oLa%2Fuploads%2FtEvRAd1e167RU5JIBkjD%2Fimage%20\(1\).png?alt=media\&token=5208345a-7b18-4a8e-a1b0-63c139872155)
+<figure><img src=".gitbook/assets/14.png" alt=""><figcaption><p>Hero logo - Decentralizing the credit market, today</p></figcaption></figure>
 
 Welcome! Here you will find our white paper, guides on how to use the app to lend and borrow crypto assets, and all the material developers will need to start building on top of Exactly.
 
