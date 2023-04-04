@@ -6,13 +6,13 @@
 
 Authors: [Gabriel Gruber](https://github.com/GabrielGruber) and [Francisco Lepone](https://github.com/FranciscoLepone)
 
-Version 1.1 (September 2022)
+Version 1.4 (March 2023)
 
 [whitepaper@exact.ly](mailto:whitepaper@exact.ly)
 
 ## 0. Abstract
 
-In this white paper, we introduce a new decentralized, non-custodial, and open-source protocol that will provide an autonomous interest rate market to lenders and borrowers while setting interest rates based on credit supply and demand, enabling users to frictionlessly exchange the time value of their crypto assets at both variables and fixed interest rates for the first time in DeFi.
+In this white paper, we introduce a new decentralized, non-custodial, and open-source protocol that will provide an autonomous interest rate market to lenders and borrowers while setting interest rates based on credit supply and demand, enabling users to deposit and borrow crypto assets with both fixed and variable interest rates.
 
 Aside from taking loans and making deposits at variable interest rates from a Variable Rate Pool, this protocol enables users to do so at fixed rates as well through the interaction with several Fixed Rate Pools, each one representing a specific maturity date. Interest rates are determined based on the credit utilization rate of each Fixed Rate Pool.
 
@@ -20,7 +20,7 @@ Aside from taking loans and making deposits at variable interest rates from a Va
 
 Decentralized Finance (DeFi) is a new initiative based on blockchain technologies that aim to create a new financial system by building a network of interconnected distributed apps (or dApps) that use open-source and non-custodial protocols. Combining some of these dApps, not only can we create traditional financial instruments but also new ones that were not possible before.
 
-Exactly’s mission is to develop a protocol that brings a missing important piece into the ecosystem: the "**Time Value of Money**"; that is, to be able to make a deposit or a loan at a fixed rate for a certain period of time, which is known in the traditional financial world as "fixed income". That way, users will have an efficient means to hedge the interest rate volatility.
+Exactly’s mission is **decentralizing the credit market**, making DeFi and its numerous benefits accessible to a broader audience. At Exactly, users can make a deposit or a loan at a fixed rate for a certain period of time, which is known in the traditional financial world as "fixed income". That way, users will have an efficient means to hedge the interest rate volatility.
 
 Some protocols approach this problem using a peer-to-peer (P2P) strategy, where lenders and borrowers are individually matched. This approach, while conceptually simple, entails several inefficiencies related to matching both amount and time in each transaction. Protocols such as AAVE take a different direction, offering a stable (not fixed) rate if the market conditions remain within a certain threshold. While this property provides greater predictability, it does not eliminate the risk and it only works for borrowers below a certain market utilization rate.
 

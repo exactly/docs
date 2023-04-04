@@ -22,7 +22,7 @@ Decentralized Finance (DeFi) based on blockchain technologies aims to create a n
 
 Currently, there is a number of efficient protocols for borrowing and lending, such as Compound$$^1$$, AAVE$$^2$$, and Euler$$^3$$ among others. All of them have in common that they work with a short rate as a reference for lending costs. Thus, they involve binding deposits and credits to a cost of variable nature.
 
-This work is an attempt to bring a missing important piece into the ecosystem, the "time value of money": That is, to be able to make deposits or take loans at fixed rates for a certain period of time, allowing users to hedge interest rate volatility and to lock costs and revenues.
+This work is an attempt to decentralize the credit market, bringing a missing important piece into the DeFi ecosystem, the "time value of money": That is, to be able to make deposits or take loans at fixed rates for a certain period of time, allowing users to hedge interest rate volatility and to lock costs and revenues.
 
 Some protocols approach this problem using a peer-to-peer (P2P) strategy, where lenders and borrowers are individually matched. This strategy, while being conceptually sound and simple, entails several inefficiencies related to matching both amount and time in each transaction. Protocols like AAVE take a different direction, offering a stable (not fixed) rate if the market conditions remain within a certain threshold. While this property provides greater predictability, it does not eliminate the risk and it only works for borrowers below a certain market utilization rate.
 
