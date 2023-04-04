@@ -1,6 +1,6 @@
 # 🔣 Math Paper
 
-## Exactly Finance: A Model to Complete the Credit Market on the Ethereum Blockchain (Version 1.0)
+## Exactly Protocol: A Model to Complete the Credit Market on the Ethereum Blockchain (Version 1.0)
 
 Authors: [Francisco Lepone](https://github.com/FranciscoLepone) and [Gabriel Gruber](https://github.com/GabrielGruber)
 
