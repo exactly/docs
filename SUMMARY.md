@@ -19,6 +19,7 @@
     * [ERC-4626](guides/protocol/market/erc-4626.md)
   * [PriceFeedWrapper](guides/protocol/pricefeedwrapper.md)
   * [PriceFeedDouble](guides/protocol/pricefeeddouble.md)
+  * [RewardsController](guides/protocol/rewardscontroller.md)
   * [InterestRateModel](guides/protocol/interestratemodel.md)
 * [✨ Features](guides/features/README.md)
   * [Automatic Bad Debt Clearing](guides/features/automatic-bad-debt-clearing.md)
