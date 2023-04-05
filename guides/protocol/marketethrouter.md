@@ -1,7 +1,7 @@
 # MarketETHRouter
 
-To be used by Exactly’s web-app, so accounts can operate with `ETH` on **MarketWETH**.
-
+To be used by Exactly’s web-app, so accounts can operate with `ETH` on **MarketWETH**.\
+\
 Wraps `ETH` or unwraps `WETH` before and after interacting with **MarketWETH**. It saves one step for the user.
 
 ## Public State Variables
