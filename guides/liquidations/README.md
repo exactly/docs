@@ -73,6 +73,6 @@ The adjusted collateral will be equal to `100*0.84 = 84.00`
 
 The adjusted debt will be equal to `50/0.84 = 59.52`&#x20;
 
-So the health factor will be equal to `84.00/59.53 = 1.41`&#x20;
+So the health factor will be equal to `84.00/59.52 = 1.41`&#x20;
 
 Below a health factor of `1`, the user will be considered with shortfall and open to [liquidation](../../getting-started/math-paper.md#6.-liquidations).

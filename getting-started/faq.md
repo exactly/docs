@@ -58,13 +58,13 @@ The Health Factor is calculated from the user's collateral balance (in ETH) mult
 
 #### Example:
 
-Given an ETH adjusted factor of 80%, a deposit of 112.5 ETH, and borrow of 60 ETH, the Health Factor will be 1.2:
+Given an ETH adjusted factor of 0.84, a deposit of 100 ETH, and borrow of 50 ETH, the Health Factor will be 1.41:
 
 $$
-\frac{112.5 * 0.8}{60 \div 0.8}=\frac{90}{75}=1.2
+\frac{100 * 0.84}{50 \div 0.84}=\frac{84.00}{59.52}=1.41
 $$
 
-Below a Health Factor of 1 the user will be considered in a shortfall and open to [liquidation](../guides/liquidations/).
+Below a Health Factor of 1.00, the user will be considered in a shortfall and open to [liquidation](../guides/liquidations/).
 
 ### What happens if the price of my collateral changes?
 
