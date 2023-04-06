@@ -129,39 +129,25 @@ We have a [forum on Discord](https://exact.ly/discord/) where you can share and 
 
 We use an aggregation of decentralized data feeds from [Chainlink](https://data.chain.link/).
 
-### Markets
+### How are rates calculated?
 
-#### **What does APR mean?**
+#### Borrow Rates
 
-APR stands for Annual Percentage Rate. It is a standardized measure used to express the cost of borrowing assets, including interest and fees, on an annual basis. APR is described as a percentage and is commonly used to compare various loan and credit products, making it easier to understand the cost of borrowing.
+* **Variable Interest Rate**: It's a rational function that depends on the Utilization Rate of the Variable Rate Pool in every block.
+  * We display on Markets (Simple or Advanced View) the interest rate from the current utilization rate of the Variable Rate Pool.
+  * Then, when entering the amount (Simple View or Modal), we show the new variable interest rate based on how the pool's utilization has changed, given the input.
+* **Fixed Interest Rates**: It's also a rational function but depends on the Utilization Rate of the specific Fixed Rate Pool after the amount borrowed.
+  * We display by default on Markets (Advanced View) the best-fixed rate for a marginal change in the fixed rate pool's utilization rate.
+  * Then, when entering the specific amount (Simple View or modal window in the Advanced View), we calculate the average value of the integral of the rational function taking into account the change in the utilization after the amount borrowed, to get the specific fixed interest rate that the user will have to pay until the pool's maturity.
 
-#### **How is the borrow APR calculated in a Variable Rate Pool?**
+#### Deposit Rates
 
-The borrow APR changes dynamically with the [Variable Rate Pool](faq.md#what-is-the-variable-rate-pool)'s Utilization Rate. The Utilization Rate measures the proportion of the pool's assets being borrowed, expressed as a percentage. As the Utilization Rate changes, the protocol adjusts the borrowing APR to maintain a healthy balance between lenders and borrowers.
-
-The APR generally increases as the utilization rate increases, and vice versa.
-
-Our app shows the borrow APR (and the change in the Utilization Rate) when you modify the values in the modal input.
-
-#### **How is the deposit APR calculated in a Variable Rate Pool?**
-
-As in the [borrow APR](faq.md#how-is-the-borrow-apr-calculated-in-a-variable-rate-pool), it changes dynamically with the [Variable Rate Pool](faq.md#what-is-the-variable-rate-pool)'s Utilization Rate. Additionally, this APR considers other sources of income, like the interest rates paid by borrowers.
-
-In our app, the APR shown in "Markets" results from the change in the value of the shares over the last 15 minutes.
-
-When you deposit an asset, our app shows the APR (and the change in the Utilization Rate) when you modify the values in the modal input.
-
-#### **How is the borrow APR calculated in a Fixed Rate Pool?**
-
-The borrow APR changes dynamically with that particular [Fixed Rate Pool](faq.md#what-is-a-fixed-rate-pool)'s Utilization Rate. The Utilization Rate measures the proportion of the pool's assets being borrowed, expressed as a percentage. As the Utilization Rate changes, the protocol adjusts the borrowing APR to maintain a healthy balance between lenders and borrowers.
-
-In "Markets" (advanced view), we show the best APR for a marginal change in the utilization of each Fixed Rate Pool. Our app shows the borrow APR when you change the values in the modal input by performing an integral calculation to give you the rate you would have to pay until the pool's maturity.
-
-#### **How is the deposit APR calculated in a Fixed Rate Pool?**
-
-The deposit APR is calculated using the interest from fixed rate borrows already granted.
-
-In "Markets" (advanced view), the app shows the best rate for a marginal change in the utilization of all Fixed Rate Pools. Our app shows the deposit APR when you modify the values in the modal input by calculating the rate you would get considering the interest from loans already granted to be received until the pool's maturity.
+* **Variable Interest Rate**: It's the change in the value of the shares of the Variable Rate Pool, based on its different revenue sources: variable rate interest fees + fixed-rate interest fees and commissions, + liquidation fee to compensate for bad debt.
+  * We display on Markets by default (Simple View and Advanced View) the annual rate that arises from the change in the value of Variable Rate Pool shares during the last 15 minutes.
+  * Then, when entering the specific amount (Simple View or modal window in the Advances View), we show the new interest rate based on how the utilization has changed, given the input.
+* **Fixed Interest Rates**: The user will get an annual rate based on his deposit amount and the current fixed interest rate fees from borrows that the Fixed Rate Pool will collect until maturity.
+  * We display on Markets the best-fixed rate (Advanced View) for a marginal change in utilization in the Fixed Rate Pools or just the current marginal utilization for each Fixed Rate Pool (Simple View)
+  * Then, when entering the amount (Simple View or modal window in the Advance View), we calculate the specific fixed interest rate based on his deposit amount and the current fixed interest rate fees from borrows that the Fixed Rate Pool will collect until maturity.
 
 ## Governance Token
 
