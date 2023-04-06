@@ -133,11 +133,13 @@ We use an aggregation of decentralized data feeds from [Chainlink](https://data.
 
 #### What does the "Deposit APR" or "Borrow APR" mean in the Variable Rate Pool board table?
 
-It means the change in the value of the underlying share in the last hour for Borrows and in the last 15 minutes for the Deposits, both annualized.
+The Deposit APR is the change in the value of the underlying share in the last 15 minutes, annualized.
+
+The Borrow APR is the immediate change in the value of the underlying share, annualized.
 
 #### What does the "Deposit APR" or "Borrow APR" mean in the Fixed Rate Pool board table?
 
-It means the marginal interest rate for a $1 deposit (or borrow) in that particular Fixed Rate Pool.
+It means the immediate marginal interest rate for a $1 deposit (or borrow) in that particular Fixed Rate Pool.
 
 #### What does the "Best Deposit APR" or "Best Borrow APR" mean in the Fixed Rate Pool board table?
 
