@@ -50,13 +50,13 @@ In order to borrow an asset in the protocol you should first deposit any asset i
 
 ### What is the Health Factor?
 
-This is how “safe” your loan is, calculated as the proportion of collateral deposited versus the amount borrowed. A health factor above 1.25 is recommended to avoid liquidation.
+The Health Factor represents how “safe” your leverage portfolio is, defined as the risk-adjusted proportion of collateral deposited divided by the borrowed risk-adjusted amount. A health factor below 1x will be considered with a shortfall and open to liquidation.
 
 ### What happens if the price of my collateral changes?
 
-When the price of your collateral changes, your [Health Factor](faq.md#what-is-the-health-factor) changes. The minimum collateralization ratio that you need to maintain will vary depending on the asset that you're borrowing and the collateral type you're using.
+When the price of your collateral changes, your [Health Factor](faq.md#what-is-the-health-factor) changes. The minimum collateralization ratio you need to maintain will vary depending on the asset you're borrowing and the collateral type you're using.
 
-For example, the minimum collateralization ratio for a USDC loan against ETH could be 3:2, or 150%. If your collateralization ratio falls below the minimum 150%, you become eligible for [liquidation](faq.md#what-is-a-liquidation).
+For example, the minimum collateralization ratio for a USDC loan against ETH could be 3:2, or 150%. You become eligible for liquidation if your collateralization ratio falls below the minimum 150%.
 
 ### What is collateral liquidation?
 
@@ -66,11 +66,11 @@ The liquidator can purchase some part of the user's collateral depending on the 
 
 ### What is the Dynamic Close Factor?
 
-In order to return the borrower's account to solvency as fast as possible, and involving as few liquidations as possible, the protocol has a Dynamic Close Factor (based on the user’s degree of insolvency) that is the proportion of outstanding borrows that must be repaid in order to return a user to a solvency situation.
+To return the borrower's account to solvency as fast as possible and involving as few liquidations as possible, the protocol has a Dynamic Close Factor (based on the user’s degree of insolvency) that is the proportion of outstanding borrows that must be repaid to return a user to a solvency situation.
 
 ### Can I repay or withdraw my fixed position earlier?
 
-You can exit your fixed deposit or repay your fixed loan at any time subject to the liquidity that protocol has at that moment that will determinate the correspondent market interest rate for discounting the present value of your deposit or your loan.
+You can exit your fixed deposit or repay your fixed loan at any time subject to the liquidity that protocol has that will determine the correspondent market interest rate for discounting the present value of your deposit or your loan.
 
 Read more [here](../guides/fixed-rate-operations/).
 
@@ -82,7 +82,7 @@ Read more [here](../guides/fixed-rate-operations/borrows.md).
 
 ### What is the best collateral ratio to borrow at?
 
-The collateral ratio you choose determines the likelihood that your collateral gets liquidated. The lower your collateral ratio, the greater your risk of liquidation. Choosing the right collateral ratio for you depends on how much risk you want to take and how actively you plan on managing your positions.
+The collateral ratio you choose determines the likelihood that your collateral gets liquidated. The lower your collateral ratio, the greater your risk of liquidation. Choosing the right collateral ratio depends on how much risk you want to take and how actively you plan to manage your positions.
 
 ### Which are the revenue sources of the Variable Rate Pool?
 
@@ -119,9 +119,7 @@ We use an aggregation of decentralized data feeds from [Chainlink](https://data.
 
 #### What does the "Deposit APR" or "Borrow APR" mean in the Variable Rate Pool board table?
 
-It means is the change in the value of the underlying share in the last hour for Borrows and in the last 15 minutes for the Deposits, both annualized.
-
-You can learn more about the incentives for depositors in [#which-are-the-incentives-for-providing-liquidity-to-the-variable-rate-pool](faq.md#which-are-the-incentives-for-providing-liquidity-to-the-variable-rate-pool "mention")
+It means the change in the value of the underlying share in the last hour for Borrows and in the last 15 minutes for the Deposits, both annualized.
 
 #### What does the "Deposit APR" or "Borrow APR" mean in the Fixed Rate Pool board table?
 
