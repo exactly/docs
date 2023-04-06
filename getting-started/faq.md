@@ -131,19 +131,37 @@ We use an aggregation of decentralized data feeds from [Chainlink](https://data.
 
 ### Markets
 
-#### What does the "Deposit APR" or "Borrow APR" mean in the Variable Rate Pool board table?
+#### **What does APR mean?**
 
-The Deposit APR is the change in the value of the underlying share in the last 15 minutes, annualized.
+APR stands for Annual Percentage Rate. It is a standardized measure used to express the cost of borrowing assets, including interest and fees, on an annual basis. APR is described as a percentage and is commonly used to compare various loan and credit products, making it easier to understand the cost of borrowing.
 
-The Borrow APR is the immediate change in the value of the underlying share, annualized.
+#### **How is the borrow APR calculated in a Variable Rate Pool?**
 
-#### What does the "Deposit APR" or "Borrow APR" mean in the Fixed Rate Pool board table?
+The borrow APR changes dynamically with the [Variable Rate Pool](faq.md#what-is-the-variable-rate-pool)'s Utilization Rate. The Utilization Rate measures the proportion of the pool's assets being borrowed, expressed as a percentage. As the Utilization Rate changes, the protocol adjusts the borrowing APR to maintain a healthy balance between lenders and borrowers.
 
-It means the immediate marginal interest rate for a $1 deposit (or borrow) in that particular Fixed Rate Pool.
+The APR generally increases as the utilization rate increases, and vice versa.
 
-#### What does the "Best Deposit APR" or "Best Borrow APR" mean in the Fixed Rate Pool board table?
+Our app shows the borrow APR (and the change in the Utilization Rate) when you modify the values in the modal input.
 
-It means the highest fixed interest rate APR for a $1 deposit (or the lowest borrow APR) in all the available Fixed Rated Pools.
+#### **How is the deposit APR calculated in a Variable Rate Pool?**
+
+As in the [borrow APR](faq.md#how-is-the-borrow-apr-calculated-in-a-variable-rate-pool), it changes dynamically with the [Variable Rate Pool](faq.md#what-is-the-variable-rate-pool)'s Utilization Rate. Additionally, this APR considers other sources of income, like the interest rates paid by borrowers.
+
+In our app, the APR shown in "Markets" results from the change in the value of the shares over the last 15 minutes.
+
+When you deposit an asset, our app shows the APR (and the change in the Utilization Rate) when you modify the values in the modal input.
+
+#### **How is the borrow APR calculated in a Fixed Rate Pool?**
+
+The borrow APR changes dynamically with that particular [Fixed Rate Pool](faq.md#what-is-a-fixed-rate-pool)'s Utilization Rate. The Utilization Rate measures the proportion of the pool's assets being borrowed, expressed as a percentage. As the Utilization Rate changes, the protocol adjusts the borrowing APR to maintain a healthy balance between lenders and borrowers.
+
+In "Markets" (advanced view), we show the best APR for a marginal change in the utilization of each Fixed Rate Pool. Our app shows the borrow APR when you change the values in the modal input by performing an integral calculation to give you the rate you would have to pay until the pool's maturity.
+
+#### **How is the deposit APR calculated in a Fixed Rate Pool?**
+
+The deposit APR is calculated using the interest from fixed rate borrows already granted.
+
+In "Markets" (advanced view), the app shows the best rate for a marginal change in the utilization of all Fixed Rate Pools. Our app shows the deposit APR when you modify the values in the modal input by calculating the rate you would get considering the interest from loans already granted to be received until the pool's maturity.
 
 ## Governance Token
 
