@@ -62,3 +62,17 @@ function liquidate(address borrower, uint256 maxAssets, contract Market seizeMar
 | repaidAssets | uint256 | actual amount repaid. |
 
 It's important to highlight that `maxAssets` should also include an [extra bonus](../parameters.md#h.-liquidation-bonuses) that the variable pool of the Market will keep that the debt is being repaid.
+
+## Health Factor
+
+The health factor is calculated from the user's collateral balance (in `ETH`) multiplied by each asset's adjust factor divided by the user's debt which is also divided by this adjust factor.
+
+For example: given an `ETH` adjusted factor of `0.84`, a deposit of `100 ETH` and borrow of `50 ETH`:
+
+The adjusted collateral will be equal to `100*0.84 = 84.00`
+
+The adjusted debt will be equal to `50/0.84 = 59.52`&#x20;
+
+So the health factor will be equal to `84.00/59.53 = 1.41`&#x20;
+
+Below a health factor of `1`, the user will be considered with shortfall and open to [liquidation](../../getting-started/math-paper.md#6.-liquidations).
