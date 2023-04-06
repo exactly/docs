@@ -25,17 +25,3 @@ On **Mainnet**, prices are obtained and used by the Auditor to calculate account
 On **Optimism**, prices are currently retrieved and used in **USD** denomination due to lower availability in price feeds offered by Chainlink.
 
 It's important to notice that this difference is only spotted at a smart contract level and does not imply any variation in the result of the health factor calculation. The web app shows prices in **USD** denominations for a better understanding from a user's perspective.
-
-## Health Factor
-
-The health factor is calculated from the user's collateral balance (in `ETH`) multiplied by each asset's adjust factor divided by the user's debt which is also divided by this adjust factor.
-
-For example: given an `ETH` adjusted factor of `0.84`, a deposit of `100 ETH` and borrow of `50 ETH`:
-
-The adjusted collateral will be equal to `100*0.84 = 84.00`
-
-The adjusted debt will be equal to `50/0.84 = 59.52`&#x20;
-
-So the health factor will be equal to `84.00/59.53 = 1.41`&#x20;
-
-Below a health factor of `1`, the user will be considered with shortfall and open to [liquidation](../getting-started/math-paper.md#6.-liquidations).
