@@ -52,6 +52,20 @@ In order to borrow an asset in the protocol you should first deposit any asset i
 
 The Health Factor represents how “safe” your leverage portfolio is, defined as the risk-adjusted proportion of collateral deposited divided by the borrowed risk-adjusted amount. A health factor below 1x will be considered with a shortfall and open to liquidation.
 
+### How is the Health Factor calculated?
+
+The Health Factor is calculated from the user's collateral balance (in ETH) multiplied by each asset's [adjust factor](../guides/parameters.md#d.-risk-factors), divided by the user's debt which is also divided by this adjust factor.
+
+#### Example:
+
+Given an ETH adjusted factor of 80%, a deposit of 112.5 ETH, and borrow of 60 ETH, the Health Factor will be 1.2:
+
+$$
+\frac{112.5 * 0.8}{60 \div 0.8}=\frac{90}{75}=1.2
+$$
+
+Below a Health Factor of 1 the user will be considered in a shortfall and open to [liquidation](../guides/liquidations/).
+
 ### What happens if the price of my collateral changes?
 
 When the price of your collateral changes, your [Health Factor](faq.md#what-is-the-health-factor) changes. The minimum collateralization ratio you need to maintain will vary depending on the asset you're borrowing and the collateral type you're using.
