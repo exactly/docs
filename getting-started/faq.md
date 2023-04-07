@@ -127,7 +127,7 @@ We have a [forum on Discord](https://exact.ly/discord/) where you can share and 
 
 We use an aggregation of decentralized data feeds from [Chainlink](https://data.chain.link/).
 
-### How are interest rates are calculated?
+### How are interest rates calculated?
 
 #### Borrow Interest Rates
 
