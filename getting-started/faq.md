@@ -68,9 +68,7 @@ Below a Health Factor of 1.00, the user will be considered in a shortfall and op
 
 ### What happens if the price of my collateral changes?
 
-When the price of your collateral changes, your [Health Factor](faq.md#what-is-the-health-factor) changes. The minimum collateralization ratio you need to maintain will vary depending on the asset you're borrowing and the collateral type you're using.
-
-For example, the minimum collateralization ratio for a USDC loan against ETH could be 3:2, or 150%. You become eligible for liquidation if your collateralization ratio falls below the minimum 150%.
+When the price of your collateral changes, your [Health Factor](faq.md#what-is-the-health-factor) changes. The minimum collateralization ratio you need to maintain will vary depending on the asset you're borrowing and the collateral type you use.
 
 ### What is collateral liquidation?
 
@@ -84,7 +82,7 @@ To return the borrower's account to solvency as fast as possible and involving a
 
 ### Can I repay or withdraw my fixed position earlier?
 
-You can exit your fixed deposit or repay your fixed loan at any time subject to the liquidity that protocol has that will determine the correspondent market interest rate for discounting the present value of your deposit or your loan.
+You can exit your fixed deposit or repay your fixed loan at any time, subject to the liquidity of the protocol that will determine the correspondent market interest rate for discounting the present value of your deposit or your loan.
 
 Read more [here](../guides/fixed-rate-operations/).
 
@@ -123,24 +121,24 @@ You can check our branding guidelines and materials in [brand-assets.md](../reso
 
 We have a [forum on Discord](https://exact.ly/discord/) where you can share and discuss your thoughts with the Exactly community.
 
-## Exactly dApp
+## Exactly Web App
 
 ### What oracles does Exactly use?
 
 We use an aggregation of decentralized data feeds from [Chainlink](https://data.chain.link/).
 
-### How are rates calculated?
+### How are interest rates are calculated?
 
-#### Borrow Rates
+#### Borrow Interest Rates
 
-* **Variable Interest Rate**: It's a rational function that depends on the Utilization Rate of the Variable Rate Pool in every block.
-  * We display on Markets (Simple or Advanced View) the interest rate from the current utilization rate of the Variable Rate Pool.
+* **Variable Interest Rate**: It's a [rational function](https://docs.exact.ly/guides/interest-rates-curves) that depends on the Utilization Rate of the Variable Rate Pool in every block.
+  * We display on [Markets](https://app.exact.ly/) (Simple or Advanced View) the interest rate from the current utilization rate of the Variable Rate Pool.
   * Then, when entering the amount (Simple View or Modal), we show the new variable interest rate based on how the pool's utilization has changed, given the input.
 * **Fixed Interest Rates**: It's also a rational function but depends on the Utilization Rate of the specific Fixed Rate Pool after the amount borrowed.
   * We display by default on Markets (Advanced View) the best-fixed rate for a marginal change in the fixed rate pool's utilization rate.
   * Then, when entering the specific amount (Simple View or modal window in the Advanced View), we calculate the average value of the integral of the rational function taking into account the change in the utilization after the amount borrowed, to get the specific fixed interest rate that the user will have to pay until the pool's maturity.
 
-#### Deposit Rates
+#### Deposit Interest Rates
 
 * **Variable Interest Rate**: It's the change in the value of the shares of the Variable Rate Pool, based on its different revenue sources: variable rate interest fees + fixed-rate interest fees and commissions, + liquidation fee to compensate for bad debt.
   * We display on Markets by default (Simple View and Advanced View) the annual rate that arises from the change in the value of Variable Rate Pool shares during the last 15 minutes.
@@ -159,13 +157,13 @@ Exactly Protocol does not currently have a governance token.
 
 There is no public sale.
 
-### Do testnet users receive rewards?
+### Do Testnet users receive rewards?
 
 No, testnet is to preview upcoming features and for users to learn about the protocol without any Mainnet gas fees.
 
 ### Someone messaged me promising free tokens/ICO/etc, is it real?
 
-No, that is fake. No one related to Exactly Protocol will ever message anyone directly, nor offer free tokens or investments of any kind.
+No, that is fake. No one related to Exactly Protocol will ever message anyone directly nor offer free tokens or investments.
 
 ## Partnerships
 
