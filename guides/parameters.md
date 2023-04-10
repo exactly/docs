@@ -43,6 +43,18 @@ These parameters are utilized to calculate [the effective borrow interest rate](
 
 We associate a [Risk-Adjust Factor](https://docs.exact.ly/getting-started/math-paper#6.-liquidations) to each asset to assess each collateral asset's borrow and lending power.
 
+To assess the Risk-Adjust Factor for each asset in the protocol, you can query the `markets()` function on the [Auditor](protocol/auditor.md) contract. This can be done using [Etherscan](https://etherscan.io/), a blockchain explorer.
+
+Follow the steps below to check the Risk-Adjust Factor for a specific asset:
+
+1. Go to the Auditor contract on Etherscan by navigating to the following URL: [https://etherscan.io/address/0x310A2694521f75C7B2b64b5937C16CE65C3EFE01#readProxyContract#F17](https://etherscan.io/address/0x310A2694521f75C7B2b64b5937C16CE65C3EFE01#readProxyContract#F17) (for other networks go to [smart-contract-addresses.md](smart-contract-addresses.md "mention") and click on the address of the desired Auditor contract)
+2. To query the `markets` function in that contract, you will need the market contract address for the specific asset. For example, you can use the following address to check the Risk-Adjust Factor for USDC: `0x660e2fC185a9fFE722aF253329CEaAD4C9F6F928`. All addresses for each network (Mainnet, Optimism, et al) are available in [smart-contract-addresses.md](smart-contract-addresses.md "mention").
+3. Click the "Query" button to call the function. The result will display various information about the market, including the Risk-Adjust Factor.
+4. The Risk-Adjust Factor will be returned as `adjustFactor`. In this case, `910000000000000000` equals to 0.91.\
+   ![](../.gitbook/assets/image.png)
+
+Following these steps, you can check the Risk-Adjust Factor for any asset in the protocol by simply replacing the market contract address with the one corresponding to the desired asset.
+
 ## E. Variable Rate Pool Fee
 
 $$

@@ -146,7 +146,7 @@ Remember that $$T_{i}$$ denotes the maturity of the pool. The number of funds to
 
 and the total interest assigned to the new depositor will be
 
-![math formula - (17)](<../.gitbook/assets/image (4).png>)
+![math formula - (17)](<../.gitbook/assets/image (4) (1).png>)
 
 Thus, the annualized fixed interest rate on the deposit ($$RD_{FR,i}^{k,t}$$) can be calculated as follows
 
@@ -188,7 +188,7 @@ where $$TB_{VR}^{t}$$ is the total amount of variable rate borrows outstanding a
 
 Second, each time there is a new transaction in the Variable Rate Pool, a new utilization rate is calculated according to the following rule:
 
-![math formula - (23)](../.gitbook/assets/image.png)
+![math formula - (23)](<../.gitbook/assets/image (4).png>)
 
 Here $$B_{VR}^{t+1}>0$$ means a new borrow is being made and $$B_{VR}^{t+1}<0$$ means a repay (partial or total) of an existing borrow is being made.
 
