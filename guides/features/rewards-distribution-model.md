@@ -17,7 +17,7 @@ Since its conception, this contract supports a multiple array of different token
 
 ### Audits
 
-As part of our commitment to providing a reliable and secure system, we have enlisted the expertise of Coinspect, a highly respected security audit firm, to perform an extensive review of our [Rewards Controller contract](../protocol/rewardscontroller.md).
+As a DeFi protocol, our top priority is to provide a reliable and secure system for our users. We are committed to continuously improving our platform to ensure the safety and integrity of all transactions. For that reason we have enlisted the expertise of Coinspect, a highly respected security audit firm, to perform an extensive review of our [Rewards Controller contract](../protocol/rewardscontroller.md).
 
 Coinspect has conducted three separate audits on the Rewards Controller, which have taken place in January, February, and March of 2023. Each audit was performed to identify any potential vulnerabilities, validate the overall design, and ensure that our Rewards Controller meets the highest security standards.
 
