@@ -4,16 +4,21 @@
 
 Exactly Protocol was audited by the following companies:
 
-| Auditor   | Date          | Report                                                                                                                      |
-| --------- | ------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| Coinspect | November 2021 | [Coinspect 1st Audit (November 2021)](https://github.com/exactly/audits/blob/main/Coinspect%201st%20audit%20\(Nov-21\).pdf) |
-| ChainSafe | May 2022      | [ChainSafe 1st Audit (May 2022)](https://github.com/exactly/audits/blob/main/Chainsafe%201st%20audit%20\(May-22\).pdf)      |
-| Coinspect | May 2022      | [Coinspect 2nd Audit (May 2022)](https://github.com/exactly/audits/blob/main/Coinspect%202nd%20audit%20\(May-22\).pdf)      |
-| Certik    | June 2022     | [Certik 1st Audit (June 2022)](https://github.com/exactly/audits/blob/main/Certik%201st%20audit%20\(Jun-22\).pdf)           |
-| Coinspect | October 2022  | [Coinspect 3rd Audit (Oct 2022)](https://github.com/exactly/audits/blob/main/Coinspect%203rd%20audit%20\(Oct-22\).pdf)      |
-| ChainSafe | October 2022  | [ChainSafe 2nd Audit (Oct 2022)](https://github.com/exactly/audits/blob/main/Chainsafe%202nd%20audit%20\(Oct-22\).pdf)      |
-| ABDK      | October 2022  | [ABDK 1st Audit (Oct-2022)](https://github.com/exactly/audits/blob/main/ABDK%201st%20audit%20\(Oct-22\).pdf)                |
-| Coinspect | October 2022  | [Coinspect 4th Audit (Oct 2022)](https://github.com/exactly/audits/blob/main/Coinspect%204th%20audit%20\(Oct-22\).pdf)      |
+| Auditor   | Date     | Report                                                                                                                                                    |
+| --------- | -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ABDK      | Oct 2022 | [ABDK 1st audit](https://github.com/exactly/audits/blob/main/ABDK%201st%20audit%20\(Oct-22\).pdf)                                                         |
+| Certik    | Jun 2022 | [Certik 1st audit](https://github.com/exactly/audits/blob/main/Certik%201st%20audit%20\(Jun-22\).pdf)                                                     |
+| Chainsafe | May 2022 | [Chainsafe 1st audit](https://github.com/exactly/audits/blob/main/Chainsafe%201st%20audit%20\(May-22\).pdf)                                               |
+| Chainsafe | Oct 2022 | [Chainsafe 2nd audit](https://github.com/exactly/audits/blob/main/Chainsafe%202nd%20audit%20\(Oct-22\).pdf)                                               |
+| Coinspect | Nov 2021 | [Coinspect 1st audit](https://github.com/exactly/audits/blob/main/Coinspect%201st%20audit%20\(Nov-21\).pdf)                                               |
+| Coinspect | May 2022 | [Coinspect 2nd audit](https://github.com/exactly/audits/blob/main/Coinspect%202nd%20audit%20\(May-22\).pdf)                                               |
+| Coinspect | Oct 2022 | [Coinspect 3rd audit](https://github.com/exactly/audits/blob/main/Coinspect%203rd%20audit%20\(Oct-22\).pdf)                                               |
+| Coinspect | Oct 2022 | [Coinspect 4th audit](https://github.com/exactly/audits/blob/main/Coinspect%204th%20audit%20\(Oct-22\).pdf)                                               |
+| Coinspect | Mar 2023 | [Coinspect 5th audit](https://github.com/exactly/audits/blob/main/Coinspect%205th%20audit%20\(Mar-23\).pdf)                                               |
+| Coinspect | Jan 2023 | [Coinspect RewardsController 1st audit](https://github.com/exactly/audits/blob/main/Coinspect%20RewardsController%201st%20audit%20\(Jan-23\).pdf)         |
+| Coinspect | Feb 2023 | [Coinspect RewardsController 2nd audit](https://github.com/exactly/audits/blob/main/Coinspect%20RewardsController%202nd%20audit%20\(Feb-23\).pdf)         |
+| Coinspect | Mar 2023 | [Coinspect RewardsController 3rd audit](https://github.com/exactly/audits/blob/main/Coinspect%20RewardsController%203rd%20audit%20\(Mar-23\).pdf)         |
+| Cryptecon | Sep 2022 | [Cryptecon Economics of the Exactly Protocol](https://github.com/exactly/audits/blob/main/Cryptecon\_Economics\_of\_the\_Exactly\_Protocol\(Sep-22\).pdf) |
 
 ## Other
 
