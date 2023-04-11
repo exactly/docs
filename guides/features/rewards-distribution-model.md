@@ -14,3 +14,19 @@ The proposed model has two distinct modules:
 * The allocation module determines the proportion of tokens allocated to each protocol user class in each specific period.
 
 Since its conception, this contract supports a multiple array of different tokens.
+
+### Audits
+
+As part of our commitment to providing a reliable and secure system, we have enlisted the expertise of Coinspect, a highly respected security audit firm, to perform an extensive review of our [Rewards Controller contract](../protocol/rewardscontroller.md).
+
+Coinspect has conducted three separate audits on the Rewards Controller, which have taken place in January, February, and March of 2023. Each audit was performed to identify any potential vulnerabilities, validate the overall design, and ensure that our Rewards Controller meets the highest security standards.
+
+You can access the detailed reports of these three audits by clicking on the following links:
+
+1. [Coinspect Rewards Controller 1st audit (Jan-23)](https://github.com/exactly/audits/blob/main/Coinspect%20RewardsController%201st%20audit%20\(Jan-23\).pdf)
+2. [Coinspect Rewards Controller 2nd audit (Feb-23)](https://github.com/exactly/audits/blob/main/Coinspect%20RewardsController%202nd%20audit%20\(Feb-23\).pdf)
+3. [Coinspect Rewards Controller 3rd audit (Mar-23)](https://github.com/exactly/audits/blob/main/Coinspect%20RewardsController%203rd%20audit%20\(Mar-23\).pdf)
+
+Each audit report contains a comprehensive analysis of the Rewards Controller's security, addressing any potential issues and outlining the steps taken to resolve them.
+
+{% file src="../../.gitbook/assets/Exactly Rewards Controller Math Model.pdf" %}

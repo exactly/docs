@@ -1,8 +1,8 @@
 # RewardsController
 
-The **RewardsController** is designed to store and distribute rewards to accounts that interact with the [Markets](../market/)' different variable and fixed pools.
+The **RewardsController** is designed to store and distribute rewards to accounts that interact with the [Markets](market/)' different variable and fixed pools.
 
-It calculates the total amount of rewards to distribute and determines the allocation between the pools based on a [dynamic distribution model](rewards-distribution-model.md). Accounts can claim their rewards through the contract, and their claimable rewards can be queried at any time using the `claimable` function.
+It calculates the total amount of rewards to distribute and determines the allocation between the pools based on a [dynamic distribution model](../features/rewards-distribution-model.md). Accounts can claim their rewards through the contract, and their claimable rewards can be queried at any time using the `claimable` function.
 
 ### Public State Variables
 
