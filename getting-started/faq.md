@@ -40,6 +40,10 @@ Users can supply their assets and increase the liquidity of the [Variable Rate P
 
 Therefore, exaToken holders have the capability of redeeming and receiving their original assets plus their interests at any time, subject to available liquidity in the Variable Rate Pool.
 
+### Are exaTokens transferable?
+
+Yes, they can be transferred. Transferring the exaTokens would mean transferring the variable deposit position, and this can be done with any amount, not necessarily the whole position. Nevertheless, if the transferred amount causes a shortfall in the original address ([Health Factor < 1](faq.md#what-is-the-health-factor)) the transaction will be reverted.
+
 ### What is a Fixed Rate Pool?
 
 A Fixed Rate Pool is a pool that has a maturity date (term horizon) containing a single type of asset. Users can supply or borrow assets from these pools once they put their [collateral](faq.md#what-is-the-health-factor) on the [Variable Rate Pool](faq.md#what-is-the-variable-rate-pool). Each new deposit generates an increase in the liquidity for that specific Fixed Rate Pool, reducing its utilization rate and its fixed interest rate for new loans as a consequence.
