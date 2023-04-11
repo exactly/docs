@@ -29,4 +29,6 @@ You can access the detailed reports of these three audits by clicking on the fol
 
 Each audit report contains a comprehensive analysis of the Rewards Controller's security, addressing any potential issues and outlining the steps taken to resolve them.
 
-{% file src="../../.gitbook/assets/Exactly Rewards Controller Math Model.pdf" %}
+### Math model
+
+{% embed url="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fn6wwJ0pvrhjXGxxDpmNa%2Fuploads%2FjefVkjTKHNJSgk7ueIjH%2FExactly%20Rewards%20Controller%20Math%20Model.pdf?alt=media&token=7fe72436-b79a-4220-862b-340e71f069cb" %}
