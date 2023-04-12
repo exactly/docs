@@ -92,7 +92,7 @@ Read more [here](../guides/fixed-rate-operations/).
 
 ### What happens if I don't repay my fixed borrow at maturity?
 
-There is a daily penalty fee rate for not repaying your borrow before the maturity date.
+There is a [daily penalty fee rate](https://docs.exact.ly/guides/parameters#j.-penalty-rate) for not repaying your borrow before the maturity date.
 
 Read more [here](../guides/fixed-rate-operations/borrows.md).
 
