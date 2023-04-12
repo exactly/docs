@@ -20,7 +20,7 @@
   * [PriceFeedWrapper](guides/protocol/pricefeedwrapper.md)
   * [PriceFeedDouble](guides/protocol/pricefeeddouble.md)
   * [InterestRateModel](guides/protocol/interestratemodel.md)
-  * [RewardsController](guides/protocol/rewardscontroller.md)
+  * [RewardsController](guides/protocol/rewardscontroller/README.md)
 * [✨ Features](guides/features/README.md)
   * [Automatic Bad Debt Clearing](guides/features/automatic-bad-debt-clearing.md)
   * [Dynamic Close Factor](guides/features/dynamic-close-factor.md)
