@@ -43,7 +43,7 @@ These parameters are utilized to calculate [the effective borrow interest rate](
 
 We associate a [Risk-Adjust Factor](https://docs.exact.ly/getting-started/math-paper#6.-liquidations) to each asset to assess each collateral asset's borrow and lending power.
 
-To assess the Risk-Adjust Factor for each asset in the protocol, you can query the `markets()` function on the [Auditor](protocol/auditor.md) contract. This can be done using [Etherscan](https://etherscan.io/), a blockchain explorer.
+To assess the Risk-Adjust Factor for each asset in the protocol, you can query the `markets()` function of the [Auditor](protocol/auditor.md) contract. This can be done using [Etherscan](https://etherscan.io/), a blockchain explorer.
 
 Follow the steps below to check the Risk-Adjust Factor for a specific asset:
 
@@ -102,7 +102,9 @@ $$
 ## J. Penalty Rate
 
 $$
-\begin{align*} PenaltyRate = 0.45\% \end{align*}
+\begin{align*} DailyPenaltyRate = 0.45\% \end{align*}
 $$
 
-The penalty rate fee is charged to fixed interest rate borrowers who didn't pay their loans on time. This fee is charged daily after the maturity day.
+The daily penalty rate fee is charged to fixed interest rate borrowers who didn't pay their loans on time. This fee is charged daily after the maturity day.&#x20;
+
+For example, if your total debt after the maturity date is $100, and you pay 10 days later, the penalty fees will be $4.5 (0.45%\*10\*$100).
