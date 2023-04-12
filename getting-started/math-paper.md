@@ -188,7 +188,7 @@ where $$TB_{VR}^{t}$$ is the total amount of variable rate borrows outstanding a
 
 Second, each time there is a new transaction in the Variable Rate Pool, a new utilization rate is calculated according to the following rule:
 
-![math formula - (23)](../.gitbook/assets/image.png)
+![math formula - (23)](<../.gitbook/assets/image (1).png>)
 
 Here $$B_{VR}^{t+1}>0$$ means a new borrow is being made and $$B_{VR}^{t+1}<0$$ means a repay (partial or total) of an existing borrow is being made.
 
@@ -202,7 +202,7 @@ To keep track of the amount that each given single borrow must repay on exit, we
 
 Consider a new borrow $$B_{VR}^{k,t_{k}}$$ and the total amount of outstanding debt $$TB_{VR}^{t_{k}^{-}}$$. The amount of debt-shares associated to $$B_{VR}^{k,t_{k}}$$ is given by
 
-![math formula - (26)](<../.gitbook/assets/image (1).png>)
+![math formula - (26)](<../.gitbook/assets/image (1) (1).png>)
 
 where $$ShTB_{VR}^{t_{k}^{-}}$$ is the number of debt-shares corresponding to $$TB_{VR}^{t_{k}^{-}}$$
 
@@ -234,7 +234,7 @@ In terms of liquidations, we adopted an approach similar to that of the Euler pr
 
 We associate a Risk-Adjust Factor $$ho _{i}$$ to each asset in order to assess the lending power of each collateral asset. Thus the risk-adjusted collateral is given by
 
-![math formula - (32)](<../.gitbook/assets/image (2) (1).png>)
+![math formula - (32)](<../.gitbook/assets/image (2).png>)
 
 So, given a user collateral portfolio, the average Risk-Adjust Factor can be defined as follows
 
