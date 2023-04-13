@@ -1,22 +1,20 @@
 # 📤 Borrows
 
-Any borrower can ask for a loan at any time during the life of a Fixed Rate Pool, provided they have [enough collateral](../../getting-started/math-paper.md#4.1.-borrowing-assets-at-fixed-rates). No borrows can be made once the fixed pool matures (after the maturity date).
+Any borrower can ask for a loan at any time during the life of a Fixed Rate Pool, provided they have [enough collateral](../../getting-started/math-paper.md#4.1.-borrowing-assets-at-fixed-rates) in the Variable Rate Pool. No new borrows can be made after the maturity date of the Fixed Rate Pool.
 
-The interest rate to be applied to each loan is determined by an interest rate demand function that depends on the utilization rate on that specific Fixed Rate Pool. This utilization comprises two types of funding: deposits in the same Fixed Rate Pool and deposits in the Variable Rate Pool that will initially back up the borrow.
+The interest rate to be applied to each loan is determined by an interest rate demand function that depends on the utilization rate on that specific Fixed Rate Pool at that moment. This utilization comprises two types of funding: deposits in the same Fixed Rate Pool and deposits in the Variable Rate Pool that will initially back up the borrow.
 
-Each fixed borrow is composed of two different amounts, **principal** and **fees**. The principal is the initial amount borrowed, whereas the fee is the interest the borrower will need to repay on top of the borrowed amount when repaying at maturity time.
+Each fixed borrower comprises two different amounts, **principal** and **interest rate** **fees**. The principal is the initial amount borrowed, whereas the fee is the interest the borrower will need to repay on top of the borrowed amount when repaying at maturity time.
 
 ## Early Repayments
 
 Borrowers are allowed to repay at any time, even before the maturity date. The advantage of repaying early is that they can get a discount considering the utilization of the pool at the current time since repaying early is equivalent to making a fixed deposit.
 
-_If Bob borrows 100 from a fixed pool with an interest rate to maturity of 10%, then his debt equals 110._
+_For example: If Bob borrows $100 from a 1 year fixed pool with a fixed interest rate of 5% APR, then his debt equals $105 at maturity._
 
-_Now let's say that the rate for depositing 100 is 5%; Bob could decide to repay his whole debt (110) before maturity, and he will get a 5 discount since only his principal (100) is taken into account when early repaying._
+_Now let's say that a few hours later, the fixed rate for depositing $100 (in the same fixed rate pool) increases to 5% APR; Bob could decide to repay his whole debt ($105) before maturity without any extra cost since in this example the present value of its total debt discounted at new fixed deposit rate ($105/1.05) is equal to his new deposit ($100)._
 
-_Finally, 105 assets will already cover his borrowing of 110._
-
-In this way, if the utilization of a pool is high, then borrowers are also encouraged and incentivized to bring back liquidity soon.
+In this way, if the utilization of a pool gets higher, the new fixed deposit rate will be higher, and the fixed-rate borrowers are incentivized to bring back liquidity before the maturity date.
 
 ## Late Repayments
 
