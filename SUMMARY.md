@@ -37,6 +37,7 @@
 * [♻ Liquidations](guides/liquidations/README.md)
   * [🤖 Exactly's Bot](guides/liquidations/exactlys-bot.md)
 * [⛓ Smart Contract Addresses](guides/smart-contract-addresses.md)
+* [🌐 The Graph](guides/the-graph.md)
 
 ## Security
 
