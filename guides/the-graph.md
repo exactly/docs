@@ -18,7 +18,7 @@ At Exactly Protocol, our subgraph allows us to perform advanced queries and oper
 
 ### Exactly Protocol’s Subgraphs
 
-| Network          | Subgraph                                                                                                                                                                                                                                |
+| Network          | Subgraphs                                                                                                                                                                                                                               |
 | ---------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Ethereum Mainnet | [https://thegraph.com/explorer/subgraphs/As6Xz6GCvbW8B9Xb7Rx2LqQeJcL3FcUyD8Tk95L8rG5d?view=Overview\&chain=mainnet ](https://thegraph.com/explorer/subgraphs/As6Xz6GCvbW8B9Xb7Rx2LqQeJcL3FcUyD8Tk95L8rG5d?view=Overview\&chain=mainnet) |
 | Optimism         | [https://thegraph.com/hosted-service/subgraph/exactly/exactly-optimism ](https://thegraph.com/hosted-service/subgraph/exactly/exactly-optimism)                                                                                         |
