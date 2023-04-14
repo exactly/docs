@@ -4,21 +4,21 @@
 
 ### What is Exactly?
 
-Exactly is a new decentralized, non-custodial and open-source protocol that provides an autonomous interest rate market to lenders and borrowers while setting interest rates based on credit supply and demand, enabling users to frictionlessly exchange the time value of their crypto assets at both variables and fixed interest rates for the first time in DeFi.
+Exactly is a new decentralized, non-custodial, and open-source protocol that provides an autonomous interest rate market to lenders and borrowers while setting interest rates based on credit supply and demand, enabling users to frictionlessly exchange the time value of their crypto assets at both variables and fixed interest rates for the first time in DeFi.
 
 Aside from taking loans and making deposits at variable interest rates from a Variable Rate Pool, this protocol enables users to do so at fixed rates through interaction with several Fixed Rate Pools, each representing a specific maturity date. Interest rates are determined based on the credit utilization rate of each Fixed Rate Pool.
 
 ### Why does Exactly matter?
 
-With an innovative approach, the protocol allows users to lend and borrow assets at fixed and variable rates in a more efficient way through the implementation of the [ERC-4626](../guides/protocol/#erc-4626) and a new interest rate model with a continuous and differentiable (non-linear) function that will set the basis for the development of a fixed income derivative market.
+With an innovative approach, the protocol allows users to lend and borrow assets at fixed and variable rates in a more efficient way through the implementation of the [ERC-4626](https://docs.exact.ly/guides/protocol/market/erc-4626) and a new [interest rate model](https://docs.exact.ly/guides/protocol/interestratemodel) with a continuous and differentiable (non-linear) function that will set the basis for the development of a fixed income derivative market.
 
 **The Exactly value proposition:**
 
-* **Simplicity**: Traders can arbitrage between fixed and variable rates for various time periods and hedge the interest rate risk for their long or short positions, with or without leverage.
-* **Frictionless**: Investors and DAOs can receive fixed and variable deposit rates. End-users can take fixed-interest rate loans for more extended time periods with certainty.
+* **Simplicity**: Traders can arbitrage between fixed and variable rates for various periods and hedge the interest rate risk for their long or short positions, with or without leverage.
+* **Frictionless**: Investors and DAOs can receive fixed and variable deposit rates. End-users can take fixed-interest rate loans for more extended periods with certainty.
 * **Efficiency**: Fixed and variable interest rates live in the same protocol with a new approach towards multiple interest rate discovery through the Utilization Rate of each Fixed Rate Pool.
 
-Being an open-source, non-custodial, and autonomous interest rate protocol, Exactly came into existence to decentralize the credit market and complete the DeFi ecosystem.
+Being an open-source, non-custodial, and autonomous interest rate protocol, Exactly began to decentralize the credit market and complete the DeFi ecosystem.
 
 ### Who developed Exactly Protocol?
 
@@ -28,11 +28,11 @@ Exactly was started in July 2021 and launched on Ethereum Mainnet in November 20
 
 ### What is the Variable Rate Pool?
 
-The Variable Rate Pool is a pool containing a single type of asset without an expiration date.
+The Variable Rate Pool contains a single type of asset without an expiration date.
 
-This pool provides liquidity to all the different [Fixed Rate Pools](faq.md#what-is-a-fixed-rate-pool) as needed to ensure they can still satisfy the demand for new loans when deposits are insufficient to cover the requested amounts. Once a new deposit is made in a Fixed Rate Pool it will automatically replace the Variable Rate Pool’s original funding, which in turn “leaves” retaining a small fraction of the interest fees as earnings for providing early liquidity in the first place.
+This pool provides liquidity to all the different [Fixed Rate Pools](faq.md#what-is-a-fixed-rate-pool) as needed to ensure they can still satisfy the demand for new loans when deposits are insufficient to cover the requested amounts. Once a new deposit is made in a Fixed Rate Pool, it will automatically replace the Variable Rate Pool’s original funding, which in turn “leaves” retaining a small fraction of the interest fees as earnings for providing early liquidity in the first place.
 
-There is one Variable Rate Pool and many Fixed Rate Pools for each of the assets allowed in the protocol.
+There is one Variable Rate Pool and many Fixed Rate Pools for each asset allowed in the protocol.
 
 ### What is an "exaToken"?
 
@@ -50,7 +50,7 @@ A Fixed Rate Pool is a pool that has a maturity date (term horizon) containing a
 
 ### How to borrow an asset?
 
-In order to borrow an asset in the protocol you should first deposit any asset in the [Variable Rate Pool](faq.md#what-is-the-variable-rate-pool), enable that asset as collateral in [your dashboard](https://app.exact.ly/dashboard), and then you will be able to borrow any asset paying a variable or a fixed interest rate according to your preference.
+To borrow an asset in the protocol, you should first deposit any asset in the [Variable Rate Pool](faq.md#what-is-the-variable-rate-pool), enable that asset as collateral in [your dashboard](https://app.exact.ly/dashboard), and then you will be able to borrow any asset paying a variable or a fixed interest rate according to your preference.
 
 ### What is the Health Factor?
 
