@@ -38,6 +38,10 @@ The platform allows users to purchase coverage against smart contract failure, h
 
 URL: [https://app.nexusmutual.io/cover/buy/get-quote?productId=81](https://app.nexusmutual.io/cover/buy/get-quote?productId=81)
 
+## Who can I contact about partnerships/integrations?
+
+Feel free to reach out through [Discord](https://discord.gg/exactly) or other platforms in the [Quick Links](quick-links.md) section.
+
 
 
 
