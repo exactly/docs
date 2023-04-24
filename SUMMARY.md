@@ -10,6 +10,7 @@
 * [❔ FAQ](getting-started/faq.md)
 * [⚖ Legal Disclaimer](getting-started/legal-disclaimer.md)
 * [🔗 Quick Links](getting-started/quick-links.md)
+* [🤝 Partnerships](getting-started/partnerships.md)
 
 ## Guides
 
