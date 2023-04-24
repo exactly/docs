@@ -20,8 +20,22 @@ It is hard to estimate how many block proposers will view oracle manipulation at
 
 All asset prices, including stablecoins, are accurately reflected by querying them from live, and regularly updated price feeds. This approach avoids hardcoded values, providing reliable and up-to-date pricing information for its users.
 
-On **Mainnet**, prices are obtained and used by the Auditor to calculate accounts' collateral and debt values in **ETH** denomination. In this way, an extra call (_ETH-USD_) is saved, which translates to a reduction in gas consumption for liquidity checks.
+On **Mainnet**, the [Auditor](protocol/auditor.md) obtains and uses prices to calculate accounts' collateral and debt values in **ETH** denomination. In this way, an extra call (_ETH-USD_) is saved, which translates to a reduction in gas consumption for liquidity checks.
 
 On **Optimism**, prices are currently retrieved and used in **USD** denomination due to lower availability in price feeds offered by Chainlink.
 
 It's important to notice that this difference is only spotted at a smart contract level and does not imply any variation in the result of the health factor calculation. The web app shows prices in **USD** denominations for a better understanding from a user's perspective.
+
+## Deprecated Chainlink interface
+
+Exactly's smart contracts are currently fetching asset prices through a [deprecated interface provided by Chainlink](https://github.com/smartcontractkit/chainlink/blob/e1e78865d4f3e609e7977777d7fb0604913b63ed/contracts/src/v0.6/EACAggregatorProxy.sol#L41-L58).
+
+In a [previous audit carried out by Coinspect (EXA-36)](https://github.com/exactly/audits/blob/main/Coinspect%204th%20audit%20\(Oct-22\).pdf), we already acknowledged this decision in the spirit of transparency and assure our users that we have assessed the associated risks and taken appropriate measures to mitigate them.
+
+Our choice to continue using this deprecated interface is based on several factors. We have implemented a low minimum timelock delay (1 day) and an upgradable [Auditor](protocol/auditor.md), which enable us to respond swiftly in the event that prices are not being updated accurately.
+
+We have confidence in the robustness and historical stability of Chainlink's price feeds, particularly for highly liquid assets, the only ones enabled as [Markets](protocol/market/).
+
+It is worth noting that another difference with checking liveness is that transactions would revert in case of outdated `updateTimes` but as a downfall this may potentially hinder liquidations. We have carefully weighed the trade-offs and decided to assume the associated risks while focusing on **reducing gas costs** for our users.
+
+We remain committed to the security and reliability of our protocol and will continue to monitor and evaluate any third-party integrations.
