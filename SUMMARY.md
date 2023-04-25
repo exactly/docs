@@ -51,4 +51,9 @@
 * [🔣 Math Paper](getting-started/math-paper.md)
 * [📺 Presentations](resources/presentations.md)
 * [📣 Brand Assets](resources/brand-assets.md)
-* [⚖ Legal Disclaimer](getting-started/legal-disclaimer.md)
+
+## Legal
+
+* [⚖ Terms and Conditions of Use](legal/terms-and-conditions-of-use.md)
+* [🔏 Privacy Policy](legal/privacy-policy.md)
+* [🍪 Cookies Policy](legal/cookies-policy.md)

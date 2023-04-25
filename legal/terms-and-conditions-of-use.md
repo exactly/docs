@@ -1,6 +1,4 @@
-# ⚖ Legal Disclaimer
-
-**TERMS AND CONDITIONS OF USE**
+# ⚖ Terms and Conditions of Use
 
 These terms and conditions of use, together with any other documents and additional terms incorporated herein by reference **(“Terms”)**, set out the terms and conditions under which **EXAFIN LTD. (“us”, “we”, “Exactly”** or the **“Company”**), offers you or the company or other legal entity you represent (“you” or “your”) access to and use of the Platform and the Digital Assets Services (as such terms are defined below).
 
@@ -14,7 +12,7 @@ These terms and conditions of use, together with any other documents and additio
 
 **Please note that Section 18 contains an arbitration clause and class action waiver. By agreeing to these Terms, you agree (a) to resolve all disputes with us through binding individual arbitration, which means that you waive any right to have those disputes decided by a judge or jury, and (b) that you waive your right to participate in class actions, class arbitrations, or representative actions. You have the right to opt-out of arbitration as explained in Section 18.**
 
-These Terms are to be read in conjunction with the Privacy Policy: [http://exact.ly/privacy](https://exact.ly/privacy) (including where applicable, any privacy policy statement in a country or product annex).
+These Terms are to be read in conjunction with the [Privacy Policy](privacy-policy.md) (including where applicable, any privacy policy statement in a country or product annex).
 
 **1. ACCESS TO THE DIGITAL ASSETS SERVICES.**
 
