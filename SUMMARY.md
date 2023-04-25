@@ -47,8 +47,8 @@
 
 ## Resources
 
-* [📃 White Paper](resources/white-paper.md)
-* [🔣 Math Paper](resources/math-paper.md)
+* [📃 White Paper](getting-started/white-paper.md)
+* [🔣 Math Paper](getting-started/math-paper.md)
 * [📺 Presentations](resources/presentations.md)
 * [📣 Brand Assets](resources/brand-assets.md)
-* [⚖ Legal Disclaimer](resources/legal-disclaimer.md)
+* [⚖ Legal Disclaimer](getting-started/legal-disclaimer.md)

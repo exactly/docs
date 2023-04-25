@@ -1,6 +1,6 @@
 # 🔢 Parameters
 
-There is an explanation of the following parameters in [Model Parameters](../resources/math-paper.md#model-parameters).
+There is an explanation of the following parameters in [Model Parameters](../getting-started/math-paper.md#model-parameters).
 
 ## A. Reserve Factor
 

@@ -6,7 +6,7 @@ The yield to be accrued over time by variable pool suppliers comes from differen
 
 Ordinary earnings are immediately distributed to variable pool suppliers as soon as they are charged to borrowers. Every time the **variable borrowers**' debt increases, this newly assigned debt is directly distributed between current variable pool suppliers.
 
-The same approach is used when distributing earnings that originate from fixed borrows that are being backed up by the variable pool. As previously explained in the [white paper](../../resources/white-paper.md#2.4-borrowing-assets-from-the-fixed-rate-pools), while the variable pool is lending assets to **fixed borrowers**, the fee charged to these borrowers is periodically accrued by the variable pool until a fixed supplier decides to deposit into this fixed pool and match the demand.
+The same approach is used when distributing earnings that originate from fixed borrows that are being backed up by the variable pool. As previously explained in the [white paper](../../getting-started/white-paper.md#2.4-borrowing-assets-from-the-fixed-rate-pools), while the variable pool is lending assets to **fixed borrowers**, the fee charged to these borrowers is periodically accrued by the variable pool until a fixed supplier decides to deposit into this fixed pool and match the demand.
 
 ## Extraordinary
 
