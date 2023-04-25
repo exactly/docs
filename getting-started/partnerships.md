@@ -30,6 +30,12 @@ URLs:
 
 URL: [https://mean.finance/](https://mean.finance/)
 
+## Nansen
+
+[Nansen](https://www.nansen.ai) is a blockchain analytics platform that enriches on-chain data with millions of wallet labels. Nansen allows users to discover opportunities, perform due diligence, and defend their portfolios with real-time dashboards and alerts.
+
+URL: [https://pro.nansen.ai/projects/exactly](https://pro.nansen.ai/projects/exactly)
+
 ## Nexus Mutual
 
 [Nexus Mutual](https://nexusmutual.io/) is a decentralized insurance platform built on the Ethereum blockchain. It aims to provide a way for individuals and organizations to share risk without relying on traditional insurance providers.

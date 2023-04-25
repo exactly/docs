@@ -105,7 +105,7 @@ The collateral ratio you choose determines the likelihood that your collateral g
 Liquidity providers receive earnings from four different sources:
 
 1. Variable interest rate fees paid by borrowers on the [Variable Rate Pool](faq.md#what-is-the-variable-rate-pool)
-2. Commissions for providing [early liquidity](white-paper.md#2.1-supplying-assets-to-the-variable-rate-pool) on [Fixed Rate](faq.md#what-is-a-fixed-rate-pool) loans (a.k.a.: "exit commissions")
+2. Commissions for providing [early liquidity](../resources/white-paper.md#2.1-supplying-assets-to-the-variable-rate-pool) on [Fixed Rate](faq.md#what-is-a-fixed-rate-pool) loans (a.k.a.: "exit commissions")
 3. Penalties paid by users who repay their debts after maturity on [Fixed Rate](faq.md#what-is-a-fixed-rate-pool) loans
 4. A profit share of the [liquidation](faq.md#what-is-a-liquidation) fee
 
