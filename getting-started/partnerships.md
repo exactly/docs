@@ -32,7 +32,7 @@ URL: [https://mean.finance/](https://mean.finance/)
 
 ## Nansen
 
-[Nansen](https://www.nansen.ai) is a blockchain analytics platform that enriches on-chain data with millions of wallet labels. Nansen allows users to discover opportunities, perform due diligence, and defend their portfolios with real-time dashboards and alerts.
+[Nansen](https://www.nansen.ai) is a blockchain analytics platform that enriches on-chain data with millions of wallet labels. The platform enables users to discover opportunities, perform due diligence, and monitor their portfolios with real-time dashboards and alerts.
 
 URL: [https://pro.nansen.ai/projects/exactly](https://pro.nansen.ai/projects/exactly)
 
