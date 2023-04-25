@@ -6,7 +6,6 @@
 * [➡ Introduction](getting-started/introduction.md)
 * [❔ FAQ](getting-started/faq.md)
 * [🔗 Quick Links](getting-started/quick-links.md)
-* [🤝 Partnerships](getting-started/partnerships.md)
 
 ## Guides
 
@@ -49,6 +48,7 @@
 
 * [📃 White Paper](resources/white-paper.md)
 * [🔣 Math Paper](resources/math-paper.md)
+* [🤝 Partnerships](resources/partnerships.md)
 * [📺 Presentations](resources/presentations.md)
 * [📣 Brand Assets](resources/brand-assets.md)
 
