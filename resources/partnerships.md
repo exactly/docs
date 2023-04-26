@@ -9,9 +9,12 @@ description: >-
 
 ## Anthias
 
-[Anthias](https://anthias.xyz/) is a tool with which users can track how close big wallets are to liquidation on their favorite chains and protocols.
+[Anthias](https://anthias.xyz/) is a tool that allows users to track how close big wallets are to liquidation on different blockchains and protocols.
 
-URL: [https://app.anthias.xyz/exactly-opt](https://app.anthias.xyz/exactly-opt)
+URLs:&#x20;
+
+* [https://app.anthias.xyz/exactly-opt](https://app.anthias.xyz/exactly-opt)
+* [https://medium.com/@exactly\_protocol/exactly-protocol-anthias-join-forces-to-mitigate-liquidation-risks-6316b866a587](https://medium.com/@exactly\_protocol/exactly-protocol-anthias-join-forces-to-mitigate-liquidation-risks-6316b866a587)
 
 ## Beefy Finance
 
@@ -28,7 +31,7 @@ URLs:
 
 [Beethoven X](https://op.beets.fi) is a decentralized investment platform that provides innovative, capital-efficient, and sustainable solutions for DeFi users. Built around the core concept of [programmable liquidity](https://docs.beets.fi), the platform offers a suite of unique financial primitives, such as [Weighted Pools](https://docs.beets.fi/boundless-opportunity/weighted), [Boosted Pools](https://docs.beets.fi/boundless-opportunity/boosted), and [Liquidity Bootstrapping Pools (LBPs)](https://docs.beets.fi/boundless-opportunity/lbp).
 
-URL: [Exactly Like You](https://op.beets.fi/pool/0x3c74c4ed512050eb843d89fb9dcd5ebb4668eb6d0002000000000000000000cc)
+URL: [https://op.beets.fi/pool/0x3c74c4ed512050eb843d89fb9dcd5ebb4668eb6d0002000000000000000000cc](https://op.beets.fi/pool/0x3c74c4ed512050eb843d89fb9dcd5ebb4668eb6d0002000000000000000000cc)
 
 ## DeFiLlama
 
