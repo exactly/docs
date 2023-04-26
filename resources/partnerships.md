@@ -9,7 +9,7 @@ description: >-
 
 ## Anthias
 
-[Anthias](https://anthias.xyz/) is a tool with which you can track how close big wallets are to liquidation on your favorite chains and protocols.
+[Anthias](https://anthias.xyz/) is a tool with which users can track how close big wallets are to liquidation on their favorite chains and protocols.
 
 URL: [https://app.anthias.xyz/exactly-opt](https://app.anthias.xyz/exactly-opt)
 
@@ -24,11 +24,38 @@ URLs:
 * [https://app.beefy.com/vault/exactly-supply-usdc](https://app.beefy.com/vault/exactly-supply-usdc)
 * [https://app.beefy.com/vault/exactly-supply-eth](https://app.beefy.com/vault/exactly-supply-eth)
 
+## Beethoven X (Balancer powered)
+
+[Beethoven X](https://op.beets.fi) is a decentralized investment platform that provides innovative, capital-efficient, and sustainable solutions for DeFi users. Built around the core concept of [programmable liquidity](https://docs.beets.fi), the platform offers a suite of unique financial primitives, such as [Weighted Pools](https://docs.beets.fi/boundless-opportunity/weighted), [Boosted Pools](https://docs.beets.fi/boundless-opportunity/boosted), and [Liquidity Bootstrapping Pools (LBPs)](https://docs.beets.fi/boundless-opportunity/lbp).
+
+URL: [Exactly Like You](https://op.beets.fi/pool/0x3c74c4ed512050eb843d89fb9dcd5ebb4668eb6d0002000000000000000000cc)
+
+## DeFiLlama
+
+[DeFiLlama](https://defillama.com) is an analytics platform that provides comprehensive data and insights on the DeFi ecosystem. The platform tracks and aggregates information about various DeFi protocols and blockchains, offering users an overview of key metrics.
+
+URLs:
+
+* [https://defillama.com/protocol/exactly](https://defillama.com/protocol/exactly)
+* [https://defillama.com/yields?chain=Ethereum\&chain=Optimism\&project=exactly](https://defillama.com/yields?chain=Ethereum\&chain=Optimism\&project=exactly)
+
+## Dune Analytics
+
+[Dune Analytics](https://dune.com/home) is a platform that allows users to query public blockchain data and aggregate it into dashboards to make crypto data accessible.
+
+URL: [https://dune.com/exactly/exactly](https://dune.com/exactly/exactly)
+
 ## Mean Finance
 
 [Mean Finance](https://mean.finance/) is the state-of-the-art DCA open protocol that enables users (or dapps) to Dollar Cost Average (DCA) any ERC20 into any ERC20 with their preferred period frequency, without sacrificing decentralization or giving up personal information to any centralized parties.
 
 URL: [https://mean.finance/](https://mean.finance/)
+
+## Messari
+
+[Messari](https://messari.io) is a platform that features the ability to track DeFi protocols and crypto assets, discover research, follow crypto events, and find DAOs and Web3 tools.
+
+URL: [https://messari.io/protocol/exactly](https://messari.io/protocol/exactly)
 
 ## Nansen
 
@@ -43,6 +70,23 @@ URL: [https://pro.nansen.ai/projects/exactly](https://pro.nansen.ai/projects/exa
 The platform allows users to purchase coverage against smart contract failure, hacks, and other events that may result in financial losses in the DeFi space. Users can also provide liquidity to the platform's insurance pool and earn rewards for doing so.
 
 URL: [https://app.nexusmutual.io/cover/buy/get-quote?productId=81](https://app.nexusmutual.io/cover/buy/get-quote?productId=81)
+
+## Optimism
+
+[Optimism](https://www.optimism.io) is a low-cost and lightning-fast Ethereum L2 (Layer 2) blockchain, designed to be fast, cheap, and simple while maintaining the security and decentralization of L1 (Layer 1).
+
+In partnership with the Optimism Foundation, we have launched a rewards initiative that allows our users to earn [$OP tokens](https://help.optimism.io/hc/en-us/articles/5497354656283-What-is-the-Optimism-Token-).
+
+URLs:
+
+* [OP Rewards at Exactly Protocol](https://medium.com/@exactly\_protocol/op-rewards-are-now-live-at-exactly-protocol-1f119d483e6)
+* [https://www.optimism.io/apps/defi](https://www.optimism.io/apps/defi)
+
+## Zapper
+
+[Zapper](https://zapper.xyz) is a Web3 explorer that allows users to track the blockchain journey of others in DeFi protocols, NFTs, and DAOs. With Zapper, users can track and follow multiple wallets, and explore new opportunities in DeFi by browsing various protocols.
+
+URL: [https://zapper.xyz/apps/exactly](https://zapper.xyz/apps/exactly)
 
 ## Who can I contact about partnerships/integrations?
 
