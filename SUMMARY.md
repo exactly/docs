@@ -30,11 +30,11 @@
   * [📤 Borrows](guides/fixed-rate-operations/borrows.md)
 * [🔢 Parameters](guides/parameters.md)
 * [📈 Interest Rates Curves](guides/interest-rates-curves.md)
-* [🔮 Price Feeds](guides/price-feeds.md)
 * [♻ Liquidations](guides/liquidations/README.md)
   * [🤖 Exactly's Bot](guides/liquidations/exactlys-bot.md)
 * [⛓ Smart Contract Addresses](guides/smart-contract-addresses.md)
 * [🌐 The Graph](guides/the-graph.md)
+* [🔮 Chainlink Price Feeds](guides/price-feeds.md)
 
 ## Security
 
