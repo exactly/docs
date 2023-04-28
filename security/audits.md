@@ -7,7 +7,6 @@ Exactly Protocol was audited by the following companies:
 | Auditor   | Date     | Report                                                                                                                                                    |
 | --------- | -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ABDK      | Oct 2022 | [ABDK 1st audit](https://github.com/exactly/audits/blob/main/ABDK%201st%20audit%20\(Oct-22\).pdf)                                                         |
-| Certik    | Jun 2022 | [Certik 1st audit](https://github.com/exactly/audits/blob/main/Certik%201st%20audit%20\(Jun-22\).pdf)                                                     |
 | Chainsafe | May 2022 | [Chainsafe 1st audit](https://github.com/exactly/audits/blob/main/Chainsafe%201st%20audit%20\(May-22\).pdf)                                               |
 | Chainsafe | Oct 2022 | [Chainsafe 2nd audit](https://github.com/exactly/audits/blob/main/Chainsafe%202nd%20audit%20\(Oct-22\).pdf)                                               |
 | Coinspect | Nov 2021 | [Coinspect 1st audit](https://github.com/exactly/audits/blob/main/Coinspect%201st%20audit%20\(Nov-21\).pdf)                                               |
