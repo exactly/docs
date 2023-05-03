@@ -141,7 +141,7 @@ Incentives 2, 3, and 4 are extraordinary events and generate earnings that are g
 
 Here's an outline of how to bridge assets:
 
-1. EnsureChoose a bridge service that supports Optimism. Some popular bridges include the following:
+1. Choose a bridge service that supports Optimism. Some popular bridges include the following:
    * Hop Exchange ([https://hop.exchange/](https://hop.exchange/))
    * Optimism Bridge ([https://app.optimism.io/bridge](https://app.optimism.io/bridge/deposit))
 2. Connect your Ethereum wallet (e.g., MetaMask) to the web3-enabled application. Ensure you have some ether (ETH) in your wallet for transaction fees.
