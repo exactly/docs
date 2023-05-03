@@ -70,6 +70,30 @@ $$
 
 Below a Health Factor of 1.00, the user will be considered in a shortfall and open to [liquidation](../guides/liquidations/).
 
+### How can I determine the maximum borrowing capacity based on my collateral deposit?
+
+This is also known as maximum Loan-to-Value.
+
+To calculate the maximum Loan-to-Value (LTV) for a deposit you need to consider the Risk-Adjust Factors of the assets involved in the transaction, both for the deposited asset (collateral) and the borrowed asset. The formula to calculate LTV is as follows:
+
+LTV = Risk-Adjust Factor deposit \* Risk-Adjust Factor borrow.
+
+Here's an example: let's say you want to deposit `ETH` as collateral and borrow `USDC`. In this case, the Risk-Adjust Factors are 0.84 for `ETH` and 0.91 for `USDC`. To calculate the LTV, you would multiply these factors:
+
+LTV = 0.84 \* 0.91 = 0.7644
+
+Next, you should divide the LTV by your desired [Health Factor](faq.md#what-is-the-health-factor), which represents the safety margin for your loan, with higher values indicating a lower risk of liquidation. In our example, let's assume a Health Factor of 1.05:
+
+Adjusted LTV = LTV / Health Factor = 0.7644 / 1.05 = 0.728
+
+Now, to determine the amount you can borrow, multiply the adjusted LTV by the value of your deposited collateral. If you deposit $10,000 worth of `ETH`, you can borrow:
+
+Amount to borrow = Adjusted LTV \* Deposit Amount = 0.728 \* $10,000 = $7,280
+
+In this example, depositing $10,000 worth of `ETH` allows you to borrow $7,280 worth of `USDC`, given the Risk-Adjust Factors and a Health Factor of 1.05.
+
+You can find the Risk-Adjust Factors for each asset in the [parameters.md](../guides/parameters.md "mention") section.
+
 ### What happens if the price of my collateral changes?
 
 When the price of your collateral changes, your [Health Factor](faq.md#what-is-the-health-factor) changes. The minimum collateralization ratio you need to maintain will vary depending on the asset you're borrowing and the collateral type you use.
