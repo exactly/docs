@@ -42,7 +42,7 @@ Therefore, exaToken holders have the capability of redeeming and receiving their
 
 ### Are exaTokens transferable?
 
-Yes, they can be transferred. Transferring the exaTokens would mean transferring the variable deposit position, and this can be done with any amount, not necessarily the whole position. Nevertheless, if the transferred amount causes a shortfall in the original address ([Health Factor < 1](faq.md#what-is-the-health-factor)) the transaction will be reverted.
+Yes, they can be transferred. Transferring the exaTokens would mean transferring the variable deposit position, and this can be done with any amount, not necessarily the whole position. Nevertheless, if the transferred amount causes a shortfall in the original address ([Health Factor < 1](faq.md#what-is-the-health-factor)), the transaction will be reverted.
 
 ### What is a Fixed Rate Pool?
 
@@ -168,6 +168,23 @@ No, testnet is to preview upcoming features and for users to learn about the pro
 ### Someone messaged me promising free tokens/ICO/etc, is it real?
 
 No, that is fake. No one related to Exactly Protocol will ever message anyone directly nor offer free tokens or investments.
+
+## Technical
+
+### Is it possible to read the Variable Supply and Borrowing Rates from Smart Contracts?
+
+The Variable Supply Rate cannot be read on-chain as it is an average of the earnings that the pool has generated over the last 15 minutes. These earnings come from different sources of income, such as:
+
+* Debt charged to variable borrowers.
+* Earnings that originate from Fixed Rate borrows are being backed up by the [Variable Rate Pool](https://docs.exact.ly/resources/white-paper#3.-the-exactly-interest-rate-model).
+* Accumulator -> [Earnings Accumulator](https://docs.exact.ly/guides/features/earnings-accumulator).
+
+The **Variable Borrow Rate** can be queried on-chain through the following steps:
+
+1. Head to the Market's `floatingAssets` and `floatingDebt` view functions and query both values (i.e. [MarketUSDC](https://optimistic.etherscan.io/address/0x81C9A7B55A4df39A9B7B5F781ec0e53539694873#readProxyContract)).
+2. Head to the Market's Interest Rate Model (IRM) `floatingRate` read function (i.e. [MarketUSDC’s IRM](https://optimistic.etherscan.io/address/0x8C2F35c8076bCb5D4b696bAE11AcA0ac0Dd873e4#readContract)).
+3. For the `utilization` argument, enter the division between `floatingAssets` and `floatingDebt` (the result of this division needs to be then multiplied by `1e18` -> `1000000000000000000`).
+4. Query the `floatingRate` function with the just calculated value. The result will be the current rate, represented with `18` decimals.
 
 ## Partnerships
 
