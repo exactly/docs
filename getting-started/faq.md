@@ -135,6 +135,32 @@ Liquidity providers receive earnings from four different sources:
 
 Incentives 2, 3, and 4 are extraordinary events and generate earnings that are gradually distributed to [Variable Rate Pool](faq.md#what-is-the-variable-rate-pool) depositors.
 
+### What is the process for transferring assets from Mainnet to Optimism?
+
+"Bridging" is the process of transferring tokens from Ethereum (Mainnet) to Optimism. This allows users to take advantage of faster and cheaper transactions on this network, which is a layer 2 scaling solution.
+
+Here's an outline of how to bridge assets:
+
+1. EnsureChoose a bridge service that supports Optimism. Some popular bridges include the following:
+   * Hop Exchange ([https://hop.exchange/](https://hop.exchange/))
+   * Optimism Bridge ([https://app.optimism.io/bridge](https://app.optimism.io/bridge/deposit))
+2. Connect your Ethereum wallet (e.g., MetaMask) to the web3-enabled application. Ensure you have some ether (ETH) in your wallet for transaction fees.
+3. Choose the token you want to bridge from Ethereum to Optimism, such as ETH, or an ERC-20 token like DAI, and specify the amount you want to transfer.
+4. Review the transaction details, including any fees associated with the bridge. Confirm the transaction in your wallet, and the bridge will initiate the transfer.
+5. The transfer may take some time to complete depending on the bridge and network conditions. Once the transaction is confirmed on Ethereum and Optimism, your assets will be available.
+6. To interact with your assets on Optimism, you'll need to switch your wallet's network to Optimistic Ethereum. In MetaMask, you can add the Optimism network by following these steps:
+   * Click on the network dropdown at the top of MetaMask.
+   * Select "Custom RPC."
+   * Enter the following network details:
+     * Network Name: Optimistic Ethereum
+     * New RPC URL: [https://mainnet.optimism.io](https://mainnet.optimism.io/)
+     * Chain ID: 10
+     * Currency Symbol: ETH
+     * Block Explorer URL: [https://optimistic.etherscan.io](https://optimistic.etherscan.io/)
+   * Save the new network.
+
+You can now interact with your bridged assets on Optimism using web3-enabled applications that support Optimism, including [our own app](https://app.exact.ly/?n=optimism). Remember to switch back to Mainnet when you need to interact with assets or applications on the main Ethereum network.
+
 ## Community Involvement
 
 ### Where is the developer documentation?
