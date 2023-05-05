@@ -30,6 +30,7 @@
 
 ## Analytics
 
+* [Anthias](https://app.anthias.xyz/exactly-opt)
 * [DeFiLlama](https://defillama.com/protocol/exactly)
 * [Dune Analytics](https://dune.com/exactly/exactly)
 * [Messari](https://messari.io/protocol/exactly)
