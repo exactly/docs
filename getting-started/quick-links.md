@@ -28,8 +28,9 @@
 * [ChainPatrol Security Portal](https://app.chainpatrol.io/exactly)
 * [Defi Safety Report](https://www.defisafety.com/app/pqrs/531)
 
-## Data trackers
+## Analytics
 
 * [DeFiLlama](https://defillama.com/protocol/exactly)
 * [Dune Analytics](https://dune.com/exactly/exactly)
 * [Messari](https://messari.io/protocol/exactly)
+* [Nansen](https://pro.nansen.ai/projects/exactly/optimism)
