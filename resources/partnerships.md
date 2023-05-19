@@ -42,6 +42,12 @@ URLs:
 * [https://defillama.com/protocol/exactly](https://defillama.com/protocol/exactly)
 * [https://defillama.com/yields?chain=Ethereum\&chain=Optimism\&project=exactly](https://defillama.com/yields?chain=Ethereum\&chain=Optimism\&project=exactly)
 
+## DeFiSafety
+
+[DeFiSafety](https://www.defisafety.com) is an organization that provides assessments and ratings of DeFi products. They offer Protocol and Chain Reviews, providing security scores based on a quality standard.
+
+URL: [https://www.defisafety.com/app?title=exactly](https://www.defisafety.com/app?title=exactly)
+
 ## Dune Analytics
 
 [Dune Analytics](https://dune.com/home) is a platform that allows users to query public blockchain data and aggregate it into dashboards to make crypto data accessible.
