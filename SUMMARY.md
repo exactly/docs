@@ -35,6 +35,8 @@
 * [⛓ Smart Contract Addresses](guides/smart-contract-addresses.md)
 * [🌐 The Graph](guides/the-graph.md)
 * [🔮 Chainlink Price Feeds](guides/price-feeds.md)
+* [🤝 Integrations](guides/integrations/README.md)
+  * [👀 Previewer](guides/integrations/previewer.md)
 
 ## Security
 
