@@ -36,9 +36,9 @@ The protocol completes the DeFi credit market with both variable and fixed inter
 
 ### 2.1 Supplying Assets to the Variable Rate Pool
 
-Users can supply their assets and increase the liquidity of the "Variable Rate Pool" (pools containing a single type of asset without an expiration date) that will in turn provide liquidity to all the different Fixed Rate Pools as needed. Each deposit will mint an "Exactly Token" (exaToken) that uses the [ERC-4626](../guides/protocol/market/erc-4626.md) standard, which will be provided to the user as a voucher for the deposited amount. These exaTokens will periodically accrue variable earnings by increasing their value at the time of withdrawing and exchanging back for the underlying assets. Even though the main goal is to solve the problem of fragmented liquidity across different Fixed Rate Pools, it is also noteworthy that the exaToken extends on the ERC-20 standard, meaning that it can be exchangeable, adding composability across other protocols.
+Users can supply their assets and increase the liquidity of the "Variable Rate Pool" (pools containing a single type of asset without an expiration date) that will in turn provide liquidity to all the different Fixed Rate Pools as needed. Each deposit will mint an "Exactly Token" (exaVoucher) that uses the [ERC-4626](../guides/protocol/market/erc-4626.md) standard, which will be provided to the user as a voucher for the deposited amount. These exaVouchers will periodically accrue variable earnings by increasing their value at the time of withdrawing and exchanging back for the underlying assets. Even though the main goal is to solve the problem of fragmented liquidity across different Fixed Rate Pools, it is also noteworthy that the exaVoucher extends on the ERC-20 standard, meaning that it can be exchangeable, adding composability across other protocols.
 
-Therefore, exaToken holders have the capability of redeeming and receiving their original assets plus their interests at any time, subject to available liquidity in the Variable Rate Pool.
+Therefore, exaVoucher holders have the capability of redeeming and receiving their original assets plus their interests at any time, subject to available liquidity in the Variable Rate Pool.
 
 The main purpose of a Variable Rate Pool is to provide immediate liquidity to any Fixed Rate Pool, to ensure it can still satisfy the demand for new loans when deposits are not enough to cover the requested amounts. Once a new deposit is made in a Fixed Rate Pool it will automatically replace Variable Rate Pool’s original funding, which in turn "leaves" retaining a small fraction of the interest fees as earnings for providing early liquidity in the first place. There is one Variable Rate Pool and many Fixed Rate Pools for each of the assets allowed in the protocol.
 
@@ -54,11 +54,11 @@ The protocol also offers Flexible Fixed Rate Deposits: users are able to make a 
 
 ### 2.3 Borrowing Assets from the Variable Rate Pool
 
-exaTokens can be used as collateral for a variable interest rate loan taken from the Variable Rate Pool. Each asset supported in our protocol has its own **Risk-Adjust Factor**, which represents the proportion of the asset value to be used as collateral. For example, if a user supplies 100 ETH as collateral, and the Risk-Adjust Factor for ETH is 50%, then that user can borrow a maximum of 50 ETH worth of any other asset in any Variable Rate Pool.
+exaVouchers can be used as collateral for a variable interest rate loan taken from the Variable Rate Pool. Each asset supported in our protocol has its own **Risk-Adjust Factor**, which represents the proportion of the asset value to be used as collateral. For example, if a user supplies 100 ETH as collateral, and the Risk-Adjust Factor for ETH is 50%, then that user can borrow a maximum of 50 ETH worth of any other asset in any Variable Rate Pool.
 
 ### 2.4 Borrowing Assets from the Fixed Rate Pools
 
-exaTokens can be used as the collateral for a fixed rate loan in any of the Fixed Rate Pools. Once the user defines the amount, asset, and maturity date, they will get the specific fixed interest rate to be paid for that loan at maturity.
+exaVouchers can be used as the collateral for a fixed rate loan in any of the Fixed Rate Pools. Once the user defines the amount, asset, and maturity date, they will get the specific fixed interest rate to be paid for that loan at maturity.
 
 The protocol also offers Flexible Fixed Rate Loans the user will be able to repay earlier or after the maturity date (with an extra penalty fee in the latest case). If an early repayment is made, the user might be able to repay less of the expected amount depending on the market conditions at the time of the transaction.
 
@@ -66,7 +66,7 @@ The protocol also offers Flexible Fixed Rate Loans the user will be able to repa
 
 ### 2.5 Liquidations
 
-If the user’s Health Factor is below 1, meaning that his outstanding borrowing exceeds the sum of all his exaTokens multiplied by each Risk-Adjust Factor, a portion of the outstanding borrowing may be repaid by any third party in exchange for the user’s proportional exaToken collateral at a discount price. Additionally, a small fee will be received by the Variable Rate Pool as compensation for absorbing "bad debt" residuals after all the proportional collateral is liquidated.
+If the user’s Health Factor is below 1, meaning that his outstanding borrowing exceeds the sum of all his exaVouchers multiplied by each Risk-Adjust Factor, a portion of the outstanding borrowing may be repaid by any third party in exchange for the user’s proportional exaVouchers collateral at a discount price. Additionally, a small fee will be received by the Variable Rate Pool as compensation for absorbing "bad debt" residuals after all the proportional collateral is liquidated.
 
 Any user may invoke the liquidation function in a permissionless way. In order to return the borrower’s account to solvency as fast as possible, and involving as few liquidations as possible, the protocol has a **Dynamic Close Factor** (based on the user’s degree of insolvency) that is the proportion of outstanding borrows that must be repaid in order to return a user to a solvency situation.
 
