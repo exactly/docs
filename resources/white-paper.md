@@ -36,7 +36,7 @@ The protocol completes the DeFi credit market with both variable and fixed inter
 
 ### 2.1 Supplying Assets to the Variable Rate Pool
 
-Users can supply their assets and increase the liquidity of the "Variable Rate Pool" (pools containing a single type of asset without an expiration date) that will in turn provide liquidity to all the different Fixed Rate Pools as needed. Each deposit will mint an "Exactly Token" (exaVoucher) that uses the [ERC-4626](../guides/protocol/market/erc-4626.md) standard, which will be provided to the user as a voucher for the deposited amount. These exaVouchers will periodically accrue variable earnings by increasing their value at the time of withdrawing and exchanging back for the underlying assets. Even though the main goal is to solve the problem of fragmented liquidity across different Fixed Rate Pools, it is also noteworthy that the exaVoucher extends on the ERC-20 standard, meaning that it can be exchangeable, adding composability across other protocols.
+Users can supply their assets and increase the liquidity of the "Variable Rate Pool" (pools containing a single type of asset without an expiration date) that will in turn provide liquidity to all the different Fixed Rate Pools as needed. Each deposit will mint an "Exactly Voucher" (exaVoucher) that uses the [ERC-4626](../guides/protocol/market/erc-4626.md) standard, which will be provided to the user as a voucher for the deposited amount. These exaVouchers will periodically accrue variable earnings by increasing their value at the time of withdrawing and exchanging back for the underlying assets. Even though the main goal is to solve the problem of fragmented liquidity across different Fixed Rate Pools, it is also noteworthy that the exaVoucher extends on the ERC-20 standard, meaning that it can be exchangeable, adding composability across other protocols.
 
 Therefore, exaVoucher holders have the capability of redeeming and receiving their original assets plus their interests at any time, subject to available liquidity in the Variable Rate Pool.
 
@@ -154,7 +154,7 @@ The protocol parameters could be updated by the Risk Management Committee multis
 
 The multisig has a timelock in order to communicate and give time to the users using the protocol to react to any change made by the Risk Management Committee.
 
-Exactly began with centralized governance of the protocol’s parameters in order to get product market fit and will transition to a complete decentralization over time where the Risk Management Committee multisig will be replaced by a Decentralized Autonomous Organization (DAO) and Exactly tokens will be minted to the community.
+Exactly began with centralized governance of the protocol’s parameters in order to get product market fit and will transition to a complete decentralization over time where the Risk Management Committee multisig will be replaced by a Decentralized Autonomous Organization (DAO) and EXA tokens will be minted to the community.
 
 ## 5. Summary
 
