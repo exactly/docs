@@ -34,15 +34,15 @@ This pool provides liquidity to all the different [Fixed Rate Pools](faq.md#what
 
 There is one Variable Rate Pool and many Fixed Rate Pools for each asset allowed in the protocol.
 
-### What is an "exaToken"?
+### What is an "exaVoucher"?
 
-Users can supply their assets and increase the liquidity of the [Variable Rate Pool](faq.md#what-is-the-variable-rate-pool), which will, in turn, provide liquidity to all the different [Fixed Rate Pools](faq.md#what-is-a-fixed-rate-pool) as needed. Each deposit will mint an "Exactly Token" (exaToken) that uses the [ERC-4626](../guides/protocol/market/erc-4626.md) standard, which will be provided to the user as a voucher for the deposited amount. These exaTokens will periodically accrue variable earnings by increasing their value when withdrawing and exchanging back for the underlying assets. Even though the main goal is to solve the problem of fragmented liquidity across different Fixed Rate Pools, it is also noteworthy that the exaToken extends on the ERC-20 standard, meaning that it can be exchangeable, adding composability across other protocols.
+Users can supply their assets and increase the liquidity of the [Variable Rate Pool](faq.md#what-is-the-variable-rate-pool), which will, in turn, provide liquidity to all the different [Fixed Rate Pools](faq.md#what-is-a-fixed-rate-pool) as needed. Each deposit will mint an "Exactly Voucher" (exaVoucher) that uses the [ERC-4626](../guides/protocol/market/erc-4626.md) standard, which will be provided to the user as a voucher for the deposited amount. These exaVouchers will periodically accrue variable earnings by increasing their value when withdrawing and exchanging back for the underlying assets. Even though the main goal is to solve the problem of fragmented liquidity across different Fixed Rate Pools, it is also noteworthy that the exaVoucher extends on the ERC-20 standard, meaning that it can be exchangeable, adding composability across other protocols.
 
-Therefore, exaToken holders have the capability of redeeming and receiving their original assets plus their interests at any time, subject to available liquidity in the Variable Rate Pool.
+Therefore, exaVoucher holders have the capability of redeeming and receiving their original assets plus their interests at any time, subject to available liquidity in the Variable Rate Pool.
 
-### Are exaTokens transferable?
+### Are exaVouchers transferable?
 
-Yes, they can be transferred. Transferring the exaTokens would mean transferring the variable deposit position, and this can be done with any amount, not necessarily the whole position. Nevertheless, if the transferred amount causes a shortfall in the original address ([Health Factor < 1](faq.md#what-is-the-health-factor)), the transaction will be reverted.
+Yes, they can be transferred. Transferring the exaVouchers would mean transferring the variable deposit position, and this can be done with any amount, not necessarily the whole position. Nevertheless, if the transferred amount causes a shortfall in the original address ([Health Factor < 1](faq.md#what-is-the-health-factor)), the transaction will be reverted.
 
 ### What is a Fixed Rate Pool?
 
