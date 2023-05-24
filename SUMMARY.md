@@ -19,7 +19,7 @@
   * [InterestRateModel](guides/protocol/interestratemodel.md)
   * [RewardsController](guides/protocol/rewardscontroller/README.md)
 * [✨ Features](guides/features/README.md)
-  * [Automatic Bad Debt Clearing](guides/features/automatic-bad-debt-clearing.md)
+  * [Bad Debt Clearing](guides/features/automatic-bad-debt-clearing.md)
   * [Dynamic Close Factor](guides/features/dynamic-close-factor.md)
   * [Earnings Accumulator](guides/features/earnings-accumulator.md)
   * [Liquidity Reserve](guides/features/liquidity-reserve.md)
