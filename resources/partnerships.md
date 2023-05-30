@@ -54,6 +54,10 @@ URL: [https://www.defisafety.com/app?title=exactly](https://www.defisafety.com/a
 
 URL: [https://dune.com/exactly/exactly](https://dune.com/exactly/exactly)
 
+## Lido
+
+[Lido](https://lido.fi/ethereum) is a liquid-staking solution for ETH. The protocol is intended to allow users to stake their ETH while simultaneously participating in on-chain lending with stETH and wstETH, thus providing them access to additional yield from other protocols.
+
 ## Mean Finance
 
 [Mean Finance](https://mean.finance/) is the state-of-the-art DCA open protocol that enables users (or dapps) to Dollar Cost Average (DCA) any ERC20 into any ERC20 with their preferred period frequency, without sacrificing decentralization or giving up personal information to any centralized parties.
