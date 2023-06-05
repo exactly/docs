@@ -54,6 +54,12 @@ URL: [https://www.defisafety.com/app?title=exactly](https://www.defisafety.com/a
 
 URL: [https://dune.com/exactly/exactly](https://dune.com/exactly/exactly)
 
+## InsurAce Protocol
+
+[InsurAce](https://www.insurace.io) is a decentralized multi-chain protocol that provides risk protection services to DeFi users, allowing them to protect their investment funds against various risks.
+
+URL: [https://app.insurace.io/coverage/buycovers](https://app.insurace.io/coverage/buycovers)
+
 ## Lido
 
 [Lido](https://lido.fi/ethereum) is a liquid-staking solution for ETH. The protocol is intended to allow users to stake their ETH while simultaneously participating in on-chain lending with stETH and wstETH, thus providing them access to additional yield from other protocols.
