@@ -19,6 +19,7 @@ The Exactly protocol is currently deployed in the following networks:
 | MarketWETH              | [0xc4d4500326981eacD020e20A81b1c479c161c7EF](https://etherscan.io/address/0xc4d4500326981eacD020e20A81b1c479c161c7EF) | [0x86f6D8b717D49527Db3126F31Bdd3B0047694bf9](https://etherscan.io/address/0x86f6D8b717D49527Db3126F31Bdd3B0047694bf9) |
 | MarketWstETH            | [0x3843c41DA1d7909C86faD51c47B9A97Cf62a29e1](https://etherscan.io/address/0x3843c41DA1d7909C86faD51c47B9A97Cf62a29e1) | [0x810221FC9eC7d0EE775983aDe221D302e4ad9392](https://etherscan.io/address/0x810221FC9eC7d0EE775983aDe221D302e4ad9392) |
 | TimelockController      | [0x92024C4bDa9DA602b711B9AbB610d072018eb58b](https://etherscan.io/address/0x92024C4bDa9DA602b711B9AbB610d072018eb58b) |                                                     Doesn't apply.                                                    |
+| DebtManager             | [0x28f3D029Da71d9d53Ffff921D5AB6e41C3FfDDB3](https://etherscan.io/address/0x28f3D029Da71d9d53Ffff921D5AB6e41C3FfDDB3) | [0xfE0c5ABF52E3e3076f3CB7F6323C7C1c91F54b74](https://etherscan.io/address/0xfE0c5ABF52E3e3076f3CB7F6323C7C1c91F54b74) |
 
 ## Optimism
 
@@ -35,6 +36,7 @@ The Exactly protocol is currently deployed in the following networks:
 | MarketWstETH            | [0x22ab31Cd55130435b5efBf9224b6a9d5EC36533F](https://optimistic.etherscan.io/address/0x22ab31Cd55130435b5efBf9224b6a9d5EC36533F) | [0x1EE401f9Ae4e834ab4a8D02499f23a40Ae7a4dd2](https://optimistic.etherscan.io/address/0x1EE401f9Ae4e834ab4a8D02499f23a40Ae7a4dd2) |
 | TimelockController      | [0x92024C4bDa9DA602b711B9AbB610d072018eb58b](https://optimistic.etherscan.io/address/0x92024C4bDa9DA602b711B9AbB610d072018eb58b) |                                                          Doesn't apply.                                                          |
 | RewardsController       | [0xBd1ba78A3976cAB420A9203E6ef14D18C2B2E031](https://optimistic.etherscan.io/address/0xBd1ba78A3976cAB420A9203E6ef14D18C2B2E031) | [0xC91DC7A797cd5FBCf6F334C792a2b24EFf55292C](https://optimistic.etherscan.io/address/0xC91DC7A797cd5FBCf6F334C792a2b24EFf55292C) |
+| DebtManager             | [0xb27113B72135942065E0Fa09984FE2Bf008d5f3c](https://optimistic.etherscan.io/address/0xb27113B72135942065E0Fa09984FE2Bf008d5f3c) | [0xa7bffCf681BE7Ce32e6e6C17C240ED68eE6e16e2](https://optimistic.etherscan.io/address/0xa7bffCf681BE7Ce32e6e6C17C240ED68eE6e16e2) |
 
 ## Goerli
 
@@ -54,3 +56,4 @@ The Exactly protocol is currently deployed in the following networks:
 | MarketWstETH            | [0x0D337f4D28AbD8f542eD1cF0d5d45e32db3E95C1](https://goerli.etherscan.io/address/0x0D337f4D28AbD8f542eD1cF0d5d45e32db3E95C1) | [0x04bA04737c435D9c2b8d93EeF579b42201a735d3](https://goerli.etherscan.io/address/0x04bA04737c435D9c2b8d93EeF579b42201a735d3) |
 | TimelockController      | [0xAefCdbd18eabe4d6BD769d6aD649A18A9b9Ec60e](https://goerli.etherscan.io/address/0xAefCdbd18eabe4d6BD769d6aD649A18A9b9Ec60e) |                                                        Doesn't apply.                                                        |
 | RewardsController       | [0xAad51EaEa66CAD89d2D2A2e9389cb1BA919B347E](https://goerli.etherscan.io/address/0xAad51EaEa66CAD89d2D2A2e9389cb1BA919B347E) | [0xA9E27deE2931627F22eA2F3C425437aDf45343ef](https://goerli.etherscan.io/address/0xA9E27deE2931627F22eA2F3C425437aDf45343ef) |
+| DebtManager             | [0xAa3CaE4c5be6F1028Ff9F2c3Fe2BF215073F705e](https://goerli.etherscan.io/address/0xAa3CaE4c5be6F1028Ff9F2c3Fe2BF215073F705e) | [0xF126121B9A83312611191f573ac7E7A8530D717c](https://goerli.etherscan.io/address/0xF126121B9A83312611191f573ac7E7A8530D717c) |
