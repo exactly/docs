@@ -38,7 +38,7 @@ The Exactly protocol is currently deployed in the following networks:
 | RewardsController       | [0xBd1ba78A3976cAB420A9203E6ef14D18C2B2E031](https://optimistic.etherscan.io/address/0xBd1ba78A3976cAB420A9203E6ef14D18C2B2E031) | [0xC91DC7A797cd5FBCf6F334C792a2b24EFf55292C](https://optimistic.etherscan.io/address/0xC91DC7A797cd5FBCf6F334C792a2b24EFf55292C) |
 | DebtManager             | [0xb27113B72135942065E0Fa09984FE2Bf008d5f3c](https://optimistic.etherscan.io/address/0xb27113B72135942065E0Fa09984FE2Bf008d5f3c) | [0xa7bffCf681BE7Ce32e6e6C17C240ED68eE6e16e2](https://optimistic.etherscan.io/address/0xa7bffCf681BE7Ce32e6e6C17C240ED68eE6e16e2) |
 
-## Goerli
+## Goerli Testnet
 
 | Contract                |                                                            Address                                                           |                                                        Implementation                                                        |
 | ----------------------- | :--------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------: |

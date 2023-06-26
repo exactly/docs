@@ -51,7 +51,7 @@ These parameters are utilized to calculate [the effective borrow interest rate](
 | ---------------- | ------ | ------ | ------ | ------ | ------ | ------ |
 | Ethereum Mainnet | 0.8600 | 0.9000 | 0.9100 | 0.8500 | 0.8200 | N/A    |
 | OP Mainnet       | 0.8600 | N/A    | 0.9100 | N/A    | 0.8200 | 0.3500 |
-| Goerli           | 0.8600 | 0.9000 | 0.9100 | 0.8500 | 0.8200 | N/A    |
+| Goerli Testnet   | 0.8600 | 0.9000 | 0.9100 | 0.8500 | 0.8200 | N/A    |
 
 We associate a [Risk-Adjust Factor](https://docs.exact.ly/getting-started/math-paper#6.-liquidations) to each asset to assess each collateral asset's borrow and lending power.
 
