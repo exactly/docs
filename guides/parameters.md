@@ -12,13 +12,21 @@ $$\eta$$ is the fraction of the total [Variable Rate Pool](https://docs.exact.ly
 
 ## B. Treasury Fee
 
+The treasury fee refers to the percentage of interest rate charges paid by borrowers that the protocol retains for its treasury.
+
+**Treasury Fee on OP Mainnet**
+
+$$
+\begin{align*} \lambda_r = 15\% \end{align*}
+$$
+
+
+
+**Treasury Fee on Ethereum Mainnet**
+
 $$
 \begin{align*} \lambda_r = 0\% \end{align*}
 $$
-
-The treasury fee refers to the percentage of interest rate charges paid by borrowers that the protocol retains for its treasury.
-
-
 
 ## C. Interest Rate Curves
 
