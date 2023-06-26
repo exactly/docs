@@ -2,7 +2,7 @@
 
 The Exactly protocol is currently deployed in the following networks:
 
-## Mainnet
+## Ethereum Mainnet
 
 | Contract                |                                                        Address                                                        |                                                     Implementation                                                    |
 | ----------------------- | :-------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------: |
@@ -21,7 +21,7 @@ The Exactly protocol is currently deployed in the following networks:
 | TimelockController      | [0x92024C4bDa9DA602b711B9AbB610d072018eb58b](https://etherscan.io/address/0x92024C4bDa9DA602b711B9AbB610d072018eb58b) |                                                     Doesn't apply.                                                    |
 | DebtManager             | [0x28f3D029Da71d9d53Ffff921D5AB6e41C3FfDDB3](https://etherscan.io/address/0x28f3D029Da71d9d53Ffff921D5AB6e41C3FfDDB3) | [0xfE0c5ABF52E3e3076f3CB7F6323C7C1c91F54b74](https://etherscan.io/address/0xfE0c5ABF52E3e3076f3CB7F6323C7C1c91F54b74) |
 
-## Optimism
+## OP Mainnet
 
 | Contract                |                                                              Address                                                             |                                                          Implementation                                                          |
 | ----------------------- | :------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------: |

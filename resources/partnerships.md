@@ -92,7 +92,7 @@ URL: [https://app.nexusmutual.io/cover/buy/get-quote?productId=81](https://app.n
 
 ## Optimism
 
-[Optimism](https://www.optimism.io) is a low-cost and lightning-fast Ethereum L2 (Layer 2) blockchain, designed to be fast, cheap, and simple while maintaining the security and decentralization of L1 (Layer 1).
+[OP Mainnet](https://www.optimism.io) is a low-cost and lightning-fast Ethereum L2 (Layer 2) blockchain, designed to be fast, cheap, and simple while maintaining the security and decentralization of L1 (Layer 1).
 
 In partnership with the Optimism Foundation, we have launched a rewards initiative that allows our users to earn [$OP tokens](https://help.optimism.io/hc/en-us/articles/5497354656283-What-is-the-Optimism-Token-).
 
