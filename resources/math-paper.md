@@ -98,7 +98,7 @@ The function was thought in such a way that it naturally divides the utilization
 
 One of the differences between money market protocols and Exactly's approach to term borrowing/lending is that each user can receive/pay a fixed rate when they transact on our platform. Because of that, the choice of an appropriate utilization rate value becomes so crucial.
 
-![Effective Interest Rate for a Particular Loan - figure 1](<../.gitbook/assets/image (5).png>)
+![Effective Interest Rate for a Particular Loan - figure 1](<../.gitbook/assets/image (5) (1).png>)
 
 When at time $$t^{k+1}$$ there is a new request for a loan of size $$B_{FR,i}^{t_{k+1}}$$, if confirmed, the system would evolve from a utilization state $$U_{FR,i}^{t_{k}}$$ to a state $$U_{FR,i}^{t_{k+1}}$$ according to the following rule:
 
@@ -142,7 +142,7 @@ Assuming that at time $$t_{k}$$ there is a set $$\{{BV_{FR,i}^{t_{n}},n=1,\ldots
 
 Remember that $$T_{i}$$ denotes the maturity of the pool. The number of funds to be returned to the Variable Rate Pool will be
 
-![math formula - (16)](<../.gitbook/assets/image (8).png>)
+![math formula - (16)](<../.gitbook/assets/image (8) (1).png>)
 
 and the total interest assigned to the new depositor will be
 
@@ -170,7 +170,7 @@ The total interest amount accumulated by the mass of loans from all the Fixed Ra
 
 The total amount of accrued interest earned by depositors is;
 
-![math formula - (20)](<../.gitbook/assets/image (6).png>)
+![math formula - (20)](<../.gitbook/assets/image (6) (2).png>)
 
 and the total amount of accrued interest earned by the Variable Rate Pool;
 

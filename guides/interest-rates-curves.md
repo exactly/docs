@@ -8,19 +8,23 @@ You can read more about our Interest Rate Model in our [White Paper](https://doc
 
 <figure><img src="../.gitbook/assets/WETH VRP (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/WETH FRP.png" alt=""><figcaption></figcaption></figure>
+<div data-full-width="false">
+
+<figure><img src="../.gitbook/assets/image (7) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
 
 ## DAI
 
 <figure><img src="../.gitbook/assets/DAI VRP.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/DAI FRP.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## USDC
 
 <figure><img src="../.gitbook/assets/USDC VRP.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/USDC FRP (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## WBTC
 
@@ -28,14 +32,16 @@ You can read more about our Interest Rate Model in our [White Paper](https://doc
 
 <figure><img src="../.gitbook/assets/WBTC FRP (1).png" alt=""><figcaption></figcaption></figure>
 
+
+
 ## wstETH
 
 <figure><img src="../.gitbook/assets/WstETH VRP.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/WstETH FRP (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## OP
 
 <figure><img src="../.gitbook/assets/OP VRP.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/OP FRP.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8).png" alt="" width="563"><figcaption></figcaption></figure>
