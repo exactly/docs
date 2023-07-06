@@ -84,11 +84,38 @@ These parameters are utilized to calculate [the effective borrow interest rate](
 
 ## D. Risk Factors
 
-| Network          | WETH   | DAI    | USDC   | WBTC   | wstETH | OP     |
-| ---------------- | ------ | ------ | ------ | ------ | ------ | ------ |
-| Ethereum Mainnet | 0.8600 | 0.9000 | 0.9100 | 0.8500 | 0.8200 | N/A    |
-| OP Mainnet       | 0.8600 | N/A    | 0.9100 | N/A    | 0.8200 | 0.3500 |
-| Goerli Testnet   | 0.8600 | 0.9000 | 0.9100 | 0.8500 | 0.8200 | N/A    |
+#### Ethereum Mainnet
+
+| Asset  | Value  |
+| ------ | ------ |
+| WETH   | 0.8600 |
+| DAI    | 0.9000 |
+| USDC   | 0.9100 |
+| WBTC   | 0.8500 |
+| wstETH | 0.8200 |
+| OP     | N/A    |
+
+#### OP Mainnet
+
+| Asset  | Value  |
+| ------ | ------ |
+| WETH   | 0.8600 |
+| DAI    | N/A    |
+| USDC   | 0.9100 |
+| WBTC   | N/A    |
+| wstETH | 0.8200 |
+| OP     | 0.3500 |
+
+#### Goerli Testnet
+
+| Asset  | Value  |
+| ------ | ------ |
+| WETH   | 0.8600 |
+| DAI    | 0.9000 |
+| USDC   | 0.9100 |
+| WBTC   | 0.8500 |
+| wstETH | 0.8200 |
+| OP     | N/A    |
 
 We associate a [Risk-Adjust Factor](https://docs.exact.ly/getting-started/math-paper#6.-liquidations) to each asset to assess each collateral asset's borrow and lending power.
 
