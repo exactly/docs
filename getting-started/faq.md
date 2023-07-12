@@ -201,6 +201,10 @@ We use an aggregation of decentralized data feeds from [Chainlink](https://data.
   * We display on Markets the best-fixed rate (Advanced View) for a marginal change in utilization in the Fixed Rate Pools or just the current marginal utilization for each Fixed Rate Pool (Simple View)
   * Then, when entering the amount (Simple View or modal window in the Advance View), we calculate the specific fixed interest rate based on his deposit amount and the current fixed interest rate fees from borrows that the Fixed Rate Pool will collect until maturity.
 
+### Why is the web app not available for US Persons?
+
+As US Persons are prohibited from accessing and using the Digital Asset Services in any way, the platform does not allow it use by, or operates in any way with, US Persons. If Exactly has a reasonable suspicion that you are a US Person, we reserve the right to take whatever action we deem appropriate to prohibit your access to the Digital Asset Services.
+
 ## Governance Token
 
 ### Is there a protocol token? How can I earn it?
