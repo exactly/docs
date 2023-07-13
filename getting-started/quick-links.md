@@ -5,6 +5,7 @@
 * [Website](https://exact.ly/)
 * [Docs](https://docs.exact.ly/)
 * [DApp](https://app.exact.ly/)
+* [Ethereum Mainnet DApp](https://ethereum.exact.ly)
 * [Testnet](https://goerli.exact.ly)
 
 ## Social
