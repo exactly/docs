@@ -16,21 +16,11 @@ The treasury fee refers to the percentage of interest rate charges paid by borro
 
 **Treasury Fee on OP Mainnet**
 
-OP Mainnet:
-
 $$
 \begin{align*} \lambda_r = 15\% \end{align*}
 $$
 
-The treasury fee refers to the percentage of interest rate charges paid by borrowers that the protocol retains for its treasury.
-
-
-
-The treasury fee refers to the percentage of interest rate charges paid by borrowers that the protocol retains for its treasury.
-
-
-
-OP Mainnet Treasury multisig: [https://optimistic.etherscan.io/address/0x23fd464e0b0ee21cedeb929b19cabf9bd5215019](https://optimistic.etherscan.io/address/0x23fd464e0b0ee21cedeb929b19cabf9bd5215019)
+OP Mainnet Treasury multisig address: [https://optimistic.etherscan.io/address/0x23fd464e0b0ee21cedeb929b19cabf9bd5215019](https://optimistic.etherscan.io/address/0x23fd464e0b0ee21cedeb929b19cabf9bd5215019)
 
 **Treasury Fee on Ethereum Mainnet**
 
@@ -94,36 +84,36 @@ These parameters are utilized to calculate [the effective borrow interest rate](
 
 #### Ethereum Mainnet
 
-| Asset  | Value  |
-| ------ | ------ |
-| WETH   | 0.8600 |
-| DAI    | 0.9000 |
-| USDC   | 0.9100 |
-| WBTC   | 0.8500 |
-| wstETH | 0.8200 |
-| OP     | N/A    |
+| Asset  | Value |
+| ------ | ----- |
+| WETH   | 0.86  |
+| DAI    | 0.90  |
+| USDC   | 0.91  |
+| WBTC   | 0.85  |
+| wstETH | 0.82  |
+| OP     | N/A   |
 
 #### OP Mainnet
 
-| Asset  | Value  |
-| ------ | ------ |
-| WETH   | 0.8600 |
-| DAI    | N/A    |
-| USDC   | 0.9100 |
-| WBTC   | N/A    |
-| wstETH | 0.8200 |
-| OP     | 0.3500 |
+| Asset  | Value |
+| ------ | ----- |
+| WETH   | 0.86  |
+| DAI    | N/A   |
+| USDC   | 0.91  |
+| WBTC   | N/A   |
+| wstETH | 0.82  |
+| OP     | 0.35  |
 
 #### Goerli Testnet
 
-| Asset  | Value  |
-| ------ | ------ |
-| WETH   | 0.8600 |
-| DAI    | 0.9000 |
-| USDC   | 0.9100 |
-| WBTC   | 0.8500 |
-| wstETH | 0.8200 |
-| OP     | N/A    |
+| Asset  | Value |
+| ------ | ----- |
+| WETH   | 0.86  |
+| DAI    | 0.90  |
+| USDC   | 0.91  |
+| WBTC   | 0.85  |
+| wstETH | 0.82  |
+| OP     | N/A   |
 
 We associate a [Risk-Adjust Factor](https://docs.exact.ly/getting-started/math-paper#6.-liquidations) to each asset to assess each collateral asset's borrow and lending power.
 
