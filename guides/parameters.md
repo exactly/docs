@@ -8,7 +8,7 @@ $$
 \begin{align*} \eta = 10\% \end{align*}
 $$
 
-$$\eta$$ is the fraction of the total [Variable Rate Pool](https://docs.exact.ly/getting-started/math-paper#3.-variable-rate-pool) deposits that are established as Liquidity Reserves, can't be borrowed, and will only be available for withdrawals.
+$$\eta$$ the fraction of the total Variable Rate Pool deposits established as Liquidity Reserves can't be borrowed and will only be available for withdrawals.
 
 ## B. Treasury Fee
 
