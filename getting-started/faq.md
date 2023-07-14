@@ -203,7 +203,7 @@ We use an aggregation of decentralized data feeds from [Chainlink](https://data.
 
 ### Why is the web app not available for US Persons?
 
-As US Persons are prohibited from accessing and using the Digital Asset Services in any way, the platform does not allow it use by, or operates in any way with, US Persons. If Exactly has a reasonable suspicion that you are a US Person, we reserve the right to take whatever action we deem appropriate to prohibit your access to the Digital Asset Services.
+As US Persons are prohibited from accessing and using the Digital Asset Services in any way, the platform does not allow its use by, or operation in any way with, US Persons. If we have reasonable grounds to suspect that you are a US Person, we reserve the right to take whatever action we deem appropriate to prohibit your access to the Digital Asset Services
 
 ## Governance Token
 
