@@ -6,7 +6,7 @@ When you use our Platform, our website [https://exact.ly/](https://exact.ly/) (â
 
 **2. Operator**
 
-EXAFIN LTD, is the operator of the Platform and acts as a central point of contact for all issues concerning Cookies on the Platform and our Website.
+Exactly, is the operator of the Platform and acts as a central point of contact for all issues concerning Cookies on the Platform and our Website.
 
 If you have any questions in connection with Cookies on our Platform and/or our Website or the processing of your personal data, you can contact our privacy team: [legal@exact.ly](mailto:legal@exact.ly).
 

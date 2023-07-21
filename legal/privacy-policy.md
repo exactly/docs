@@ -1,10 +1,10 @@
 # 🔏 Privacy Policy
 
-This privacy policy (the "**Privacy Policy**") sets out the different areas where user's privacy is concerned and outlines how **EXAFIN LTD.**, a company incorporated under the laws of British Virgin Islands (the “**Company**” or “**Exactly**”) recollects and uses personal data of users (“**Users**”) for the use of its Platform (as defined in our terms and conditions). Furthermore, this Privacy Policy explains the way the Company processes, stores and protects user data and information.
+This privacy policy (the "**Privacy Policy**") sets out the different areas where user's privacy is concerned and outlines how **EXACTLY.**, a company incorporated under the laws of British Virgin Islands (the “**Company**” or “**Exactly**”) recollects and uses personal data of users (“**Users**”) for the use of its Platform (as defined in our terms and conditions). Furthermore, this Privacy Policy explains the way the Company processes, stores and protects user data and information.
 
 The purpose of our Platform is primarily to enable registered users to carry out certain transactions involving digital assets, including but not limited to digital loans and credit products (“**Digital Assets Services**”).
 
-Exafin’s approach to Users’ privacy is to ensure that all the necessary steps are taken to protect the privacy of its Users.
+Exactly approach to Users’ privacy is to ensure that all the necessary steps are taken to protect the privacy of its Users.
 
 Please read this carefully as this Privacy Policy is legally binding when you use the Platform.
 
