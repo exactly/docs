@@ -101,9 +101,15 @@ URLs:
 * [OP Rewards at Exactly Protocol](https://medium.com/@exactly\_protocol/op-rewards-are-now-live-at-exactly-protocol-1f119d483e6)
 * [https://www.optimism.io/apps/defi](https://www.optimism.io/apps/defi)
 
+## Velodrome
+
+[Velodrome](https://velodrome.finance) is a next-generation AMM (Automatic Market Maker) designed to serve as Optimism's central liquidity hub.
+
+URL: [https://velodrome.finance/](https://velodrome.finance/)
+
 ## Zapper
 
-[Zapper](https://zapper.xyz) is a Web3 explorer that allows users to track the blockchain journey of others in DeFi protocols, NFTs, and DAOs. With Zapper, users can track and follow multiple wallets, and explore new opportunities in DeFi by browsing various protocols.
+[Zapper](https://zapper.xyz) is a Web3 explorer that allows users to track the blockchain journey of others in DeFi protocols, NFTs, and DAOs. With Zapper, users can track and follow multiple wallets and explore new opportunities in DeFi by browsing various protocols.
 
 URL: [https://zapper.xyz/apps/exactly](https://zapper.xyz/apps/exactly)
 
