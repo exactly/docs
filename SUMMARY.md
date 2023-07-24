@@ -29,6 +29,7 @@
   * [📥 Deposits](guides/fixed-rate-operations/deposits.md)
   * [📤 Borrows](guides/fixed-rate-operations/borrows.md)
 * [🔢 Parameters](guides/parameters.md)
+* [🪙 EXA](guides/exa.md)
 * [📈 Interest Rates Curves](guides/interest-rates-curves.md)
 * [♻ Liquidations](guides/liquidations/README.md)
   * [🤖 Exactly's Bot](guides/liquidations/exactlys-bot.md)
