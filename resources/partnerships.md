@@ -101,6 +101,10 @@ URLs:
 * [OP Rewards at Exactly Protocol](https://medium.com/@exactly\_protocol/op-rewards-are-now-live-at-exactly-protocol-1f119d483e6)
 * [https://www.optimism.io/apps/defi](https://www.optimism.io/apps/defi)
 
+## Sablier
+
+[Sablier](https://sablier.com) is a token streaming protocol that facilitates the streaming of ERC-20 assets on Ethereum and other EVM blockchains, enabling users to make continuous, real-time payments on a per-second basis.
+
 ## Velodrome
 
 [Velodrome](https://velodrome.finance) is a next-generation AMM (Automatic Market Maker) designed to serve as Optimism's central liquidity hub.
