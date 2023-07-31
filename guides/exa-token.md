@@ -8,12 +8,16 @@ As the Protocol develops, EXA token holders will play a crucial role in decision
 
 **Timelock:** [https://optimistic.etherscan.io/token/0x1e925de1c68ef83bd98ee3e130ef14a50309c01b?a=0x92024c4bda9da602b711b9abb610d072018eb58b](https://optimistic.etherscan.io/token/0x1e925de1c68ef83bd98ee3e130ef14a50309c01b?a=0x92024c4bda9da602b711b9abb610d072018eb58b)
 
-### Velodrome Liquidity Pool
-
-URL: [https://velodrome.finance/swap?from=0x4200000000000000000000000000000000000006\&to=0x1e925de1c68ef83bd98ee3e130ef14a50309c01b](https://velodrome.finance/swap?from=0x4200000000000000000000000000000000000006\&to=0x1e925de1c68ef83bd98ee3e130ef14a50309c01b)
-
 ### CoinGecko
 
 CoinGecko URL: [https://www.coingecko.com/en/coins/exa](https://www.coingecko.com/en/coins/exa)
 
 GeckoTerminal URL: [https://www.geckoterminal.com/optimism/pools/0xf3c45b45223df6071a478851b9c17e0630fdf535](https://www.geckoterminal.com/optimism/pools/0xf3c45b45223df6071a478851b9c17e0630fdf535)
+
+### Velodrome Liquidity Pool
+
+URL: [https://velodrome.finance/swap?from=0x4200000000000000000000000000000000000006\&to=0x1e925de1c68ef83bd98ee3e130ef14a50309c01b](https://velodrome.finance/swap?from=0x4200000000000000000000000000000000000006\&to=0x1e925de1c68ef83bd98ee3e130ef14a50309c01b)
+
+### EXA Vaults
+
+EXA-​WETH LP vault on [Beefy](https://app.beefy.com): [https://app.beefy.com/vault/velodrome-v2-exa-weth](https://app.beefy.com/vault/velodrome-v2-exa-weth)
