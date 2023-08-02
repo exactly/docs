@@ -1,8 +1,6 @@
 # 👀 Previewer
 
-The **Previewer** is a smart contract designed exclusively to be consumed by Exactly's web app.
-
-It retrieves comprehensive on-chain information about Exactly's markets and accounts while minimizing the number of requests made, enhancing performance, and abstracting the front-end interface from protocol intricacies.
+The Previewer is a read-only smart contract specifically engineered for Exactly's web application. Its role is to gather comprehensive on-chain data pertaining to Exactly's markets, and user accounts while minimizing the amount of necessary requests, thus enhancing performance. Moreover, it abstracts the complexities of the protocol from the front-end interface by directly returning oracle prices, counting the amount of deposits and borrows per market, and providing the current snapshot of any account being queried.
 
 This contract can be found in the [periphery folder of Exactly's repo](https://github.com/exactly/protocol/blob/main/contracts/periphery/Previewer.sol).
 

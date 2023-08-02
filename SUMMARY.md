@@ -38,7 +38,13 @@
 * [🌐 The Graph](guides/the-graph.md)
 * [🔮 Chainlink Price Feeds](guides/price-feeds.md)
 * [🛰 Periphery](guides/periphery/README.md)
+  * [🪂 Airdrop](guides/periphery/airdrop.md)
+  * [🌀 DebtManager](guides/periphery/debtmanager.md)
+  * [👓 DebtPreviewer](guides/periphery/debtpreviewer.md)
+  * [🪙 EXA](guides/periphery/exa.md)
+  * [🥩 Proto-Staker](guides/periphery/proto-staker.md)
   * [👀 Previewer](guides/periphery/previewer.md)
+  * [🔁 Swapper](guides/periphery/swapper.md)
 
 ## Security
 
