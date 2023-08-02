@@ -135,6 +135,10 @@ Liquidity providers receive earnings from four different sources:
 
 Incentives 2, 3, and 4 are extraordinary events and generate earnings that are gradually distributed to [Variable Rate Pool](faq.md#what-is-the-variable-rate-pool) depositors.
 
+### How does the protocol generate revenue?
+
+Exactly Protocol generates revenue since the [Treasury Fee](https://docs.exact.ly/guides/parameters#b.-treasury-fee) parameter was activated on OP Mainnet in June 2023. The Treasury Fee refers to the percentage of interest rate charges paid by borrowers that the protocol retains for its treasury.
+
 ### What is the process for transferring assets from Ethereum Mainnet to OP Mainnet?
 
 "Bridging" is the process of transferring tokens from Ethereum (Mainnet) to OP Mainnet. This allows users to take advantage of faster and cheaper transactions on this network, which is a layer 2 scaling solution.
