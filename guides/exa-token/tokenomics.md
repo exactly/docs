@@ -22,9 +22,9 @@ Users can start claiming their tokens on July 25, 2023, at 14:00 UTC. We will im
 
 ### **EXA Incentives and Community Grants:** <a href="#f9d8" id="f9d8"></a>
 
-The protocol users will receive 5% (500,000 EXA) of the total token supply during 2023 through the current Rewards Controller Contract and other incentive mechanism. **The** [**EXA token rewards**](https://medium.com/@exactly\_protocol/exactly-rewards-update-introducing-exa-rewards-extending-op-rewards-program-6dd4a3dffe7a) **will start on July 24, 2023**. The remaining EXA tokens will be released over 36 months beginning January 1, 2024.
+The protocol users will receive 5% (500,000 EXA) of the total token supply during 2023 through the current Rewards Controller Contract and other incentive mechanisms through strategic [partnerships](https://docs.exact.ly/resources/partnerships) with Beefy, Velodrome, etc. **The** [**EXA token rewards**](https://medium.com/@exactly\_protocol/exactly-rewards-update-introducing-exa-rewards-extending-op-rewards-program-6dd4a3dffe7a) **will start on July 24, 2023**. The remaining EXA tokens will be released over 36 months beginning January 1, 2024.
 
-The Exactly DAO will be also awarding **EXA token grants** to those builders who want to build on top of Exactly Protocol to foster the growth of the Exactly ecosystem.
+The Exactly DAO will also be awarding **EXA token grants** to those builders who want to build on top of Exactly Protocol to foster the growth of the Exactly ecosystem.
 
 To ensure the optimal use of our available token supply, we have already introduced our [Rewards Controller Contract](https://docs.exact.ly/guides/protocol/rewardscontroller) as a distribution rule that adjusts rewards based on the percentage of the target loan volume achieved within the Exactly Protocol, using tokens allocated for community rewards.
 
