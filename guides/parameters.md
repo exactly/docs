@@ -125,7 +125,7 @@ Follow the steps below to check the Risk-Adjust Factor for a specific asset:
 2. To query the `markets` function in that contract, you will need the market contract address for the specific asset. For example, you can use the following address to check the Risk-Adjust Factor for USDC: `0x660e2fC185a9fFE722aF253329CEaAD4C9F6F928`. All addresses for each network (Mainnet, Optimism, et al.) are available in [smart-contract-addresses.md](smart-contract-addresses.md "mention").
 3. Click the "Query" button to call the function. The result will display various information about the market, including the Risk-Adjust Factor.
 4. The Risk-Adjust Factor will be returned as `adjustFactor`. In this case, `910000000000000000` equals to 0.91.\
-   ![](../.gitbook/assets/image.png)
+   ![](<../.gitbook/assets/image (3).png>)
 
 Following these steps, you can check the Risk-Adjust Factor for any asset in the protocol by simply replacing the market contract address with the one corresponding to the desired asset.
 

@@ -116,7 +116,7 @@ To achieve that, the protocol needs to calculate the effective interest rate (2)
 
 The direct use of the Variable Rate Pool supply quantity ($$SS^{t}$$) in the definition of utilization rate could expose the protocol to a type of manipulation attack. In fact, attackers can deposit to a market's Variable Rate Pool to lower the pool utilization rate to decrease the interest rate and then borrow at a cheaper rate. After that, the attackers can immediately withdraw from the Variable Rate Pool if there are enough assets available there. Although this potential manipulation does not hurt the protocol's solvency, it constitutes an unfair practice affecting users. To discourage this misbehavior, we introduce an exponential weighted moving average (EMA) of the supply in the utilization rate formula.
 
-![math formula - (13)](<../.gitbook/assets/image (3).png>)
+![math formula - (13)](<../.gitbook/assets/image (3) (1).png>)
 
 The idea underlying the choice of $$\alpha$$ is the following: We want the system to adapt slowly when there is an increase in the supply that carries its value above its moving average (lowering interest rates) but we want the system to adapt faster when there are withdrawals that take the supply below its average value (increasing interest rates). So we set $$\alpha$$ as:
 
@@ -188,7 +188,7 @@ where $$TB_{VR}^{t}$$ is the total amount of variable rate borrows outstanding a
 
 Second, each time there is a new transaction in the Variable Rate Pool, a new utilization rate is calculated according to the following rule:
 
-![math formula - (23)](<../.gitbook/assets/image (1).png>)
+![math formula - (23)](<../.gitbook/assets/image (1) (2).png>)
 
 Here $$B_{VR}^{t+1}>0$$ means a new borrow is being made and $$B_{VR}^{t+1}<0$$ means a repay (partial or total) of an existing borrow is being made.
 
@@ -234,7 +234,7 @@ In terms of liquidations, we adopted an approach similar to that of the Euler pr
 
 We associate a Risk-Adjust Factor $$ho _{i}$$ to each asset in order to assess the lending power of each collateral asset. Thus the risk-adjusted collateral is given by
 
-![math formula - (32)](<../.gitbook/assets/image (2).png>)
+![math formula - (32)](<../.gitbook/assets/image (2) (1).png>)
 
 So, given a user collateral portfolio, the average Risk-Adjust Factor can be defined as follows
 
