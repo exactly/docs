@@ -36,7 +36,5 @@ You can see all the EXA tokens will be distributed in the following graphic:
 
 <figure><img src="../../.gitbook/assets/image (2).png" alt="" width="563"><figcaption></figcaption></figure>
 
-
-
-\
+For more information about the EXA token distribution and supply, please read our [full article](https://medium.com/@exactly\_protocol/the-exa-token-is-here-88a2449c4eb3).\
 \
