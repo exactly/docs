@@ -29,6 +29,8 @@ Velodrome EXA-WEHT Pool: \
 
 ### EXA Vaults
 
-EXA-​WETH LP Vault on Beefy: \
+**EXA-​WETH LP Vault on Beefy:** \
 [https://app.beefy.com/vault/velodrome-v2-exa-weth](https://app.beefy.com/vault/velodrome-v2-exa-weth)
+
+**Leveraged yield farming pool on Extra Finance:** [https://app.extrafi.io/farm/vAMMV2-EXA%2FWETH](https://app.extrafi.io/farm/vAMMV2-EXA%2FWETH)
 
