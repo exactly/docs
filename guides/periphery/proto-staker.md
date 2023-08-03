@@ -8,6 +8,10 @@ This smart contract is integrated into Exactly Protocol’s web app to enable us
 
 This contract also uses '[permits](https://help.1inch.io/en/articles/5435386-permit-712-signed-token-approvals-and-how-they-work-on-1inch)' to perform these transactions.
 
+### Potential Exposure to Impermanent Loss
+
+By engaging with the Proto-Staker contract within Exactly Protocol, users should be aware that they may be exposed to a phenomenon known as **impermanent loss**. This financial risk is prevalent in dApps, where liquidity is provided to automated market makers (AMMs). Impermanent loss can occur when the price ratio of the provided assets changes, resulting in a temporary discrepancy between the current value of the held assets within the liquidity pool and the value if held outside the pool. In the context of the EXA/WETH Liquidity Pool, price changes in either EXA or WETH can trigger this loss, impacting the overall value of the contributed assets. Users should carefully consider this risk and monitor the price movements of the involved assets when interacting with the Proto-Staker.
+
 GitHub URL: [https://github.com/exactly/protocol/blob/history/proto-staking-0/contracts/periphery/ProtoStaker.sol ](https://github.com/exactly/protocol/blob/history/proto-staking-0/contracts/periphery/ProtoStaker.sol)
 
 \
