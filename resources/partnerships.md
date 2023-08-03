@@ -54,6 +54,12 @@ URL: [https://www.defisafety.com/app?title=exactly](https://www.defisafety.com/a
 
 URL: [https://dune.com/exactly/exactly](https://dune.com/exactly/exactly)
 
+## Extra Finance
+
+[Extra Finance](https://extrafi.io) is a lending leveraged yield farming (LYF) protocol built on OP Mainnet. LYF strategies allow users to amplify their returns on investments by borrowing additional funds to invest in a liquidity pool.&#x20;
+
+URL: [https://app.extrafi.io/farm/vAMMV2-EXA%2FWETH](https://app.extrafi.io/farm/vAMMV2-EXA%2FWETH)
+
 ## InsurAce Protocol
 
 [InsurAce](https://www.insurace.io) is a decentralized multi-chain protocol that provides risk protection services to DeFi users, allowing them to protect their investment funds against various risks.
@@ -110,6 +116,12 @@ URLs:
 [Velodrome](https://velodrome.finance) is a next-generation AMM (Automatic Market Maker) designed to serve as Optimism's central liquidity hub.
 
 URL: [https://velodrome.finance/swap?from=0x4200000000000000000000000000000000000006\&to=0x1e925de1c68ef83bd98ee3e130ef14a50309c01b](https://velodrome.finance/swap?from=0x4200000000000000000000000000000000000006\&to=0x1e925de1c68ef83bd98ee3e130ef14a50309c01b)
+
+## Yearn Finance
+
+[Yearn Finance](https://yearn.finance) is a yield aggregator. Giving individuals, DAOs, and other protocols a way to deposit digital assets and receive yield. Yearn Vaults are capital pools that automatically generate yield based on opportunities present in the market.
+
+URL: [https://yearn.finance/vaults/10/0xc3439Ba7db7566ed0deF55c179ED9b3bA273A67F](https://yearn.finance/vaults/10/0xc3439Ba7db7566ed0deF55c179ED9b3bA273A67F)
 
 ## Zapper
 
