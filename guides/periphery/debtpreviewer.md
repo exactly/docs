@@ -7,5 +7,4 @@ This is a smart contract designed to abstract the `DebtManager` logic, it provid
 * Retrieve information about any account collateral and debt for any pair of markets in exactly.
 * Allow accounts to preview their positions, simulating a leverage or deleverage to a certain ratio with a desired health factor.
 
-\
-GitHub URL: [https://github.com/exactly/protocol/blob/main/contracts/periphery/DebtPreviewer.sol](https://github.com/exactly/protocol/blob/main/contracts/periphery/DebtPreviewer.sol)
+**GitHub URL:** [https://github.com/exactly/protocol/blob/main/contracts/periphery/DebtPreviewer.sol](https://github.com/exactly/protocol/blob/main/contracts/periphery/DebtPreviewer.sol)

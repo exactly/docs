@@ -4,4 +4,4 @@ Using Solmate's Merkle tree library, this smart contract can validate the eligib
 
 It interfaces with the [Sablier protocol](https://sablier.com), a token streaming mechanism, to facilitate the creation of an NFT for each recipient and subsequently initiate the airdrop stream.
 
-GitHub URL: [https://github.com/exactly/protocol/blob/main/contracts/periphery/Airdrop.sol](https://github.com/exactly/protocol/blob/main/contracts/periphery/Airdrop.sol)
+**GitHub URL:** [https://github.com/exactly/protocol/blob/main/contracts/periphery/Airdrop.sol](https://github.com/exactly/protocol/blob/main/contracts/periphery/Airdrop.sol)
