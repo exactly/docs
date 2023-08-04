@@ -1,8 +1,4 @@
----
-description: Exactly Token (EXA)
----
-
-# 🪙 EXA Token
+# 🪙 Exactly Token (EXA)
 
 **`EXA` Smart Contract Address (exa.eth):** [**`0x1e925de1c68ef83bd98ee3e130ef14a50309c01b`**](https://optimistic.etherscan.io/token/0x1e925de1c68ef83bd98ee3e130ef14a50309c01b)
 
