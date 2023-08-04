@@ -11,9 +11,9 @@ As the Protocol develops, EXA token holders will play a crucial role in decision
 For security reasons, most of the EXA tokens will be deposited in the [Timelock Contract](https://optimistic.etherscan.io/address/0x92024C4bDa9DA602b711B9AbB610d072018eb58b):\
 [https://optimistic.etherscan.io/token/0x1e925de1c68ef83bd98ee3e130ef14a50309c01b?a=0x92024c4bda9da602b711b9abb610d072018eb58b](https://optimistic.etherscan.io/token/0x1e925de1c68ef83bd98ee3e130ef14a50309c01b?a=0x92024c4bda9da602b711b9abb610d072018eb58b)
 
-### Token Holders
+### Circulating Supply & Token Holders
 
-EXA token holders can be tracked at the following link: [https://optimistic.etherscan.io/token/0x1e925de1c68ef83bd98ee3e130ef14a50309c01b#balances](https://optimistic.etherscan.io/token/0x1e925de1c68ef83bd98ee3e130ef14a50309c01b#balances)
+EXA token holders and Circulating Supply can be tracked at the following link: [https://optimistic.etherscan.io/token/tokenholderchart/0x1e925de1c68ef83bd98ee3e130ef14a50309c01b](https://optimistic.etherscan.io/token/tokenholderchart/0x1e925de1c68ef83bd98ee3e130ef14a50309c01b)
 
 ### Price Info
 
