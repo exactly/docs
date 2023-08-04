@@ -211,15 +211,17 @@ We use an aggregation of decentralized data feeds from [Chainlink](https://data.
 
 As US Persons are prohibited from accessing and using the Digital Asset Services in any way, the platform does not allow its use by, or operation in any way with, US Persons. If we have reasonable grounds to suspect that you are a US Person, we reserve the right to take whatever action we deem appropriate to prohibit your access to the Digital Asset Services
 
-## Governance Token
+## EXA Governance Token
 
-### Is there a protocol token? How can I earn it?
+### Is there a governance token?
 
-Exactly Protocol does not currently have a governance token.
+Yes, the [EXA token](https://docs.exact.ly/guides/exa-token) is the Exactly Protocol's governance token. With the EXA token, community members can actively participate in the Protocol’s governance by voting on proposals for changes and upgrades.
 
-### Is there a TGE/ICO/IDO?
+More information about the EXA token can be found in the [EXA Token section](https://docs.exact.ly/guides/exa-token).
 
-There is no public sale.
+### What is the total circulating supply of the EXA token?
+
+The total Circulating Supply and token holders can be found [here](https://optimistic.etherscan.io/token/tokenholderchart/0x1e925de1c68ef83bd98ee3e130ef14a50309c01b).
 
 ### Do Testnet users receive rewards?
 
