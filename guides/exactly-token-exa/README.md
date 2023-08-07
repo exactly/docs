@@ -36,3 +36,5 @@ Velodrome EXA-WEHT Pool: \
 
 **Leveraged yield farming pool on Extra Finance:** [https://app.extrafi.io/farm/vAMMV2-EXA%2FWETH](https://app.extrafi.io/farm/vAMMV2-EXA%2FWETH)
 
+**EXA-WETH Vault on Yearn Finance:** [https://twitter.com/ExactlyProtocol/status/1688614760667832320?s=20](https://twitter.com/ExactlyProtocol/status/1688614760667832320?s=20)
+
