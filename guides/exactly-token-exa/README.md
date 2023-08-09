@@ -18,7 +18,7 @@ EXA token holders and Circulating Supply can be tracked at the following link: [
 ### Price Info
 
 CoinGecko price info: \
-[https://www.coingecko.com/en/coins/exa](https://www.coingecko.com/en/coins/exa)
+[https://www.coingecko.com/en/coins/exactly-token](https://www.coingecko.com/en/coins/exactly-token)
 
 DeFiLlama: [https://defillama.com/protocol/exactly?tokenPrice=true](https://defillama.com/protocol/exactly?tokenPrice=true)
 
