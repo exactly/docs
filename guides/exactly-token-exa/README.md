@@ -20,6 +20,8 @@ EXA token holders and Circulating Supply can be tracked at the following link: [
 CoinGecko price info: \
 [https://www.coingecko.com/en/coins/exactly-token](https://www.coingecko.com/en/coins/exactly-token)
 
+CoinMarketCap: [https://coinmarketcap.com/currencies/exactly-protocol/](https://coinmarketcap.com/currencies/exactly-protocol/)
+
 DeFiLlama: [https://defillama.com/protocol/exactly?tokenPrice=true](https://defillama.com/protocol/exactly?tokenPrice=true)
 
 GeckoTerminal price info: [https://www.geckoterminal.com/optimism/pools/0xf3c45b45223df6071a478851b9c17e0630fdf535](https://www.geckoterminal.com/optimism/pools/0xf3c45b45223df6071a478851b9c17e0630fdf535)
