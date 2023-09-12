@@ -253,3 +253,18 @@ The **Variable Borrow Rate** can be queried on-chain through the following steps
 ### Who can I contact about partnerships/integrations?
 
 Feel free to reach out through [Discord](https://discord.gg/eNTyPvgA4P) or other platforms in the [Quick Links](quick-links.md) section.
+
+## Exactly Protocol Multisig Addresses
+
+### What are the Exactly multisigs addresses?
+
+The Exactly protocol holds the following multisig addresses:
+
+| Multisig                                   | Address                                    |
+| ------------------------------------------ | ------------------------------------------ |
+| Exactly Protocol Owner on Ethereum Mainnet | 0x7A65824d74B0C20730B6eE4929ABcc41Cbe843Aa |
+| Exactly Protocol Owner on OP Mainnet       | 0xC0d6Bc5d052d1e74523AD79dD5A954276c9286D3 |
+| Exactly Treasury on OP Mainnet             | 0x23fD464e0b0eE21cEdEb929B19CABF9bD5215019 |
+
+* Protocol Owner Multisig: This Multisig holds control over the entire protocol, including functions such as contract upgrades, parameter adjustments, and protocol pauses.
+* Treasury Multisig: This Multisig is responsible for managing the funds in the DAO treasury, which includes activities like distributing EXA rewards, among others.
