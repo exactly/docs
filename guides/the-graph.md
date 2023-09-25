@@ -2,11 +2,13 @@
 
 Exactly Protocol uses [The Graph Decentralized Network](https://thegraph.com/docs/en/network/overview/) on Mainnet and [The Graph Hosted Service](https://thegraph.com/docs/en/deploying/hosted-service/) on Optimism to index and query data on the blockchain more efficiently and accurately.
 
+Our GitHub repo: [https://github.com/exactly/subgraph](https://github.com/exactly/subgraph)
+
 ## The Graph Protocol
 
 [The Graph](https://thegraph.com/en/) is an **indexing protocol** that makes it easier to query networks like Ethereum and Optimism. With The Graph, anyone can build and publish open-source APIs, known as **subgraphs**, which organize blockchain data to make it more easily accessible.
 
-The Graph is powered by a decentralized, global network of thousands of participants. These participants from all over the world take on the roles of [Indexers](https://thegraph.com/docs/en/network/indexing/), [Delegators](https://thegraph.com/docs/en/network/delegating/), [Curators](https://thegraph.com/docs/en/network/curating/), and [Developers](https://thegraph.com/docs/en/network/developing/).
+The Graph is powered by a decentralized, global network of thousands of participants. These participants worldwide take on the roles of [Indexers](https://thegraph.com/docs/en/network/indexing/), [Delegators](https://thegraph.com/docs/en/network/delegating/), [Curators](https://thegraph.com/docs/en/network/curating/), and [Developers](https://thegraph.com/docs/en/network/developing/).
 
 ## Subgraphs
 
