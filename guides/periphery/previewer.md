@@ -4,6 +4,10 @@ The Previewer is a read-only smart contract specifically engineered for Exactly'
 
 This contract can be found in the [periphery folder of Exactly's repo](https://github.com/exactly/protocol/blob/main/contracts/periphery/Previewer.sol).
 
+### <mark style="color:red;">Important Notice: Unaudited Contract</mark>
+
+Please be advised that the `Previewer` contract have not undergone a formal security audit. As such, we strongly discourage integrations involving this contract, since it is exclusively intended for read-only purposes by the web application or front-end of the protocol. Using unaudited contracts for any other purpose may expose users to potential security risks or other unexpected behavior.
+
 ### Public State Variables
 
 #### auditor
