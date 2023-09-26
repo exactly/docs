@@ -23,7 +23,6 @@
   * [🌀 DebtManager](guides/periphery/debtmanager.md)
   * [👓 DebtPreviewer](guides/periphery/debtpreviewer.md)
   * [🪙 EXA](guides/periphery/exa.md)
-  * [🥩 Proto-Staker](guides/periphery/proto-staker.md)
   * [👀 Previewer](guides/periphery/previewer.md)
   * [🔁 Swapper](guides/periphery/swapper.md)
 * [✨ Features](guides/features/README.md)
