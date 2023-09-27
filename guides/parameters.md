@@ -17,7 +17,7 @@ The treasury fee refers to the percentage of interest rate charges paid by borro
 **Treasury Fee on OP Mainnet**
 
 $$
-\begin{align*} \lambda_r = 0\% \end{align*}
+\begin{align*} \lambda_r = 20\% \end{align*}
 $$
 
 OP Mainnet Treasury multisig address: [https://optimistic.etherscan.io/address/0x23fd464e0b0ee21cedeb929b19cabf9bd5215019](https://optimistic.etherscan.io/address/0x23fd464e0b0ee21cedeb929b19cabf9bd5215019)
