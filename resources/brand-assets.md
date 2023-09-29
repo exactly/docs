@@ -1,6 +1,6 @@
 # 📣 Brand Assets
 
-## Wordmarks
+Wordmarks
 
 ![Wordmark white](<../.gitbook/assets/Wordmark - SVG White.svg>)
 
@@ -12,25 +12,10 @@
 
 ![Isologo black](<../.gitbook/assets/Isologo - Black.svg>)
 
-## Social
+##
 
-![Twitter logo](<../.gitbook/assets/Twitter Logo.png>)
+<figure><img src="../.gitbook/assets/EXA.svg" alt=""><figcaption><p>EXA token logo</p></figcaption></figure>
 
-![Twitter logo blue](<../.gitbook/assets/Twitter Logo - Blue.png>)
+##
 
-![Twitter logo green](<../.gitbook/assets/Twitter Logo - Green.png>)
-
-![Twitter logo white](<../.gitbook/assets/Twitter Logo - White.png>)
-
-![Twitter logo blue and white](<../.gitbook/assets/Twitter Logo - Blue and White.png>)
-
-![Twitter logo green and white](<../.gitbook/assets/Twitter Logo - Green and White.png>)
-
-<figure><img src="../.gitbook/assets/formula_ASCII_1.png" alt=""><figcaption><p>Twitter logo ASCII white version with mathematical formulas of our Math Paper</p></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/formula_ASCII_2 (1).png" alt=""><figcaption><p>Twitter logo ASCII black version with mathematical formulas of our Math Paper</p></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/OP_ASCII_1.png" alt=""><figcaption><p>Twitter logo ASCII Optimism white version</p></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/OP_ASCII_2.png" alt=""><figcaption><p>Twitter logo ASCII Optimism red version</p></figcaption></figure>
-
+<figure><img src="../.gitbook/assets/TW - Header.png" alt=""><figcaption><p>Twitter Header</p></figcaption></figure>
