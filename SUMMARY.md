@@ -7,6 +7,15 @@
 * [❔ FAQ](getting-started/faq.md)
 * [🔗 Quick Links](getting-started/quick-links.md)
 
+## Governance
+
+* [🏛 Exactly Protocol Governance](governance/exactly-protocol-governance/README.md)
+  * [✍ Proposals and Voting](governance/exactly-protocol-governance/proposals-and-voting.md)
+  * [⚡ Snapshot](governance/exactly-protocol-governance/snapshot.md)
+  * [📄 Exactly Improvement Proposal (EXAIP) Template](governance/exactly-protocol-governance/exactly-improvement-proposal-exaip-template.md)
+* [🪙 Exactly Token (EXA)](governance/exactly-token-exa/README.md)
+  * [📊 Tokenomics](governance/exactly-token-exa/tokenomics.md)
+
 ## Guides
 
 * [⚙ Protocol](guides/protocol/README.md)
@@ -37,8 +46,6 @@
   * [📥 Deposits](guides/fixed-rate-operations/deposits.md)
   * [📤 Borrows](guides/fixed-rate-operations/borrows.md)
 * [🔢 Parameters](guides/parameters.md)
-* [🪙 Exactly Token (EXA)](guides/exactly-token-exa/README.md)
-  * [📊 Tokenomics](guides/exactly-token-exa/tokenomics.md)
 * [📈 Interest Rates Curves](guides/interest-rates-curves.md)
 * [♻ Liquidations](guides/liquidations/README.md)
   * [🤖 Exactly's Bot](guides/liquidations/exactlys-bot.md)
