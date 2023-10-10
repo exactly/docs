@@ -1,12 +1,6 @@
 # 📣 Brand Assets
 
-Wordmarks
 
-![Wordmark white](<../.gitbook/assets/Wordmark - SVG White.svg>)
-
-![Wordmark black](<../.gitbook/assets/Wordmark - SVG Black.svg>)
-
-## Isologos
 
 ![Isologo white](<../.gitbook/assets/Isologo - White.svg>)
 
