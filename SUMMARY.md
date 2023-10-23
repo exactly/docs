@@ -13,8 +13,8 @@
   * [✍ Proposals and Voting](governance/exactly-protocol-governance/proposals-and-voting.md)
   * [⚡ Snapshot](governance/exactly-protocol-governance/snapshot.md)
   * [📄 Exactly Improvement Proposal (EXAIP) Template](governance/exactly-protocol-governance/exactly-improvement-proposal-exaip-template.md)
-* [🪙 Exactly Token (EXA)](governance/exactly-token-exa/README.md)
-  * [🪙 EscrowedEXA (esEXA)](governance/exactly-token-exa/escrowedexa-esexa.md)
+* [⚫ Exactly Token (EXA)](governance/exactly-token-exa/README.md)
+  * [⚪ EscrowedEXA (esEXA)](governance/exactly-token-exa/escrowedexa-esexa.md)
   * [📊 Tokenomics](governance/exactly-token-exa/tokenomics.md)
 
 ## Guides
