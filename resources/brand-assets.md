@@ -1,9 +1,5 @@
 # 📣 Brand Assets
 
-
-
-![Isologo white](<../.gitbook/assets/Isologo - White.svg>)
-
 ![Isologo black](<../.gitbook/assets/Isologo - Black.svg>)
 
 ##
