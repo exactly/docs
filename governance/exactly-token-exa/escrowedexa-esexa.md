@@ -1,14 +1,14 @@
-# 🪙 EscrowedEXA token (esEXA)
+# ⚪ EscrowedEXA (esEXA)
 
-EscrowedEXA Smart Contract Address: [`0xbea586A167853ADddEF12818f264f1F9823fBc18`](https://optimistic.etherscan.io/address/0xbea586A167853ADddEF12818f264f1F9823fBc18)
+**EscrowedEXA Smart Contract Address:** [`0xbea586A167853ADddEF12818f264f1F9823fBc18`](https://optimistic.etherscan.io/address/0xbea586A167853ADddEF12818f264f1F9823fBc18)
 
 The EscrowedEXA contract is an ERC-20 token that allows anyone to mint esEXA tokens in exchange for EXA tokens. The esEXA tokens are only transferable for accounts with a TRANSFERER\_ROLE, reserved for the protocol contracts to integrate smoothly.
 
-The idea behind esEXA is to provide rewards equivalent to EXA, but with a linear vesting period, gradually releasing EXA tokens, ensuring that the Exactly protocol remains sustainable and rewarding for long-term community members.
+The idea behind esEXA is to provide rewards equivalent to EXA but with a linear vesting period, gradually releasing EXA tokens, ensuring that the Exactly protocol remains sustainable and rewarding for long-term community members.
 
 ## Vesting
 
-EscrowedEXA (esEXA) tokens can be converted into EXA tokens through vesting.&#x20;
+EscrowedEXA (esEXA) tokens can be converted into EXA tokens through vesting.
 
 Elements for the esEXA to EXA conversion process:
 
@@ -19,9 +19,8 @@ Users can cancel the vesting at their discretion, triggering the withdrawal of a
 
 This mechanism guarantees that the exclusive path for the users to retrieve reserved EXA tokens from the EscrowedEXA contract is by adhering to the stipulated vesting schedule.
 
-**GitHub URL:**&#x20;
+**GitHub URL:**
 
 [https://github.com/exactly/protocol/blob/main/contracts/periphery/EscrowedEXA.sol](https://github.com/exactly/protocol/blob/main/contracts/periphery/EscrowedEXA.sol)
 
-**EXAIP-01 Transitioning to EscrowedEXA rewards (esEXA)**  [https://gov.exact.ly/#/proposal/0x889d08cbe0ed7be4fd437ca374ef2845b4dbd641a6d2c57e76cd2c54d47fcadc](https://gov.exact.ly/#/proposal/0x889d08cbe0ed7be4fd437ca374ef2845b4dbd641a6d2c57e76cd2c54d47fcadc)\
-\
+**EXAIP-01 Transitioning to EscrowedEXA rewards (esEXA):** [https://gov.exact.ly/#/proposal/0x889d08cbe0ed7be4fd437ca374ef2845b4dbd641a6d2c57e76cd2c54d47fcadc](https://gov.exact.ly/#/proposal/0x889d08cbe0ed7be4fd437ca374ef2845b4dbd641a6d2c57e76cd2c54d47fcadc)
