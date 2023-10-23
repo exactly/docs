@@ -34,7 +34,11 @@ We have implemented a linear lock-up period of 36 months, starting on January 1,
 
 You can see all the EXA tokens will be distributed in the following graphic:
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Token Lockup (3).svg" alt=""><figcaption></figcaption></figure>
 
-For more information about the EXA token distribution and supply, please read our [full article](https://medium.com/@exactly\_protocol/the-exa-token-is-here-88a2449c4eb3).\
+For more information about the EXA token distribution and supply, please read our [full article](https://medium.com/@exactly\_protocol/the-exa-token-is-here-88a2449c4eb3).
+
+On October 18, 2023, \[EXAIP-02] Adjustments to the EXA token distribution scheme has passed the voting process and will be implemented. For more information, please review the full proposal [here](https://gov.exact.ly/#/proposal/0xe8582ed61b471cddedf865aad15138503f4bd71813ece8c66f0325507ac1c2f9):
+
+\
 \
