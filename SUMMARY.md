@@ -30,7 +30,7 @@
   * [RewardsController](guides/protocol/rewardscontroller/README.md)
 * [🛰 Peripheral Contracts](guides/periphery-contracts/README.md)
   * [🌀 DebtManager](guides/periphery/debtmanager.md)
-  * [🪙 EXA](guides/periphery/exa.md)
+  * [⚫ EXA](guides/periphery/exa.md)
   * [🪂 Airdrop](guides/periphery/airdrop.md)
   * [👀 Previewer (read-only)](guides/peripheral-contracts/previewer-read-only.md)
   * [👓 DebtPreviewer (read-only)](guides/peripheral-contracts/debtpreviewer-read-only.md)
