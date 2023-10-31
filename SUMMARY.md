@@ -34,6 +34,7 @@
   * [🪂 Airdrop](guides/periphery/airdrop.md)
   * [👀 Previewer (read-only)](guides/peripheral-contracts/previewer-read-only.md)
   * [👓 DebtPreviewer (read-only)](guides/peripheral-contracts/debtpreviewer-read-only.md)
+  * [⚪ esEXA](guides/periphery-contracts/esexa.md)
 * [✨ Features](guides/features/README.md)
   * [Bad Debt Clearing](guides/features/automatic-bad-debt-clearing.md)
   * [Dynamic Close Factor](guides/features/dynamic-close-factor.md)
