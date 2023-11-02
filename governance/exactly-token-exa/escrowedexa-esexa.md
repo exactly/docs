@@ -2,7 +2,7 @@
 
 **EscrowedEXA Smart Contract Address:** [`0xbea586A167853ADddEF12818f264f1F9823fBc18`](https://optimistic.etherscan.io/address/0xbea586A167853ADddEF12818f264f1F9823fBc18)
 
-The EscrowedEXA contract is an ERC-20 token that allows anyone to mint esEXA tokens in exchange for EXA tokens. The esEXA tokens are only transferable for accounts with a TRANSFERER\_ROLE, reserved for the protocol contracts to integrate smoothly.
+The [EscrowedEXA](https://www.youtube.com/watch?v=RGE4U6os4sw) contract is an ERC-20 token that allows anyone to mint esEXA tokens in exchange for EXA tokens. The esEXA tokens are only transferable for accounts with a TRANSFERER\_ROLE, reserved for the protocol contracts to integrate smoothly.
 
 The idea behind esEXA is to provide rewards equivalent to EXA but with a linear vesting period, gradually releasing EXA tokens, ensuring that the Exactly protocol remains sustainable and rewarding for long-term community members.
 
