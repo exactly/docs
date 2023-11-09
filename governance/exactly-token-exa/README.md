@@ -15,6 +15,11 @@ For security reasons, most of the EXA tokens will be deposited in the [Timelock 
 
 EXA token holders and Circulating Supply can be tracked at the following link: [https://optimistic.etherscan.io/token/tokenholderchart/0x1e925de1c68ef83bd98ee3e130ef14a50309c01b](https://optimistic.etherscan.io/token/tokenholderchart/0x1e925de1c68ef83bd98ee3e130ef14a50309c01b)
 
+### Dune Dashboards
+
+The EXA Token: [https://dune.com/exactly/exa](https://dune.com/exactly/exa)\
+The EXA Community Airdrop: [https://dune.com/exactly/exactly-airdrop](https://dune.com/exactly/exactly-airdrop)
+
 ### Price Info
 
 CoinGecko price info: \
