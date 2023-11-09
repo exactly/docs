@@ -18,11 +18,11 @@ The total Community token supply will be distributed as follows:
 
 Since we launched the OP token rewards program in April, the community members already using the Protocol in OP Mainnet will receive an airdrop of 1% (100,000 EXA) of the total token supply, fostering community engagement, awareness, and protocol adoption. The criteria will be based on the proportion of already distributed OP rewards through our [Rewards Controller](https://docs.exact.ly/guides/protocol/rewardscontroller), measured on July 18, 2023, at 19:00 UTC. Users assigned OP rewards but didn’t claim them will also be eligible for the airdrop.
 
-Users can start claiming their tokens on July 25, 2023, at 14:00 UTC. We will implement a linear stream of 4 months for airdrop tokens, starting on the actual claiming date, ensuring a controlled and steady supply of EXA tokens. To facilitate token distribution, we have selected [Sablier](https://sablier.com/) as a platform that meets high security and robustness standards. All the processes will happen through the Exactly app in the new Governance section.
+Users can claim their tokens on July 25, 2023, at 14:00 UTC. We will implement a linear stream of 4 months for airdrop tokens, starting on the actual claiming date, ensuring a controlled and steady supply of EXA tokens. To facilitate token distribution, we have selected [Sablier](https://sablier.com/) as a platform that meets high security and robustness standards. All the processes will happen through the Exactly app in the new Governance section.
 
 ### **EXA Incentives and Community Grants:** <a href="#f9d8" id="f9d8"></a>
 
-The protocol users will receive 5% (500,000 EXA) of the total token supply during 2023 through the current Rewards Controller Contract and other incentive mechanisms through strategic [partnerships](https://docs.exact.ly/resources/partnerships) with Beefy, Velodrome, etc. **The** [**EXA token rewards**](https://medium.com/@exactly\_protocol/exactly-rewards-update-introducing-exa-rewards-extending-op-rewards-program-6dd4a3dffe7a) **will start on July 24, 2023**. The remaining EXA tokens will be released until May 2024.
+The protocol users will receive 5% (500,000 EXA) of the total token supply during 2023 through the current Rewards Controller Contract and other incentive mechanisms through strategic [partnerships](https://docs.exact.ly/resources/partnerships) with Beefy, Velodrome, etc. **The** [**EXA token rewards**](https://medium.com/@exactly\_protocol/exactly-rewards-update-introducing-exa-rewards-extending-op-rewards-program-6dd4a3dffe7a) **will start on July 24, 2023**. The remaining EXA (and Escrowed EXA) tokens will be released until May 2028 ([EXAIP-02)](https://gov.exact.ly/#/proposal/0xe8582ed61b471cddedf865aad15138503f4bd71813ece8c66f0325507ac1c2f9).
 
 The Exactly DAO will also be awarding **EXA token grants** to those builders who want to build on top of Exactly Protocol to foster the growth of the Exactly ecosystem.
 
@@ -30,15 +30,18 @@ To ensure the optimal use of our available token supply, we have already introdu
 
 ## Token distribution for Team Members, Advisors, and Investors <a href="#6f74" id="6f74"></a>
 
-We have implemented a linear lock-up period of 48 months, starting on June 1, 2024.
+We have implemented a linear lockup period of 48 months, starting on June 1, 2024. All these tokens have voting power and are vested with Sablier.&#x20;
 
-You can see all the EXA tokens will be distributed in the following graphic:
+You can see all the EXA token holders [here](https://optimistic.etherscan.io/token/0x1e925de1c68ef83bd98ee3e130ef14a50309c01b#balances) and the lockup scheme in the following chart:
 
 <figure><img src="../../.gitbook/assets/Token Lockup (3).svg" alt=""><figcaption></figcaption></figure>
 
-For more information about the EXA token distribution and supply, please read our [full article](https://medium.com/@exactly\_protocol/the-exa-token-is-here-88a2449c4eb3).
+Please read the following articles for more information:
 
-On October 18, 2023, \[EXAIP-02] Adjustments to the EXA token distribution scheme has passed the voting process and will be implemented. For more information, please review the full proposal [here](https://gov.exact.ly/#/proposal/0xe8582ed61b471cddedf865aad15138503f4bd71813ece8c66f0325507ac1c2f9).
+* [**Exactly Protocol’s Path to Decentralization**](https://medium.com/@exactly\_protocol/exactly-protocols-path-to-decentralization-7a6e2099cf7c)
+* [**The EXA Token Is Here!**](https://medium.com/@exactly\_protocol/the-exa-token-is-here-88a2449c4eb3)
+* [**\[EXAIP-01\] Transitioning to EscrowedEXA rewards (esEXA)**](https://medium.com/@exactly\_protocol/exaip-01-transitioning-to-escrowedexa-rewards-esexa-d387e1f63600)
+* [**\[EXAIP-02\] Adjustments to the EXA Token distribution scheme**](https://medium.com/@exactly\_protocol/exaip-02-adjustments-to-the-exa-token-distribution-scheme-c8e54f503128)
 
 \
 \
