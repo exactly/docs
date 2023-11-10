@@ -2,7 +2,7 @@
 
 Our brand assets can be found here: [SVG](https://drive.google.com/drive/folders/1u6KQVrghW8qGpU1cDZBz1ZkBYn5-mIwz?usp=sharing), [PNG](https://drive.google.com/drive/folders/1UairaFzVVL3ffS9AfDN0dkoBksh0CC4N?usp=sharing).
 
-<figure><img src="../.gitbook/assets/Exactly Protocol - Logo.svg" alt=""><figcaption><p>Exactly Protocol logo<br><a href="https://drive.google.com/drive/folders/1u6KQVrghW8qGpU1cDZBz1ZkBYn5-mIwz">Download SVG</a><br><a href="https://drive.google.com/drive/folders/1UairaFzVVL3ffS9AfDN0dkoBksh0CC4N">Download PNG</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Exactly Protocol - Logo.svg" alt=""><figcaption><p>Exactly Protocol logo<br><a href="https://drive.google.com/file/d/1e0fsq7ZoUBOb3pTwsG5x3cY4yJ5RDrWx/view?usp=drive_link">Download SVG</a><br><a href="https://drive.google.com/file/d/1HXc3gGrvzhEiSrSluxEN6BZeGNXpanKJ/view?usp=drive_link">Download PNG</a></p></figcaption></figure>
 
 ![Exactly Protocol Isologo black
 Download SGV
