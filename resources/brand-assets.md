@@ -8,7 +8,7 @@ Our brand assets can be found here: [SVG](https://drive.google.com/drive/folders
 Download SGV
 Download PNG](<../.gitbook/assets/Isologo - Black.svg>)
 
-<figure><img src="../.gitbook/assets/Exactly isologo white (2).svg" alt=""><figcaption><p>Exactly Protocol Isologo White<br><a href="https://drive.google.com/drive/folders/1u6KQVrghW8qGpU1cDZBz1ZkBYn5-mIwz">Download SVG<br></a>D<a href="https://drive.google.com/drive/folders/1UairaFzVVL3ffS9AfDN0dkoBksh0CC4N">ownload PNG</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Exactly isologo white (2).svg" alt=""><figcaption><p>Exactly Protocol Isologo White<br><a href="https://drive.google.com/drive/folders/1u6KQVrghW8qGpU1cDZBz1ZkBYn5-mIwz">Download SVG</a><br><a href="https://drive.google.com/drive/folders/1UairaFzVVL3ffS9AfDN0dkoBksh0CC4N">Download PNG</a></p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/EXA.svg" alt="" width="300"><figcaption><p>EXA token isologo<br><a href="https://drive.google.com/drive/folders/1u6KQVrghW8qGpU1cDZBz1ZkBYn5-mIwz">Download SVG</a><br><a href="https://drive.google.com/drive/folders/1UairaFzVVL3ffS9AfDN0dkoBksh0CC4N">Download PNG</a></p></figcaption></figure>
 
