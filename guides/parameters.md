@@ -58,9 +58,9 @@ $$
 
 | Parameter    | VRP Value   | FRP Value   |
 | ------------ | ----------- | ----------- |
-| $$A$$ =      | 3.6184e-2   | 3.697e-1    |
-| $$B$$ =      | -1.5925e-2  | -3.497e-1   |
-| $$U_{max}$$= | 1.007213882 | 1.000007768 |
+| $$A$$ =      | 2.7194e-2   | 4.6586e-1   |
+| $$B$$ =      | 3.0160e-2   | -4.1345e-1  |
+| $$U_{max}$$= | 1.007776377 | 1.050553997 |
 
 #### wstETH
 
@@ -89,7 +89,7 @@ These parameters are utilized to calculate [the effective borrow interest rate](
 | WETH   | 0.86  |
 | DAI    | 0.90  |
 | USDC   | 0.91  |
-| WBTC   | 0.85  |
+| WBTC   | 0.78  |
 | wstETH | 0.82  |
 | OP     | N/A   |
 
@@ -100,7 +100,7 @@ These parameters are utilized to calculate [the effective borrow interest rate](
 | WETH   | 0.86  |
 | DAI    | N/A   |
 | USDC   | 0.91  |
-| WBTC   | N/A   |
+| WBTC   | 0.78  |
 | wstETH | 0.82  |
 | OP     | 0.35  |
 
@@ -121,8 +121,8 @@ To assess the Risk-Adjust Factor for each asset in the protocol, you can query t
 
 Follow the steps below to check the Risk-Adjust Factor for a specific asset:
 
-1. Go to the Auditor contract on Etherscan by navigating to the following URL: [https://etherscan.io/address/0x310A2694521f75C7B2b64b5937C16CE65C3EFE01#readProxyContract#F17](https://etherscan.io/address/0x310A2694521f75C7B2b64b5937C16CE65C3EFE01#readProxyContract#F17) (for other networks, go to [smart-contract-addresses.md](smart-contract-addresses.md "mention") and click on the address of the desired Auditor contract)
-2. To query the `markets` function in that contract, you will need the market contract address for the specific asset. For example, you can use the following address to check the Risk-Adjust Factor for USDC: `0x660e2fC185a9fFE722aF253329CEaAD4C9F6F928`. All addresses for each network (Mainnet, Optimism, et al.) are available in [smart-contract-addresses.md](smart-contract-addresses.md "mention").
+1. InGo to the Auditor contract on Etherscan by navigating to the following URL: [https://etherscan.io/address/0x310A2694521f75C7B2b64b5937C16CE65C3EFE01#readProxyContract#F17](https://etherscan.io/address/0x310A2694521f75C7B2b64b5937C16CE65C3EFE01#readProxyContract#F17) (for other networks, go to [smart-contract-addresses.md](smart-contract-addresses.md "mention") and click on the address of the desired Auditor contract)
+2. To query the `markets` In that contract, you will need the market contract address for the specific asset. For example, you can use the following address to check the Risk-Adjust Factor for USDC: `0x660e2fC185a9fFE722aF253329CEaAD4C9F6F928`. All addresses for each network (Mainnet, Optimism, et al.) are available in [smart-contract-addresses.md](smart-contract-addresses.md "mention").
 3. Click the "Query" button to call the function. The result will display various information about the market, including the Risk-Adjust Factor.
 4. The Risk-Adjust Factor will be returned as `adjustFactor`. In this case, `910000000000000000` equals to 0.91.\
    ![](<../.gitbook/assets/image (3).png>)
