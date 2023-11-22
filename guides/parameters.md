@@ -89,7 +89,7 @@ These parameters are utilized to calculate [the effective borrow interest rate](
 | WETH   | 0.86  |
 | DAI    | 0.90  |
 | USDC   | 0.91  |
-| WBTC   | 0.78  |
+| WBTC   | 0.85  |
 | wstETH | 0.82  |
 | OP     | N/A   |
 
