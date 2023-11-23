@@ -28,6 +28,8 @@ The Exactly DAO will also be awarding **EXA token grants** to those builders who
 
 To ensure the optimal use of our available token supply, we have already introduced our [Rewards Controller Contract](https://docs.exact.ly/guides/protocol/rewardscontroller) as a distribution rule that adjusts rewards based on the percentage of the target loan volume achieved within the Exactly Protocol, using tokens allocated for community rewards.
 
+According to [\[EXAIP-03\]](https://medium.com/@exactly\_protocol/exaip-03-addressing-the-exactly-protocol-hack-and-compensating-affected-users-6e2cd4a0a179), one million EXA tokens will be distributed to the [117 affected users](https://docs.google.com/spreadsheets/d/1kZCGUnwhN6rXHZjPZrzayzZPHUmm1L\_hypvpRGcqdO0/edit#gid=1354393790) in the [security incident ](https://medium.com/@exactly\_protocol/exactly-protocol-incident-post-mortem-b4293d97e3ed)that occurred on August 18th. This allocation represents 10% of the total EXA token supply and approximately 20% of the EXA token supply designated for the community.
+
 ## Token distribution for Team Members, Advisors, and Investors <a href="#6f74" id="6f74"></a>
 
 We have implemented a linear lockup period of 48 months, starting on June 1, 2024. All these tokens have voting power and are vested with Sablier.&#x20;
@@ -42,6 +44,7 @@ Please read the following articles for more information:
 * [**The EXA Token Is Here!**](https://medium.com/@exactly\_protocol/the-exa-token-is-here-88a2449c4eb3)
 * [**\[EXAIP-01\] Transitioning to EscrowedEXA rewards (esEXA)**](https://medium.com/@exactly\_protocol/exaip-01-transitioning-to-escrowedexa-rewards-esexa-d387e1f63600)
 * [**\[EXAIP-02\] Adjustments to the EXA Token distribution scheme**](https://medium.com/@exactly\_protocol/exaip-02-adjustments-to-the-exa-token-distribution-scheme-c8e54f503128)
+* [**\[EXAIP-03\] Addressing the Exactly Protocol Hack and Compensating Affected Users**](https://medium.com/@exactly\_protocol/exaip-03-addressing-the-exactly-protocol-hack-and-compensating-affected-users-6e2cd4a0a179)
 
 \
 \
