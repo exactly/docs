@@ -28,11 +28,9 @@ You can read more about our Interest Rate Model in our [White Paper](https://doc
 
 ## WBTC
 
-<figure><img src="../.gitbook/assets/WBTC VRP.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (15) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/WBTC FRP (1).png" alt=""><figcaption></figcaption></figure>
-
-
+<figure><img src="../.gitbook/assets/image (16) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## wstETH
 
