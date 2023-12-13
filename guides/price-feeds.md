@@ -1,6 +1,14 @@
-# 🔮 Price Feeds
+# 🔮 Chainlink Price Feeds
 
 Exactly Protocol uses [Chainlink's data feeds](https://docs.chain.link/docs/using-chainlink-reference-contracts/) to get reliable, up-to-date, and secure asset prices to calculate users' lending power and [health factor](https://docs.exact.ly/guides/liquidations#health-factor).
+
+## OP Mainnet
+
+<table><thead><tr><th>Asset</th><th>Price Feed</th><th data-hidden></th><th data-hidden></th></tr></thead><tbody><tr><td>esEXA</td><td><a href="https://github.com/exactly/protocol/blob/main/deployments/optimism/PriceFeedesEXA.json">PriceFeedesEXA</a></td><td></td><td></td></tr><tr><td>EXA</td><td><a href="https://github.com/exactly/protocol/blob/main/deployments/optimism/PriceFeedEXA.json">PriceFeedEXA</a></td><td></td><td></td></tr><tr><td>OP</td><td><a href="https://github.com/exactly/protocol/blob/main/deployments/optimism/PriceFeedOP.json">PriceFeedOP</a></td><td></td><td></td></tr><tr><td>USDC</td><td><a href="https://github.com/exactly/protocol/blob/main/deployments/optimism/PriceFeedUSDC.json">PriceFeedUSDC</a></td><td></td><td></td></tr><tr><td>WBTC</td><td><a href="https://github.com/exactly/protocol/blob/main/deployments/optimism/PriceFeedWBTC.json">PriceFeedWBTC</a></td><td></td><td></td></tr><tr><td>WETH</td><td><a href="https://github.com/exactly/protocol/blob/main/deployments/optimism/PriceFeedWETH.json">PriceFeedWETH</a></td><td></td><td></td></tr><tr><td>wstETH</td><td><a href="https://github.com/exactly/protocol/blob/main/deployments/optimism/PriceFeedwstETH.json">PriceFeedwstETH</a></td><td></td><td></td></tr></tbody></table>
+
+## Ethereum Mainnet
+
+<table><thead><tr><th>Asset</th><th>Price Feed</th><th data-hidden>Price Feed</th><th data-hidden></th></tr></thead><tbody><tr><td>DAI</td><td><a href="https://github.com/exactly/protocol/blob/main/deployments/ethereum/PriceFeedDAI.json">PriceFeedDAI</a></td><td>PriceFeedesEXA</td><td></td></tr><tr><td>ETH</td><td><a href="https://github.com/exactly/protocol/blob/main/deployments/ethereum/PriceFeedETH.json">PriceFeedETH</a></td><td></td><td></td></tr><tr><td>USDC</td><td><a href="https://github.com/exactly/protocol/blob/main/deployments/ethereum/PriceFeedUSDC.json">PriceFeedUSDC</a></td><td></td><td></td></tr><tr><td>WBTC</td><td><a href="https://github.com/exactly/protocol/blob/main/deployments/ethereum/PriceFeedWBTC.json">PriceFeedWBTC</a></td><td></td><td></td></tr><tr><td>wstETH</td><td><a href="https://github.com/exactly/protocol/blob/main/deployments/ethereum/PriceFeedwstETH.json">PriceFeedwstETH</a></td><td></td><td></td></tr></tbody></table>
 
 ## Chainlink
 
