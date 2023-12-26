@@ -13,7 +13,7 @@ EscrowedEXA (esEXA) tokens can be converted into EXA tokens through vesting.
 Elements for the esEXA to EXA conversion process:
 
 * Burning Mechanism: Holders will burn their esEXA tokens to initiate the vesting period and convert them into EXA tokens through [Sablier](https://sablier.com/).
-* EXA Reserve: Holders must provide a “reserve” in EXA, proportionally to the esEXA they want to vest. This proportion is represented in the EscrowedEXA contract as \`reserveRatio\`, the “reserve” EXA tokens to start the vesting process.
+* EXA Reserve: Holders must provide a “reserve” in EXA, proportionally to the esEXA they want to vest. This proportion is represented in the EscrowedEXA contract as \`reserveRatio\`, the “reserve” EXA tokens to start the vesting process. The reserve percentage is set at 25% and can be changed through governance.
 
 Users can cancel the vesting at their discretion, triggering the withdrawal of all vested EXA tokens from Sablier and the associated reserve. Any unvested tokens are returned to the EscrowedEXA contract, where the corresponding esEXA tokens are minted and returned to the user.
 
@@ -24,3 +24,7 @@ This mechanism guarantees that the exclusive path for the users to retrieve rese
 [https://github.com/exactly/protocol/blob/main/contracts/periphery/EscrowedEXA.sol](https://github.com/exactly/protocol/blob/main/contracts/periphery/EscrowedEXA.sol)
 
 **EXAIP-01 Transitioning to EscrowedEXA rewards (esEXA):** [https://gov.exact.ly/#/proposal/0x889d08cbe0ed7be4fd437ca374ef2845b4dbd641a6d2c57e76cd2c54d47fcadc](https://gov.exact.ly/#/proposal/0x889d08cbe0ed7be4fd437ca374ef2845b4dbd641a6d2c57e76cd2c54d47fcadc)
+
+**EXAIP-06 Increasing the esEXA Reserve:** [https://gov.exact.ly/#/proposal/0xaa0fa1ea69371b6ba475962b488970778761be8b36427a08af5194264a573178](https://gov.exact.ly/#/proposal/0xaa0fa1ea69371b6ba475962b488970778761be8b36427a08af5194264a573178)
+
+&#x20;
