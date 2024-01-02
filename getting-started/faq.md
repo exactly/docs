@@ -266,5 +266,17 @@ The Exactly protocol holds the following multisig addresses:
 | Exactly Protocol Owner on OP Mainnet       | 0xC0d6Bc5d052d1e74523AD79dD5A954276c9286D3 |
 | Exactly Treasury on OP Mainnet             | 0x23fD464e0b0eE21cEdEb929B19CABF9bD5215019 |
 
+
+
 * Protocol Owner Multisig: This Multisig holds control over the entire protocol, including functions such as contract upgrades, parameter adjustments, and protocol pauses.
 * Treasury Multisig: This Multisig is responsible for managing the funds in the DAO treasury, which includes activities like distributing EXA rewards, among others.
+
+## Exactly Protocol Risk Assessment
+
+### What is the Exactly risk assessment framework used for current assets?
+
+The collateral risk assessment framework for current assets uses Conditional Value at Risk (CVaR), commonly called the expected shortfall. CVaR is a risk assessment metric employed to quantify the amount of tail risk associated with an investment portfolio. It is derived by computing a weighted average of the "extreme" losses within the tail section of the distribution of potential returns beyond the value at risk (VaR) cutoff point.
+
+For detailed information on the current risk adjustment factors utilized within this framework, please refer to the following link: [Risk Adjustment Factors.](https://docs.exact.ly/guides/parameters#d.-risk-factors)
+
+Concerning new assets, they must possess a Chainlink oracle price feed and maintain sufficient liquidity within the OP Mainnet for potential liquidations. As an illustrative example, the top 10 assets on Velodrome/Uniswap are considered suitable. It is important to note that, in the current protocol design, all assets can be utilized as collateral.
