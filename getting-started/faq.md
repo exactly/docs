@@ -207,6 +207,14 @@ We use an aggregation of decentralized data feeds from [Chainlink](https://data.
   * We display on Markets the best-fixed rate (Advanced View) for a marginal change in utilization in the Fixed Rate Pools or just the current marginal utilization for each Fixed Rate Pool (Simple View)
   * Then, when entering the amount (Simple View or modal window in the Advance View), we calculate the specific fixed interest rate based on his deposit amount and the current fixed interest rate fees from borrows that the Fixed Rate Pool will collect until maturity.
 
+### What does Total Available refer to?
+
+The Total Available value displayed in the web app is the sum of the variable and fixed pools available for withdrawals.
+
+### What does Total Utilization refer to?
+
+Total Utilization is the total utilization of the variable and fixed pool. Up to 90% can be lent out given the current reserve factor of [10%](https://docs.exact.ly/guides/parameters#a.-reserve-factor).&#x20;
+
 ### Why is the web app not available for US Persons?
 
 As US Persons are prohibited from accessing and using the Digital Asset Services in any way, the platform does not allow its use by, or operation in any way with, US Persons. If we have reasonable grounds to suspect that you are a US Person, we reserve the right to take whatever action we deem appropriate to prohibit your access to the Digital Asset Services
