@@ -8,12 +8,12 @@ The idea behind esEXA is to provide rewards equivalent to EXA but with a linear 
 
 ## Vesting
 
-EscrowedEXA (esEXA) tokens can be converted into EXA tokens through vesting.
+EscrowedEXA (esEXA) tokens can be converted into EXA tokens through vesting in a 1:1 ratio.
 
 Elements for the esEXA to EXA conversion process:
 
 * Burning Mechanism: Holders will burn their esEXA tokens to initiate the vesting period and convert them into EXA tokens through [Sablier](https://sablier.com/).
-* EXA Reserve: Holders must provide a “reserve” in EXA, proportionally to the esEXA they want to vest. This proportion is represented in the EscrowedEXA contract as \`reserveRatio\`, the “reserve” EXA tokens to start the vesting process. The reserve percentage is set at 25% and can be changed through governance.
+* EXA Reserve: Holders must provide a “reserve” in EXA proportionally to the esEXA they want to vest. This proportion is represented in the EscrowedEXA contract as \`reserveRatio\`, the “reserve” EXA tokens to start the vesting process. The reserve percentage is 25% and can be changed through governance.
 
 Users can cancel the vesting at their discretion, triggering the withdrawal of all vested EXA tokens from Sablier and the associated reserve. Any unvested tokens are returned to the EscrowedEXA contract, where the corresponding esEXA tokens are minted and returned to the user.
 
