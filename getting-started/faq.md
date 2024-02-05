@@ -18,7 +18,7 @@ With an innovative approach, the protocol allows users to lend and borrow assets
 * **Frictionless**: Investors and DAOs can receive fixed and variable deposit rates. End-users can take fixed-interest rate loans for more extended periods with certainty.
 * **Efficiency**: Fixed and variable interest rates live in the same protocol with a new approach towards multiple interest rate discovery through the Utilization Rate of each Fixed Rate Pool.
 
-Being an open-source, non-custodial, and autonomous interest rate protocol, Exactly began to decentralize the credit market and complete the DeFi ecosystem.
+Being an open-source, non-custodial, and autonomous interest rate protocol, Exactly began decentralizing the credit market and completing the DeFi ecosystem.
 
 ### Who developed Exactly Protocol?
 
@@ -30,9 +30,9 @@ Exactly was started in July 2021 and launched on Ethereum Mainnet in November 20
 
 The Variable Rate Pool contains a single type of asset without an expiration date.
 
-This pool provides liquidity to all the different [Fixed Rate Pools](faq.md#what-is-a-fixed-rate-pool) as needed to ensure they can still satisfy the demand for new loans when deposits are insufficient to cover the requested amounts. Once a new deposit is made in a Fixed Rate Pool, it will automatically replace the Variable Rate Pool’s original funding, which in turn “leaves” retaining a small fraction of the interest fees as earnings for providing early liquidity in the first place.
+This pool provides liquidity to all the different fixed-rate pools as needed to ensure they can still satisfy the demand for new loans when deposits are insufficient to cover the requested amounts. Once a new deposit is made in a Fixed Rate Pool, it will automatically replace the Variable Rate Pool’s original funding, which “leaves” retaining a small fraction of the interest fees as earnings for providing early liquidity in the first place.
 
-There is one Variable Rate Pool and many Fixed Rate Pools for each asset allowed in the protocol.
+The protocol has one Variable Rate Pool and many Fixed Rate Pools for each asset.
 
 ### What is an "exaVoucher"?
 
@@ -46,11 +46,11 @@ Yes, they can be transferred. Transferring the exaVouchers would mean transferri
 
 ### What is a Fixed Rate Pool?
 
-A Fixed Rate Pool is a pool that has a maturity date (term horizon) containing a single type of asset. Users can supply or borrow assets from these pools once they put their [collateral](faq.md#what-is-the-health-factor) on the [Variable Rate Pool](faq.md#what-is-the-variable-rate-pool). Each new deposit generates an increase in the liquidity for that specific Fixed Rate Pool, reducing its utilization rate and its fixed interest rate for new loans as a consequence.
+A Fixed Rate Pool is a pool that has a maturity date (term horizon) containing a single type of asset. Users can supply or borrow assets from these pools once they put their [collateral](faq.md#what-is-the-health-factor) on the [Variable Rate Pool](faq.md#what-is-the-variable-rate-pool). Each new deposit generates an increase in the liquidity for that specific Fixed Rate Pool, reducing its utilization rate and fixed interest rate for new loans as a consequence.
 
 ### How to borrow an asset?
 
-To borrow an asset in the protocol, you should first deposit any asset in the [Variable Rate Pool](faq.md#what-is-the-variable-rate-pool), enable that asset as collateral in [your dashboard](https://app.exact.ly/dashboard), and then you will be able to borrow any asset paying a variable or a fixed interest rate according to your preference.
+To borrow an asset in the protocol, you should first deposit any asset in the [Variable Rate Pool](faq.md#what-is-the-variable-rate-pool), enable that asset as collateral in [your dashboard](https://app.exact.ly/dashboard), and then you can borrow any asset paying a variable or a fixed interest rate according to your preference.
 
 ### What is the Health Factor?
 
@@ -82,11 +82,11 @@ Here's an example: let's say you want to deposit `ETH` as collateral and borrow 
 
 LTV = 0.84 \* 0.91 = 0.7644
 
-Next, you should divide the LTV by your desired [Health Factor](faq.md#what-is-the-health-factor), which represents the safety margin for your loan, with higher values indicating a lower risk of liquidation. In our example, let's assume a Health Factor of 1.05:
+Next, you should divide the LTV by your desired [Health Factor](faq.md#what-is-the-health-factor), which represents the safety margin for your loan, with higher values indicating a lower liquidation risk. In our example, let's assume a Health Factor of 1.05:
 
 Adjusted LTV = LTV / Health Factor = 0.7644 / 1.05 = 0.728
 
-Now, to determine the amount you can borrow, multiply the adjusted LTV by the value of your deposited collateral. If you deposit $10,000 worth of `ETH`, you can borrow:
+To determine the amount you can borrow, multiply the adjusted LTV by the value of your deposited collateral. If you deposit $10,000 worth of `ETH`, you can borrow:
 
 Amount to borrow = Adjusted LTV \* Deposit Amount = 0.728 \* $10,000 = $7,280
 
@@ -133,7 +133,7 @@ Liquidity providers receive earnings from four different sources:
 3. Penalties paid by users who repay their debts after maturity on [Fixed Rate](faq.md#what-is-a-fixed-rate-pool) loans
 4. A profit share of the [liquidation](faq.md#what-is-a-liquidation) fee
 
-Incentives 2, 3, and 4 are extraordinary events and generate earnings that are gradually distributed to [Variable Rate Pool](faq.md#what-is-the-variable-rate-pool) depositors.
+Incentives 2, 3, and 4 are extraordinary events that generate earnings gradually distributed to [Variable Rate Pool](faq.md#what-is-the-variable-rate-pool) depositors.
 
 ### How does the protocol generate revenue?
 
@@ -143,7 +143,7 @@ All collected Treasury Fees can be tracked in the "Treasury Fee" section in our 
 
 ### What is the process for transferring assets from Ethereum Mainnet to OP Mainnet?
 
-"Bridging" is the process of transferring tokens from Ethereum (Mainnet) to OP Mainnet. This allows users to take advantage of faster and cheaper transactions on this network, which is a layer 2 scaling solution.
+"Bridging" is transferring tokens from Ethereum (Mainnet) to OP Mainnet. This allows users to take advantage of faster and cheaper transactions on this network, a layer 2 scaling solution.
 
 Here's an outline of how to bridge assets:
 
@@ -153,7 +153,7 @@ Here's an outline of how to bridge assets:
 2. Connect your Ethereum wallet (e.g., MetaMask) to the web3-enabled application. Ensure you have some ether (ETH) in your wallet for transaction fees.
 3. Choose the token you want to bridge from Ethereum to OP Mainnet, such as ETH, or an ERC-20 token like DAI, and specify the amount you want to transfer.
 4. Review the transaction details, including any fees associated with the bridge. Confirm the transaction in your wallet, and the bridge will initiate the transfer.
-5. The transfer may take some time to complete depending on the bridge and network conditions. Once the transaction is confirmed on Ethereum and OP Mainnet, your assets will be available.
+5. Depending on the bridge and network conditions, the transfer may take some time to complete. Your assets will be available once the transaction is confirmed on Ethereum and OP Mainnet.
 6. To interact with your assets on OP Mainnet, you'll need to switch your wallet's network to Optimistic Ethereum. In MetaMask, you can add the OP Mainnet network by following these steps:
    * Click on the network dropdown at the top of MetaMask.
    * Select "Custom RPC."
@@ -165,7 +165,7 @@ Here's an outline of how to bridge assets:
      * Block Explorer URL: [https://optimistic.etherscan.io](https://optimistic.etherscan.io/)
    * Save the new network.
 
-You can now interact with your bridged assets on OP Mainnet using web3-enabled applications that support OP Mainnet, including [our own app](https://app.exact.ly/?n=optimism). Remember to switch back to Ethereum Mainnet when you need to interact with assets or applications on the main Ethereum network.
+You can now interact with your bridged assets on OP Mainnet using web3-enabled applications that support OP Mainnet, including [our app](https://app.exact.ly/?n=optimism). Remember to switch back to Ethereum Mainnet when interacting with assets or applications on the main Ethereum network.
 
 ## Community Involvement
 
@@ -195,7 +195,7 @@ We use an aggregation of decentralized data feeds from [Chainlink](https://data.
   * We display on [Markets](https://app.exact.ly/) (Simple or Advanced View) the interest rate from the current utilization rate of the Variable Rate Pool.
   * Then, when entering the amount (Simple View or Modal), we show the new variable interest rate based on how the pool's utilization has changed, given the input.
 * **Fixed Interest Rates**: It's also a rational function but depends on the Utilization Rate of the specific Fixed Rate Pool after the amount borrowed.
-  * We display by default on Markets (Advanced View) the best-fixed rate for a marginal change in the fixed rate pool's utilization rate.
+  * We display by default on Markets (Advanced View) the best fixed rate for a marginal change in the fixed rate pool's utilization rate.
   * Then, when entering the specific amount (Simple View or modal window in the Advanced View), we calculate the average value of the integral of the rational function taking into account the change in the utilization after the amount borrowed, to get the specific fixed interest rate that the user will have to pay until the pool's maturity.
 
 #### Deposit Interest Rates
@@ -233,7 +233,7 @@ The total Circulating Supply and token holders can be found [here](https://optim
 
 ### Do Testnet users receive rewards?
 
-No, testnet is to preview upcoming features and for users to learn about the protocol without any Mainnet gas fees.
+No, testnet previews upcoming features and allows users to learn about the protocol without any Mainnet gas fees.
 
 ### Someone messaged me promising free tokens/ICO/etc, is it real?
 
@@ -246,7 +246,7 @@ No, that is fake. No one related to Exactly Protocol will ever message anyone di
 The Variable Supply Rate cannot be read on-chain as it is an average of the earnings that the pool has generated over the last 15 minutes. These earnings come from different sources of income, such as:
 
 * Debt charged to variable borrowers.
-* Earnings that originate from Fixed Rate borrows are being backed up by the [Variable Rate Pool](https://docs.exact.ly/resources/white-paper#3.-the-exactly-interest-rate-model).
+* Earnings originating from Fixed Rate borrows are backed up by the [Variable Rate Pool](https://docs.exact.ly/resources/white-paper#3.-the-exactly-interest-rate-model).
 * Accumulator -> [Earnings Accumulator](https://docs.exact.ly/guides/features/earnings-accumulator).
 
 The **Variable Borrow Rate** can be queried on-chain through the following steps:
@@ -266,7 +266,7 @@ Feel free to reach out through [Discord](https://discord.gg/eNTyPvgA4P) or other
 
 ### What are the Exactly multisigs addresses?
 
-The Exactly protocol holds the following multisig addresses:
+The Exactly protocol holds the following multi-sig addresses:
 
 | Multisig                                   | Address                                    |
 | ------------------------------------------ | ------------------------------------------ |
@@ -276,7 +276,7 @@ The Exactly protocol holds the following multisig addresses:
 
 
 
-* Protocol Owner Multisig: This Multisig holds control over the entire protocol, including functions such as contract upgrades, parameter adjustments, and protocol pauses.
+* Protocol Owner Multisig: This Multisig controls the entire protocol, including functions such as contract upgrades, parameter adjustments, and protocol pauses.
 * Treasury Multisig: This Multisig is responsible for managing the funds in the DAO treasury, which includes activities like distributing EXA rewards, among others.
 
 ## Exactly Protocol Risk Assessment
@@ -287,4 +287,4 @@ The collateral risk assessment framework for current assets uses Conditional Val
 
 For detailed information on the current risk adjustment factors utilized within this framework, please refer to the following link: [Risk Adjustment Factors.](https://docs.exact.ly/guides/parameters#d.-risk-factors)
 
-Concerning new assets, they must possess a Chainlink oracle price feed and maintain sufficient liquidity within the OP Mainnet for potential liquidations. As an illustrative example, the top 10 assets on Velodrome/Uniswap are considered suitable. It is important to note that, in the current protocol design, all assets can be utilized as collateral.
+Concerning new assets, they must possess a Chainlink oracle price feed and maintain sufficient liquidity within the OP Mainnet for potential liquidations. As an illustrative example, the top 10 assets on Velodrome/Uniswap are considered suitable. It is important to note that all assets can be utilized as collateral in the current protocol design.
