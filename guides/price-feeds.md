@@ -12,7 +12,7 @@ Exactly Protocol uses [Chainlink's data feeds](https://docs.chain.link/docs/usin
 
 ## Chainlink
 
-Chainlink is the most used data provider in the industry. It provides secure pricing feeds and is the DeFi standard oracle network with [over six trillion in transaction value enabled](https://chain.link/). No liveness checks are performed while retrieving oracle data. Chainlink offers robust and historically stable price feeds, even more on Mainnet for high-liquid assets such as WBTC, ETH, and DAI. Also, avoiding this check can lower the gas consumption of the involved transactions. The following contracts depend directly on Chainlink's price feed: [Auditor](protocol/auditor.md), [Price Feed Wrapper](protocol/pricefeedwrapper.md), and [Price Feed Double](protocol/pricefeeddouble.md).
+Chainlink is the most used data provider in the industry. It provides secure pricing feeds and is the DeFi standard Oracle network with [over six trillion transactions value enabled](https://chain.link/). No liveness checks are performed while retrieving Oracle data. Chainlink offers robust and historically stable price feeds, even more on Mainnet for high-liquid assets such as WBTC, ETH, and DAI. Also, avoiding this check can lower the gas consumption of the involved transactions. The following contracts depend directly on Chainlink's price feed: [Auditor](protocol/auditor.md), [Price Feed Wrapper](protocol/pricefeedwrapper.md), and [Price Feed Double](protocol/pricefeeddouble.md).
 
 ## Uniswap TWAPs
 
@@ -26,7 +26,7 @@ It is hard to estimate how many block proposers will view oracle manipulation at
 
 ## Price Denominations
 
-All asset prices, including stablecoins, are accurately reflected by querying them from live, and regularly updated price feeds. This approach avoids hardcoded values, providing reliable and up-to-date pricing information for its users.
+All asset prices, including stablecoins, are accurately reflected by querying them from live, and regularly updated price feeds. This approach avoids hardcoded values, providing users with reliable and up-to-date pricing information.
 
 On **Mainnet**, the [Auditor](protocol/auditor.md) obtains and uses prices to calculate accounts' collateral and debt values in **ETH** denomination. In this way, an extra call (_ETH-USD_) is saved, which translates to a reduction in gas consumption for liquidity checks.
 
@@ -36,11 +36,11 @@ It's important to notice that this difference is only spotted at a smart contrac
 
 ## Deprecated Chainlink interface
 
-Exactly's smart contracts are currently fetching asset prices through a [deprecated interface provided by Chainlink](https://github.com/smartcontractkit/chainlink/blob/e1e78865d4f3e609e7977777d7fb0604913b63ed/contracts/src/v0.6/EACAggregatorProxy.sol#L41-L58).
+Exactly's smart contracts are fetching asset prices through a [deprecated interface provided by Chainlink](https://github.com/smartcontractkit/chainlink/blob/e1e78865d4f3e609e7977777d7fb0604913b63ed/contracts/src/v0.6/EACAggregatorProxy.sol#L41-L58).
 
-In a [previous audit carried out by Coinspect (EXA-36)](https://github.com/exactly/audits/blob/main/Coinspect%204th%20audit%20\(Oct-22\).pdf), we already acknowledged this decision in the spirit of transparency and assure our users that we have assessed the associated risks and taken appropriate measures to mitigate them.
+In a [previous audit by Coinspect (EXA-36)](https://github.com/exactly/audits/blob/main/Coinspect%204th%20audit%20\(Oct-22\).pdf), we already acknowledged this decision in the spirit of transparency. We assured our users that we have assessed and taken appropriate measures to mitigate the associated risks.
 
-Our choice to continue using this deprecated interface is based on several factors. We have implemented a low minimum timelock delay (1 day) and an upgradable [Auditor](protocol/auditor.md), which enable us to respond swiftly in the event that prices are not being updated accurately.
+Our choice to continue using this deprecated interface is based on several factors. We have implemented a low minimum timelock delay (1 day) and an upgradable [Auditor](protocol/auditor.md), which enable us to respond swiftly if prices are not being updated accurately.
 
 We have confidence in the robustness and historical stability of Chainlink's price feeds, particularly for highly liquid assets, the only ones enabled as [Markets](protocol/market/).
 
