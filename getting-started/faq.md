@@ -213,7 +213,7 @@ The Total Available value displayed in the web app is the sum of the variable an
 
 ### What does Total Utilization refer to?
 
-Total Utilization is the total utilization of the variable and fixed pool. Up to 90% can be lent out given the current reserve factor of [10%](https://docs.exact.ly/guides/parameters#a.-reserve-factor).&#x20;
+Total Utilization is the total utilization of the variable and fixed pool. Up to 90% can be lent out given the current reserve factor of [5%](https://docs.exact.ly/guides/parameters#a.-reserve-factor).&#x20;
 
 ### Why is the web app not available for US Persons?
 
