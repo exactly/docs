@@ -5,7 +5,7 @@ There is an explanation of the following parameters in [Model Parameters](../res
 ## A. Reserve Factor
 
 $$
-\begin{align*} \eta = 10\% \end{align*}
+\begin{align*} \eta = 5\% \end{align*}
 $$
 
 $$\eta$$ the fraction of the total Variable Rate Pool deposits established as Liquidity Reserves can't be borrowed and will only be available for withdrawals.
