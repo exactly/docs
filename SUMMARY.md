@@ -3,14 +3,14 @@
 ## Getting started
 
 * [🔔 Welcome](README.md)
-* [➡ Introduction](getting-started/introduction.md)
+* [➡️ Introduction](getting-started/introduction.md)
 * [❔ FAQ](getting-started/faq.md)
 * [🔗 Quick Links](getting-started/quick-links.md)
 
 ## Governance
 
-* [🏛 Exactly Protocol Governance](governance/exactly-protocol-governance/README.md)
-  * [✍ Proposals and Voting](governance/exactly-protocol-governance/proposals-and-voting.md)
+* [🏛️ Exactly Protocol Governance](governance/exactly-protocol-governance/README.md)
+  * [✍️ Proposals and Voting](governance/exactly-protocol-governance/proposals-and-voting.md)
   * [⚡ Snapshot](governance/exactly-protocol-governance/snapshot.md)
   * [📄 Exactly Improvement Proposal (EXAIP) Template](governance/exactly-protocol-governance/exactly-improvement-proposal-exaip-template.md)
 * [⚫ Exactly Token (EXA)](governance/exactly-token-exa/README.md)
@@ -19,7 +19,7 @@
 
 ## Guides
 
-* [⚙ Protocol](guides/protocol/README.md)
+* [⚙️ Protocol](guides/protocol/README.md)
   * [Auditor](guides/protocol/auditor.md)
   * [MarketETHRouter](guides/protocol/marketethrouter.md)
   * [Market](guides/protocol/market/README.md)
@@ -28,7 +28,7 @@
   * [PriceFeedDouble](guides/protocol/pricefeeddouble.md)
   * [InterestRateModel](guides/protocol/interestratemodel.md)
   * [RewardsController](guides/protocol/rewardscontroller/README.md)
-* [🛰 Peripheral Contracts](guides/periphery-contracts/README.md)
+* [🛰️ Peripheral Contracts](guides/periphery-contracts/README.md)
   * [🌀 DebtManager](guides/periphery/debtmanager.md)
   * [⚫ EXA](guides/periphery/exa.md)
   * [⚪ esEXA](guides/periphery-contracts/esexa.md)
@@ -49,9 +49,9 @@
   * [📤 Borrows](guides/fixed-rate-operations/borrows.md)
 * [🔢 Parameters](guides/parameters.md)
 * [📈 Interest Rates Curves](guides/interest-rates-curves.md)
-* [♻ Liquidations](guides/liquidations/README.md)
+* [♻️ Liquidations](guides/liquidations/README.md)
   * [🤖 Exactly's Bot](guides/liquidations/exactlys-bot.md)
-* [⛓ Smart Contract Addresses](guides/smart-contract-addresses.md)
+* [⛓️ Smart Contract Addresses](guides/smart-contract-addresses.md)
 * [🌐 The Graph](guides/the-graph.md)
 * [🔮 Chainlink Price Feeds](guides/price-feeds.md)
 
@@ -73,6 +73,6 @@
 
 ## Legal
 
-* [⚖ Terms and Conditions of Use](legal/terms-and-conditions-of-use.md)
+* [⚖️ Terms and Conditions of Use](legal/terms-and-conditions-of-use.md)
 * [🔏 Privacy Policy](legal/privacy-policy.md)
 * [🍪 Cookies Policy](legal/cookies-policy.md)

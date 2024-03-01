@@ -74,7 +74,7 @@ Below a Health Factor of 1.00, the user will be considered in a shortfall and op
 
 This is also known as maximum Loan-to-Value.
 
-To calculate the maximum Loan-to-Value (LTV) for a deposit you need to consider the Risk-Adjust Factors of the assets involved in the transaction, both for the deposited asset (collateral) and the borrowed asset. The formula to calculate LTV is as follows:
+To calculate the maximum Loan-to-Value (LTV) for a deposit, you need to consider the Risk-Adjust Factors of the assets involved in the transaction, both for the deposited asset (collateral) and the borrowed asset. The formula to calculate LTV is as follows:
 
 LTV = Risk-Adjust Factor deposit \* Risk-Adjust Factor borrow.
 
@@ -217,7 +217,13 @@ Total Utilization is the total utilization of the variable and fixed pool. Up to
 
 ### Why is the web app not available for US Persons?
 
-As US Persons are prohibited from accessing and using the Digital Asset Services in any way, the platform does not allow its use by, or operation in any way with, US Persons. If we have reasonable grounds to suspect that you are a US Person, we reserve the right to take whatever action we deem appropriate to prohibit your access to the Digital Asset Services
+As US Persons are prohibited from accessing and using the Digital Asset Services in any way, the platform does not allow its use by, or operation in any way with, US Persons. If we have reasonable grounds to suspect that you are a US Person, we reserve the right to take whatever action we deem appropriate to prohibit your access to the Digital Asset Services.
+
+### What risks are there associated with using the protocol?
+
+There is always inherent risk associated with the smart contracts and systems deployed by the third-party protocols that interact with them. Exactly Protocol is not responsible for any funds lost due to exploits.
+
+By accessing and using Exactly Protocol, you acknowledge and accept these risks, including the potential for loss of funds due to exploits or vulnerabilities. Please review our [Terms and Conditions](https://docs.exact.ly/legal/terms-and-conditions-of-use) carefully for full details on your rights, obligations, and the limitations of our liability.
 
 ## EXA Governance Token
 
