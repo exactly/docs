@@ -4,7 +4,7 @@ The demand curve for interest rates is based on the Utilization Rate of each poo
 
 You can read more about our Interest Rate Model in our [White Paper](https://docs.exact.ly/getting-started/white-paper#3.-the-exactly-interest-rate-model) and also in our [Math Paper](https://docs.exact.ly/getting-started/math-paper#4.1.2-the-effective-interest-rate-for-a-particular-loan).
 
-## WETH
+## WETH - Ethereum Mainnet
 
 <figure><img src="../.gitbook/assets/WETH VRP (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -14,31 +14,31 @@ You can read more about our Interest Rate Model in our [White Paper](https://doc
 
 </div>
 
-## DAI
+## DAI - Ethereum Mainnet
 
 <figure><img src="../.gitbook/assets/DAI VRP.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (5).png" alt="" width="563"><figcaption></figcaption></figure>
 
-## USDC
+## USDC - Ethereum Mainnet
 
 <figure><img src="../.gitbook/assets/USDC VRP.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (4) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
-## WBTC
+## WBTC - Ethereum Mainnet
 
 <figure><img src="../.gitbook/assets/image (15) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (16) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
-## wstETH
+## wstETH - Ethereum Mainnet
 
 <figure><img src="../.gitbook/assets/WstETH VRP.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (6).png" alt="" width="563"><figcaption></figcaption></figure>
 
-## OP
+## OP - Ethereum Mainnet
 
 <figure><img src="../.gitbook/assets/OP VRP.png" alt=""><figcaption></figcaption></figure>
 
