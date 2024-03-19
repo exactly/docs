@@ -4,24 +4,28 @@
 
 Exactly Protocol was audited by the following companies:
 
-| Auditor      | Date     | Report                                                                                                                                                    |
-| ------------ | -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ABDK         | Oct 2022 | [ABDK 1st audit](https://github.com/exactly/audits/blob/main/ABDK%201st%20audit%20\(Oct-22\).pdf)                                                         |
-| ABDK         | May 2023 | [ABDK 2nd audit](https://github.com/exactly/audits/blob/main/ABDK%202nd%20audit%20\(May-23\).pdf)                                                         |
-| ABDK         | Sep 2023 | [ABDK PeripheralContracts 1st Audit](https://github.com/exactly/audits/blob/main/ABDK%20PeripheralContracts%201st%20audit%20\(Sep-23\).pdf)               |
-| ABDK         | Oct 2023 | [ABDK EscrowedEXA 1st Audit](https://github.com/exactly/audits/blob/main/ABDK%20EscrowedEXA%20\(Sep-23\).pdf)                                             |
-| Chainsafe    | May 2022 | [Chainsafe 1st audit](https://github.com/exactly/audits/blob/main/Chainsafe%201st%20audit%20\(May-22\).pdf)                                               |
-| Chainsafe    | Oct 2022 | [Chainsafe 2nd audit](https://github.com/exactly/audits/blob/main/Chainsafe%202nd%20audit%20\(Oct-22\).pdf)                                               |
-| Coinspect    | Nov 2021 | [Coinspect 1st audit](https://github.com/exactly/audits/blob/main/Coinspect%201st%20audit%20\(Nov-21\).pdf)                                               |
-| Coinspect    | May 2022 | [Coinspect 2nd audit](https://github.com/exactly/audits/blob/main/Coinspect%202nd%20audit%20\(May-22\).pdf)                                               |
-| Coinspect    | Oct 2022 | [Coinspect 3rd audit](https://github.com/exactly/audits/blob/main/Coinspect%203rd%20audit%20\(Oct-22\).pdf)                                               |
-| Coinspect    | Oct 2022 | [Coinspect 4th audit](https://github.com/exactly/audits/blob/main/Coinspect%204th%20audit%20\(Oct-22\).pdf)                                               |
-| Coinspect    | Mar 2023 | [Coinspect 5th audit](https://github.com/exactly/audits/blob/main/Coinspect%205th%20audit%20\(Mar-23\).pdf)                                               |
-| Coinspect    | Jan 2023 | [Coinspect RewardsController 1st audit](https://github.com/exactly/audits/blob/main/Coinspect%20RewardsController%201st%20audit%20\(Jan-23\).pdf)         |
-| Coinspect    | Feb 2023 | [Coinspect RewardsController 2nd audit](https://github.com/exactly/audits/blob/main/Coinspect%20RewardsController%202nd%20audit%20\(Feb-23\).pdf)         |
-| Coinspect    | Mar 2023 | [Coinspect RewardsController 3rd audit](https://github.com/exactly/audits/blob/main/Coinspect%20RewardsController%203rd%20audit%20\(Mar-23\).pdf)         |
-| Cryptecon    | Sep 2022 | [Cryptecon Economics of the Exactly Protocol](https://github.com/exactly/audits/blob/main/Cryptecon\_Economics\_of\_the\_Exactly\_Protocol\(Sep-22\).pdf) |
-| OpenZeppelin | Oct 2023 | [EscrowedEXA 1st Audit](https://github.com/exactly/audits/blob/main/OpenZeppelin%20EscrowedEXA%20\(Oct-23\).pdf)                                          |
+| Auditor      | Date       | Report                                                                                                                                                    |
+| ------------ | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ABDK         | Oct 2022   | [ABDK 1st audit](https://github.com/exactly/audits/blob/main/ABDK%201st%20audit%20\(Oct-22\).pdf)                                                         |
+| ABDK         | May 2023   | [ABDK 2nd audit](https://github.com/exactly/audits/blob/main/ABDK%202nd%20audit%20\(May-23\).pdf)                                                         |
+| ABDK         | Sep 2023   | [ABDK PeripheralContracts 1st audit](https://github.com/exactly/audits/blob/main/ABDK%20PeripheralContracts%201st%20audit%20\(Sep-23\).pdf)               |
+| ABDK         | Oct 2023   | [ABDK EscrowedEXA 1st audit](https://github.com/exactly/audits/blob/main/ABDK%20EscrowedEXA%20\(Sep-23\).pdf)                                             |
+| ABDK         | Feb 2024   | [ABDK Interest Rate Model v2 1st audit](https://github.com/exactly/audits/blob/main/ABDK%20Interest%20Rate%20Model%20v2%20\(Feb-24\).pdf)                 |
+| ABDK         | Mar 2024   | [ABDK Interest Rate Model v2 2nd audit](https://github.com/exactly/audits/blob/main/ABDK%20Interest%20Rate%20Model%20v2%20\(Mar-24\).pdf)                 |
+| Chainsafe    | May 2022   | [Chainsafe 1st audit](https://github.com/exactly/audits/blob/main/Chainsafe%201st%20audit%20\(May-22\).pdf)                                               |
+| Chainsafe    | Oct 2022   | [Chainsafe 2nd audit](https://github.com/exactly/audits/blob/main/Chainsafe%202nd%20audit%20\(Oct-22\).pdf)                                               |
+| Chainsafe    | Mar 2024   | [Chainsafe Interest Rate Model v2 1st audit](https://github.com/exactly/audits/blob/main/Chainsafe%20Interest%20Rate%20Model%20v2%20\(Mar-24\).pdf)       |
+| Coinspect    | Nov 2021   | [Coinspect 1st audit](https://github.com/exactly/audits/blob/main/Coinspect%201st%20audit%20\(Nov-21\).pdf)                                               |
+| Coinspect    | May 2022   | [Coinspect 2nd audit](https://github.com/exactly/audits/blob/main/Coinspect%202nd%20audit%20\(May-22\).pdf)                                               |
+| Coinspect    | Oct 2022   | [Coinspect 3rd audit](https://github.com/exactly/audits/blob/main/Coinspect%203rd%20audit%20\(Oct-22\).pdf)                                               |
+| Coinspect    | Oct 2022   | [Coinspect 4th audit](https://github.com/exactly/audits/blob/main/Coinspect%204th%20audit%20\(Oct-22\).pdf)                                               |
+| Coinspect    | Mar 2023   | [Coinspect 5th audit](https://github.com/exactly/audits/blob/main/Coinspect%205th%20audit%20\(Mar-23\).pdf)                                               |
+| Coinspect    | Jan 2023   | [Coinspect RewardsController 1st audit](https://github.com/exactly/audits/blob/main/Coinspect%20RewardsController%201st%20audit%20\(Jan-23\).pdf)         |
+| Coinspect    | Feb 2023   | [Coinspect RewardsController 2nd audit](https://github.com/exactly/audits/blob/main/Coinspect%20RewardsController%202nd%20audit%20\(Feb-23\).pdf)         |
+| Coinspect    | Mar 2023   | [Coinspect RewardsController 3rd audit](https://github.com/exactly/audits/blob/main/Coinspect%20RewardsController%203rd%20audit%20\(Mar-23\).pdf)         |
+| Cryptecon    | Sep 2022   | [Cryptecon Economics of the Exactly Protocol](https://github.com/exactly/audits/blob/main/Cryptecon\_Economics\_of\_the\_Exactly\_Protocol\(Sep-22\).pdf) |
+| Hashlock     | March 2024 | [Hashlock Interest Rate Model v2 1st audit](https://github.com/exactly/audits/blob/main/Hashlock%20Interest%20Rate%20Model%20v2%20\(Mar-24\).pdf)         |
+| OpenZeppelin | Oct 2023   | [EscrowedEXA 1st audit](https://github.com/exactly/audits/blob/main/OpenZeppelin%20EscrowedEXA%20\(Oct-23\).pdf)                                          |
 
 ## Other
 
@@ -31,7 +35,7 @@ Exactly Protocol was audited by the following companies:
 
 ## Mathematical Audit
 
-On September 8th, 2022 the [Center for Cryptoeconomics](https://cryptecon.org/home.html) released its audit report on Exactly Protocol titled "[Economics of the Exactly Protocol](https://github.com/exactly/audits/blob/main/Cryptecon\_Economics\_of\_the\_Exactly\_Protocol\(Sep-22\).pdf)", concluding that Exactly's model is "economically plausible, mathematically correct, and theoretically feasible".
+."On September 8th, 2022 the [Center for Cryptoeconomics](https://cryptecon.org/home.html) released its audit report on Exactly Protocol titled "[Economics of the Exactly Protocol](https://github.com/exactly/audits/blob/main/Cryptecon\_Economics\_of\_the\_Exactly\_Protocol\(Sep-22\).pdf)", concluding that Exactly's model is "economically plausible, mathematically correct, and theoretically feasible".
 
 ### Highlights from the auditors
 
