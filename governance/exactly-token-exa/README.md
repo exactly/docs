@@ -13,7 +13,13 @@ For security reasons, most of the EXA tokens will be deposited in the [Timelock 
 
 ### Circulating Supply & Token Holders
 
-EXA token holders and Circulating Supply can be tracked at the following link: [https://optimistic.etherscan.io/token/tokenholderchart/0x1e925de1c68ef83bd98ee3e130ef14a50309c01b](https://optimistic.etherscan.io/token/tokenholderchart/0x1e925de1c68ef83bd98ee3e130ef14a50309c01b)
+EXA token holders and Supply can be tracked at the following link: [https://optimistic.etherscan.io/token/tokenholderchart/0x1e925de1c68ef83bd98ee3e130ef14a50309c01b](https://optimistic.etherscan.io/token/tokenholderchart/0x1e925de1c68ef83bd98ee3e130ef14a50309c01b)
+
+Exa token Circulating Supply: [https://app.exact.ly/api/circulating-exa](https://app.exact.ly/api/circulating-exa)
+
+### EXA token Unlock Schedule
+
+DefiLlama: [https://defillama.com/unlocks/exactly](https://defillama.com/unlocks/exactly)
 
 ### Dune Dashboards
 
@@ -30,6 +36,10 @@ CoinMarketCap: [https://coinmarketcap.com/currencies/exactly-protocol/](https://
 DeFiLlama: [https://defillama.com/protocol/exactly?tokenPrice=true](https://defillama.com/protocol/exactly?tokenPrice=true)
 
 GeckoTerminal price info: [https://www.geckoterminal.com/optimism/pools/0xf3c45b45223df6071a478851b9c17e0630fdf535](https://www.geckoterminal.com/optimism/pools/0xf3c45b45223df6071a478851b9c17e0630fdf535)
+
+### Get EXA
+
+[https://app.exact.ly/get-exa](https://app.exact.ly/get-exa)
 
 ### Velodrome Liquidity Pool
 
