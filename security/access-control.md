@@ -13,7 +13,8 @@ The `TimelockController` smart contract acts as the `administrator` role in the 
 * Exactly Protocol Owner (OP Mainnet): \
   [https://app.safe.global/home?safe=oeth:0xC0d6Bc5d052d1e74523AD79dD5A954276c9286D3](https://app.safe.global/home?safe=oeth:0xC0d6Bc5d052d1e74523AD79dD5A954276c9286D3)
 
-The Protocol Owner multisig will sign new transactions on Tuesdays.
+The Protocol Owner multisig will sign new transactions on Tuesdays. \
+More information here: [https://app.exact.ly/activity](https://app.exact.ly/activity)
 
 ### Pauser
 
