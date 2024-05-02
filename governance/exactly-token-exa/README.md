@@ -1,6 +1,6 @@
 # ⚫ Exactly Token (EXA)
 
-**`EXA` Smart Contract Address (exa.eth):** [**`0x1e925de1c68ef83bd98ee3e130ef14a50309c01b`**](https://optimistic.etherscan.io/token/0x1e925de1c68ef83bd98ee3e130ef14a50309c01b)
+**`EXA` Smart Contract Address in OP Mainnet:** [**`0x1e925de1c68ef83bd98ee3e130ef14a50309c01b`**](https://optimistic.etherscan.io/token/0x1e925de1c68ef83bd98ee3e130ef14a50309c01b)
 
 The EXA token grants holders the right to vote on system changes and upgrades. Holders of the EXA token will wield power over the Protocol’s [treasury](https://docs.exact.ly/guides/parameters#b.-treasury-fee) and [smart contract upgrades](https://docs.exact.ly/security/access-control).
 
