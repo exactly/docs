@@ -14,7 +14,7 @@ $$\eta$$ the fraction of the total Variable Rate Pool deposits established as Li
 
 The treasury fee refers to the percentage of interest rate charges paid by borrowers that the protocol retains for its treasury.
 
-**Treasury Fee on OP Mainnet**
+* **Treasury Fee on OP Mainnet**
 
 $$
 \begin{align*} \lambda_r = 20\% \end{align*}
@@ -22,7 +22,7 @@ $$
 
 OP Mainnet Treasury multisig address: [https://optimistic.etherscan.io/address/0x23fd464e0b0ee21cedeb929b19cabf9bd5215019](https://optimistic.etherscan.io/address/0x23fd464e0b0ee21cedeb929b19cabf9bd5215019)
 
-**Treasury Fee on Ethereum Mainnet**
+* **Treasury Fee on Ethereum Mainnet**
 
 $$
 \begin{align*} \lambda_r = 0\% \end{align*}
@@ -30,7 +30,7 @@ $$
 
 ## C. Optimism Mainnet Interest Rate Curves
 
-**USDC**
+* **USDC**
 
 | Parameter        | Value      |
 | ---------------- | ---------- |
@@ -41,7 +41,7 @@ $$
 | $$k_{sigmoid}$$= | 2.50       |
 | $$α$$=           | 1.10       |
 
-**USDC.e**
+* **USDC.e**
 
 | Parameter        | Value      |
 | ---------------- | ---------- |
@@ -52,7 +52,7 @@ $$
 | $$k_{sigmoid}$$= | 2.50       |
 | $$α$$=           | 1.10       |
 
-**WETH**
+* **WETH**
 
 | Parameter        | Value      |
 | ---------------- | ---------- |
@@ -63,7 +63,7 @@ $$
 | $$k_{sigmoid}$$= | 2.50       |
 | $$α$$=           | 1.40       |
 
-wstETH
+* wstETH
 
 | Parameter        | Value      |
 | ---------------- | ---------- |
@@ -74,7 +74,7 @@ wstETH
 | $$k_{sigmoid}$$= | 2.50       |
 | $$α$$=           | 1.40       |
 
-**OP**
+* **OP**
 
 | Parameter        | Value      |
 | ---------------- | ---------- |
@@ -85,7 +85,7 @@ wstETH
 | $$k_{sigmoid}$$= | 2.50       |
 | $$α$$=           | 1.20       |
 
-**WBTC**
+* **WBTC**
 
 | Parameter        | Value      |
 | ---------------- | ---------- |
@@ -98,7 +98,7 @@ wstETH
 
 ## D. Ethereum Mainnet Interest Rate Curves
 
-#### WETH
+* WETH
 
 | Parameter    | VRP Value   | FRP Value   |
 | ------------ | ----------- | ----------- |
@@ -106,7 +106,7 @@ wstETH
 | $$B$$ =      | -1.787e-3   | -3.6375e-1  |
 | $$U_{max}$$= | 1.003870947 | 1.000010695 |
 
-#### DAI
+* DAI
 
 | Parameter    | VRP Value   | FRP Value   |
 | ------------ | ----------- | ----------- |
@@ -114,7 +114,7 @@ wstETH
 | $$B$$ =      | -2.789e-3   | -3.7781e-1  |
 | $$U_{max}$$= | 1.003568501 | 1.000014451 |
 
-#### USDC
+* USDC
 
 | Parameter    | VRP Value   | FRP Value   |
 | ------------ | ----------- | ----------- |
@@ -122,7 +122,7 @@ wstETH
 | $$B$$ =      | 1.9964e-4   | -3.7781e-1  |
 | $$U_{max}$$= | 1.002968978 | 1.000014451 |
 
-#### WBTC
+* WBTC
 
 | Parameter    | VRP Value   | FRP Value   |
 | ------------ | ----------- | ----------- |
@@ -130,7 +130,7 @@ wstETH
 | $$B$$ =      | 3.0160e-2   | -4.1345e-1  |
 | $$U_{max}$$= | 1.007776377 | 1.050553997 |
 
-#### wstETH
+* wstETH
 
 | Parameter    | VRP Value   | FRP Value   |
 | ------------ | ----------- | ----------- |
@@ -138,7 +138,7 @@ wstETH
 | $$B$$ =      | -1.787e-3   | -3.6375e-1  |
 | $$U_{max}$$= | 1.003870947 | 1.000010695 |
 
-#### OP
+* OP
 
 | Parameter    | VRP Value   | FRP Value   |
 | ------------ | ----------- | ----------- |
@@ -150,29 +150,18 @@ These parameters are utilized to calculate [the effective borrow interest rate](
 
 ## D. Risk Factors
 
-#### Ethereum Mainnet
+* OP Mainnet
 
 | Asset  | Value |
 | ------ | ----- |
 | WETH   | 0.86  |
-| DAI    | 0.90  |
 | USDC   | 0.91  |
-| WBTC   | 0.85  |
-| wstETH | 0.82  |
-| OP     | N/A   |
-
-#### OP Mainnet
-
-| Asset  | Value |
-| ------ | ----- |
-| WETH   | 0.86  |
-| DAI    | N/A   |
-| USDC   | 0.91  |
+| USDC.e | 0.91  |
 | WBTC   | 0.78  |
 | wstETH | 0.82  |
 | OP     | 0.35  |
 
-#### Goerli Testnet
+* Ethereum Mainnet
 
 | Asset  | Value |
 | ------ | ----- |
@@ -181,7 +170,6 @@ These parameters are utilized to calculate [the effective borrow interest rate](
 | USDC   | 0.91  |
 | WBTC   | 0.85  |
 | wstETH | 0.82  |
-| OP     | N/A   |
 
 We associate a [Risk-Adjust Factor](https://docs.exact.ly/getting-started/math-paper#6.-liquidations) to each asset to assess each collateral asset's borrow and lending power.
 
