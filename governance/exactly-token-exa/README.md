@@ -34,10 +34,14 @@ As the Protocol develops, EXA token holders will play a crucial role in decision
 * **DeFiLlama:** [https://defillama.com/protocol/exactly?tokenPrice=true](https://defillama.com/protocol/exactly?tokenPrice=true)
 * **GeckoTerminal:** [https://www.geckoterminal.com/optimism/pools/0xf3c45b45223df6071a478851b9c17e0630fdf535](https://www.geckoterminal.com/optimism/pools/0xf3c45b45223df6071a478851b9c17e0630fdf535)
 
-### Velodrome DEX Liquidity Pool
+### Velodrome DEX
 
-* **Velodrome EXA/WETH Pool:** \
+* **Velodrome EXA/WETH Liquidity Pool:** \
   [https://velodrome.finance/swap?from=0x4200000000000000000000000000000000000006\&to=0x1e925de1c68ef83bd98ee3e130ef14a50309c01b](https://velodrome.finance/swap?from=0x4200000000000000000000000000000000000006\&to=0x1e925de1c68ef83bd98ee3e130ef14a50309c01b)
+
+### Coinstore Exchange
+
+* **EXA/USDT spot:** [https://www.coinstore.com/spot/EXAUSDT](https://www.coinstore.com/spot/EXAUSDT)
 
 ### EXA/WETH Vaults
 
