@@ -94,6 +94,10 @@ In this example, depositing $10,000 worth of `ETH` allows you to borrow $7,280 w
 
 You can find the Risk-Adjust Factors for each asset in the [parameters.md](../guides/parameters.md "mention") section.
 
+This table shows the borrowing limit for only one asset deposited as collateral and one borrowed asset:
+
+<figure><img src="../.gitbook/assets/Screenshot 2024-05-27 at 9.28.50 AM.png" alt=""><figcaption></figcaption></figure>
+
 ### What happens if the price of my collateral changes?
 
 When the price of your collateral changes, your [Health Factor](faq.md#what-is-the-health-factor) changes. The minimum collateralization ratio you need to maintain will vary depending on the asset you're borrowing and the collateral type you use.
