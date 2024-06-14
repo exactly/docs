@@ -20,10 +20,13 @@ At Exactly Protocol, our subgraph allows us to perform advanced queries and oper
 
 ### Exactly Protocol’s Subgraphs
 
-| Network          | Subgraphs                                                                                                                                                                                                                               |
-| ---------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Ethereum Mainnet | [https://thegraph.com/explorer/subgraphs/As6Xz6GCvbW8B9Xb7Rx2LqQeJcL3FcUyD8Tk95L8rG5d?view=Overview\&chain=mainnet ](https://thegraph.com/explorer/subgraphs/As6Xz6GCvbW8B9Xb7Rx2LqQeJcL3FcUyD8Tk95L8rG5d?view=Overview\&chain=mainnet) |
-| Optimism         | [https://thegraph.com/hosted-service/subgraph/exactly/optimism ](https://thegraph.com/hosted-service/subgraph/exactly/optimism)                                                                                                         |
+| Network          | Subgraphs                                                                                                                                                                                                                                  |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Ethereum Mainnet | [https://thegraph.com/explorer/subgraphs/As6Xz6GCvbW8B9Xb7Rx2LqQeJcL3FcUyD8Tk95L8rG5d?view=Overview\&chain=mainnet ](https://thegraph.com/explorer/subgraphs/As6Xz6GCvbW8B9Xb7Rx2LqQeJcL3FcUyD8Tk95L8rG5d?view=Overview\&chain=mainnet)    |
+| Optimism         | [https://thegraph.com/explorer/subgraphs/9jpa2F3ZuirB11m3GL36wcNoNGETd3Z2zf7Cre5iwyeC?view=Query\&chain=arbitrum-one](https://thegraph.com/explorer/subgraphs/9jpa2F3ZuirB11m3GL36wcNoNGETd3Z2zf7Cre5iwyeC?view=Query\&chain=arbitrum-one) |
+|                  |                                                                                                                                                                                                                                            |
+
+
 
 <div align="right">
 
