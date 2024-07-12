@@ -28,6 +28,7 @@ Exactly Protocol was audited by the following companies:
 | Hashlock     | March 2024 | [Hashlock Interest Rate Model v2 1st audit](https://github.com/exactly/audits/blob/main/Hashlock%20Interest%20Rate%20Model%20v2%20\(Mar-24\).pdf)                                         |
 | Hashlock     | Apr 2024   | [Hashlock Installments Router and New Market Roles 1st audit](https://github.com/exactly/audits/blob/main/Hashlock%20Installments%20Router%20and%20New%20Market%20Roles%20\(Apr-24\).pdf) |
 | OpenZeppelin | Oct 2023   | [EscrowedEXA 1st audit](https://github.com/exactly/audits/blob/main/OpenZeppelin%20EscrowedEXA%20\(Oct-23\).pdf)                                                                          |
+| Quantstamp   | July 2024  | [Exa App WebAuthn Plugin 1st audit](https://github.com/exactly/audits/blob/main/Quantstamp%20Exa%20App%20WebAuthn%20Plugin%20\(Jul-24\).pdf)                                              |
 
 ## Other
 
