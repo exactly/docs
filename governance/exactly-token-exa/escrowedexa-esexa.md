@@ -19,11 +19,17 @@ Elements for the esEXA to EXA conversion process:
 
 * Step 1: Claim your esEXA Rewards&#x20;
 * Step 2: Initiate the vesting of your esEXA. You must deposit 25% of the total esEXA you want to vest as an EXA reserve.&#x20;
-* You can get EXA if you don’t have the required reserve amount: https://app.exact.ly/get-exa
+* You can get EXA [here](https://app.exact.ly/get-exa) if you don’t have the required reserve amount.
 
 Users can cancel the vesting at their discretion, triggering the withdrawal of all vested EXA tokens from Sablier and the associated reserve. Any unvested tokens are returned to the EscrowedEXA contract, where the corresponding esEXA tokens are minted and returned to the user.
 
 This mechanism guarantees that the exclusive path for the users to retrieve reserved EXA tokens from the EscrowedEXA contract is by adhering to the stipulated vesting schedule.
+
+### **Withdraw Reserved EXA**&#x20;
+
+When you withdraw the reserved EXA, the associated vesting streams will be canceled automatically. You’ll get back the earned EXA and all remaining esEXA.
+
+<figure><img src="../../.gitbook/assets/Captura de pantalla 2024-07-15 a las 17.23.14.png" alt=""><figcaption><p><a href="https://app.exact.ly/vesting">Active Vesting Streams</a></p></figcaption></figure>
 
 **GitHub URL:**
 
