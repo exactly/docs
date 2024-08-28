@@ -16,6 +16,7 @@ Exactly Protocol was audited by the following companies:
 | Chainsafe    | May 2022   | [Chainsafe 1st audit](https://github.com/exactly/audits/blob/main/Chainsafe%201st%20audit%20\(May-22\).pdf)                                                                               |
 | Chainsafe    | Oct 2022   | [Chainsafe 2nd audit](https://github.com/exactly/audits/blob/main/Chainsafe%202nd%20audit%20\(Oct-22\).pdf)                                                                               |
 | Chainsafe    | Mar 2024   | [Chainsafe Interest Rate Model v2 1st audit](https://github.com/exactly/audits/blob/main/Chainsafe%20Interest%20Rate%20Model%20v2%20\(Mar-24\).pdf)                                       |
+| Chainsafe    | Aug 2024   | [Chainsafe Staking Program 1st audit](https://github.com/exactly/audits/blob/main/Chainsafe%20Staking%20Contract%20\(Aug-24\).pdf)                                                        |
 | Coinspect    | Nov 2021   | [Coinspect 1st audit](https://github.com/exactly/audits/blob/main/Coinspect%201st%20audit%20\(Nov-21\).pdf)                                                                               |
 | Coinspect    | May 2022   | [Coinspect 2nd audit](https://github.com/exactly/audits/blob/main/Coinspect%202nd%20audit%20\(May-22\).pdf)                                                                               |
 | Coinspect    | Oct 2022   | [Coinspect 3rd audit](https://github.com/exactly/audits/blob/main/Coinspect%203rd%20audit%20\(Oct-22\).pdf)                                                                               |
@@ -29,6 +30,7 @@ Exactly Protocol was audited by the following companies:
 | Hashlock     | Apr 2024   | [Hashlock Installments Router and New Market Roles 1st audit](https://github.com/exactly/audits/blob/main/Hashlock%20Installments%20Router%20and%20New%20Market%20Roles%20\(Apr-24\).pdf) |
 | OpenZeppelin | Oct 2023   | [EscrowedEXA 1st audit](https://github.com/exactly/audits/blob/main/OpenZeppelin%20EscrowedEXA%20\(Oct-23\).pdf)                                                                          |
 | Quantstamp   | July 2024  | [Exa App WebAuthn Plugin 1st audit](https://github.com/exactly/audits/blob/main/Quantstamp%20Exa%20App%20WebAuthn%20Plugin%20\(Jul-24\).pdf)                                              |
+| Sherlock     | Aug 2024   | [Sherlock Staking Program 1st audit](https://github.com/exactly/audits/blob/main/Sherlock%20Staking%20Contract%20\(Aug-24\).pdf)                                                          |
 
 ## Other
 
