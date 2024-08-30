@@ -1,4 +1,4 @@
-# ➡ Introduction
+# ➡️ Introduction
 
 **TL;DR**
 
@@ -12,3 +12,6 @@ Aside from taking loans and making deposits at variable interest rates from a Va
 Exactly Presentation
 {% endembed %}
 
+## Exactly Protocol Interest Rate Model v2
+
+{% embed url="https://www.youtube.com/watch?v=8g3kq9tEf3s" %}
