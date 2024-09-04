@@ -16,6 +16,7 @@
 * [⚫ Exactly Token (EXA)](governance/exactly-token-exa/README.md)
   * [⚪ EscrowedEXA (esEXA)](governance/exactly-token-exa/escrowedexa-esexa.md)
   * [📊 Tokenomics](governance/exactly-token-exa/tokenomics.md)
+  * [EXA Staking Program (stEXA)](governance/exactly-token-exa/exa-staking-program-stexa.md)
 
 ## Guides
 
