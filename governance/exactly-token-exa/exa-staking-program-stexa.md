@@ -2,17 +2,18 @@
 icon: steak
 description: >-
   The EXA Staking Program enables EXA token holders to get treasury fees and
-  gain additional voting power by staking their EXA tokens. This structured
-  system of rewards will be based on the staking
+  gain additional voting power by staking their EXA tokens.
 ---
 
 # EXA Staking Program (stEXA)
 
-[Staking Contract address](https://optimistic.etherscan.io/address/0xCEed2bFE740F02dB6094eBE89FF93b1031be752b)
+{% embed url="https://www.youtube.com/watch?v=lIyyR6FFn4k" %}
 
 ### Distribution of protocol fees
 
 The protocol's treasury fees will be partly allocated to the Staking Program. A specified fraction (providerRatio) of these fees will be assigned to the staking pool, with an initial parameter of 0.5 (50% of the fees). The rest of the fees go to [Exactly DAO Savings Account Multisig](https://optimistic.etherscan.io/address/0x8a1c05c4462b3554814a637e940b3342ffbe02f2).
+
+[Staking Contract address](https://optimistic.etherscan.io/address/0xCEed2bFE740F02dB6094eBE89FF93b1031be752b)
 
 ### Dividend module
 
