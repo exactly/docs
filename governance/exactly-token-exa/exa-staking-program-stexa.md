@@ -54,7 +54,9 @@ Users will be encouraged to restart their positions after the end of the staking
 Initial parameters, such as the provider ratio, minimum staking time, and penalty factors can be modified through governance.
 
 * [**Staking Program Math Notes**](https://github.com/exactly/papers/blob/main/Staking%20Model%20Math%20Notes.pdf)
-* [**Exactly Protocol Treasury Feed Dune Dashboard**](https://app.gitbook.com/u/5tq9DNrqn5fJhQjhuQafAc07Fvy2)
+* [**Exactly Protocol Treasury Fed Dune Dashboard**](https://app.gitbook.com/u/5tq9DNrqn5fJhQjhuQafAc07Fvy2)
+* [**Chainsafe Staking Program Audit**](https://github.com/exactly/audits/blob/main/Chainsafe%20Staking%20Contract%20\(Aug-24\).pdf)
+* [**Sherlock Staking Program Audit**](https://github.com/exactly/audits/blob/main/Sherlock%20Staking%20Contract%20\(Aug-24\).pdf)
 
 
 
