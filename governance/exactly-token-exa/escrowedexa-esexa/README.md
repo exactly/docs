@@ -29,7 +29,7 @@ This mechanism guarantees that the exclusive path for the users to retrieve rese
 
 When you withdraw the reserved EXA, the associated vesting streams will be canceled automatically. You’ll get back the earned EXA and all remaining esEXA.
 
-<figure><img src="../../.gitbook/assets/Captura de pantalla 2024-07-15 a las 17.23.14.png" alt=""><figcaption><p><a href="https://app.exact.ly/vesting">Active Vesting Streams</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Captura de pantalla 2024-07-15 a las 17.23.14.png" alt=""><figcaption><p><a href="https://app.exact.ly/vesting">Active Vesting Streams</a></p></figcaption></figure>
 
 **GitHub URL:**
 

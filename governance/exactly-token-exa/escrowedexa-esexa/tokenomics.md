@@ -1,6 +1,6 @@
 # 📊 Tokenomics
 
-## Token Allocation <a href="#8de4" id="8de4"></a>
+## Token Allocation <a href="#id-8de4" id="id-8de4"></a>
 
 The total token supply will be 10,000,000 EXA and will be distributed as follows:
 
@@ -8,13 +8,13 @@ The total token supply will be 10,000,000 EXA and will be distributed as follows
 * **Team, Advisors, and Investors:** 4,500,000 EXA (45.00%) will be distributed to Exactly’s employees, advisors, and investors.
 * **DAO Treasury:** The Exactly DAO Treasury will receive an immediate allocation of 1,000,000 EXA (10%) of the total supply. It grants the Treasury immediate access to necessary resources for its role within the ecosystem.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
-## Token Distribution for the Community <a href="#2394" id="2394"></a>
+## Token Distribution for the Community <a href="#id-2394" id="id-2394"></a>
 
 The total Community token supply will be distributed as follows:
 
-### **Airdrop for early users:** <a href="#71b6" id="71b6"></a>
+### **Airdrop for early users:** <a href="#id-71b6" id="id-71b6"></a>
 
 Since we launched the OP token rewards program in April, the community members already using the Protocol in OP Mainnet will receive an airdrop of 1% (100,000 EXA) of the total token supply, fostering community engagement, awareness, and protocol adoption. The criteria will be based on the proportion of already distributed OP rewards through our [Rewards Controller](https://docs.exact.ly/guides/protocol/rewardscontroller), measured on July 18, 2023, at 19:00 UTC. Users assigned OP rewards but didn’t claim them will also be eligible for the airdrop.
 
@@ -30,13 +30,13 @@ To ensure the optimal use of our available token supply, we have already introdu
 
 According to [\[EXAIP-03\]](https://medium.com/@exactly\_protocol/exaip-03-addressing-the-exactly-protocol-hack-and-compensating-affected-users-6e2cd4a0a179), one million EXA tokens will be distributed to the [117 affected users](https://docs.google.com/spreadsheets/d/1kZCGUnwhN6rXHZjPZrzayzZPHUmm1L\_hypvpRGcqdO0/edit#gid=1354393790) in the [security incident ](https://medium.com/@exactly\_protocol/exactly-protocol-incident-post-mortem-b4293d97e3ed)that occurred on August 18th. This allocation represents 10% of the total EXA token supply and approximately 20% of the EXA token supply designated for the community.
 
-## Token distribution for Team Members, Advisors, and Investors <a href="#6f74" id="6f74"></a>
+## Token distribution for Team Members, Advisors, and Investors <a href="#id-6f74" id="id-6f74"></a>
 
 We have implemented a linear lockup period of 48 months, starting on June 1, 2024. All these tokens have voting power and are vested with Sablier.&#x20;
 
 You can see all the EXA token holders [here](https://optimistic.etherscan.io/token/0x1e925de1c68ef83bd98ee3e130ef14a50309c01b#balances) and the lockup scheme in the following chart:
 
-<figure><img src="../../.gitbook/assets/Token Lockup (3).svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Token Lockup (3).svg" alt=""><figcaption></figcaption></figure>
 
 Please read the following articles for more information:
 
