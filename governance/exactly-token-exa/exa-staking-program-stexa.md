@@ -1,9 +1,9 @@
 ---
+icon: steak
 description: >-
   The EXA Staking Program enables EXA token holders to get treasury fees and
   gain additional voting power by staking their EXA tokens. This structured
   system of rewards will be based on the staking
-icon: steak
 ---
 
 # EXA Staking Program (stEXA)
@@ -51,6 +51,9 @@ Users will be encouraged to restart their positions after the end of the staking
 * Penalty Threshold: 0.1 These parameters guide how dividends, penalties, and rewards are calculated and distributed.
 
 Initial parameters, such as the provider ratio, minimum staking time, and penalty factors can be modified through governance.
+
+* [**Staking Program Math Notes**](https://github.com/exactly/papers/blob/main/Staking%20Model%20Math%20Notes.pdf)
+* [**Exactly Protocol Treasury Feed Dune Dashboard**](https://app.gitbook.com/u/5tq9DNrqn5fJhQjhuQafAc07Fvy2)
 
 
 
