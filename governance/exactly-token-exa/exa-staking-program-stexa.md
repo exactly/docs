@@ -49,12 +49,19 @@ Users will be encouraged to restart their positions after the end of the staking
 * Minimum Time to Stake: 0 months&#x20;
 * Reference Period to Stake: 12 months&#x20;
 * Penalty Growth Factor: 2&#x20;
-* Penalty Threshold: 0.1 These parameters guide how dividends, penalties, and rewards are calculated and distributed.
+* Penalty Threshold: 0.1 These parameters guide how dividends, penalties, and rewards are calculated and distributed.\
+  \
+  Initial parameters, such as the provider ratio, minimum staking time, and penalty factors, can be modified through governance.
 
-Initial parameters, such as the provider ratio, minimum staking time, and penalty factors, can be modified through governance.
+### **Estimated Staking APR**
+
+The Staking Program "Estimated APR" is equal to 50% of last week's treasury fees from the USDC market (annualized) divided by the total EXA Staked (in $). &#x20;
+
+You can find the actual staking APR [here](https://app.exact.ly/staking) and the weekly treasury fees [here](https://dune.com/exactly/exactly#treasury-fees).
+
+### Math Notes and Audits
 
 * [**Staking Program Math Notes**](https://github.com/exactly/papers/blob/main/Staking%20Model%20Math%20Notes.pdf)
-* [**Treasury Fees Dune Dashboard**](https://dune.com/exactly/exactly#treasury-fees)
 * [**Chainsafe Staking Program Audit**](https://github.com/exactly/audits/blob/main/Chainsafe%20Staking%20Contract%20\(Aug-24\).pdf)
 * [**Sherlock Staking Program Audit**](https://github.com/exactly/audits/blob/main/Sherlock%20Staking%20Contract%20\(Aug-24\).pdf)
 
