@@ -51,10 +51,10 @@ Users will be encouraged to restart their positions after the end of the staking
 * Penalty Growth Factor: 2&#x20;
 * Penalty Threshold: 0.1 These parameters guide how dividends, penalties, and rewards are calculated and distributed.
 
-Initial parameters, such as the provider ratio, minimum staking time, and penalty factors can be modified through governance.
+Initial parameters, such as the provider ratio, minimum staking time, and penalty factors, can be modified through governance.
 
 * [**Staking Program Math Notes**](https://github.com/exactly/papers/blob/main/Staking%20Model%20Math%20Notes.pdf)
-* [**Exactly Protocol Treasury Fed Dune Dashboard**](https://app.gitbook.com/u/5tq9DNrqn5fJhQjhuQafAc07Fvy2)
+* [**Treasury Fees Dune Dashboard**](https://dune.com/exactly/exactly#treasury-fees)
 * [**Chainsafe Staking Program Audit**](https://github.com/exactly/audits/blob/main/Chainsafe%20Staking%20Contract%20\(Aug-24\).pdf)
 * [**Sherlock Staking Program Audit**](https://github.com/exactly/audits/blob/main/Sherlock%20Staking%20Contract%20\(Aug-24\).pdf)
 
