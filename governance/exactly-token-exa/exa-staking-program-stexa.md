@@ -23,6 +23,8 @@ Users who stake their EXA tokens will receive dividends based on the staking dur
 
 The staking period will be twelve months. During this time, the stakeholder can add more EXA to their stake to earn more fees, partially or fully claim them, or unstake their entire position.
 
+Once you claim the fees, the USDC will be deposited into your account. You can view them in the Dashboard section.
+
 ### Enhanced voting power
 
 Stakers will gain additional voting power, directly influencing protocol decisions. The voting power increases with the staking duration, incentivizing users to stake for extended periods.
