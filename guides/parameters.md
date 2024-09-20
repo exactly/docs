@@ -159,7 +159,7 @@ These parameters are utilized to calculate [the effective borrow interest rate](
 | USDC.e | 0.91  |
 | WBTC   | 0.78  |
 | wstETH | 0.82  |
-| OP     | 0.35  |
+| OP     | 0.58  |
 
 * Ethereum Mainnet
 
