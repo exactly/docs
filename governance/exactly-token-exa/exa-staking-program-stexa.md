@@ -26,7 +26,7 @@ The staking period will be twelve months. During this time, the stakeholder can 
 Once you claim the fees, the exaUSDC will be deposited into your account. You can view them in the Dashboard section.\
 
 
-Keep in mind that the exaUSDC you earn from staking also generates esEXA rewards as long as you hold it, and you can swap exaUSDC for USDC at any time.
+Remember, the exaUSDC you earn from staking is automatically deposited into the USDC market, compounding its variable APR. It will continue to generate esEXA rewards as long as you hold it. Plus, you can swap exaUSDC for USDC anytime directly from your dashboard.
 
 ### Enhanced voting power
 
