@@ -17,13 +17,16 @@ The protocol's treasury fees will be partly allocated to the Staking Program. A 
 
 ### Dividend module
 
-Users who stake their EXA tokens will receive dividends based on the staking duration. The dividend index updates regularly, ensuring that participants who stake for longer periods receive proportional rewards. This module supports multiple assets, although a single-asset approach for USDC will be used to simplify the automatic dividend distribution.
+Users who stake their EXA tokens will receive dividends based on the staking duration. The dividend index updates regularly, ensuring that participants who stake for longer periods receive proportional rewards. This module supports multiple assets, although a single-asset approach for exaUSDC will be used to simplify the automatic dividend distribution.
 
 ### Staking period
 
 The staking period will be twelve months. During this time, the stakeholder can add more EXA to their stake to earn more fees, partially or fully claim them, or unstake their entire position.
 
-Once you claim the fees, the USDC will be deposited into your account. You can view them in the Dashboard section.
+Once you claim the fees, the exaUSDC will be deposited into your account. You can view them in the Dashboard section.\
+
+
+Keep in mind that the exaUSDC you earn from staking also generates esEXA rewards as long as you hold it, and you can swap exaUSDC for USDC at any time.
 
 ### Enhanced voting power
 
