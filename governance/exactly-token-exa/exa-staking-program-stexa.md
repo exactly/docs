@@ -19,14 +19,27 @@ The protocol's treasury fees will be partly allocated to the Staking Program. A 
 
 Users who stake their EXA tokens will receive dividends based on the staking duration. The dividend index updates regularly, ensuring that participants who stake for longer periods receive proportional rewards. This module supports multiple assets, although a single-asset approach for exaUSDC will be used to simplify the automatic dividend distribution.
 
+### Staking Steps
+
+* Go to  https://app.exact.ly/staking and select the amount of EXA you want to stake.&#x20;
+* Click “Stake EXA” to confirm.
+* Once the transaction is completed, you will see your staked EXA.
+
+<figure><img src="../../.gitbook/assets/Captura de pantalla 2024-09-27 a las 14.51.44.png" alt=""><figcaption></figcaption></figure>
+
 ### Staking period
 
-The staking period will be twelve months. During this time, the stakeholder can add more EXA to their stake to earn more fees, partially or fully claim them, or unstake their entire position.
+The staking period will be twelve months. During this time, the stakeholder can add more EXA to their stake to earn more rewards, claim them, or partially/fully unstake their position.
 
-Once you claim the fees, the exaUSDC will be deposited into your account. You can view them in the Dashboard section.\
+<figure><img src="../../.gitbook/assets/Captura de pantalla 2024-09-27 a las 14.55.30.png" alt=""><figcaption></figcaption></figure>
 
+Once you claim the fees, the exaUSDC will be deposited into your account. You can view them in the Dashboard section.
 
 Remember, the exaUSDC you earn from staking is automatically deposited into the USDC market, compounding its variable APR. It will continue to generate esEXA rewards as long as you hold it. Plus, you can swap exaUSDC for USDC anytime directly from your dashboard.
+
+You can swap your exaUSDC for USDC by clicking “Withdraw”
+
+<figure><img src="../../.gitbook/assets/Captura de pantalla 2024-09-27 a las 15.07.44.png" alt=""><figcaption></figcaption></figure>
 
 ### Enhanced voting power
 

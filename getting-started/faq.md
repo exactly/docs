@@ -282,12 +282,16 @@ The Exactly protocol holds the following multi-sig addresses:
 | ------------------------------------------ | ------------------------------------------ |
 | Exactly Protocol Owner on Ethereum Mainnet | 0x7A65824d74B0C20730B6eE4929ABcc41Cbe843Aa |
 | Exactly Protocol Owner on OP Mainnet       | 0xC0d6Bc5d052d1e74523AD79dD5A954276c9286D3 |
+| Exactly Protocol Savings Account           | 0x8a1c05C4462b3554814a637E940b3342ffBE02f2 |
 | Exactly Treasury on OP Mainnet             | 0x23fD464e0b0eE21cEdEb929B19CABF9bD5215019 |
 
 
 
 * Protocol Owner Multisig: This Multisig controls the entire protocol, including functions such as contract upgrades, parameter adjustments, and protocol pauses.
+* Savings Account: The protocol's treasury fees will be partly allocated to the Staking Program. A specified fraction (providerRatio) of these fees will be assigned to the staking pool, with an initial parameter of 0.5 (50% of the fees). The rest of the fees go to [Exactly DAO Savings Account Multisig.](https://optimistic.etherscan.io/address/0x8a1c05c4462b3554814a637e940b3342ffbe02f2)
 * Treasury Multisig: This Multisig is responsible for managing the funds in the DAO treasury, which includes activities like distributing EXA rewards, among others.
+
+
 
 ## Exactly Protocol Risk Assessment
 
