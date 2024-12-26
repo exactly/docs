@@ -4,14 +4,14 @@ The Rollover brings an enhanced level of flexibility and control to Exactly Prot
 
 {% embed url="https://youtu.be/knGj2uTOyos" %}
 
-## **What Exactly can users do using rollover?** <a href="#1504" id="1504"></a>
+## **What Exactly can users do using rollover?** <a href="#id-1504" id="id-1504"></a>
 
 * **Transition from uncertainty to certainty:** Users can convert any variable-rate loan into a fixed-rate loan with a specific maturity date.
 * **Embrace flexibility:** Users can convert any fixed-rate loan into a variable pool, transforming their position into a variable-rate loan.
 * **Opt for a Different Maturity Date:** Users can move any fixed-rate loan into another fixed-rate loan as long as the new fixed-rate pool has a different maturity date from the current one. \
-  _For instance, if you hold a fixed-rate loan maturing on July 05, 2023, you can refinance this loan by shifting your debt to another fixed-rate pool maturing on September 27, 2023._
+  &#xNAN;_&#x46;or instance, if you hold a fixed-rate loan maturing on July 05, 2023, you can refinance this loan by shifting your debt to another fixed-rate pool maturing on September 27, 2023._
 
-## Partial Loan Refinancing <a href="#1230" id="1230"></a>
+## Partial Loan Refinancing <a href="#id-1230" id="id-1230"></a>
 
 One point to be highlighted is that our users can also choose whether they want to refinance the total amount of their loan or just a portion of it.
 
