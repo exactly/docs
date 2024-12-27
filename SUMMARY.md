@@ -17,10 +17,12 @@
   * [📊 EXA Tokenomics](governance/exactly-token-exa/tokenomics.md)
   * [⚪ EscrowedEXA (esEXA)](governance/exactly-token-exa/escrowedexa-esexa.md)
   * [EXA Staking Program (stEXA)](governance/exactly-token-exa/exa-staking-program-stexa.md)
-* [EXA APP](governance/exa-app.md)
-* [The Exa App](governance/the-exa-app.md)
-* [The Exa App Webauthn Owner Plugin](governance/the-exa-app-webauthn-owner-plugin.md)
-* [Credit and Debit Modes](governance/credit-and-debit-modes.md)
+
+## EXA APP
+
+* [The Exa App](exa-app/the-exa-app.md)
+* [The Exa App Webauthn Owner Plugin](exa-app/the-exa-app-webauthn-owner-plugin.md)
+* [Credit and Debit Modes](exa-app/credit-and-debit-modes.md)
 
 ## Guides
 
