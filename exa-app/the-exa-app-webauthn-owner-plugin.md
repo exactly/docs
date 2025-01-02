@@ -22,7 +22,7 @@ This plugin also implements EIP-712, a standard for structured data signing in s
 
 ### ERC-6900: Modular Accounts for a better Web3 experience
 
-The Webauthn Owner Plugin is built on the ERC-6900 standard, which introduces a modular approach to [smart contract accounts](https://www.alchemy.com/account-contracts). This standard allows for greater flexibility in handling authentication and account management. With ERC-6900, developers can create reusable plugins that integrate advanced features like passkey verification or multi-owner accounts.
+The [Webauthn Owner Plugin](https://www.erc6900.io/plugins/webauthn-owner-plugin) is built on the ERC-6900 standard, which introduces a modular approach to [smart contract accounts](https://www.alchemy.com/account-contracts). This standard allows for greater flexibility in handling authentication and account management. With ERC-6900, developers can create reusable plugins that integrate advanced features like passkey verification or multi-owner accounts.
 
 For users, this means a more adaptable wallet system where they can benefit from features traditionally associated with externally owned accounts (EOA) or smart contracts without needing to manage complex private keys.&#x20;
 
