@@ -53,23 +53,21 @@ Besides dividends, participants in the Staking Program could receive rewards in 
 
 Discretionary EXA buybacks buy the Treasury with the remaining fees not distributed in the staking program.
 
-### Penalty function for early withdrawals
+### Early withdrawals
 
-The program will incorporate a penalty function to encourage the completion of the staking program period. Early withdrawals will incur penalties, reducing the dividends awarded.
+The program is designed to encourage users to complete the full 12-month staking period. Withdrawals made before the end of this period will result in a reduction of the dividends received. The earlier the withdrawal, the smaller the share of dividends awarded, ensuring that users who complete the program are more effectively rewarded.
 
-### Penalty function for overstayers
+### Overstay
 
-Users will be encouraged to restart their positions after the end of the staking program. There will be a penalty function for users who stay in the program longer after the finish date.
+Users are encouraged to restart their staking positions after the 12-month program ends. For those who keep their tokens staked beyond this period, the dividends accrued after the end date will be reduced. This adjustment ensures that rewards remain aligned with the intended duration of the program and encourages regular commitment cycles.
 
 ### Initial parameters
 
 * ProviderRatio: 0.5 (50% of treasury fees to the staking pool)&#x20;
 * Minimum Time to Stake: 0 months&#x20;
-* Reference Period to Stake: 12 months&#x20;
-* Penalty Growth Factor: 2&#x20;
-* Penalty Threshold: 0.1 These parameters guide how dividends, penalties, and rewards are calculated and distributed.\
+* Reference Period to Stake: 12 months \
   \
-  Initial parameters, such as the provider ratio, minimum staking time, and penalty factors, can be modified through governance.
+  Initial parameters can be modified through governance.
 
 ### **Estimated Staking APR**
 
