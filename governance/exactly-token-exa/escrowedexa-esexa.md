@@ -13,12 +13,12 @@ EscrowedEXA (esEXA) tokens can be converted into EXA tokens through vesting in a
 Elements for the esEXA to EXA conversion process:
 
 * Burning Mechanism: Holders will burn their esEXA tokens to initiate the vesting period and convert them into EXA tokens through [Sablier](https://sablier.com/).
-* EXA Reserve: Holders must provide a “reserve” in EXA proportionally to the esEXA they want to vest. This proportion is represented in the EscrowedEXA contract as \`reserveRatio\`, the “reserve” EXA tokens to start the vesting process. The reserve percentage is 25% and can be changed through governance.
+* EXA Reserve: Holders must provide a “reserve” in EXA proportionally to the esEXA they want to vest. This proportion is represented in the EscrowedEXA contract as \`reserveRatio\`, the “reserve” EXA tokens to start the vesting process. The reserve percentage is 35% and can be changed through governance.
 
 ### Steps
 
 * Step 1: Claim your esEXA Rewards&#x20;
-* Step 2: Initiate the vesting of your esEXA. You must deposit 25% of the total esEXA you want to vest as an EXA reserve.&#x20;
+* Step 2: Initiate the vesting of your esEXA. You must deposit 35% of the total esEXA you want to vest as an EXA reserve.&#x20;
 * You can get EXA [here](https://app.exact.ly/get-exa) if you don’t have the required reserve amount.
 
 Users can cancel the vesting at their discretion, triggering the withdrawal of all vested EXA tokens from Sablier and the associated reserve. Any unvested tokens are returned to the EscrowedEXA contract, where the corresponding esEXA tokens are minted and returned to the user.
@@ -29,7 +29,7 @@ This mechanism guarantees that the exclusive path for the users to retrieve rese
 
 When you withdraw the reserved EXA, the associated vesting streams will be canceled automatically. You’ll get back the earned EXA and all remaining esEXA.
 
-<figure><img src="../../../.gitbook/assets/Captura de pantalla 2024-07-15 a las 17.23.14.png" alt=""><figcaption><p><a href="https://app.exact.ly/vesting">Active Vesting Streams</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Captura de pantalla 2024-07-15 a las 17.23.14.png" alt=""><figcaption><p><a href="https://app.exact.ly/vesting">Active Vesting Streams</a></p></figcaption></figure>
 
 **GitHub URL:**
 
