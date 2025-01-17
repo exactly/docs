@@ -6,7 +6,7 @@ description: >-
 
 # 🔣 Math Paper v2
 
-## &#x20;Exactly Interest Rate Model Upgrade, IRM-V2
+## Exactly Interest Rate Model Upgrade, IRM-V2
 
 Authors: [Francisco Lepone](https://github.com/FranciscoLepone)&#x20;
 
@@ -246,3 +246,4 @@ This paper is only for general information purposes. It does not constitute inve
 
 <figure><img src="../.gitbook/assets/Captura de pantalla 2025-01-17 a las 13.36.10.png" alt=""><figcaption></figcaption></figure>
 
+* [\[EXAIP-08\] Interest Rate Model Upgrade (IRM v2)](https://medium.com/@exactly_protocol/exaip-08-interest-rate-model-upgrade-irm-v2-16759de270e6)
