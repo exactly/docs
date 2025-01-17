@@ -73,7 +73,7 @@
 ## Resources
 
 * [📃 White Paper](resources/white-paper.md)
-* [🔣 Math Paper](resources/math-paper.md)
+* [🔣 Math Paper v1](resources/math-paper.md)
 * [🤝 Partnerships](resources/partnerships.md)
 * [📺 Presentations](resources/presentations.md)
 * [📣 Brand Assets](resources/brand-assets.md)
