@@ -6,7 +6,7 @@ description: >-
 
 # 🔣 Math Paper v2
 
-&#x20;Exactly Interest Rate Model Upgrade, IRM-V2
+## &#x20;Exactly Interest Rate Model Upgrade, IRM-V2
 
 Authors: [Francisco Lepone](https://github.com/FranciscoLepone)&#x20;
 
