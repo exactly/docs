@@ -16,7 +16,7 @@ December 2024
 
 ## Abstract
 
-One year after launching theExactly protocol on the Optimism mainnet, we introduce an enhanced version of its interest rate model. This iteration, IRM-V2, is designed to increase capital efficiency, produce a smoother term structure of interest rates, stimulate demand for credit across extended maturities, and lay the groundwork for the rise of more end-user-oriented credit products currently unavailable in the DeFi ecosystem.
+One year after launching theExactly protocol on the Optimism Mainnet, we introduce an enhanced version of its interest rate model. This iteration, IRM-V2, is designed to increase capital efficiency, produce a smoother term structure of interest rates, stimulate demand for credit across extended maturities, and lay the groundwork for the rise of more end-user-oriented credit products currently unavailable in the DeFi ecosystem.
 
 Consistent with its predecessor, IRM-V2 allows users to borrow and deposit at either floating or fixed interest rates. The determination of floating rates has been refined and now depends on the utilization level of the Variable Rate Pool in conjunction with the overall utilization of the Protocol. Meanwhile, fixed rates are determined through a spread term, which depends on the relative utilization across various maturities, and it is also linked to the áoating rate value at any given moment.
 
@@ -67,7 +67,7 @@ As already mentioned, the goal of an improved short-rate model is to make it als
 
 A way to incorporate these features is to add a modulation factor to the old specification of IRM-V1. This factor takes the form of a rational function of $$U_{Liq}$$ with a switching mechanism that turns this dependency on/off according to the value of $$U_{Liq}$$ . It is essential for this transition to be continuous and as smooth as possible. This is achieved by incorporating a sigmoid function as a switching mechanism.
 
-The functional form for the short-rate is thus given by:
+The functional form for the short rate is thus given by:
 
 <figure><img src="../.gitbook/assets/Captura de pantalla 2025-01-17 a las 12.36.34.png" alt=""><figcaption></figcaption></figure>
 
@@ -144,7 +144,7 @@ Figure(5.4) exhibits the variable rate behavior as a function of global utilizat
 
 Figure(5.5) exhibits the variable rate behavior as a function of the variable rate pool utilization for different levels of global utilization. It is evident that curves are notoriously smoother along this dimension.
 
-Fixed-rates determination depends on the combination of áoating rate levels and spread terms. Fig(5.6) shows the range they can adopt as a function of time to maturity depending on the relative utilization of each fixed rate pool. The black line shows the indifference point where fixed pool utilizations align according to the expected natural distribution. Below this line, pools are under- demanded, so interest rates are lower, encouraging new loans. Above the line, pools are over-demanded, rates are higher, and users will tend to get cheaper debt from other maturities.
+The fixed-rate determination depends on the combination of áoating rate levels and spread terms. Fig(5.6) shows the range they can adopt as a function of time to maturity depending on the relative utilization of each fixed rate pool. The black line shows the indifference point where fixed pool utilizations align according to the expected natural distribution. Below this line, pools are under-demanded, so interest rates are lower, encouraging new loans. Above the line, pools are over-demanded, rates are higher, and users will tend to get cheaper debt from other maturities.
 
 As Fig(5.7) shows, the model is very flexible and can adopt different config durations depending on the parameterization. In its initial version (as previously mentioned), parameters will be exogenous but could be adapted to change dynamically, reflecting agents' preferences.
 
@@ -152,7 +152,7 @@ As Fig(5.7) shows, the model is very flexible and can adopt different config dur
 
 The ultimate goal of the Exactly Protocol is to bridge the gap between the current status of DeFi and the development of practical solutions that directly benefit real-world end users. This new interest rate framework allows for the exploration of innovative applications in personal and commercial finance, such as structuring installment loans with longer terms and predetermined fixed financial costs, enabling users to plan their finances with greater certainty. Another potential application the model facilitates is the creation of a credit card instrument that empowers users to defer payments into a self-determined number of installments at competitive financial costs, enhancing áexibility and control over personal spending. Furthermore, it supports the design of loans with payment schedules tailored to the user's cash flow patterns. For instance, in activities characterized by strong seasonality, repayment structures can concentrate payments during periods of higher income, thereby aligning financial obligations with revenue generation cycles. These practical implementations are just a few examples of the model's adaptability and potential to address diverse needs effectively.
 
-<figure><img src="../.gitbook/assets/Captura de pantalla 2025-01-17 a las 13.24.39.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2025-01-23 at 7.36.44 PM.png" alt=""><figcaption></figcaption></figure>
 
 From a conceptual point of view, any application would be the result of solving some version of the problem:
 
@@ -184,7 +184,7 @@ Finally, Figure (6.3) highlights the evolution of utilization levels across matu
 
 ### 6.2 Case 2. Credit Card Issuance with a Flexible Payment Schedule
 
-As a first concrete end-user application of the Exactly Protocol borrow and lending framework, we have created the first self-custodian credit card system that allows users to manage their purchases with unmatched flexibility and control\[3]. By integrating the protocol with a smart wallet, users can defer payments for any purchase into a self-determined number of installments at competitive fixed rates and predefined terms. This setup eliminates the uncertainty associated with áuctuating financial costs, enabling users to plan their expenses confidently and efficiently. In this framework, each purchase is converted into a loan structured directly through theExactly Protocol. Users can select the number of installments that best fit their financial situation, benefiting from a transparent and predictable repayment schedule. The smart wallet acts as a seamless interface, automating the interaction with the protocol and managing repayments without requiring intermediaries, ensuring complete control remains with the user. This approach not only enhances user autonomy but also unlocks broader accessibility to decentralized financial services. It provides a scalable solution for integrating DeFi principles into everyday financial tools, helping to bridge the gap between traditional credit systems and blockchain technology. By leveraging the Exactly Protocolís robust fixed-rate lending infrastructure, this application represents a significant step forward in reimagining consumer finance in the digital age.
+As the first concrete end-user application of the Exactly Protocol borrow and lending framework, we have created the first self-custodian credit card system that allows users to manage their purchases with unmatched flexibility and control\[3]. By integrating the protocol with a smart wallet, users can defer payments for any purchase into a self-determined number of installments at competitive fixed rates and predefined terms. This setup eliminates the uncertainty associated with áuctuating financial costs, enabling users to plan their expenses confidently and efficiently. In this framework, each purchase is converted into a loan structured directly through theExactly Protocol. Users can select the number of installments that best fit their financial situation, benefiting from a transparent and predictable repayment schedule. The smart wallet acts as a seamless interface, automating the interaction with the protocol and managing repayments without requiring intermediaries, ensuring complete control remains with the user. This approach not only enhances user autonomy but also unlocks broader accessibility to decentralized financial services. It provides a scalable solution for integrating DeFi principles into everyday financial tools, helping to bridge the gap between traditional credit systems and blockchain technology. By leveraging the Exactly Protocolís robust fixed-rate lending infrastructure, this application represents a significant step forward in reimagining consumer finance in the digital age.
 
 <figure><img src="../.gitbook/assets/Captura de pantalla 2025-01-17 a las 13.30.18.png" alt=""><figcaption></figcaption></figure>
 
@@ -196,7 +196,7 @@ The Protocol's unique borrowing and lending logic facilitates the structuring of
 
 By leveraging the xactly Protocol, borrowers can obtain Öxed-rate loans that defer initial payments to match their projected cash ináows and subsequently adjust repayment schedules according to their income cycles. This approach not only reduces financial strain during low-income periods but also minimizes the risk of default, ensuring the sustainability of both the borrowerís business and the lending ecosystem.
 
-As a numerical example, let's reproduce the figures of Case 1, now with a time horizon of 24 monthly maturities. This time, the user wants to start repaying the loan one year after receiving the funds, matching payments with high-income periods (months 12 to 15 and 18 to 21), totaling eight installments Figure(6.4) illustrates the proportion of partial loans and the equal repayment stream.
+As a numerical example, let's reproduce the figures of Case 1, now with a time horizon of 24 monthly maturities. This time, the user wants to start repaying the loan one year after receiving the funds, matching payments with high-income periods (months 12 to 15 and 18 to 21), totaling eight installments. Figure(6.4) illustrates the proportion of partial loans and the equal repayment stream.
 
 <figure><img src="../.gitbook/assets/Captura de pantalla 2025-01-17 a las 13.31.59.png" alt=""><figcaption></figcaption></figure>
 
@@ -232,7 +232,7 @@ Looking forward, the agenda includes exploring the implementation of a dynamic c
 
 ## Disclaimer
 
-This paper is only for general information purposes. It does not constitute investment advice or a recommendation or solicitation to buy or sell any inestment instrument and should not be used in the evaluation of the merits of making any investment decision. It should not be relied upon for accounting, legal or tax advice, or investment recommendations. This paper reflects the current personal opinions of the authors and is subject to change without being updated.
+This paper is only for general information purposes. It does not constitute investment advice or a recommendation or solicitation to buy or sell any investment instrument and should not be used in the evaluation of the merits of making any investment decision. It should not be relied upon for accounting, legal or tax advice, or investment recommendations. This paper reflects the current personal opinions of the authors and is subject to change without being updated.
 
 
 
@@ -245,5 +245,9 @@ This paper is only for general information purposes. It does not constitute inve
 
 
 <figure><img src="../.gitbook/assets/Captura de pantalla 2025-01-17 a las 13.36.10.png" alt=""><figcaption></figcaption></figure>
+
+## Download the Math Paper v2
+
+{% embed url="https://github.com/exactly/papers/blob/main/ExactlyMathPaperV2.pdf" %}
 
 * [\[EXAIP-08\] Interest Rate Model Upgrade (IRM v2)](https://medium.com/@exactly_protocol/exaip-08-interest-rate-model-upgrade-irm-v2-16759de270e6)
