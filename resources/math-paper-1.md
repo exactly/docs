@@ -29,7 +29,7 @@ The emergence of decentralized Finance (DeFi) has the potential to radically tra
 The original Interest Rate Model (IRM-V1)\[1] adopts a continuous and differentiable rational function of the utilization for setting lending rates instead of the linear model Compound Protocol introduced in February 2019\[2]. The function was designed to diverge asymptotically for a certain boundary value of utilization to act as a natural barrier for credit demand as the utilization level depletes the protocol liquidity capability. The model implemented one of such functions calibrated explicitly for each pool maturity offered to borrowers/depositors. The borrowing rate for a given maturity is thus determined by the degree of utilization in this specific pool.\
 
 
-This paper introduces IRM-V2, an evolution of the Exactly Protocolís approach to interest rate determination. Building upon the experience gained from over 100,000 transactions on the Protocol since launching, IRM-V2 incorporates a refined methodology that better aligns with market dynamics and user behaviors.
+This paper introduces IRM-V2, an evolution of the Exactly Protocol's approach to interest rate determination. Building upon the experience gained from over 100,000 transactions on the Protocol since launching, IRM-V2 incorporates a refined methodology that better aligns with market dynamics and user behaviors.
 
 Specifically, it introduces a global utilization metric into the rate function to optimize liquidity usage and improve capital efficiency across the platform. It also establishes a term structure for fixed rates. This adjustment is not just a technical update but a thoughtful response to the practical challenges and opportunities observed within the DeFi ecosystem over the past year.
 
@@ -53,7 +53,7 @@ and the utilization of a fixed pool with maturity $$T$$ as
 
 <figure><img src="../.gitbook/assets/Captura de pantalla 2025-01-17 a las 12.31.47.png" alt=""><figcaption></figcaption></figure>
 
-Note that with this definition, only loans backed by deposits in the áoating pool add to the utilization.
+Note that with this definition, only loans backed by deposits in the floating pool add to the utilization.
 
 Finally, the Protocol global utilization ($$U_{Liq}$$) is simply the summation of all the other ones and denotes the degree of liquidity usage.
 
@@ -89,9 +89,9 @@ One advantage of this novel approach is that rates will show more parsimonious b
 
 At every moment, Protocol users can freely choose between taking loans with an unspecific time horizon (floating rate) or with specific repayment dates (fixed rates).
 
-To formalize these ideas, we introduce a parameter that conceptually affects the natural ratio between áoating and fixed loans outstanding volume expected (conversely, 1 - $$\nu$$  is the natural proportion for fixed loans). As an example, a value .$$\nu$$ = 0:4 would mean that 40% are expected to be ideally allocated to variable-rate loans and 60% to fixed-rate loans. Having a proportion of áoating debt above/below $$\nu$$ indicates that the former are over/under-demanded, respectively.
+To formalize these ideas, we introduce a parameter $$\nu$$ that conceptually affects the natural ratio between floating and fixed loans outstanding volume expected (conversely, 1 - $$\nu$$  is the natural proportion for fixed loans). As an example, a value .$$\nu$$ = 0:4 would mean that 40% are expected to be ideally allocated to variable-rate loans and 60% to fixed-rate loans. Having a proportion of floating debt above/below $$\nu$$ indicates that the former are over/under-demanded, respectively.
 
-We define the indi§erence utilization point for any maturity pool as the average utilization value of a single fixed-rate pool:
+We define the indifference utilization point for any maturity pool as the average utilization value of a single fixed-rate pool:
 
 <figure><img src="../.gitbook/assets/Captura de pantalla 2025-01-17 a las 12.39.23.png" alt=""><figcaption></figcaption></figure>
 
@@ -144,7 +144,7 @@ Figure(5.4) exhibits the variable rate behavior as a function of global utilizat
 
 Figure(5.5) exhibits the variable rate behavior as a function of the variable rate pool utilization for different levels of global utilization. It is evident that curves are notoriously smoother along this dimension.
 
-The fixed-rate determination depends on the combination of áoating rate levels and spread terms. Fig(5.6) shows the range they can adopt as a function of time to maturity depending on the relative utilization of each fixed rate pool. The black line shows the indifference point where fixed pool utilizations align according to the expected natural distribution. Below this line, pools are under-demanded, so interest rates are lower, encouraging new loans. Above the line, pools are over-demanded, rates are higher, and users will tend to get cheaper debt from other maturities.
+The fixed-rate determination depends on the combination of floating rate levels and spread terms. Fig(5.6) shows the range they can adopt as a function of time to maturity depending on the relative utilization of each fixed rate pool. The black line shows the indifference point where fixed pool utilizations align according to the expected natural distribution. Below this line, pools are under-demanded, so interest rates are lower, encouraging new loans. Above the line, pools are over-demanded, rates are higher, and users will tend to get cheaper debt from other maturities.
 
 As Fig(5.7) shows, the model is very flexible and can adopt different config durations depending on the parameterization. In its initial version (as previously mentioned), parameters will be exogenous but could be adapted to change dynamically, reflecting agents' preferences.
 
@@ -156,29 +156,31 @@ The ultimate goal of the Exactly Protocol is to bridge the gap between the curre
 
 From a conceptual point of view, any application would be the result of solving some version of the problem:
 
+<figure><img src="../.gitbook/assets/Captura de pantalla 2025-01-17 a las 18.00.37 (1).png" alt=""><figcaption></figcaption></figure>
+
+
+
 <figure><img src="../.gitbook/assets/Captura de pantalla 2025-01-17 a las 13.25.25.png" alt=""><figcaption></figcaption></figure>
 
 where $$ps$$ and $$ls$$ are the payment and loan stream at every maturity, IRM is the protocol interest rate model, $$x$$ is a vector describing the status of the protocol. and $$H(),g().l()$$ are functions that shape the particular application of interest. In general, a recursive algorithm is needed in order to solve problem (6.1).
 
-
-
-<figure><img src="../.gitbook/assets/Captura de pantalla 2025-01-17 a las 18.00.37 (1).png" alt=""><figcaption></figcaption></figure>
-
-### 6.1 Case 1. Periodic Installment Fixed Rate Loans - Bullet Bonds
+## 6.1 Case 1. Periodic Installment Fixed Rate Loans - Bul- let Bonds
 
 This example demonstrates how a multiple-installment fixed-rate loan can be structured. To simplify, suppose there is a total supply of 10 million USDC in the market, with an initial global utilization rate of 0:5. The floating rate utilization stands at 0:2, while the utilizations of the first six available pools are {0:070; 0:078; 0:01; 0:078; 0:054; 0:01}, respectively. In this scenario, a loan of 2 million USDC is requested, which will be repaid in six equal installments.
 
 The structure involves distributing the total loan amount into partial loans across the available maturities, ensuring the sum reaches the desired 2 million USDC.
 
+<figure><img src="../.gitbook/assets/Captura de pantalla 2025-01-17 a las 18.04.41.png" alt=""><figcaption></figcaption></figure>
+
 Figure (6.1) illustrates the size of partial loans and the equal repayment stream. Given the system status, this amounts to 338;200 USDC per installment, providing a transparent and predictable financial plan for the borrower.
 
 Figure (6.2) shows the rates at which each partial loan was issued, offering insights into the cost dynamics over time. Additionally, the implied yield for the total loan is displayed, reáecting the global funding cost.
 
-Finally, Figure (6.3) highlights the evolution of utilization levels across maturities, showing both the individual pool utilizations and the aggregated global utilization before and after the loan issuance.
+Finally, Figure (6.3) highlights the evolution of utilization levels across maturities, showing both the individual pool utilizations and the aggregated global utilization before and after the loan issuance.&#x20;
 
-<figure><img src="../.gitbook/assets/Captura de pantalla 2025-01-17 a las 18.04.41.png" alt=""><figcaption></figcaption></figure>
+This structured approach ensures transparency and alignment between borrower needs and market conditions, showcasing the practical applicability of the Exactly Protocol's interest rate model in real-world lending scenarios. By customizing loans to existing pool conditions, borrowers and lenders can achieve an optimal balance between cost efficiency and resource allocation.&#x20;
 
-&#x20;This structured approach ensures transparency and alignment between borrower needs and market conditions, showcasing the practical applicability of the Exactly Protocol's interest rate model in real-world lending scenarios. By customizing loans to existing pool conditions, borrowers and lenders can achieve an optimal balance between cost efficiency and resource allocation. Furthermore, these ideas could be expanded to include the issuance of debt instruments such as bullet bonds, which could have significant potential for funding projects initiated by DAOs within the ecosystem. Such debt instruments could be actively traded in secondary markets or decentralized exchanges, with the Exactly Protocol serving as a consistent market maker to ensure liquidity. While substantial development is still required, one can envision a future phase where these debts are securitized, benefiting from risk diversification and offering additional value to investors and the ecosystem as a whole.
+Furthermore, these ideas could be expanded to include the issuance of debt instruments such as bullet bonds, which could have significant potential for funding projects initiated by DAOs within the ecosystem. Such debt instruments could be actively traded in secondary markets or decentralized exchanges, with the Exactly Protocol serving as a consistent market maker to ensure liquidity. While substantial development is still required, one can envision a future phase where these debts are securitized, benefiting from risk diversification and offering additional value to investors and the ecosystem as a whole.
 
 <figure><img src="../.gitbook/assets/Captura de pantalla 2025-01-17 a las 18.07.15.png" alt=""><figcaption></figcaption></figure>
 
@@ -194,7 +196,7 @@ Another example of the Protocolís potential is its application in providing ta
 
 The Protocol's unique borrowing and lending logic facilitates the structuring of loans with payment schedules that are not only delayed to accommodate the gestation period of the investment but also aligned with seasonal income patterns. For instance, an agricultural producer investing in crop cultivation might need funding at the start of the planting season but would only begin to realize income after the harvest. Similarly, a tourism-focused entrepreneur might generate the bulk of their revenues during peak seasons, necessitating a repayment structure concentrated in those periods.
 
-By leveraging the xactly Protocol, borrowers can obtain Öxed-rate loans that defer initial payments to match their projected cash ináows and subsequently adjust repayment schedules according to their income cycles. This approach not only reduces financial strain during low-income periods but also minimizes the risk of default, ensuring the sustainability of both the borrowerís business and the lending ecosystem.
+By leveraging the Exactly Protocol, borrowers can obtain fixed-rate loans that defer initial payments to match their projected cash ináows and subsequently adjust repayment schedules according to their income cycles. This approach not only reduces financial strain during low-income periods but also minimizes the risk of default, ensuring the sustainability of both the borrowerís business and the lending ecosystem.
 
 As a numerical example, let's reproduce the figures of Case 1, now with a time horizon of 24 monthly maturities. This time, the user wants to start repaying the loan one year after receiving the funds, matching payments with high-income periods (months 12 to 15 and 18 to 21), totaling eight installments. Figure(6.4) illustrates the proportion of partial loans and the equal repayment stream.
 
@@ -214,9 +216,9 @@ This paper introduced IRM-V2, an upgraded version of the Exactly Protocolís int
 
 <figure><img src="../.gitbook/assets/Captura de pantalla 2025-01-17 a las 13.32.59.png" alt=""><figcaption></figcaption></figure>
 
-mechanism, ensuring predictable rate increases as global utilization approaches critical levels. The novel spread term, dependent on relative utilization and intertemporal preferences, creates a more parsimonious and responsive term structure for Öxed rates.
+mechanism, ensuring predictable rate increases as global utilization approaches critical levels. The novel spread term, dependent on relative utilization and intertemporal preferences, creates a more parsimonious and responsive term structure for fixed rates.
 
-The results demonstrate that IRM-V2 can optimize liquidity allocation while maintaining stability across both variable and Öxed-rate products. These enhancements pave the way for innovative financial applications, including tailored credit instruments such as installment loans, áexible credit card systems, and deferred payment solutions for seasonal businesses. We believe this represents a significant step toward addressing real-world financial needs within the DeFi ecosystem.
+The results demonstrate that IRM-V2 can optimize liquidity allocation while maintaining stability across both variable and fixed-rate products. These enhancements pave the way for innovative financial applications, including tailored credit instruments such as installment loans, áexible credit card systems, and deferred payment solutions for seasonal businesses. We believe this represents a significant step toward addressing real-world financial needs within the DeFi ecosystem.
 
 Looking forward, the agenda includes exploring the implementation of a dynamic calibration of parameters based on user behavior and market conditions, improving the protocolís adaptability. Additionally, it sets the basis for the introduction of new derivative debt-based instruments and securitization mechanisms, fostering broader adoption and integration of decentralized finance solutions.
 
