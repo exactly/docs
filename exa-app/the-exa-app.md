@@ -17,3 +17,5 @@ To get started, simply download the Exa App and create an account with a streaml
 Exa App account creation is powered by passkeys, which replace traditional passwords and recovery phrases with a secure, biometric-based method, such as fingerprint or facial recognition. During setup, the app generates a passkey linked to your device, secured by your biometric data, which remains stored locally. This ensures both privacy and security at all times.
 
 The next step is to complete the KYC process, after which your Exa Card will be issued. This all-in-one card allows you to switch between debit and credit modes, adapting to your financial preferences.
+
+To learn more about the Exa App visit [https://exactly.app/](https://exactly.app/).&#x20;
