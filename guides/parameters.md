@@ -196,8 +196,10 @@ $$\delta$$ is the fraction of the [fixed interest rate fees](https://docs.exact.
 ## F. Supply E.M.A. Parameters
 
 $$
-\begin{align*} \beta_{slow} = 0.0046 \end{align*}
+\begin{align*} \beta_{slow} = 0.000053 \end{align*}
 $$
+
+
 
 The time decay parameter is used when the supply is above average.
 
