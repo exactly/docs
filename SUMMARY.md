@@ -14,11 +14,10 @@
   * [⚡ Snapshot](governance/exactly-protocol-governance/snapshot.md)
   * [📄 Exactly Improvement Proposal (EXAIP) Template](governance/exactly-protocol-governance/exactly-improvement-proposal-exaip-template.md)
 * [⚫ Exactly Protocol (EXA)](governance/exactly-token-exa/README.md)
+* [⚫ Exactly Protocol (EXA)](governance/exactly-protocol-exa/README.md)
   * [📊 EXA Tokenomics](governance/exactly-token-exa/tokenomics.md)
   * [⚪ EscrowedEXA (esEXA)](governance/exactly-token-exa/escrowedexa-esexa.md)
   * [EXA Staking Program (stEXA)](governance/exactly-token-exa/exa-staking-program-stexa.md)
-* [⚫ Exactly Protocol (EXA)](governance/exactly-protocol-exa/README.md)
-  * [Page 1](governance/exactly-protocol-exa/page-1.md)
 
 ## EXA APP
 
