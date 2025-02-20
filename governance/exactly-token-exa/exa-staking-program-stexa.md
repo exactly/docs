@@ -1,8 +1,8 @@
 ---
-icon: steak
 description: >-
   The EXA Staking Program enables EXA token holders to get treasury fees and
   gain additional voting power by staking their EXA tokens.
+icon: steak
 ---
 
 # EXA Staking Program (stEXA)
