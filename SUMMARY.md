@@ -68,10 +68,10 @@
 
 * [🔎 Audits](security/audits.md)
 * [🔑 Access Control](security/access-control.md)
+* [🛡️ Hypernative](security/hypernative.md)
 * [🧪 Testing](security/testing.md)
 * [🧯 Emergency Procedure](security/emergency-procedure.md)
 * [🐛 Bug Bounty Program](security/bug-bounty-program.md)
-* [🛡️ Hypernative](security/hypernative.md)
 
 ## Resources
 

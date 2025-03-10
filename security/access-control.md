@@ -20,6 +20,8 @@ More information here: [https://app.exact.ly/activity](https://app.exact.ly/acti
 
 The pauser role is responsible for temporarily suspending certain operations in emergencies. The pausable operations are `deposit`, `borrow`, `repay` and `liquidate`. The same multisig may pause these operations to protect the system and its users in an emergency. However, the `withdraw` function will remain active, allowing users to access and withdraw their funds anytime.
 
+### [Hypernative'a Pauser Contract](https://docs.exact.ly/security/hypernative)
+
 ## Upgradeable Contracts
 
 The following contracts are upgradeable and can be changed by the `TimelockController`:
