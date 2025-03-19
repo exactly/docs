@@ -6,7 +6,11 @@ The total token supply will be 10,000,000 EXA and will be distributed as follows
 
 * **Community:** 4,500,000 EXA (45.00%) will be distributed to Exactly Protocol’s community to foster community engagement, awareness, and protocol adoption.
 * **Team, Advisors, and Investors:** 4,500,000 EXA (45.00%) will be distributed to Exactly’s employees, advisors, and investors.
-* **DAO Treasury:** The Exactly DAO Treasury will receive an immediate allocation of 1,000,000 EXA (10%) of the total supply. It grants the Treasury immediate access to necessary resources for its role within the ecosystem.
+* **DAO Treasury:** The Exactly DAO Treasury received an immediate allocation of 1,000,000 EXA (10%) of the total supply. It grants the Treasury immediate access to necessary resources for its role within the ecosystem.
+
+In March 2025, through [EXAIP-21,](https://gov.exact.ly/#/proposal/0xbfbb935e3c2319826a1d9ac16ad588353bb1e940edfe280adf3113bb61a12dde) the Exactly DAO Treasury transferred 1,000,000 EXA tokens to Uphold Inc. as part of a strategic partnership.
+
+
 
 <figure><img src="../../.gitbook/assets/image (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
@@ -45,6 +49,7 @@ Please read the following articles for more information:
 * [**\[EXAIP-01\] Transitioning to EscrowedEXA rewards (esEXA)**](https://medium.com/@exactly_protocol/exaip-01-transitioning-to-escrowedexa-rewards-esexa-d387e1f63600)
 * [**\[EXAIP-02\] Adjustments to the EXA Token distribution scheme**](https://medium.com/@exactly_protocol/exaip-02-adjustments-to-the-exa-token-distribution-scheme-c8e54f503128)
 * [**\[EXAIP-03\] Addressing the Exactly Protocol Hack and Compensating Affected Users**](https://medium.com/@exactly_protocol/exaip-03-addressing-the-exactly-protocol-hack-and-compensating-affected-users-6e2cd4a0a179)
+* [**\[EXAIP-21\] Empowering Exa with Uphold’s Strategic Investment & Liquidity Injection**](https://gov.exact.ly/#/proposal/0xbfbb935e3c2319826a1d9ac16ad588353bb1e940edfe280adf3113bb61a12dde)
 
 \
 \
