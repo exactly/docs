@@ -22,7 +22,7 @@
 
 * [The Exa App](exa-app/the-exa-app.md)
 * [The Exa App Webauthn Owner Plugin](exa-app/the-exa-app-webauthn-owner-plugin.md)
-* [Credit and Debit Modes](exa-app/credit-and-debit-modes.md)
+* [How the Exa App works](exa-app/how-the-exa-app-works.md)
 * [Exa App FAQs](exa-app/exa-app-faqs.md)
 * [Exa Plugin](exa-app/exa-plugin.md)
 
