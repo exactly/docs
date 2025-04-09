@@ -12,11 +12,7 @@ Now, we're advancing with the launch of the Exa App and its first product, the E
 
 <figure><img src="../.gitbook/assets/Captura de pantalla 2025-04-09 a las 09.42.33.png" alt=""><figcaption></figcaption></figure>
 
-To get started, download the Exa App and create an account with a streamlined onboarding experience.\
-
-
-App Store: [https://apps.apple.com/ar/app/exa-app/id6572315454…](https://t.co/oOx4Rc1BhC) \
-Google Play: [https://play.google.com/store/apps/details?id=app.exactly\&hl=en](https://t.co/RQkXu02hBY)
+To get started, download the Exa App and create an account with a streamlined onboarding experience.
 
 * [App Store](https://apps.apple.com/ar/app/exa-app/id6572315454)
 * [Google Play](https://play.google.com/store/apps/details?id=app.exactly\&hl=en)
