@@ -139,7 +139,7 @@ Security Considerations\
 
 * Flash loan risk protection: Credit repayment with flash loans is validated atomically to avoid misuse.
 
-### [Exa Plugin GitHub repository](broken-reference)
+[Ex**a Plugin GitHub repository**](https://github.com/exactly/mobile/blob/368df252a3db7b2e370f1ed0af8db0939b45138e/contracts/src/ExaPlugin.sol)
 
-### [Exa Plugin Audit](https://github.com/exactly/audits/blob/main/Quantstamp%20Exa%20App%20Plugin%20\(Mar-25\).pdf)
+[**Exa Plugin Audit**](https://github.com/exactly/audits/blob/main/Quantstamp%20Exa%20App%20Plugin%20\(Mar-25\).pdf)
 
