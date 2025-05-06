@@ -34,7 +34,7 @@ As the Protocol develops, EXA token holders will play a crucial role in decision
 
 &#x20;        **totalWithdrawable** => the sum of the amount withdrawable from each Sablier stream
 
-### EXA token Unlock Schedule
+### EXA Token Unlock Schedule
 
 * **DefiLlama**: [https://defillama.com/unlocks/exactly](https://defillama.com/unlocks/exactly)
 
@@ -55,22 +55,11 @@ As the Protocol develops, EXA token holders will play a crucial role in decision
 * **Velodrome EXA/WETH Liquidity Pool:** \
   [https://velodrome.finance/liquidity?query=EXA](https://velodrome.finance/liquidity?query=EXA)
 
-### Coinstore Exchange
-
-* **EXA/USDT spot:** [https://www.coinstore.com/spot/EXAUSDT](https://www.coinstore.com/spot/EXAUSDT)
-
 ### EXA/WETH Vaults
 
 * **EXA/WETH LP Vault on Beefy:** \
   [https://app.beefy.com/vault/velodrome-v2-exa-weth](https://app.beefy.com/vault/velodrome-v2-exa-weth)
-*   **Leveraged yield farming pool on Extra Finance:**&#x20;
-
-    [https://app.extrafi.io/farm/vAMMV2-EXA%2FWETH](https://app.extrafi.io/farm/vAMMV2-EXA%2FWETH)
 * **EXA/WETH Vault on Yearn Finance:** [https://yearn.finance/vaults/10/0xc3439Ba7db7566ed0deF55c179ED9b3bA273A67F](https://yearn.finance/vaults/10/0xc3439Ba7db7566ed0deF55c179ED9b3bA273A67F)
-
-### Deposit EXA
-
-* **Extra Finance:** [https://app.extrafi.io/lend/EXA](https://app.extrafi.io/lend/EXA)
 
 ### Get EXA
 
