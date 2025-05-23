@@ -59,3 +59,19 @@ Video of the Presentation
 ### 4.1 Slides
 
 {% embed url="https://docs.google.com/presentation/d/1h7_RjdAZEgF4OLIg0z34cfRq3JTOuw1-1wE8PQLQT3o/edit?usp=sharing" %}
+
+## 5. EthDenver 2023 (February 2023)
+
+### 5.1 Slides
+
+{% embed url="https://docs.google.com/presentation/d/1EIP9-fy5oJ93MApcTDGGmIHR6GWVxg7ykllg0i5EsfY/edit?slide=id.g13d9cdca389_0_123#slide=id.g13d9cdca389_0_123" %}
+
+## 6. Exa App launch in Buenos Aires (March 13, 2025)
+
+### 6.1 Slides
+
+{% embed url="https://docs.google.com/presentation/d/1rViWEa6ZTZ7NEAa1kt0g-aQDXFJk5bbCQErPlxLwpGU/edit?usp=sharing" %}
+
+### 6.2 Video
+
+{% embed url="https://www.youtube.com/watch?v=F4iF3o2Z1xg" %}
