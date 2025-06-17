@@ -7,10 +7,8 @@ icon: mobile-button
 At Exactly Protocol, our mission has always been clear: innovate and make DeFi more accessible to real-world users. With the success of our fixed-rate DeFi credit market, we set a new standard for stability and predictability in crypto lending and borrowing.\
 
 
-Now, we're advancing with the launch of the Exa App and its first product, the Exa Card, the first onchain credit card. Available from day one in 160+ countries, it offers seamless global access without requiring a bank account or credit score. \
+Now, we're advancing with the launch of the Exa App and its first product, the Exa Card. Available from day one in 160+ countries, it offers seamless global access without requiring a bank account or credit score. \
 
-
-<figure><img src="../.gitbook/assets/Captura de pantalla 2025-04-09 a las 09.42.33.png" alt=""><figcaption></figcaption></figure>
 
 To get started, download the Exa App and create an account with a streamlined onboarding experience.
 
