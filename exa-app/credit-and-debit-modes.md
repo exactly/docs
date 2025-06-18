@@ -12,19 +12,20 @@ After creating an account, users who want to get their Exa Card complete a quick
 
 The Exa App, available in over 160 countries, ensures that anyone can access DeFi’s benefits anywhere.
 
-## The first onchain credit card <a href="#id-02e5" id="id-02e5"></a>
+## Exa Card <a href="#id-02e5" id="id-02e5"></a>
 
-The Exa Card is the first product of the Exa App. It’s the world’s first onchain credit card that allows users to make purchases in the real world in up to six installments without the need to sell their crypto.
+The Exa Card is the first product of the Exa App. It’s the world’s first onchain card that allows users to make purchases in the real world in up to seven installments without the need to sell their crypto.
 
 The Exa Card is issued immediately after the KYC and can be used for online and in-store purchases. Users can add their Exa Card to their smartphone wallet and start spending in minutes. It works with Apple Wallet and Google Wallet.
 
 When users deposit supported assets — such as USDC, ETH, wstETH, WBTC, and OP — into the app, the funds are automatically allocated to Exactly Protocol’s markets, where they begin generating a variable APR. This yield is derived directly from interest paid by borrowers in the protocol, ensuring sustainable returns that are not reliant on token incentives.
 
-Exa Card allows users to purchase directly from their deposited balance. Each time a payment is made, the required amount is seamlessly deducted from the user’s funds stored in Exactly Protocol’s lending markets. Until the moment of payment, these funds continue to generate variable yield, maximizing the efficiency of the user’s assets.
+## Pay Mode <a href="#a46c" id="a46c"></a>
 
-## **Pay later in installments** <a href="#a46c" id="a46c"></a>
+In the Pay Mode section, users can select to "Pay Now" or "Installment Plans".\
+Pay Now mode allows users to purchase directly from their deposited balance. Each time a payment is made, the required amount is seamlessly deducted from the user’s funds stored in Exactly Protocol’s lending markets. Until the moment of payment, these funds continue to generate variable yield, maximizing the efficiency of the user’s assets.
 
-The Exa Card allows users to make purchases in multiple installments without selling their assets.
+Installment plans allow users to purchase in multiple installments without selling their assets.&#x20;
 
 Here’s how it works:
 
