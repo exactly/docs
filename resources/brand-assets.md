@@ -20,3 +20,6 @@ Download PNG](<../.gitbook/assets/Isologo - Black.svg>)
 
 <figure><img src="../.gitbook/assets/TW - Header.png" alt=""><figcaption><p>Social Media Header<br><a href="https://drive.google.com/file/d/1ukXCNW6rL706pEpWUKTv-K--yNuHy1JO/view?usp=drive_link">Download PNG</a></p></figcaption></figure>
 
+<figure><img src="../.gitbook/assets/Exa App - Logo - Black (4).png" alt=""><figcaption><p>Exa App logo black<br><a href="https://drive.google.com/drive/folders/1kFtAx9oi-lmPhfpTDuXFajgZkQ1S3sEU">Download SVG</a><br><a href="https://drive.google.com/drive/folders/1kFtAx9oi-lmPhfpTDuXFajgZkQ1S3sEU">Download PNG</a></p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/Exa App - Logo - White (2).png" alt=""><figcaption><p>Exa App logo white<br><a href="https://drive.google.com/drive/folders/1kFtAx9oi-lmPhfpTDuXFajgZkQ1S3sEU">Download PNG</a></p></figcaption></figure>
