@@ -6,7 +6,7 @@ icon: network-wired
 
 There are three different layers that constitute the Exa Tech Stack that allows us to provide a Web2 UX while getting the cutting edge of the Web3 in our users hands.
 
-<figure><img src="../.gitbook/assets/Screenshot 2025-06-11 at 7.57.04 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2025-09-12 at 2.28.18 PM.png" alt=""><figcaption></figcaption></figure>
 
 Lets go layer by layer:
 
