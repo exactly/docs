@@ -14,7 +14,7 @@ Exactly Protocol was audited by the following companies:
 | ABDK         | Mar 2024     | [ABDK Interest Rate Model v2 2nd audit](https://github.com/exactly/audits/blob/main/ABDK%20Interest%20Rate%20Model%20v2%20\(Mar-24\).pdf)                                                 |
 | ABDK         | Apr 2024     | [ABDK Installments Router and New Market Roles 1st audit](https://github.com/exactly/audits/blob/main/ABDK%20Installments%20Router%20and%20New%20Market%20Roles%20\(Apr-24\).pdf)         |
 | ABDK         | March 2025   | [ABDK Rewards Controller Update ](https://github.com/exactly/audits/blob/main/ABDK%20Rewards%20Controller%20Update%20\(Mar-25\)pdf.pdf)                                                   |
-| ABDK         | October 2025 | [Exactly Protocol Update](https://github.com/exactly/audits/blob/main/ABDK%20Protocol%20Update%20\(Oct-25\).pdf)                                                                          |
+| ABDK         | October 2025 | [ABDK Exactly Protocol Update](https://github.com/exactly/audits/blob/main/ABDK%20Protocol%20Update%20\(Oct-25\).pdf)                                                                     |
 | Chainsafe    | May 2022     | [Chainsafe 1st audit](https://github.com/exactly/audits/blob/main/Chainsafe%201st%20audit%20\(May-22\).pdf)                                                                               |
 | Chainsafe    | Oct 2022     | [Chainsafe 2nd audit](https://github.com/exactly/audits/blob/main/Chainsafe%202nd%20audit%20\(Oct-22\).pdf)                                                                               |
 | Chainsafe    | Mar 2024     | [Chainsafe Interest Rate Model v2 1st audit](https://github.com/exactly/audits/blob/main/Chainsafe%20Interest%20Rate%20Model%20v2%20\(Mar-24\).pdf)                                       |
@@ -34,7 +34,7 @@ Exactly Protocol was audited by the following companies:
 | Quantstamp   | July 2024    | [Exa App WebAuthn Plugin 1st audit](https://github.com/exactly/audits/blob/main/Quantstamp%20Exa%20App%20WebAuthn%20Plugin%20\(Jul-24\).pdf)                                              |
 | Quantstamp   | July 2024    | [Quantstamp Exa App WebAuthn Plugin](https://github.com/exactly/audits/blob/main/Quantstamp%20Exa%20App%20WebAuthn%20Plugin%20\(Jul-24\).pdf)                                             |
 | Quantstamp   | March 2025   | [Quantstamp Exa App Plugin](https://github.com/exactly/audits/blob/main/Quantstamp%20Exa%20App%20Plugin%20\(Mar-25\).pdf)                                                                 |
-| Quantstamp   | October 2025 | [Exa App Plugin Update](https://github.com/exactly/audits/blob/main/Quantstamp%20Exa%20App%20Plugin%20Update%20\(Oct-25\).pdf)                                                            |
+| Quantstamp   | October 2025 | [Quantstamp Exa App Plugin Update](https://github.com/exactly/audits/blob/main/Quantstamp%20Exa%20App%20Plugin%20Update%20\(Oct-25\).pdf)                                                 |
 | Sherlock     | Aug 2024     | [Sherlock Staking Program 1st audit](https://github.com/exactly/audits/blob/main/Sherlock%20Staking%20Contract%20\(Aug-24\).pdf)                                                          |
 
 ## Other
