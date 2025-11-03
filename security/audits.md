@@ -4,36 +4,38 @@
 
 Exactly Protocol was audited by the following companies:
 
-| Auditor      | Date       | Report                                                                                                                                                                                    |
-| ------------ | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ABDK         | Oct 2022   | [ABDK 1st audit](https://github.com/exactly/audits/blob/main/ABDK%201st%20audit%20\(Oct-22\).pdf)                                                                                         |
-| ABDK         | May 2023   | [ABDK 2nd audit](https://github.com/exactly/audits/blob/main/ABDK%202nd%20audit%20\(May-23\).pdf)                                                                                         |
-| ABDK         | Sep 2023   | [ABDK PeripheralContracts 1st audit](https://github.com/exactly/audits/blob/main/ABDK%20PeripheralContracts%201st%20audit%20\(Sep-23\).pdf)                                               |
-| ABDK         | Oct 2023   | [ABDK EscrowedEXA 1st audit](https://github.com/exactly/audits/blob/main/ABDK%20EscrowedEXA%20\(Sep-23\).pdf)                                                                             |
-| ABDK         | Feb 2024   | [ABDK Interest Rate Model v2 1st audit](https://github.com/exactly/audits/blob/main/ABDK%20Interest%20Rate%20Model%20v2%20\(Feb-24\).pdf)                                                 |
-| ABDK         | Mar 2024   | [ABDK Interest Rate Model v2 2nd audit](https://github.com/exactly/audits/blob/main/ABDK%20Interest%20Rate%20Model%20v2%20\(Mar-24\).pdf)                                                 |
-| ABDK         | Apr 2024   | [ABDK Installments Router and New Market Roles 1st audit](https://github.com/exactly/audits/blob/main/ABDK%20Installments%20Router%20and%20New%20Market%20Roles%20\(Apr-24\).pdf)         |
-| ABDK         | March 2025 | [ABDK Rewards Controller Update ](https://github.com/exactly/audits/blob/main/ABDK%20Rewards%20Controller%20Update%20\(Mar-25\)pdf.pdf)                                                   |
-| Chainsafe    | May 2022   | [Chainsafe 1st audit](https://github.com/exactly/audits/blob/main/Chainsafe%201st%20audit%20\(May-22\).pdf)                                                                               |
-| Chainsafe    | Oct 2022   | [Chainsafe 2nd audit](https://github.com/exactly/audits/blob/main/Chainsafe%202nd%20audit%20\(Oct-22\).pdf)                                                                               |
-| Chainsafe    | Mar 2024   | [Chainsafe Interest Rate Model v2 1st audit](https://github.com/exactly/audits/blob/main/Chainsafe%20Interest%20Rate%20Model%20v2%20\(Mar-24\).pdf)                                       |
-| Chainsafe    | Aug 2024   | [Chainsafe Staking Program 1st audit](https://github.com/exactly/audits/blob/main/Chainsafe%20Staking%20Contract%20\(Aug-24\).pdf)                                                        |
-| Coinspect    | Nov 2021   | [Coinspect 1st audit](https://github.com/exactly/audits/blob/main/Coinspect%201st%20audit%20\(Nov-21\).pdf)                                                                               |
-| Coinspect    | May 2022   | [Coinspect 2nd audit](https://github.com/exactly/audits/blob/main/Coinspect%202nd%20audit%20\(May-22\).pdf)                                                                               |
-| Coinspect    | Oct 2022   | [Coinspect 3rd audit](https://github.com/exactly/audits/blob/main/Coinspect%203rd%20audit%20\(Oct-22\).pdf)                                                                               |
-| Coinspect    | Oct 2022   | [Coinspect 4th audit](https://github.com/exactly/audits/blob/main/Coinspect%204th%20audit%20\(Oct-22\).pdf)                                                                               |
-| Coinspect    | Mar 2023   | [Coinspect 5th audit](https://github.com/exactly/audits/blob/main/Coinspect%205th%20audit%20\(Mar-23\).pdf)                                                                               |
-| Coinspect    | Jan 2023   | [Coinspect RewardsController 1st audit](https://github.com/exactly/audits/blob/main/Coinspect%20RewardsController%201st%20audit%20\(Jan-23\).pdf)                                         |
-| Coinspect    | Feb 2023   | [Coinspect RewardsController 2nd audit](https://github.com/exactly/audits/blob/main/Coinspect%20RewardsController%202nd%20audit%20\(Feb-23\).pdf)                                         |
-| Coinspect    | Mar 2023   | [Coinspect RewardsController 3rd audit](https://github.com/exactly/audits/blob/main/Coinspect%20RewardsController%203rd%20audit%20\(Mar-23\).pdf)                                         |
-| Cryptecon    | Sep 2022   | [Cryptecon Economics of the Exactly Protocol](https://github.com/exactly/audits/blob/main/Cryptecon_Economics_of_the_Exactly_Protocol\(Sep-22\).pdf)                                      |
-| Hashlock     | March 2024 | [Hashlock Interest Rate Model v2 1st audit](https://github.com/exactly/audits/blob/main/Hashlock%20Interest%20Rate%20Model%20v2%20\(Mar-24\).pdf)                                         |
-| Hashlock     | Apr 2024   | [Hashlock Installments Router and New Market Roles 1st audit](https://github.com/exactly/audits/blob/main/Hashlock%20Installments%20Router%20and%20New%20Market%20Roles%20\(Apr-24\).pdf) |
-| OpenZeppelin | Oct 2023   | [EscrowedEXA 1st audit](https://github.com/exactly/audits/blob/main/OpenZeppelin%20EscrowedEXA%20\(Oct-23\).pdf)                                                                          |
-| Quantstamp   | July 2024  | [Exa App WebAuthn Plugin 1st audit](https://github.com/exactly/audits/blob/main/Quantstamp%20Exa%20App%20WebAuthn%20Plugin%20\(Jul-24\).pdf)                                              |
-| Quantstamp   | July 2024  | [Quantstamp Exa App WebAuthn Plugin](https://github.com/exactly/audits/blob/main/Quantstamp%20Exa%20App%20WebAuthn%20Plugin%20\(Jul-24\).pdf)                                             |
-| Quantstamp   | March 2025 | [Quantstamp Exa App Plugin](https://github.com/exactly/audits/blob/main/Quantstamp%20Exa%20App%20Plugin%20\(Mar-25\).pdf)                                                                 |
-| Sherlock     | Aug 2024   | [Sherlock Staking Program 1st audit](https://github.com/exactly/audits/blob/main/Sherlock%20Staking%20Contract%20\(Aug-24\).pdf)                                                          |
+| Auditor      | Date         | Report                                                                                                                                                                                    |
+| ------------ | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ABDK         | Oct 2022     | [ABDK 1st audit](https://github.com/exactly/audits/blob/main/ABDK%201st%20audit%20\(Oct-22\).pdf)                                                                                         |
+| ABDK         | May 2023     | [ABDK 2nd audit](https://github.com/exactly/audits/blob/main/ABDK%202nd%20audit%20\(May-23\).pdf)                                                                                         |
+| ABDK         | Sep 2023     | [ABDK PeripheralContracts 1st audit](https://github.com/exactly/audits/blob/main/ABDK%20PeripheralContracts%201st%20audit%20\(Sep-23\).pdf)                                               |
+| ABDK         | Oct 2023     | [ABDK EscrowedEXA 1st audit](https://github.com/exactly/audits/blob/main/ABDK%20EscrowedEXA%20\(Sep-23\).pdf)                                                                             |
+| ABDK         | Feb 2024     | [ABDK Interest Rate Model v2 1st audit](https://github.com/exactly/audits/blob/main/ABDK%20Interest%20Rate%20Model%20v2%20\(Feb-24\).pdf)                                                 |
+| ABDK         | Mar 2024     | [ABDK Interest Rate Model v2 2nd audit](https://github.com/exactly/audits/blob/main/ABDK%20Interest%20Rate%20Model%20v2%20\(Mar-24\).pdf)                                                 |
+| ABDK         | Apr 2024     | [ABDK Installments Router and New Market Roles 1st audit](https://github.com/exactly/audits/blob/main/ABDK%20Installments%20Router%20and%20New%20Market%20Roles%20\(Apr-24\).pdf)         |
+| ABDK         | March 2025   | [ABDK Rewards Controller Update ](https://github.com/exactly/audits/blob/main/ABDK%20Rewards%20Controller%20Update%20\(Mar-25\)pdf.pdf)                                                   |
+| ABDK         | October 2025 | [Exactly Protocol Update](https://github.com/exactly/audits/blob/main/ABDK%20Protocol%20Update%20\(Oct-25\).pdf)                                                                          |
+| Chainsafe    | May 2022     | [Chainsafe 1st audit](https://github.com/exactly/audits/blob/main/Chainsafe%201st%20audit%20\(May-22\).pdf)                                                                               |
+| Chainsafe    | Oct 2022     | [Chainsafe 2nd audit](https://github.com/exactly/audits/blob/main/Chainsafe%202nd%20audit%20\(Oct-22\).pdf)                                                                               |
+| Chainsafe    | Mar 2024     | [Chainsafe Interest Rate Model v2 1st audit](https://github.com/exactly/audits/blob/main/Chainsafe%20Interest%20Rate%20Model%20v2%20\(Mar-24\).pdf)                                       |
+| Chainsafe    | Aug 2024     | [Chainsafe Staking Program 1st audit](https://github.com/exactly/audits/blob/main/Chainsafe%20Staking%20Contract%20\(Aug-24\).pdf)                                                        |
+| Coinspect    | Nov 2021     | [Coinspect 1st audit](https://github.com/exactly/audits/blob/main/Coinspect%201st%20audit%20\(Nov-21\).pdf)                                                                               |
+| Coinspect    | May 2022     | [Coinspect 2nd audit](https://github.com/exactly/audits/blob/main/Coinspect%202nd%20audit%20\(May-22\).pdf)                                                                               |
+| Coinspect    | Oct 2022     | [Coinspect 3rd audit](https://github.com/exactly/audits/blob/main/Coinspect%203rd%20audit%20\(Oct-22\).pdf)                                                                               |
+| Coinspect    | Oct 2022     | [Coinspect 4th audit](https://github.com/exactly/audits/blob/main/Coinspect%204th%20audit%20\(Oct-22\).pdf)                                                                               |
+| Coinspect    | Mar 2023     | [Coinspect 5th audit](https://github.com/exactly/audits/blob/main/Coinspect%205th%20audit%20\(Mar-23\).pdf)                                                                               |
+| Coinspect    | Jan 2023     | [Coinspect RewardsController 1st audit](https://github.com/exactly/audits/blob/main/Coinspect%20RewardsController%201st%20audit%20\(Jan-23\).pdf)                                         |
+| Coinspect    | Feb 2023     | [Coinspect RewardsController 2nd audit](https://github.com/exactly/audits/blob/main/Coinspect%20RewardsController%202nd%20audit%20\(Feb-23\).pdf)                                         |
+| Coinspect    | Mar 2023     | [Coinspect RewardsController 3rd audit](https://github.com/exactly/audits/blob/main/Coinspect%20RewardsController%203rd%20audit%20\(Mar-23\).pdf)                                         |
+| Cryptecon    | Sep 2022     | [Cryptecon Economics of the Exactly Protocol](https://github.com/exactly/audits/blob/main/Cryptecon_Economics_of_the_Exactly_Protocol\(Sep-22\).pdf)                                      |
+| Hashlock     | March 2024   | [Hashlock Interest Rate Model v2 1st audit](https://github.com/exactly/audits/blob/main/Hashlock%20Interest%20Rate%20Model%20v2%20\(Mar-24\).pdf)                                         |
+| Hashlock     | Apr 2024     | [Hashlock Installments Router and New Market Roles 1st audit](https://github.com/exactly/audits/blob/main/Hashlock%20Installments%20Router%20and%20New%20Market%20Roles%20\(Apr-24\).pdf) |
+| OpenZeppelin | Oct 2023     | [EscrowedEXA 1st audit](https://github.com/exactly/audits/blob/main/OpenZeppelin%20EscrowedEXA%20\(Oct-23\).pdf)                                                                          |
+| Quantstamp   | July 2024    | [Exa App WebAuthn Plugin 1st audit](https://github.com/exactly/audits/blob/main/Quantstamp%20Exa%20App%20WebAuthn%20Plugin%20\(Jul-24\).pdf)                                              |
+| Quantstamp   | July 2024    | [Quantstamp Exa App WebAuthn Plugin](https://github.com/exactly/audits/blob/main/Quantstamp%20Exa%20App%20WebAuthn%20Plugin%20\(Jul-24\).pdf)                                             |
+| Quantstamp   | March 2025   | [Quantstamp Exa App Plugin](https://github.com/exactly/audits/blob/main/Quantstamp%20Exa%20App%20Plugin%20\(Mar-25\).pdf)                                                                 |
+| Quantstamp   | October 2025 | [Exa App Plugin Update](https://github.com/exactly/audits/blob/main/Quantstamp%20Exa%20App%20Plugin%20Update%20\(Oct-25\).pdf)                                                            |
+| Sherlock     | Aug 2024     | [Sherlock Staking Program 1st audit](https://github.com/exactly/audits/blob/main/Sherlock%20Staking%20Contract%20\(Aug-24\).pdf)                                                          |
 
 ## Other
 
