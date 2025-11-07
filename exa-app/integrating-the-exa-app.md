@@ -31,5 +31,5 @@ This solution provides users with a complete set of financial services without r
 * Full Functionality:  Access to the complete, pre-built Exa experience.
 * Seamless Access: Users can access all services from within the partner's platform.
 
-Learn more: [See Embed Example](https://github.com/exactly/exa-embed-example)
+Learn more: [See embed example code](https://github.com/exactly/exa-embed-example) and [test it](https://exactly.github.io/exa-embed-example/)
 
