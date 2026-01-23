@@ -215,9 +215,10 @@ These parameters are utilized to calculate [the effective borrow interest rate](
 | ------ | ----- |
 | WETH   | 0.86  |
 | USDC   | 0.91  |
-| cbBTC  | 0.85  |
+| USDC.e | 0.91  |
+| WBTC   | 0.78  |
 | wstETH | 0.82  |
-| cbXRP  | 0.60  |
+| OP     | 0.58  |
 
 * Base
 
@@ -225,10 +226,9 @@ These parameters are utilized to calculate [the effective borrow interest rate](
 | ------ | ----- |
 | WETH   | 0.86  |
 | USDC   | 0.91  |
-| USDC.e | 0.91  |
-| WBTC   | 0.78  |
+| cbBTC  | 0.85  |
 | wstETH | 0.82  |
-| OP     | 0.58  |
+| cbXRP  | 0.60  |
 
 * Ethereum Mainnet
 
