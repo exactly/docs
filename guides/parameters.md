@@ -96,66 +96,66 @@ $$
 | $$k_{sigmoid}$$= | 2.500000000 |
 | $$α$$=           | 2.000000000 |
 
-## C. Base Interest Rate Curves
+## D. Base Interest Rate Curves
 
 * **USDC**
 
-| Parameter        | Value |
-| ---------------- | ----- |
-| $$A$$=           | 0.05  |
-| $$B$$=           | 0.11  |
-| $$U_{max}$$=     | 1.3   |
-| $$U_{liq}0$$=    | 0.88  |
-| $$k_{sigmoid}$$= | 2.5   |
-| $$α$$=           | 1.3   |
+| Parameter        | Value       |
+| ---------------- | ----------- |
+| $$A$$=           | 5.0000e-02  |
+| $$B$$=           | 1.1000e-01  |
+| $$U_{max}$$=     | 1.300000000 |
+| $$U_{liq}0$$=    | 0.880000000 |
+| $$k_{sigmoid}$$= | 2.500000000 |
+| $$α$$=           | 1.300000000 |
 
 * **WETH**
 
-| Parameter        | Value  |
-| ---------------- | ------ |
-| $$A$$=           | 0.0195 |
-| $$B$$=           | 0.04   |
-| $$U_{max}$$=     | 1.3    |
-| $$U_{liq}0$$=    | 0.88   |
-| $$k_{sigmoid}$$= | 2.5    |
-| $$α$$=           | 1.1    |
+| Parameter        | Value       |
+| ---------------- | ----------- |
+| $$A$$=           | 1.9500e-02  |
+| $$B$$=           | 4.0000e-02  |
+| $$U_{max}$$=     | 1.300000000 |
+| $$U_{liq}0$$=    | 0.880000000 |
+| $$k_{sigmoid}$$= | 2.500000000 |
+| $$α$$=           | 1.100000000 |
 
 * wstETH
 
-| Parameter        | Value  |
-| ---------------- | ------ |
-| $$A$$=           | 0.0195 |
-| $$B$$=           | 0.04   |
-| $$U_{max}$$=     | 1.3    |
-| $$U_{liq}0$$=    | 0.88   |
-| $$k_{sigmoid}$$= | 2.5    |
-| $$α$$=           | 1.1    |
+| Parameter        | Value       |
+| ---------------- | ----------- |
+| $$A$$=           | 1.9500e-02  |
+| $$B$$=           | 4.0000e-02  |
+| $$U_{max}$$=     | 1.300000000 |
+| $$U_{liq}0$$=    | 0.880000000 |
+| $$k_{sigmoid}$$= | 2.500000000 |
+| $$α$$=           | 1.100000000 |
 
 * **cbBTC**
 
-| Parameter        | Value |
-| ---------------- | ----- |
-| $$A$$=           | 0.01  |
-| $$B$$=           | 0.15  |
-| $$U_{max}$$=     | 1.05  |
-| $$U_{liq}0$$=    | 0.5   |
-| $$k_{sigmoid}$$= | 2.5   |
-| $$α$$=           | 2     |
+| Parameter        | Value       |
+| ---------------- | ----------- |
+| $$A$$=           | 1.0000e-02  |
+| $$B$$=           | 1.5000e-01  |
+| $$U_{max}$$=     | 1.050000000 |
+| $$U_{liq}0$$=    | 0.500000000 |
+| $$k_{sigmoid}$$= | 2.500000000 |
+| $$α$$=           | 2.000000000 |
 
 
 
 * **cbXRP**
 
-| Parameter        | Value |
-| ---------------- | ----- |
-| $$A$$=           | 0.015 |
-| $$B$$=           | 0.20  |
-| $$U_{max}$$=     | 1.4   |
-| $$U_{liq}0$$=    | 0.5   |
-| $$k_{sigmoid}$$= | 2.5   |
-| $$α$$=           | 1.25  |
+| Parameter        | Value       |
+| ---------------- | ----------- |
+| $$A$$=           | 1.5000e-02  |
+| $$B$$=           | 2.0000e-01  |
+| $$U_{max}$$=     | 1.400000000 |
+| $$U_{liq}0$$=    | 0.500000000 |
+| $$k_{sigmoid}$$= | 2.500000000 |
+| $$α$$=           | 1.250000000 |
 
-## D. Ethereum Mainnet Interest Rate Curves
+## E. Ethereum Mainnet Interest Rate Curves
 
 * WETH
 
@@ -207,9 +207,19 @@ $$
 
 These parameters are utilized to calculate [the effective borrow interest rate](https://docs.exact.ly/getting-started/math-paper#4.1.2-the-effective-interest-rate-for-a-particular-loan).
 
-## D. Risk Factors
+## F. Risk Factors
 
 * OP Mainnet
+
+| Asset  | Value |
+| ------ | ----- |
+| WETH   | 0.86  |
+| USDC   | 0.91  |
+| cbBTC  | 0.85  |
+| wstETH | 0.82  |
+| cbXRP  | 0.60  |
+
+* Base
 
 | Asset  | Value |
 | ------ | ----- |
@@ -244,7 +254,7 @@ Follow the steps below to check the Risk-Adjust Factor for a specific asset:
 
 Following these steps, you can check the Risk-Adjust Factor for any asset in the protocol by simply replacing the market contract address with the one corresponding to the desired asset.
 
-## E. Variable Rate Pool Fee
+## F. Variable Rate Pool Fee
 
 $$
 \begin{align*} \delta = 10\% \end{align*}
@@ -252,7 +262,7 @@ $$
 
 $$\delta$$ is the fraction of the [fixed interest rate fees](https://docs.exact.ly/getting-started/math-paper#4.2.1-supply-interest-rate) retained by the Variable Rate Pool upon leaving the Fixed Rate Pool.
 
-## F. Supply E.M.A. Parameters
+## G. Supply E.M.A. Parameters
 
 $$
 \begin{align*} \beta_{slow} = 0.000053 \end{align*}
@@ -268,7 +278,7 @@ $$
 
 The time decay parameter is used when the supply is below average.
 
-## G. Target Solvency Ratio
+## H. Target Solvency Ratio
 
 $$
 \begin{align*} \Gamma = 1.25 \end{align*}
@@ -276,7 +286,7 @@ $$
 
 Target solvency ratio after [liquidation](https://docs.exact.ly/getting-started/math-paper#6.-liquidations).
 
-## H. Liquidation Bonuses
+## I. Liquidation Bonuses
 
 $$
 \begin{align*} \nu_{liquidator} = 5.00\% \\ \nu_{bad-debt} = 0.25\% \end{align*}
@@ -284,13 +294,13 @@ $$
 
 During the [liquidation process](https://docs.exact.ly/getting-started/math-paper#6.-liquidations), the liquidator gets a commission fee, and the Variable Rate Pool receives a percentage of extra liquidation fees to compensate for potential bad debt residuals.
 
-## I. Extraordinary Earnings Distribution Factor
+## J. Extraordinary Earnings Distribution Factor
 
 $$
 \begin{align*} \xi_{extearn} = 2.00 \end{align*}
 $$
 
-## J. Penalty Rate
+## K. Penalty Rate
 
 $$
 \begin{align*} DailyPenaltyRate = 0.45\% \end{align*}
