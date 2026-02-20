@@ -4,7 +4,7 @@ description: >-
   deployed exclusively on the Ethereum Mainnet.
 ---
 
-# 🔣 Math Paper
+# 🔣 Math Paper v1
 
 ## Exactly Protocol: A Model to Complete the Credit Market on the Ethereum Blockchain (Version 1.0)
 
@@ -338,5 +338,5 @@ This paper is only for general information purposes. It does not constitute inve
 
 The Exactly Protocol Interest Rate Model v2 was successfully approved by governance through [EXAIP-08](https://gov.exact.ly/#/proposal/0x1c6a4e074fa9ce8e9469c60de8c32bd7cb26b3e61984966d638d518d9fc2206f) and has been executed.\
 \
-[\[EXAIP-08\] Interest Rate Model Upgrade (IRM v2)](https://medium.com/@exactly\_protocol/exaip-08-interest-rate-model-upgrade-irm-v2-16759de270e6)\
-\
+[\[EXAIP-08\] Interest Rate Model Upgrade (IRM v2)](https://medium.com/@exactly_protocol/exaip-08-interest-rate-model-upgrade-irm-v2-16759de270e6)\
+<br>

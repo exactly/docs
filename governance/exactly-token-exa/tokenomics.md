@@ -52,4 +52,4 @@ Please read the following articles for more information:
 * [**\[EXAIP-21\] Empowering Exa with Uphold’s Strategic Investment & Liquidity Injection**](https://gov.exact.ly/#/proposal/0xbfbb935e3c2319826a1d9ac16ad588353bb1e940edfe280adf3113bb61a12dde)
 
 \
-\
+<br>

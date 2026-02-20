@@ -28,13 +28,9 @@ At Exactly Protocol, our subgraph allows us to perform advanced queries and oper
 
 
 
-<div align="right">
-
-<figure><img src="../.gitbook/assets/Powered by The Graph - Outline White.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="right"><figure><img src="../.gitbook/assets/Powered by The Graph - Outline White.png" alt=""><figcaption></figcaption></figure></div>
 
 \
 \
 \
-\
+<br>

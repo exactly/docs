@@ -4,11 +4,9 @@ icon: mobile-button
 
 # The Exa App
 
-At Exactly Protocol, our mission has always been clear: innovate and make DeFi more accessible to real-world users. With the success of our fixed-rate DeFi credit market, we set a new standard for stability and predictability in crypto lending and borrowing.\
+At Exactly Protocol, our mission has always been clear: innovate and make DeFi more accessible to real-world users. With the success of our fixed-rate DeFi credit market, we set a new standard for stability and predictability in crypto lending and borrowing.<br>
 
-
-Now, we're advancing with the launch of the Exa App and its first product, the Exa Card. Available from day one in 160+ countries, it offers seamless global access without requiring a bank account or credit score. \
-
+Now, we're advancing with the launch of the Exa App and its first product, the Exa Card. Available from day one in 160+ countries, it offers seamless global access without requiring a bank account or credit score. <br>
 
 To get started, download the Exa App and create an account with a streamlined onboarding experience.
 

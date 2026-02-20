@@ -28,4 +28,4 @@ The following contracts are upgradeable and can be changed by the `TimelockContr
 
 * [Auditor](../guides/protocol/auditor.md)
 * [Market](../guides/protocol/market/)
-* [EXA](https://docs.exact.ly/guides/exactly-token-exa)\
+* [EXA](https://docs.exact.ly/guides/exactly-token-exa)<br>

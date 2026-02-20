@@ -9,14 +9,13 @@ icon: robot
 
 The Exa Plugin is a modular smart contract designed exclusively for the Exa App, providing seamless interaction with the Exactly Protocol. This integration enables users to borrow, lend, and manage credit and debit transactions through a self-custodial smart account. By leveraging ERC-6900 modular accounts, the Exa Plugin ensures a smooth DeFi experience, automating key financial operations while maintaining security and efficiency.&#x20;
 
-[Quantstamp](https://quantstamp.com/) audited the Exa Plugin to verify its adherence to high-security standards. By integrating this plugin, Exa App users can:\
-
+[Quantstamp](https://quantstamp.com/) audited the Exa Plugin to verify its adherence to high-security standards. By integrating this plugin, Exa App users can:<br>
 
 * Deposit collateral and take loans within Exactly Protocol.
 * Execute credit or debit transactions without constant manual approvals.
 * Automate key lending and borrowing processes using a structured role system.
 
-### Key Characteristics: 
+### Key Characteristics:<br>
 
 * Automated lending and borrowing: The plugin facilitates collateral management and repayments through Exactly Protocol without requiring user intervention for each action.
 * WebAuthn integration: Users authenticate transactions using biometrics, eliminating the need for seed phrases.
@@ -125,18 +124,13 @@ Uses IssuerChecker to validate refund requests.
 
 Implements role-based access control to restrict refund execution.
 
-Security Considerations\
+Security Considerations<br>
+---------------------------
 
-
-
-* Restricted function execution: Only approved functions can interact with the Exactly Protocol.\
-
-* Proposal-based withdrawals: Ensures sufficient collateral remains locked before allowing withdrawals.\
-
-* Execution hooks: Enforces execution logic through runtime validations and prevents unauthorized calls.\
-
-* Plugin allowlist: Only approved plugins can be installed or swapped, reducing attack vectors.\
-
+* Restricted function execution: Only approved functions can interact with the Exactly Protocol.<br>
+* Proposal-based withdrawals: Ensures sufficient collateral remains locked before allowing withdrawals.<br>
+* Execution hooks: Enforces execution logic through runtime validations and prevents unauthorized calls.<br>
+* Plugin allowlist: Only approved plugins can be installed or swapped, reducing attack vectors.<br>
 * Flash loan risk protection: Credit repayment with flash loans is validated atomically to avoid misuse.
 
 [Ex**a Plugin GitHub repository**](https://github.com/exactly/mobile/blob/368df252a3db7b2e370f1ed0af8db0939b45138e/contracts/src/ExaPlugin.sol)
