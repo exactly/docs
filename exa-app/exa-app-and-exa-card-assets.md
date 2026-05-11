@@ -1,3 +1,7 @@
+---
+icon: paintbrush
+---
+
 # Exa App and Exa Card assets
 
 ### Logos
