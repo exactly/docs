@@ -27,6 +27,7 @@
 * [Exa Plugin](exa-app/exa-plugin.md)
 * [Integrating the Exa App](exa-app/integrating-the-exa-app.md)
 * [Exa App FAQs](exa-app/exa-app-faqs.md)
+* [Exa App and Exa Card assets](exa-app/exa-app-and-exa-card-assets.md)
 
 ## Guides
 
