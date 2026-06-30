@@ -2,7 +2,11 @@
 
 **`EXA` Smart Contract Address (OP Mainnet):**&#x20;
 
-[**`0x1e925de1c68ef83bd98ee3e130ef14a50309c01b`**](https://optimistic.etherscan.io/token/0x1e925de1c68ef83bd98ee3e130ef14a50309c01b)
+[**`0x1e925de1c68ef83bd98ee3e130ef14a50309c01b`**](https://optimistic.etherscan.io/token/0x1e925de1c68ef83bd98ee3e130ef14a50309c01b)\
+\
+**`EXA` Smart Contract Address (Base):**&#x20;
+
+[**`0x1e925de1c68ef83bd98ee3e130ef14a50309c01b`**](https://basescan.org/token/0x1e925de1c68ef83bd98ee3e130ef14a50309c01b)
 
 The EXA token grants holders the right to vote on system changes and upgrades. Holders of the EXA token will wield power over the Protocol’s [treasury](https://docs.exact.ly/guides/parameters#b.-treasury-fee) and [smart contract upgrades](https://docs.exact.ly/security/access-control).
 
@@ -15,7 +19,10 @@ As the Protocol develops, EXA token holders will play a crucial role in decision
 
 ### Circulating Supply & Token Holders
 
-* **EXA token holders and Total Supply:** [https://optimistic.etherscan.io/token/tokenholderchart/0x1e925de1c68ef83bd98ee3e130ef14a50309c01b](https://optimistic.etherscan.io/token/tokenholderchart/0x1e925de1c68ef83bd98ee3e130ef14a50309c01b)
+* **EXA token holders and Total Supply:** \
+  **OP mainnet:** [https://optimistic.etherscan.io/token/tokenholderchart/0x1e925de1c68ef83bd98ee3e130ef14a50309c01b](https://optimistic.etherscan.io/token/tokenholderchart/0x1e925de1c68ef83bd98ee3e130ef14a50309c01b)\
+  **Base:**\
+  [https://basescan.org/token/0x1e925de1c68ef83bd98ee3e130ef14a50309c01b](https://basescan.org/token/0x1e925de1c68ef83bd98ee3e130ef14a50309c01b)
 * **Exa token Circulating Supply**: [https://app.exact.ly/api/circulating-exa](https://app.exact.ly/api/circulating-exa)
 *   **Circulating Supply Formula:**
 
