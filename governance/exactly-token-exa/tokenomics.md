@@ -50,6 +50,7 @@ Please read the following articles for more information:
 * [**\[EXAIP-02\] Adjustments to the EXA Token distribution scheme**](https://medium.com/@exactly_protocol/exaip-02-adjustments-to-the-exa-token-distribution-scheme-c8e54f503128)
 * [**\[EXAIP-03\] Addressing the Exactly Protocol Hack and Compensating Affected Users**](https://medium.com/@exactly_protocol/exaip-03-addressing-the-exactly-protocol-hack-and-compensating-affected-users-6e2cd4a0a179)
 * [**\[EXAIP-21\] Empowering Exa with Uphold’s Strategic Investment & Liquidity Injection**](https://gov.exact.ly/#/proposal/0xbfbb935e3c2319826a1d9ac16ad588353bb1e940edfe280adf3113bb61a12dde)
+* [**\[EXAIP-30\] Deploy EXA Token on Base**](https://snapshot.box/#/s:gov.exa.eth/proposal/0x008937e16b35cf09b680436720ddee4804d07e1fa69192474fd9a3d031c25e51)
 
 \
 <br>
