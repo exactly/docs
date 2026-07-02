@@ -72,3 +72,8 @@ As the Protocol develops, EXA token holders will play a crucial role in decision
 
 * **Short URL**: [https://app.exact.ly/get-exa](https://app.exact.ly/get-exa)
 
+### **EXA on Base**
+
+Following the approval of [EXAIP-30](https://snapshot.box/#/s:gov.exa.eth/proposal/...), the EXA token is now natively deployed on Base at the same address as on OP Mainnet (0x1e925de1c68ef83bd98ee3e130ef14a50309c01b), ensuring a consistent cross-chain identity. This deployment builds on [EXAIP-26](https://snapshot.box/#/s:gov.exa.eth/proposal/0xfaabd2a7ebaaaaea1b86a65b63c5c7cae2e1a9fa05d548aad4e07583c0967d51), which established the foundation for EXA's cross-chain expansion, and enables broader distribution through partners within the Base ecosystem. EXA maintains a single global supply across all chains: there is no local minting, and all minting and burning is exclusively controlled by authorized bridges through a bridge-gated mint/burn mechanism compliant with the EIP-7802 cross-chain standard. Cross-chain transfers between OP Mainnet and Base are enabled via a [Hyperlane](https://hyperlane.xyz/) bridge, which preserves supply integrity at the contract level. \
+<br>
+
