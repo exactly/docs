@@ -22,7 +22,7 @@ We may obtain information about you by accessing Cookies sent by our Platform.
 
 **4. What Cookies do we use**
 
-We use Cookies set by ourselves via our web developers (first-party Cookies). We only have those set by others (third-party Cookies). Cookies are also sometimes classified by reference to their purpose. We use the following Cookies for the following purposes:
+We use Cookies set by ourselves via our web developers (first-party Cookies). We also have those set by others (third-party Cookies). Cookies are also sometimes classified by reference to their purpose. We use the following Cookies for the following purposes:
 
 Analytical/performance Cookies
 
