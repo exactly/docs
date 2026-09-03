@@ -62,7 +62,7 @@ The Health Factor is calculated from the user's collateral balance (in ETH) mult
 
 #### Example:
 
-Given an ETH adjusted factor of 0.84, a deposit of 100 ETH, and borrow of 50 ETH, the Health Factor will be 1.41:
+Given an ETH adjusted factor of 0.84, a deposit of 100 ETH, and a borrow of 50 ETH, the Health Factor will be 1.41:
 
 $$
 \frac{100 * 0.84}{50 \div 0.84}=\frac{84.00}{59.52}=1.41
@@ -208,8 +208,8 @@ We use an aggregation of decentralized data feeds from [Chainlink](https://data.
   * We display on Markets by default (Simple View and Advanced View) the annual rate that arises from the change in the value of Variable Rate Pool shares during the last 15 minutes.
   * Then, when entering the specific amount (Simple View or modal window in the Advanced View), we show the new interest rate based on how the utilization has changed, given the input.
 * **Fixed Interest Rates**: The user will get an annual rate based on his deposit amount and the current fixed interest rate fees from borrows that the Fixed Rate Pool will collect until maturity.
-  * We display on Markets the best-fixed rate (Advanced View) for a marginal change in utilization in the Fixed Rate Pools or just the current marginal utilization for each Fixed Rate Pool (Simple View)
-  * Then, when entering the amount (Simple View or modal window in the Advance View), we calculate the specific fixed interest rate based on his deposit amount and the current fixed interest rate fees from borrows that the Fixed Rate Pool will collect until maturity.
+  * We display on Markets the best fixed rate (Advanced View) for a marginal change in utilization in the Fixed Rate Pools or just the current marginal utilization for each Fixed Rate Pool (Simple View)
+  * Then, when entering the amount (Simple View or modal window in the Advanced View), we calculate the specific fixed interest rate based on his deposit amount and the current fixed interest rate fees from borrows that the Fixed Rate Pool will collect until maturity.
 
 ### What does Total Available refer to?
 
@@ -217,7 +217,7 @@ The Total Available value displayed in the web app is the sum of the variable an
 
 ### What does Total Utilization refer to?
 
-Total Utilization is the total utilization of the variable and fixed pool. Up to 90% can be lent out given the current reserve factor of [5%](https://docs.exact.ly/guides/parameters#a.-reserve-factor).&#x20;
+Total Utilization is the total utilization of the variable and fixed pools. Up to 90% can be lent out, given the current reserve factor of [5%](https://docs.exact.ly/guides/parameters#a.-reserve-factor).&#x20;
 
 ### Why is the web app not available for US Persons?
 
@@ -245,7 +245,7 @@ The total Circulating Supply and token holders can be found [here](https://optim
 
 No, testnet previews upcoming features and allows users to learn about the protocol without any Mainnet gas fees.
 
-### Someone messaged me promising free tokens/ICO/etc, is it real?
+### Someone messaged me promising free tokens/ICO/etc. Is it real?
 
 No, that is fake. No one related to Exactly Protocol will ever message anyone directly nor offer free tokens or investments.
 
@@ -274,7 +274,7 @@ Feel free to reach out through [Discord](https://discord.gg/eNTyPvgA4P) or other
 
 ## Exactly Protocol Multisig Addresses
 
-### What are the Exactly multisigs addresses?
+### What are the Exactly multisig addresses?
 
 The Exactly protocol holds the following multi-sig addresses:
 
