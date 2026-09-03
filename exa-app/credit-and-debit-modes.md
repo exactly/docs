@@ -14,7 +14,7 @@ The Exa App, available in over 160 countries, ensures that anyone can access DeF
 
 ## Exa Card <a href="#id-02e5" id="id-02e5"></a>
 
-The Exa Card is the first product of the Exa App. It’s the world’s first onchain card that allows users to make purchases in the real world in up to seven installments without the need to sell their crypto.
+The Exa Card is the first product of the Exa App. It’s the world’s first onchain card that allows users to make purchases in the real world in up to nine installments without the need to sell their crypto.
 
 The Exa Card is issued immediately after the KYC and can be used for online and in-store purchases. Users can add their Exa Card to their smartphone wallet and start spending in minutes. It works with Apple Wallet and Google Wallet.
 
@@ -31,6 +31,6 @@ Here’s how it works:
 
 * Collateral and credit limit: Deposited assets act as collateral, determining the user’s credit limit. Deposits made into the Exa App are allocated to Exactly Protocol’s variable lending markets, generating variable yield based on borrowers’ demand.
 * Onchain borrowing: When a user makes a purchase, the Exa App borrows the required amount on their behalf from Exactly Protocol’s fixed-rate lending markets. The borrowed funds are converted to USD and sent directly to the merchant. This interest rate is fixed and determined at the time of the transaction.
-* Installments and repayment: Users can repay the loan in up to six fixed installments, scheduled every 28 days. This structured repayment cycle ensures predictability and avoids discrepancies caused by variable calendar months.
+* Installments and repayment: Users can repay the loan in up to nine fixed installments, scheduled every 28 days. This structured repayment cycle ensures predictability and avoids discrepancies caused by variable calendar months.
 
 Users benefit from an innovative financial structure that combines fixed-rate borrowing with variable-rate deposit yields. This unique approach can result in a positive, neutral, or negative net effective interest rate for each purchase, depending on the relationship between the deposit yield and the loan’s fixed interest rate.<br>
