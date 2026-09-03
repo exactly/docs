@@ -92,3 +92,5 @@ We provide you in the following table with opt-out possibilities for such tools 
 **9. Amendments to this Policy**
 
 We may amend this Policy at any time by posting the amended version on the Platform including the effective date of the amended version. The current version of the Privacy Policy, as published on the Platform, is applicable
+
+Date of last review: September 2026
