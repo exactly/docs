@@ -235,3 +235,5 @@ These Terms are governed by the laws in force in British Virgin Island, without 
 **21. QUESTIONS?**
 
 If you have any questions in relation to these Terms, please contact us at [legal@exact.ly](https://exact.ly/tos/legal@exact.ly) before accessing or using the Platform or the Digital Assets Services.
+
+Date of last review: September 2026
