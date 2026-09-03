@@ -254,7 +254,7 @@ Follow the steps below to check the Risk-Adjust Factor for a specific asset:
 
 Following these steps, you can check the Risk-Adjust Factor for any asset in the protocol by simply replacing the market contract address with the one corresponding to the desired asset.
 
-## F. Variable Rate Pool Fee
+## G. Variable Rate Pool Fee
 
 $$
 \begin{align*} \delta = 10\% \end{align*}
@@ -262,7 +262,7 @@ $$
 
 $$\delta$$ is the fraction of the [fixed interest rate fees](https://docs.exact.ly/getting-started/math-paper#4.2.1-supply-interest-rate) retained by the Variable Rate Pool upon leaving the Fixed Rate Pool.
 
-## G. Supply E.M.A. Parameters
+## H. Supply E.M.A. Parameters
 
 $$
 \begin{align*} \beta_{slow} = 0.000053 \end{align*}
@@ -278,7 +278,7 @@ $$
 
 The time decay parameter is used when the supply is below average.
 
-## H. Target Solvency Ratio
+## I. Target Solvency Ratio
 
 $$
 \begin{align*} \Gamma = 1.25 \end{align*}
@@ -286,7 +286,7 @@ $$
 
 Target solvency ratio after [liquidation](https://docs.exact.ly/getting-started/math-paper#6.-liquidations).
 
-## I. Liquidation Bonuses
+## J. Liquidation Bonuses
 
 $$
 \begin{align*} \nu_{liquidator} = 5.00\% \\ \nu_{bad-debt} = 0.25\% \end{align*}
@@ -294,13 +294,13 @@ $$
 
 During the [liquidation process](https://docs.exact.ly/getting-started/math-paper#6.-liquidations), the liquidator gets a commission fee, and the Variable Rate Pool receives a percentage of extra liquidation fees to compensate for potential bad debt residuals.
 
-## J. Extraordinary Earnings Distribution Factor
+## K. Extraordinary Earnings Distribution Factor
 
 $$
 \begin{align*} \xi_{extearn} = 2.00 \end{align*}
 $$
 
-## K. Penalty Rate
+## L. Penalty Rate
 
 $$
 \begin{align*} DailyPenaltyRate = 0.45\% \end{align*}
