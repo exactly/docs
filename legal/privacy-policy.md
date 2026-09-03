@@ -102,3 +102,5 @@ We may amend this Privacy Policy at any time by posting the amended version on t
 **8. CONTACT**
 
 Please contact us with questions, comments, or concerns regarding our Privacy Policy as well as with any requests at [legal@exact.ly](mailto:legal@exact.ly).
+
+Date of last review: September 2026
