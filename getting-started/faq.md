@@ -206,7 +206,7 @@ We use an aggregation of decentralized data feeds from [Chainlink](https://data.
 
 * **Variable Interest Rate**: It's the change in the value of the shares of the Variable Rate Pool, based on its different revenue sources: variable rate interest fees + fixed-rate interest fees and commissions, + liquidation fee to compensate for bad debt.
   * We display on Markets by default (Simple View and Advanced View) the annual rate that arises from the change in the value of Variable Rate Pool shares during the last 15 minutes.
-  * Then, when entering the specific amount (Simple View or modal window in the Advances View), we show the new interest rate based on how the utilization has changed, given the input.
+  * Then, when entering the specific amount (Simple View or modal window in the Advanced View), we show the new interest rate based on how the utilization has changed, given the input.
 * **Fixed Interest Rates**: The user will get an annual rate based on his deposit amount and the current fixed interest rate fees from borrows that the Fixed Rate Pool will collect until maturity.
   * We display on Markets the best-fixed rate (Advanced View) for a marginal change in utilization in the Fixed Rate Pools or just the current marginal utilization for each Fixed Rate Pool (Simple View)
   * Then, when entering the amount (Simple View or modal window in the Advance View), we calculate the specific fixed interest rate based on his deposit amount and the current fixed interest rate fees from borrows that the Fixed Rate Pool will collect until maturity.
