@@ -51,7 +51,7 @@ Besides dividends, participants in the Staking Program could receive rewards in 
 
 ### EXA buybacks
 
-Discretionary EXA buybacks buy the Treasury with the remaining fees not distributed in the staking program.
+Discretionary EXA buybacks by the Treasury with the remaining fees not distributed in the staking program.
 
 ### Early withdrawals
 
