@@ -15,9 +15,13 @@ Exactly Protocol was audited by the following companies:
 | ABDK         | Apr 2024     | [ABDK Installments Router and New Market Roles 1st audit](https://github.com/exactly/audits/blob/main/ABDK%20Installments%20Router%20and%20New%20Market%20Roles%20\(Apr-24\).pdf)         |
 | ABDK         | March 2025   | [ABDK Rewards Controller Update ](https://github.com/exactly/audits/blob/main/ABDK%20Rewards%20Controller%20Update%20\(Mar-25\)pdf.pdf)                                                   |
 | ABDK         | October 2025 | [ABDK Exactly Protocol Update](https://github.com/exactly/audits/blob/main/ABDK%20Protocol%20Update%20\(Oct-25\).pdf)                                                                     |
+| ABDK         | March 2026   | [ABDK EXA Token Cross-Chain](https://github.com/exactly/audits/blob/main/ABDK%20EXA%20token%20cross-chain%20\(Mar-26\).pdf)                                                               |
+| ABDK         | Sep 2026     | [ABDK Non-Collateral Markets](https://github.com/exactly/audits/blob/main/ABDK%20Non-Collateral%20Markets%20\(Sep-26\).pdf)                                                               |
+| ABDK         | October 2026 | [ABDK Flash Loan Adapter and Inverse Price Feed](https://github.com/exactly/audits/blob/main/ABDK%20Flash%20Loan%20Adapter%20and%20Inverse%20Price%20Feed%20\(Oct-26\).pdf)               |
 | Chainsafe    | May 2022     | [Chainsafe 1st audit](https://github.com/exactly/audits/blob/main/Chainsafe%201st%20audit%20\(May-22\).pdf)                                                                               |
 | Chainsafe    | Oct 2022     | [Chainsafe 2nd audit](https://github.com/exactly/audits/blob/main/Chainsafe%202nd%20audit%20\(Oct-22\).pdf)                                                                               |
 | Chainsafe    | Mar 2024     | [Chainsafe Interest Rate Model v2 1st audit](https://github.com/exactly/audits/blob/main/Chainsafe%20Interest%20Rate%20Model%20v2%20\(Mar-24\).pdf)                                       |
+| Chainsafe    | Mar 2024     | [Chainsafe Interest Rate Model v2 Diff](https://github.com/exactly/audits/blob/main/Chainsafe%20Interest%20Rate%20Model%20v2%20Diff%20\(Mar-24\).pdf)                                     |
 | Chainsafe    | Aug 2024     | [Chainsafe Staking Program 1st audit](https://github.com/exactly/audits/blob/main/Chainsafe%20Staking%20Contract%20\(Aug-24\).pdf)                                                        |
 | Coinspect    | Nov 2021     | [Coinspect 1st audit](https://github.com/exactly/audits/blob/main/Coinspect%201st%20audit%20\(Nov-21\).pdf)                                                                               |
 | Coinspect    | May 2022     | [Coinspect 2nd audit](https://github.com/exactly/audits/blob/main/Coinspect%202nd%20audit%20\(May-22\).pdf)                                                                               |
@@ -36,6 +40,7 @@ Exactly Protocol was audited by the following companies:
 | Quantstamp   | March 2025   | [Quantstamp Exa App Plugin](https://github.com/exactly/audits/blob/main/Quantstamp%20Exa%20App%20Plugin%20\(Mar-25\).pdf)                                                                 |
 | Quantstamp   | October 2025 | [Quantstamp Exa App Plugin Update](https://github.com/exactly/audits/blob/main/Quantstamp%20Exa%20App%20Plugin%20Update%20\(Oct-25\).pdf)                                                 |
 | Sherlock     | Aug 2024     | [Sherlock Staking Program 1st audit](https://github.com/exactly/audits/blob/main/Sherlock%20Staking%20Contract%20\(Aug-24\).pdf)                                                          |
+| Sherlock     | Jun 2024     | [Sherlock Exactly Protocol Public Contest](https://github.com/exactly/audits/blob/main/Sherlock%20Audit%20\(Jun-24\).pdf)                                                                 |
 
 ## Other
 
