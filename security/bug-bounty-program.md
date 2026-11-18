@@ -1,7 +1,7 @@
 # 🐛 Bug Bounty Program
 
-Exactly Protocol partnered with Immunefi to offer a Bug Bounty Program to incentivize security researchers to find vulnerabilities in our protocol, rewarding individuals who can identify and report security flaws.
+Exactly Protocol runs its Bug Bounty Program on [Cantina](https://cantina.xyz) to incentivize security researchers to find vulnerabilities in the Exactly Protocol and the Exa App, rewarding individuals who can identify and report security flaws.
 
-Rewards are distributed according to the impact of the vulnerability based on the [Immunefi Vulnerability Severity Classification System V2.2](https://immunefi.com/immunefi-vulnerability-severity-classification-system-v2-2/). This is a simplified 5-level scale, with separate scales for websites/apps, smart contracts, and blockchains/DLTs, focusing on the impact of the vulnerability reported.
+Rewards are distributed according to the impact of the vulnerability, based on the program's severity definitions and the [Cantina Bug Bounty Severity Classification](https://docs.cantina.xyz/standards/severity/bug-bounty). High and Critical reports require a runnable proof of concept, and all testing must be done on local forks, never on mainnet or public testnets.
 
-You can access the program at the following link: [**https://immunefi.com/bounty/exactly/**](https://immunefi.com/bounty/exactly/).
+You can access the program, including its scope, rewards and rules, at the following link: [**https://cantina.xyz/bounties/276fd65d-f84d-4be3-8e2a-88f1dc1cd959**](https://cantina.xyz/bounties/276fd65d-f84d-4be3-8e2a-88f1dc1cd959).

@@ -14,7 +14,7 @@
 * [Discord](https://exact.ly/discord)
 * [Instagram](https://www.instagram.com/exact.ly/)
 * [Telegram](https://t.me/exactlyFinance)
-* [Medium](https://medium.com/@exactly\_protocol)
+* [Medium](https://medium.com/@exactly_protocol)
 * [Mirror](https://mirror.xyz/0xFa9561A3bd8c9EB865b13Ff4a54A88967CD0A803)
 * [YouTube](https://www.youtube.com/channel/UCA6rQtOZSvGFIB8ON5SDNNg)
 
@@ -22,7 +22,7 @@
 
 * [GitHub](https://github.com/exactly)
 * [Report A Bug](https://discordapp.com/channels/846682395553824808/985914797067472946)
-* [Bug Bounty Program](https://immunefi.com/bounty/exactly/)
+* [Bug Bounty Program](https://cantina.xyz/bounties/276fd65d-f84d-4be3-8e2a-88f1dc1cd959)
 
 ## Security
 
